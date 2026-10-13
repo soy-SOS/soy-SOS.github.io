@@ -9,14 +9,12 @@ Movements. In ihrer Arbeit beschäftigt sie sich besonders mit Sozial-
 und Frauengeschichte.
 
 Im Zusammenhang mit ihrer Forschung, verbrachte sie viel Zeit in
-Gerichtsarchiven. [Link Le
-Monde](https://www.lemonde.fr/en/summer-reads/article/2025/09/03/arlette-farge-historian-today-s-isolated-and-abandoned-youth-do-not-know-where-their-future-lies_6744990_183.html)
+Gerichtsarchiven. [Link Le Monde](https://www.lemonde.fr/en/summer-reads/article/2025/09/03/arlette-farge-historian-today-s-isolated-and-abandoned-youth-do-not-know-where-their-future-lies_6744990_183.html)
 
 ### Der Geschmack des Archivs: Tausende Spuren
 
-Das Kapitel [*Tausende Spuren* im Buch *Der Geschmack des
-Archivs*](run:res/reading/1989.Farge_Der-Geschmack-des-Archivs_S7-S13)
-wirft Farlette einen genaueren Blick auf das Archivwesen. Hierfür werden
+Das Kapitel *Tausende Spuren* im Buch *Der Geschmack des
+Archivs* wirft Farlette einen genaueren Blick auf das Archivwesen. Hierfür werden
 zwei Archive besonders hervorgehoben: die Gerichtsarchive in der
 *Bibliothèque de l'Arsenal* und der *Bibliothèque Nationale*.
 
@@ -24,8 +22,8 @@ Farlette betrachtet das spezifisch Gerichtsarchive, da sie einige
 spezielle Eigenschaften haben. Initial dienen sie der reinen Verwaltung,
 Inhalte sind nicht schön geschrieben, da ihr Zweck rein Funktional ist.
 Es gibt Berge an Dokumenten, die kein Mensch jemals ganz durchforsten
-könnte. Doch \"**das Archiv bietet spannungsgeladene Einblicke in ein
-unerwartetes Ereignis**\" (11:6).
+könnte. Doch "**das Archiv bietet spannungsgeladene Einblicke in ein
+unerwartetes Ereignis**" (11:6).
 
 Da das Gerichtsarchiv Berichte über alle kleinen Probleme des Alltags
 beherbergt, dient es als wichtige Informationsquelle für einen Einblick
@@ -65,15 +63,12 @@ Reinhart Koselleck (1923 - 2006) war ein deutscher Historiker. Geboren
 wurde er in Görlitz und verstarb in Bad Oeynhausen. In seinen Werken
 befasste er sich insbesondere mit europäischer Aufklärung, Theorie der
 Geschichtswissenschaft und Begriffsgeschichte. Er arbeitete als
-Professor an den Universitäten Heidelberg, Bielefeld und Bochum.\
-Diese Informationen stammen von der [*Webseite des Suhrkamp
-Verlags*](https://www.suhrkamp.de/nachricht/zum-100-geburtstag-von-reinhart-koselleck-b-4001).
+Professor an den Universitäten Heidelberg, Bielefeld und Bochum. Diese Informationen stammen von der [*Webseite des Suhrkamp Verlags*](https://www.suhrkamp.de/nachricht/zum-100-geburtstag-von-reinhart-koselleck-b-4001).
 
 ### Vom Sinn und Unsinn der Geschichte
 
-Im Aufsatz [*Archivalien - Quellen -
-Geschichte*](run:res/reading/2010.Kosellek_Vom-Sinn-und_Unsinn-der-Geschichte_S68-S79.pdf)
-erläutert Koselleck diese Begriffe, welche in der Alltagssprache oft als
+Im Aufsatz *Archivalien - Quellen -
+Geschichte* (S68-S79) erläutert Koselleck diese Begriffe, welche in der Alltagssprache oft als
 synonym betrachtet werden. Um den Begriffen eine präzisere Definition
 zuzuschreiben, werden allerdings erst ihre Kontexte genauer betrachtet.
 
@@ -97,7 +92,7 @@ Information.
 Informationen der Vergangenheit basiert. Quellen informieren die
 Geschichtswissenschaft; sie beschreiben vergangene Momente und erlauben
 es so, einen allgemeinen Kontext dieser Zeit zu rekonstruieren. Diese
-Rekonstruktion, die Beantwortung der Frage \"Wie war es damals?\" ist
+Rekonstruktion, die Beantwortung der Frage "Wie war es damals?" ist
 die Geschichte. Sie ist also immer menschengeschaffen, verändert sich
 mit neuen Quellen und mit dem Verlust von Information. Geschichte ist
 also menschengeschaffen und in ständigem Wandel in Abhängigkeit zum
@@ -117,10 +112,8 @@ für alles was wir wissen, alles was ist und alles was wird.
 
 ### Einführung in die Geschichtswissenschaft: Die historische Tatsache
 
-Im Kapitel [*Die historische Tatsache* des Buches *Einführung in die
-Geschichtswissenschaft*](url:res/reading/2005.Sellin_Die-historische-Tatsache.pdf)
-erläutert Sellin den Untersuchungsgegenstand und die Bedeutung der\
-Geschichtswissenschaft.
+Im Kapitel *Die historische Tatsache* des Buches *Einführung in die
+Geschichtswissenschaft* erläutert Sellin den Untersuchungsgegenstand und die Bedeutung der Geschichtswissenschaft.
 
 **Die Vergangenheit ist und kann nicht verändert werden** ist die erste
 Kernaussage Sellins, wodurch Sellin zum Schluss kommt, dass
