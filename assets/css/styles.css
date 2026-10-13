@@ -23,9 +23,9 @@
   margin-bottom: 10px;
 }
 
-.quiz_zip .sub {
-  font-size: 95%;
-  border: 1px solid #70f5ff;
+.quiz_zip.sub {
+  border: 1px solid white;
+  border-style: dotted;
   padding: 5px;
   margin: 5px 0;
 }

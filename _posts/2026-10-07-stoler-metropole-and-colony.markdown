@@ -1,8 +1,6 @@
 ---
 layout: post
 title: (Stoler, Cooper) Tensions of Empire
-parent: Basismodul 1
-permalink: /history/bm1/
 ---
 
 # [Notizen] Stoler et al: Tensions of Empire (1997)
@@ -18,6 +16,7 @@ Die Lektüre nimmt sich zum Ziel
 zu untersuchen. Hierbei wird hervorgehoben, was die Zeit des Kolonialismus von bisherigen Machtausübungen unterscheidet.
 
 ## Universalrechte, aber nicht für alle
+
 Eroberung, Ausbeutung, Unterwerfung sind nichts Neues in der menschlichen Geschichte, doch
 
 - die Aufklärung
@@ -27,6 +26,7 @@ Eroberung, Ausbeutung, Unterwerfung sind nichts Neues in der menschlichen Geschi
 bringen einen Paradigmenwechsel (**universale Rechte**) der zu gesellschaftlichen Spannungen führt. Souveränität und Universalrechte passen nicht zu den kolonialen Ambitionen der Zeit.
 
 ## Wie sehen die Grossmächte sich selbst und befreite Nationen?
+
 - Frankreich (Land der *Rights of Man*)
   - Haiti: Unabhängigkeit unerwünscht, wird zum Symbol der Gefahr und Rückständigkeit
   - Algerien: Erobert nach Unabhängigkeit Haitis
@@ -59,7 +59,7 @@ Die Entwicklung "europäischer Identität" oder, so Marx, einer "universalen Kla
 - Wirtschaft
   - freie Marktwirtschaft
 
-Wirtschaftlicher Fortschritt wird so zum zentralen erstrebenswerten Ideal in der europäischen Gesellschaft, die supranationale Identität der Besitzerklasse. 
+Wirtschaftlicher Fortschritt wird so zum zentralen erstrebenswerten Ideal in der europäischen Gesellschaft, die supranationale Identität der Besitzerklasse.
 
 Die politische Macht liegt nun bei den Wohlhabenden, welche ein grosses Interesse am Konzept des Nationalstaates und der Staatsbürgerschaft haben. Denn wer dazugehört, hat ein anrecht auf die universalen Rechte u.A. politische Mitbestimmung.
 

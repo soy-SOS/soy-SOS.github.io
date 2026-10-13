@@ -6,7 +6,7 @@
             {{ include.answer | markdownify }}
 
             {% for child in include.children %}
-            <details class="sub" {{ child.open }}>
+            <details class="quiz_zip sub" {{ child.open }}>
                 <summary>{{ child.question }}</summary>
 
                 <div>

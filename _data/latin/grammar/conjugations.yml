@@ -1,0 +1,198 @@
+conjugation_classes:
+  - name: &a a
+    display: &a_display a-Konj.
+    example: &a_ex laudare
+  - name: &e e
+    display: &e_display e-Konj.
+    example: &e_ex delere
+  - name: i_long
+    display: &il_display lang i-Konj.
+    example: &il_ex audire
+  - name: i_short
+    display: &is_display kurz i-Konj.
+    example: &is_ex capere
+  - name: consonant
+    display: &cons_display konsonant. Konj.
+    example: &cons_ex regere
+
+active:
+  mode:
+    indicative:
+      present:
+        name: Präsens
+        class:
+          - name: a
+            display: a-Konj.
+            example: laudare
+            stem:
+              suffix: ""
+              replace_from_back:
+                - pos: 0
+                  char: ""
+            ending_forms: &ente_endings
+              first_sg: &ente_1sg
+                suffix: o
+              second_sg: &ente_2sg
+                suffix: s
+              third_sg: &ente_3sg
+                suffix: t
+              first_pl: &ente_1pl
+                suffix: mus
+              second_pl: &ente_2pl
+                suffix: tis
+              third_pl:
+                suffix: nt
+          - name: e
+            display: e-Konj.
+            example: delere
+            stem: &no_stem_mod
+              suffix: ""
+              replace_from_back: []
+            ending_forms: *ente_endings
+          - name: i_long
+            display: lang i-Konj.
+            example: audire
+            stem: *no_stem_mod
+            ending_forms: &i_long_present_forms
+              first_sg: *ente_1sg
+              second_sg: *ente_2sg
+              third_sg: *ente_3sg
+              first_pl: *ente_1pl
+              second_pl: *ente_2pl
+              third_pl: &i_long_3_pl
+                suffix: unt
+          - name: i_short
+            display: kurz i-Konj.
+            example: capere
+            stem:
+              suffix: ""
+              replace_from_back:
+                - pos: 0
+                  char: "i"
+            ending_forms: *i_long_present_forms
+          - name: consonant
+            display: konsonant. Konj.
+            example: regere
+            stem: *no_stem_mod
+            ending_forms:
+              first_sg: *ente_1sg
+              second_sg:
+                binding_vowel: "i"
+                suffix: s
+              third_sg:
+                binding_vowel: "i"
+                suffix: t
+              first_pl:
+                binding_vowel: "i"
+                suffix: mus
+              second_pl:
+                binding_vowel: "i"
+                suffix: tis
+              third_pl: *i_long_3_pl
+      #
+      perfect:
+        name: Perfekt
+        class:
+          - name: a
+            display: a-Konj.
+            example: laudare
+            stem: &a_perfect_stem
+              suffix: v
+              replace_from_back: []
+            ending_forms: &a_perfect_forms
+              first_sg:
+                suffix: i
+              second_sg:
+                suffix: isti
+              third_sg:
+                suffix: it
+              first_pl:
+                suffix: imus
+              second_pl:
+                suffix: istis
+              third_pl:
+                suffix: erunt
+          - name: e
+            display: e-Konj.
+            example: delere
+            stem: *a_perfect_stem
+            ending_forms: *a_perfect_forms
+          - name: i_long
+            display: lang i-Konj.
+            example: audire
+            stem: *a_perfect_stem
+            ending_forms: *a_perfect_forms
+          - name: i_short
+            display: kurz i-Konj.
+            example: capere
+            stem:
+              suffix: ""
+              replace_from_back:
+                - pos: 1
+                  char: e
+            ending_forms: *a_perfect_forms
+          - name: consonant
+            display: konsonant. Konj.
+            example: regere
+            stem:
+              suffix: ""
+              replace_from_back:
+                - pos: 0
+                  char: x
+            ending_forms: *a_perfect_forms
+      #
+      imperfect:
+        name: Imperfekt
+        class:
+          - name: *a
+            display: *a_display
+            example: *a_ex
+            stem: &a_imperfect_stem
+              suffix: ba
+              replace_from_back: []
+            ending_forms: &a_imperfect_forms
+              first_sg:
+                suffix: m
+              second_sg:
+                suffix: s
+              third_sg:
+                suffix: t
+              first_pl:
+                suffix: mus
+              second_pl:
+                suffix: tis
+              third_pl:
+                suffix: nt
+          - name: e
+            display: *e_display
+            example: delere
+            stem: *a_imperfect_stem
+            ending_forms: *a_imperfect_forms
+          - name: i_long
+            display: *il_display
+            example: *il_ex
+            stem: &i_long_imperfect_stem
+              suffix: eba
+            ending_forms: *a_imperfect_forms
+          - name: i_short
+            display: *is_display
+            example: *is_ex
+            stem: *i_long_imperfect_stem
+            ending_forms: *a_imperfect_forms
+          - name: consonant
+            display: *cons_display
+            example: *cons_ex
+            stem: *i_long_imperfect_stem
+            ending_forms: *a_imperfect_forms
+        exception:
+          - name: esse
+            example: esse
+            ending_is_full_form: true
+            stem: era
+            ending_forms:
+              first_sg: eram
+              second_sg: eras
+              third_sg: erat
+              first_pl: eramus
+              second_pl: eratis
+              third_pl: erant

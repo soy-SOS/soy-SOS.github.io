@@ -1,0 +1,206 @@
+# Define type Entry
+#
+# Entry:
+#   &refalias
+#   name            string
+#   number          number
+#   subtype         string
+#   forms           map{field: string}
+#
+# ---------------------------------------
+# declinations:
+#   all_types       Entry[]
+#   a               *Entry
+#   o               *Entry
+#   consonant       *Entry
+#   mixed           *Entry
+#   i               *Entry
+#   u               *Entry
+#   e               *Entry
+
+all_types:
+  # 0
+  - &a0
+    name: a
+    number: 1
+    forms:
+      - nom_sg: a
+      - gen_sg: ae
+      - dat_sg: ae
+      - akk_sg: am
+      - abl_sg: a
+      - nom_pl: ae
+      - gen_pl: arum
+      - dat_pl: is
+      - akk_pl: as
+      - abl_pl: is
+  # 1
+  - &o1
+    name: o
+    number: 2
+    subtype: masc
+    forms:
+      - nom_sg: us
+      - gen_sg: i
+      - dat_sg: o
+      - akk_sg: um
+      - abl_sg: o
+      - nom_pl: i
+      - gen_pl: orum
+      - dat_pl: is
+      - akk_pl: os
+      - abl_pl: is
+  # 2
+  - &o2
+    name: o
+    number: 2
+    forms:
+      - nom_sg: um
+      - gen_sg: i
+      - dat_sg: o
+      - akk_sg: um
+      - abl_sg: o
+      - nom_pl: a
+      - gen_pl: orum
+      - dat_pl: is
+      - akk_pl: a
+      - abl_pl: is
+  # 3
+  - &k3
+    name: konsonantisch
+    subtype: kurz-e
+    number: 3
+    forms:
+      - nom_sg: ""
+      - gen_sg: is
+      - dat_sg: i
+      - akk_sg: em
+      - abl_sg: e
+      - nom_pl: es
+      - gen_pl: um
+      - dat_pl: ibus
+      - akk_pl: es
+      - abl_pl: ibus
+  # 4
+  - &k4
+    name: konsonantisch
+    subtype: i
+    number: 3
+    forms:
+      - nom_sg: ""
+      - gen_sg: is
+      - dat_sg: i
+      - akk_sg: ""
+      - abl_sg: e
+      - nom_pl: a
+      - gen_pl: um
+      - dat_pl: ibus
+      - akk_pl: a
+      - abl_pl: ibus
+  # 5
+  - &i5
+    name: i
+    example: turris
+    number: 3
+    forms:
+      - nom_sg: is
+      - gen_sg: is
+      - dat_sg: i
+      - akk_sg: im
+      - abl_sg: i
+      - nom_pl: es
+      - gen_pl: ium
+      - dat_pl: ibus
+      - akk_pl: es
+      - abl_pl: ibus
+  # 6
+  - &i6
+    name: i
+    subtype: rein i
+    example: mare
+    number: 3
+    forms:
+      - nom_sg: e
+      - gen_sg: is
+      - dat_sg: i
+      - akk_sg: e
+      - abl_sg: i
+      - nom_pl: ia
+      - gen_pl: ium
+      - dat_pl: ibus
+      - akk_pl: ia
+      - abl_pl: ibus
+  # 7
+  - &m7
+    name: gemischt
+    example: navis
+    number: 3
+    forms:
+      - nom_sg: is
+      - gen_sg: is
+      - dat_sg: i
+      - akk_sg: em
+      - abl_sg: e
+      - nom_pl: es
+      - gen_pl: ium
+      - dat_pl: ibus
+      - akk_pl: es
+      - abl_pl: ibus
+  # 8
+  - &u8
+    name: u
+    subtype: us
+    example: portus
+    number: 4
+    forms:
+      - nom_sg: us
+      - gen_sg: us
+      - dat_sg: ui
+      - akk_sg: um
+      - abl_sg: u
+      - nom_pl: us
+      - gen_pl: uum
+      - dat_pl: ibus
+      - akk_pl: us
+      - abl_pl: ibus
+  # 9
+  - &u9
+    name: u
+    subtype: u
+    example: cornu
+    number: 4
+    forms:
+      - nom_sg: u
+      - gen_sg: us
+      - dat_sg: u
+      - akk_sg: u
+      - abl_sg: u
+      - nom_pl: ua
+      - gen_pl: uum
+      - dat_pl: ibus
+      - akk_pl: ua
+      - abl_pl: ibus
+  # 10
+  - &e10
+    name: e
+    number: 5
+    example: res
+    forms:
+      - nom_sg: es
+      - gen_sg: ei
+      - dat_sg: ei
+      - akk_sg: em
+      - abl_sg: e
+      - nom_pl: es
+      - gen_pl: erum
+      - dat_pl: ebus
+      - akk_pl: es
+      - abl_pl: ebus
+
+a: [*a0]
+o: [*o1, *o2]
+consonant: [*k3, *k4]
+i: [*i5, *i6]
+mixed: [*m7]
+u: [*u8, *u9]
+e: [*e10]

@@ -1,0 +1,113 @@
+---
+published: false
+---
+
+# Kulturstunde
+
+## 2026-10-13: Privatleben in Rom
+
+- ca 1 mio in rom
+- kolosseum nicht das häufigste
+  - panem et circenses, iuvenal
+    - panem brot
+    - circenses: von zirkus. spiele = wagenrennen
+  - kampf ca 20 tage pro jahr
+  - 50'000 personen platz, nur bruchteil der gesellschaft
+- circus maximus (wagenrennen)
+  - was für uns fussball, bei ihnen wagenrennen
+  - 4 teams (4 farben)
+  - beliebter als gladiatoren
+  - 30 tage pro jahr
+  - 150'000 personen platz
+- lieblingsbeschäftigung der römer
+  - grabstein: balnea vina venus corrumpunt corpora nostra, sed vitam faciunt, balnea vina, venus
+    - corrumpunt: kaputtmachen
+    - bäder, wein, liebe machen unsere körper kaputt, aber sie machen das leben aus, bäder, wein, liebe
+  - fave thing: bäder
+    - wo?
+      - trier DE
+      - bath GB
+      - leptis magna LY
+      - agypten
+      - lindenhof: reste römisches kastell
+      - thermengasse:
+- eroberung: römer etwas länger da? badeanlage aufstellen
+- bis zu 25% des tages im bad verbringen, für jeden
+  - baden selber nur kleiner teil
+  - bäder eher freizeitanlage
+- geschichte der bäder
+  - bis 100v chr keine bäder
+    - tiber (fluss, ew)
+  - ab ca 100vchr erste balnea
+  - 33 v chr: 170 balnea
+  - 1. jhd n chr: ca 1000 balnea
+  - mit bädern stimmen kaufen --> sponsoring
+    - eintritt bezahlen
+  - kaiserzeit: gratis eintritt
+  - stetige steigerung ausbau und luxus
+    - viele statuen in bädern gefunden
+  - ende
+    - 537 gothen in rom eingefallen, aquaedukte zerstört
+    - mittelalter: baden als hygienemassnahme unbekannt
+    - 19 jhd erkennung bedeutung wasser als reinigungsmittel
+    - spät 19. jhd wieder verbreitet öffentliche baseanstalten in fluss und hallenbad
+- aufbau
+  - apodyterium: auskleideraum
+    - umkleide: kleider nicht wegschliessen, diebstal in bädern sehr verbreitet
+    - keine badehose
+    - alle nackt:
+      - frauen im bad
+        - doppelanlage
+        - verschiedene badezeiten
+        - gesmischtes baden
+          - kaiser keine fans
+          - beliebter ort für aufreisse
+  - frigidarium: faltbad
+  - tepidarium: laubad
+    - schleuse geheizter bereich zu nicht geheizt
+  - caldarium: warmbad
+    - 34 m durchmesser
+  - laconicum: schwitzbad (spartanererfindung)
+    - saunamässig
+  - palaestra: fitness
+    - gr name für sportplatz
+    - sportarten
+      - laufen
+      - ringen
+      - turnen
+      - ballspielen
+      - unihockey
+  - reinigung
+    - keine seife
+    - schaber: strigilis
+    - pottasche kaliumcarbonat
+    - salböl
+  - destrictarium
+    - ausrupferei
+    - haare zupfen
+  - natatio (schwimmbecken bei grossen bädern)
+    - nur grosse becken
+    - 50 meter
+  - toiletten
+    - pissoirs überall
+      - urin eingesammelt, gerber wertvoll
+      - non olet (geld stinkt nicht) bezgl urinsteuer
+  - heizung
+    - vitruv, der architektgott
+      - schrieb kapitel über bade und heizsysteme
+      - fussbodenheizung hypokausten
+        - kellerraum
+        - pfeiler
+        - wandtubuli (ziegel in wand mit loch, wand heizt)
+        - wie
+          - feuer 500 grad
+          - luft beim schornstein 40 grad
+          - ca 90% wirkungsgrad
+          - geheizt von sklaven
+- thermen
+  - 15 thermen (basically tempel der bäder, dekadenz pur)
+  - caracalla thermen
+    - 15 fussballfelder
+    - bibliotheken
+    - 4 fussballfelder eigentliches badegebäude
+    - 847 grosse teile eingestürzt (paul der 3. benutzte ruinen reste für petersdom)
