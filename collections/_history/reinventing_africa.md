@@ -1,5 +1,5 @@
 ---
-name: Reinventing Africa
+heading: Reinventing Africa
 author: Coombes
 year: 1994
 module: bm1

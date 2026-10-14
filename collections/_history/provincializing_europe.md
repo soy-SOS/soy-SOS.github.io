@@ -1,5 +1,5 @@
 ---
-name: The Idea of Provincializing Europe
+heading: The Idea of Provincializing Europe
 author: Chakrabarty
 year: 2007
 module: bm1

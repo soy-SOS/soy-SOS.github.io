@@ -1,5 +1,5 @@
 ---
-name: "Der Geschmack des Archivs: Tausende Spuren"
+heading: "Der Geschmack des Archivs: Tausende Spuren"
 author: Farge
 year: 1989
 module: bm1

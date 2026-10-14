@@ -35,9 +35,35 @@ kramdown:
   hard_wrap: true
   gfm_quirks: [paragraph_end]
 
+collections_dir: collections
+
 collections:
-  reading:
-    output: true
+  history:
+    output: false
+  poli_sci:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "history"
+    values:
+      heading: ADD_TITLE
+      author: ADD_AUTHOR
+      year: 3000
+      module: ADD_MODULE
+      assignment_date: 2027-01-01
+      author_info: ADD_AUTHOR_INFO
+  - scope:
+      path: ""
+      type: "history"
+    values:
+      heading: ADD_TITLE
+      author: ADD_AUTHOR
+      year: 3000
+      module: ADD_MODULE
+      assignment_date: 2027-01-01
+      author_info: ADD_AUTHOR_INFO
 
 # Exclude from processing.
 # The following items will not be processed, by default.

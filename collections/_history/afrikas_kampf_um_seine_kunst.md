@@ -1,5 +1,5 @@
 ---
-name: Afrikas Kampf um seine Kunst
+heading: Afrikas Kampf um seine Kunst
 author: Savoy
 year: 2021
 module: bm1

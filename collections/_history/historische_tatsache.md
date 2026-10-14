@@ -1,5 +1,5 @@
 ---
-name: "Einführung in die Geschichtswissenschaft: Die historische Tatsache"
+heading: "Einführung in die Geschichtswissenschaft: Die historische Tatsache"
 author: Sellin
 year: 2005
 module: bm1

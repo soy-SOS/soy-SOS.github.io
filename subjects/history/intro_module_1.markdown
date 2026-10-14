@@ -11,14 +11,14 @@ published: true
 
 ## Übersicht Lektüre
 
-{% assign items = site.reading | where: "module", "bm1" %}
+{% assign items = site.history | where: "module", "bm1" | compact %}
 {% assign sorted_items = items | sort: "assignment_date" | reverse %}
 
 {% for item in sorted_items %}
 
 ---
 
-### {{ item.name }} ({{ item.author }}, {{ item.year }})
+### {{ item.heading }} ({{ item.author }}, {{ item.year }}) {#{{item.title | downcase}}}
 
 {% include zip.html
   title=item.author

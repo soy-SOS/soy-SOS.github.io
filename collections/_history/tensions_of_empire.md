@@ -1,5 +1,5 @@
 ---
-name: Tensions of Empire
+heading: Tensions of Empire
 author: Stoler
 year: 1997
 module: bm1

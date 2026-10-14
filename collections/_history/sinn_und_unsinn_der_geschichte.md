@@ -1,5 +1,5 @@
 ---
-name: Vom Sinn und Unsinn der Geschichte
+heading: Vom Sinn und Unsinn der Geschichte
 author: Koselleck
 year: 2010
 module: bm1
