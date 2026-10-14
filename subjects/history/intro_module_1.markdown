@@ -16,6 +16,8 @@ published: true
 
 {% for item in sorted_items %}
 
+---
+
 ### {{ item.name }} ({{ item.author }}, {{ item.year }})
 
 {% include zip.html
@@ -24,7 +26,7 @@ published: true
   open="open"
   %}
 
-(Datum Lektüreauftrag: {{item.assignment_date}})
+({{item.assignment_date}}, Lektüreauftrag)
 
 {{ item.content }}
 
