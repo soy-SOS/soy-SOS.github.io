@@ -8,7 +8,7 @@ Im Fach Geschichte wurden bis jetzt folgende Module behandelt.
 
 ## Basismodul 1
 
-[Link zur entsprechenden Seite]({{site.baseurl/history/bm1/}})
+[Link zur entsprechenden Seite]({{site.baseurl}}/history/bm1/)
 
 Das Modul ist aufgeteilt in Proseminar 1 und 2. Hier lernen wir die Grundlagen der Geschichtswissenschaft. Der Leistungsnachweis besteht aus dem Forschungsbericht und der Proseminararbeit.
 
