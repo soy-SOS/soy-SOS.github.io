@@ -1,0 +1,23 @@
+<div class="quiz_zip topic-{{include.topic | slugify}}">
+    <details {{ include.open }}>
+        <summary>{{ include.title }}</summary>
+        <div>
+
+            {{ include.answer | markdownify }}
+
+            {% for child in include.children %}
+            <details class="quiz_zip sub" {{ child.open }}>
+                <summary>{{ child.question }}</summary>
+
+                <div>
+
+                    {{ child.answer | markdownify }}
+
+                </div>
+
+            </details>
+            {% endfor %}
+
+        </div>
+    </details>
+</div>
