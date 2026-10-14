@@ -4,9 +4,16 @@ title: Geschichte
 permalink: /history/
 ---
 
+Im Fach Geschichte wurden bis jetzt folgende Module behandelt.
 
+## Basismodul 1
 
-1. TOC
-{:toc}
+[Link zur entsprechenden Seite]({{site.baseurl/history/bm1/}})
 
-{% include content/reading/history_intro-module-1.markdown %}
+Das Modul ist aufgeteilt in Proseminar 1 und 2. Hier lernen wir die Grundlagen der Geschichtswissenschaft. Der Leistungsnachweis besteht aus dem Forschungsbericht und der Proseminararbeit.
+
+## Einführungsvorlesung
+
+*Es existiert hier noch keine Seite mit Informationen oder Zusammenfassungen aus der Vorlesung.*
+
+Dieses Vorlesungsmodul dient der groben Übersicht über historische Themenbereiche und gibt uns somit eine breitgefächerte Perspektive über diverse Fokusbereiche der Geschichtswissenschaft. Hier beschränken wir uns nicht zwingend auf eine bestimmte Epoche.
