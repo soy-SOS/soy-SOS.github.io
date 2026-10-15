@@ -20,7 +20,7 @@ published: true
 
 ### {{ item.heading }} ({{ item.author }}, {{ item.year }}) {#{{item.title | downcase}}}
 
-{% include zip.html
+{% include components/zip.html
   title=item.author
   content=item.author_info
   open="open"

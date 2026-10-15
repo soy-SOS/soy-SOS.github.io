@@ -19,11 +19,11 @@ permalink: /poli-sci/intro-statistics/quiz/
   {% assign topics = questions | map: "topic" | compact | uniq %}
   {% assign topic_filter = site.data.filter | where: "attribute", "topic" %}
 
-  {% include quiz_filter_group.html filter=topic_filter attributes=topics %}
+  {% include components/quiz_filter_group.html filter=topic_filter attributes=topics %}
 
   {% for question in questions %}
 
-  {% include quiz_zip.html
+  {% include components/quiz_zip.html
   topic=question.topic
   title=question.question
   answer=question.answer
