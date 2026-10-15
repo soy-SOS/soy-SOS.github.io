@@ -28,12 +28,3 @@ Dieses Vorlesungsmodul dient der groben Übersicht über historische Themenberei
 | :-: | :-- | :------- | :------------------ |
 {% for i in sorted_items %} | [{{ i.assignment_date }}]({{url}}/{{i.module}}#{{i.title | downcase}}) | {{ i.module | upcase }} | {{ i.author }} | {{ i.year }}: {{i.heading}} |
 {%endfor%}
-{% assign items = site.history | where: "module", "bm1" | compact %}
-{% assign sorted_items = items | sort: "assignment_date" | reverse %}
-{% assign url = site.baseurl | append: "/history" %}
-
-| Datum | Modul | Author | Jahr:Titel |
-| :-: | :-- | :------- | :------------------ |
-{% for i in sorted_items %} | [{{ i.assignment_date }}]({{url}}/{{i.module}}#{{i.title | downcase}}) | {{ i.module | upcase }} | {{ i.author }} | {{ i.year }}: {{i.heading}} |
-{%endfor%}
-
