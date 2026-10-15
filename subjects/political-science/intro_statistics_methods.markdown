@@ -4,4 +4,4 @@ parent: Politikwissenschaft
 layout: page
 permalink: /poli-sci/intro-statistics/
 ---
-## {{title}}
+## {{page.title}}
