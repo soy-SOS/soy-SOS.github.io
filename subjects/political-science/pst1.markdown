@@ -16,23 +16,6 @@ published: true
 
 {% for item in sorted_items %}
 
----
-
-{% assign author = item.auth_info | map: "name" | join: " & " %}
-
-### {{ item.heading }} ({{ author }}, {{ item.year }}) {#{{item.title | downcase}}}
-
-{% if item.auth_info.size > 0 %}
-
-| Name | Details            |
-|:----| :-------------------|
-{% for a in item.auth_info %}| {{a.name}} | {{a.info}} |
-{%endfor%}
-
-{% endif %}
-
-({{item.assignment_date}}, Lektüreauftrag)
-
-{{ item.content }}
+{% include content/reading_entry.md item=item %}
 
 {% endfor %}

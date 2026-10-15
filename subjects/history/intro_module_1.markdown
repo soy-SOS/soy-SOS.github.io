@@ -16,18 +16,6 @@ published: true
 
 {% for item in sorted_items %}
 
----
-
-### {{ item.heading }} ({{ item.author }}, {{ item.year }}) {#{{item.title | downcase}}}
-
-{% include components/zip.html
-  title=item.author
-  content=item.author_info
-  open="open"
-  %}
-
-({{item.assignment_date}}, Lektüreauftrag)
-
-{{ item.content }}
+{% include content/reading_entry.md item=item %}
 
 {% endfor %}

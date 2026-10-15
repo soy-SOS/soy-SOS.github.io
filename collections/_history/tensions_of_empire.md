@@ -1,12 +1,16 @@
 ---
 heading: Tensions of Empire
-author: Stoler
 year: 1997
 module: bm1
-status: WIP
+status: DONE
 assignment_date: 2026-10-07
-author_info: >-
-  *TODO*
+auth_info:
+  - name: Stoler, Ann
+    info: >-
+      [Prof Dr Ann Stoler](https://www.newschool.edu/nssr/faculty/Ann-Stoler/) ist eine Professorin für Anthropologie und Geschichtswissenschaft an der Willy Brandt Universität. Ihre Arbeit fokussiert sich besonders auf (Post)Kolonialgeschichte, Kapitalismus, Wirtschaftsgeschichte und gesellschaftliche Dynamiken.
+  - name: Cooper, Frederick
+    info: >-
+      [Prof Dr Frederick Cooper](https://as.nyu.edu/faculty/frederick-cooper.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1) ist ein Historiker der Neuzeit. Er ist Professor an der New York University und fokussiert sich in seiner Arbeit insbesondere auf Imperialgeschichte, modernes Afrika, Kolonialisierung und Dekolonialisierung.
 ---
 
 Die Lektüre nimmt sich zum Ziel

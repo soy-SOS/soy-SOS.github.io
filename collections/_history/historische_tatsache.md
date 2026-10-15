@@ -1,12 +1,13 @@
 ---
 heading: "Einführung in die Geschichtswissenschaft: Die historische Tatsache"
-author: Sellin
 year: 2005
 module: bm1
-status: WIP
+status: DONE
 assignment_date: 2026-09-23
-author_info: >-
-  *TODO*
+auth_info:
+  - name: Sellin, Volker
+    info: >-
+      [Dr Volker Sellin](https://de.wikipedia.org/wiki/Volker_Sellin) ist ein mittlerweile pensionierter deutscher Historiker, der Professor mit einem eigenen Lehrstuhl an der Universität Heidelberg war. Seine Forschung befasst sich hauptsächlich mit der Theorie der Geschichte und Sozial- und Wirtschaftsgeschichte.
 ---
 
 Im Kapitel *Die historische Tatsache* des Buches *Einführung in die Geschichtswissenschaft* erläutert Sellin den Untersuchungsgegenstand und die Bedeutung der Geschichtswissenschaft.

@@ -5,12 +5,14 @@ year: 2010
 module: bm1
 assignment_date: 2026-09-23
 status: DONE
-author_info: >-
-  Reinhart Koselleck (1923 - 2006) war ein deutscher Historiker. Geboren
-  wurde er in Görlitz und verstarb in Bad Oeynhausen. In seinen Werken
-  befasste er sich insbesondere mit europäischer Aufklärung, Theorie der
-  Geschichtswissenschaft und Begriffsgeschichte. Er arbeitete als
-  Professor an den Universitäten Heidelberg, Bielefeld und Bochum. Diese Informationen stammen von der [*Webseite des Suhrkamp Verlags*](https://www.suhrkamp.de/nachricht/zum-100-geburtstag-von-reinhart-koselleck-b-4001).
+auth_info:
+  - name: Koselleck, Reinhart
+    info: >-
+      [Dr Reinhart Koselleck](https://www.suhrkamp.de/nachricht/zum-100-geburtstag-von-reinhart-koselleck-b-4001) (1923 - 2006) war ein deutscher Historiker. Geboren
+      wurde er in Görlitz und verstarb in Bad Oeynhausen. In seinen Werken
+      befasste er sich insbesondere mit europäischer Aufklärung, Theorie der
+      Geschichtswissenschaft und Begriffsgeschichte. Er arbeitete als
+      Professor an den Universitäten Heidelberg, Bielefeld und Bochum..
 ---
 
 Im Aufsatz *Archivalien - Quellen -

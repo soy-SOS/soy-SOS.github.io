@@ -55,6 +55,9 @@ defaults:
       module: ADD_MODULE
       assignment_date: 2027-01-01
       author_info: ADD_AUTHOR_INFO
+      auth_info:
+        - name: ADD NAME
+          info: ADD INFO
       status: TODO
   - scope:
       path: ""
@@ -68,6 +71,9 @@ defaults:
       assignment_date: 2027-01-01
       author_info: ADD_AUTHOR_INFO
       status: TODO
+      auth_info:
+        - name: ADD NAME
+          info: ADD INFO
 
 # Exclude from processing.
 # The following items will not be processed, by default.

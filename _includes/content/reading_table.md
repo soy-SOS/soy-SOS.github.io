@@ -21,6 +21,6 @@
 
     include content/date_label.md item=i url=url -%} | {{
     i.module | upcase }} | {{
-    i.author }} | {{
+    i.auth_info | map: "name" | join: " & " }} | {{
     i.year }}: {{i.heading}} |
 | {%endfor%}
