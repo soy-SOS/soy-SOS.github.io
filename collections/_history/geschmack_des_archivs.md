@@ -3,6 +3,7 @@ heading: "Der Geschmack des Archivs: Tausende Spuren"
 author: Farge
 year: 1989
 module: bm1
+status: DONE
 assignment_date: 2026-09-23
 author_info: >-
   Arlette Farge (1941) ist eine französische Historikerin. In ihrer Arbeit fokussiert sie sich insbesondere auf das 18. Jahrhundert und die Geschichte des Rechts. Sie lebte in den USA während des Civil Rights Movements. In ihrer Arbeit beschäftigt sie sich besonders mit Sozial- und Frauengeschichte.

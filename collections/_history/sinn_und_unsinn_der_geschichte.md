@@ -4,6 +4,7 @@ author: Koselleck
 year: 2010
 module: bm1
 assignment_date: 2026-09-23
+status: DONE
 author_info: >-
   Reinhart Koselleck (1923 - 2006) war ein deutscher Historiker. Geboren
   wurde er in Görlitz und verstarb in Bad Oeynhausen. In seinen Werken

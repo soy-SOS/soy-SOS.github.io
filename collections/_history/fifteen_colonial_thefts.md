@@ -3,6 +3,7 @@ heading: Fifteen Colonial Thefts, A Guide to Looted African Heritage in Museums
 author: Adjei, Sela & LeGall, Yann
 year: 2024
 module: bm1
+status: DONE
 assignment_date: 2026-10-14
 author_info: >-
   [Dr Sela Adjei](https://writersprojectghana.com/sela_adjei_2024/) studierte Kommunikationsdesign und Afrikanische Kultur in Kumasi (Ghana) und promovierte an der University of Ghana (in Legon) in Afrikanistik. Adjeis Fokusbereiche sind Postkoloniale Herkunftsforschung, Restitution und transkulturelle Kollaboration. Er arbeitet zusammen mit diversen Forschenden und Insituten, u.a. mit dem Überseemuseum (Bremen), Völkerkundemuseum (Zürich) und dem bernischen Historischen Museum (Bern).

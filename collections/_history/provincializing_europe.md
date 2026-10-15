@@ -3,6 +3,7 @@ heading: The Idea of Provincializing Europe
 author: Chakrabarty
 year: 2007
 module: bm1
+status: WIP
 assignment_date: 2026-09-23
 author_info: >-
   *TODO*

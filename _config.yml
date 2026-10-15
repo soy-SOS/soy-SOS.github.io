@@ -51,19 +51,23 @@ defaults:
       heading: ADD_TITLE
       author: ADD_AUTHOR
       year: 3000
+      subject: history
       module: ADD_MODULE
       assignment_date: 2027-01-01
       author_info: ADD_AUTHOR_INFO
+      status: TODO
   - scope:
       path: ""
-      type: "history"
+      type: "poli_sci"
     values:
       heading: ADD_TITLE
       author: ADD_AUTHOR
+      subject: poli-sci
       year: 3000
       module: ADD_MODULE
       assignment_date: 2027-01-01
       author_info: ADD_AUTHOR_INFO
+      status: TODO
 
 # Exclude from processing.
 # The following items will not be processed, by default.

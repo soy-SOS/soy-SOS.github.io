@@ -3,6 +3,7 @@ heading: Tensions of Empire
 author: Stoler
 year: 1997
 module: bm1
+status: WIP
 assignment_date: 2026-10-07
 author_info: >-
   *TODO*

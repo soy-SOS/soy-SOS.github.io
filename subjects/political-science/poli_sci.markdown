@@ -25,11 +25,10 @@ Die bisherigen und laufenden Module des Studiengangs Politikwissenschaft werden 
 
 ## Lektüre
 
-{% assign items = site.poli_sci | where: "module", "" | compact %}
-{% assign sorted_items = items | sort: "assignment_date" | reverse %}
-{% assign url = site.baseurl | append: "/poli-sci" %}
-
-| Datum | Modul | Author | Jahr:Titel |
-| :-: | :-- | :------- | :------------------ |
-| {% for i in sorted_items %} [{{ i.assignment_date }}]({{url}}/{{i.module}}#{{i.title | downcase}}) | {{ i.module | upcase }} | {{ i.author }} | {{ i.year }}: {{i.heading}} |
-| {%endfor%}
+{%
+  include content/reading_table.md
+  collection=site.poli-sci
+  subject="poli-sci"
+  sort_by="assignment_date"
+  reverse=true
+%}
