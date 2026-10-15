@@ -27,7 +27,7 @@ Die bisherigen und laufenden Module des Studiengangs Politikwissenschaft werden 
 
 {%
   include content/reading_table.md
-  collection=site.poli-sci
+  collection=site.poli_sci
   subject="poli-sci"
   sort_by="assignment_date"
   reverse=true
