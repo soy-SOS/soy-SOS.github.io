@@ -21,8 +21,8 @@
 title: Sodium
 description: >- # this means to ignore newlines until "baseurl:"
   This is Sarina's testing ground for random stuff.
-url: "https://soy-sos.github.io"
-baseurl: "/"
+url: "https://soy-sos.github.io/"
+baseurl: ""
 remote_theme: just-the-docs/just-the-docs@v0.12.0
 color_scheme: dark
 plugins:
