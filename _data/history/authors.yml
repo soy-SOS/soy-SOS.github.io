@@ -1,67 +1,156 @@
-test:
-  name: testname
-  info: testinfo
-entries:
-  - name: Savoy, Benedicte
-    info: >-
-      [**Prof Dr Benedicte Savoy**](https://www.tu.berlin/en/kuk/ueber-uns/team/leitung/prof-dr-benedicte-savoy) ist eine französische Kunsthistorikerin mit einem Fokus auf Kunst- und Kulturtransfer im Europa des 18./19. Jahrhunderts, Museumsgeschichte, Französisch-Deutsche Verhältnisse und Kunstraub. Im Jahr 2018 war sie Hauptberaterin Emmanuel Macrons mit der Auseinandersetzung mit Reparationen für die Raubzüge der Kolonialmächte auf dem afrikanischen Kontinent.
+adjei_sela:
+  first_name: Sela
+  full_name: Adjei, Sela
+  name: Sela
+  info:
+    "[Dr Sela Adjei](https://writersprojectghana.com/sela_adjei_2024/) studierte
+    Kommunikationsdesign und Afrikanische Kultur in Kumasi (Ghana) und promovierte
+    an der University of Ghana (in Legon) in Afrikanistik. Adjeis Fokusbereiche sind
+    Postkoloniale Herkunftsforschung, Restitution und transkulturelle Kollaboration.
+    Er arbeitet zusammen mit diversen Forschenden und Insituten, u.a. mit dem Überseemuseum
+    (Bremen), Völkerkundemuseum (Zürich) und dem bernischen Historischen Museum (Bern)."
+  last_name: Adjei
 
-  - name: Burkhardt, Martin
-    info: >-
-      Dr Martin Burkhardt arbeitet bei einem Wirtschaftsarchiv als wissenschaftlicher Mitarbeiter. Er studierte Gerschichte, Germanistik und promovierte in Landesgeschichte und Archivrederendariat. Er ist mit seiner akademischen un beruflichen Erfahrung ein Experte im Bereich des Archives.
+burkhardt_martin:
+  first_name: Martin
+  full_name: Burkhardt, Martin
+  info:
+    Dr Martin Burkhardt arbeitet bei einem Wirtschaftsarchiv als wissenschaftlicher
+    Mitarbeiter. Er studierte Gerschichte, Germanistik und promovierte in Landesgeschichte
+    und Archivrederendariat. Er ist mit seiner akademischen un beruflichen Erfahrung
+    ein Experte im Bereich des Archives.
+  last_name: Burkhardt
 
-  - name: Conrad, Sebastian
-    info: >-
-      [Prof Dr Sebastian Conrad](https://en.wikipedia.org/wiki/Sebastian_Conrad) ist ein deutscher Historiker an der Freien Universität Berlin. Er ist einer der bekanntesten und einflussreichsten Historiker:innen der Neuzeit. In seiner Forschung fokussiert er sich insbesondere auf Weltgeschichte, Kolonialgeschichte, Postkolonialgeschichte und Theorie der Geschichte.
+chakrabarty_dipesh:
+  first_name: Dipesh
+  full_name: Chakrabarty, Dipesh
+  info:
+    "[Prof Dr Dipesh Chakrabarty](https://en.wikipedia.org/wiki/Dipesh_Chakrabarty)
+    ist ein indischer Historiker. Er ist einer der führenden Forschenden im Bereich
+    der Postkolonialgeschichte. Er studierte Physik am Presidency College, erlangte
+    ein MBA und promovierte an der University of Canberra in Geschichte."
+  last_name: Chakrabarty
 
-  - name: Adjei, Sela
-    info: >-
-      [Dr Sela Adjei](https://writersprojectghana.com/sela_adjei_2024/) studierte Kommunikationsdesign und Afrikanische Kultur in Kumasi (Ghana) und promovierte an der University of Ghana (in Legon) in Afrikanistik. Adjeis Fokusbereiche sind Postkoloniale Herkunftsforschung, Restitution und transkulturelle Kollaboration. Er arbeitet zusammen mit diversen Forschenden und Insituten, u.a. mit dem Überseemuseum (Bremen), Völkerkundemuseum (Zürich) und dem bernischen Historischen Museum (Bern).
+conrad_sebastian:
+  first_name: Sebastian
+  full_name: Conrad, Sebastian
+  info:
+    "[Prof Dr Sebastian Conrad](https://en.wikipedia.org/wiki/Sebastian_Conrad)
+    ist ein deutscher Historiker an der Freien Universität Berlin. Er ist einer der
+    bekanntesten und einflussreichsten Historiker:innen der Neuzeit. In seiner Forschung
+    fokussiert er sich insbesondere auf Weltgeschichte, Kolonialgeschichte, Postkolonialgeschichte
+    und Theorie der Geschichte."
+  last_name: Conrad
 
-  - name: LeGall, Yann
-    info: >-
-      [Dr Yann LeGall](https://www.tu.berlin/en/kuk/ueber-uns/team/wissenschaftliche-mitarbeiterinnen/dr-yann-legall) doktorierte an der Universität Potsdam. Seine Dissertation, in Kollaboration mit Mnyaka Mboro behandelt Erinnerungskulturen während und nach der Rückführung menschlicher Überreste zu afrikanischen Gemeinschaften. Er ist aktuell an der Technischen Universität Berlin als wissenschaftlicher Mitarbeiter in Kunstgeschichte tätig.
+coombes_annie_e:
+  first_name: Annie E.
+  full_name: Coombes, Annie E.
+  info:
+    "[Prof Dr Annie E. Coombes](https://www.bbk.ac.uk/about-us/fellows/annie-coombes)
+    ist eine in Deutschland geborene Kunsthistorikerin der Neuzeit. Sie ist Professorin
+    an der University of London und beschäftigt sich in ihrer Arbeit vor allem mit
+    Kunstgeschichte im Kontext mit kolonialen Raubgütern und Museumsgeschichte."
+  last_name: Coombes
 
-  - name: Farge, Arlette
-    info: >-
-      Arlette Farge (1941) ist eine französische Historikerin. In ihrer Arbeit fokussiert sie sich insbesondere auf das 18. Jahrhundert und die Geschichte des Rechts. Sie lebte in den USA während des Civil Rights Movements. In ihrer Arbeit beschäftigt sie sich besonders mit Sozial- und Frauengeschichte.
+cooper_frederick:
+  first_name: Frederick
+  full_name: Cooper, Frederick
+  info:
+    "[Prof Dr Frederick Cooper](https://as.nyu.edu/faculty/frederick-cooper.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1)
+    ist ein Historiker der Neuzeit. Er ist Professor an der New York University und
+    fokussiert sich in seiner Arbeit insbesondere auf Imperialgeschichte, modernes
+    Afrika, Kolonialisierung und Dekolonialisierung."
+  last_name: Cooper
 
-      Im Zusammenhang mit ihrer Forschung, verbrachte sie viel Zeit in Gerichtsarchiven. [Link Le Monde](https://www.lemonde.fr/en/summer-reads/article/2025/09/03/arlette-farge-historian-today-s-isolated-and-abandoned-youth-do-not-know-where-their-future-lies_6744990_183.html)
+farge_arlette:
+  first_name: Arlette
+  full_name: Farge, Arlette
+  info:
+    "Arlette Farge (1941) ist eine französische Historikerin. In ihrer Arbeit
+    fokussiert sie sich insbesondere auf das 18. Jahrhundert und die Geschichte des
+    Rechts. Sie lebte in den USA während des Civil Rights Movements. In ihrer Arbeit
+    beschäftigt sie sich besonders mit Sozial- und Frauengeschichte.
 
-  - name: Farge, Arlette
-    info: >-
-      Arlette Farge (1941) ist eine französische Historikerin. In ihrer Arbeit fokussiert sie sich insbesondere auf das 18. Jahrhundert und die Geschichte des Rechts. Sie lebte in den USA während des Civil Rights Movements. In ihrer Arbeit beschäftigt sie sich besonders mit Sozial- und Frauengeschichte.
+    Im Zusammenhang mit ihrer Forschung, verbrachte sie viel Zeit in Gerichtsarchiven.
+    [Link Le Monde](https://www.lemonde.fr/en/summer-reads/article/2025/09/03/arlette-farge-historian-today-s-isolated-and-abandoned-youth-do-not-know-where-their-future-lies_6744990_183.html)"
+  last_name: Farge
 
-      Im Zusammenhang mit ihrer Forschung, verbrachte sie viel Zeit in Gerichtsarchiven. [Link Le Monde](https://www.lemonde.fr/en/summer-reads/article/2025/09/03/arlette-farge-historian-today-s-isolated-and-abandoned-youth-do-not-know-where-their-future-lies_6744990_183.html)
+koselleck_reinhart:
+  first_name: Reinhart
+  full_name: Koselleck, Reinhart
+  info:
+    "[Dr Reinhart Koselleck](https://www.suhrkamp.de/nachricht/zum-100-geburtstag-von-reinhart-koselleck-b-4001)
+    (1923 - 2006) war ein deutscher Historiker. Geboren wurde er in Görlitz und verstarb
+    in Bad Oeynhausen. In seinen Werken befasste er sich insbesondere mit europäischer
+    Aufklärung, Theorie der Geschichtswissenschaft und Begriffsgeschichte. Er arbeitete
+    als Professor an den Universitäten Heidelberg, Bielefeld und Bochum."
+  last_name: Koselleck
 
-  - name: Sellin, Volker
-    info: >-
-      [Dr Volker Sellin](https://de.wikipedia.org/wiki/Volker_Sellin) ist ein mittlerweile pensionierter deutscher Historiker, der Professor mit einem eigenen Lehrstuhl an der Universität Heidelberg war. Seine Forschung befasst sich hauptsächlich mit der Theorie der Geschichte und Sozial- und Wirtschaftsgeschichte.
+legall_yann:
+  first_name: Yann
+  full_name: LeGall, Yann
+  info:
+    "[Dr Yann LeGall](https://www.tu.berlin/en/kuk/ueber-uns/team/wissenschaftliche-mitarbeiterinnen/dr-yann-legall)
+    doktorierte an der Universität Potsdam. Seine Dissertation, in Kollaboration mit
+    Mnyaka Mboro behandelt Erinnerungskulturen während und nach der Rückführung menschlicher
+    Überreste zu afrikanischen Gemeinschaften. Er ist aktuell an der Technischen Universität
+    Berlin als wissenschaftlicher Mitarbeiter in Kunstgeschichte tätig."
+  last_name: LeGall
 
-  - name: Lindner, Ulike
-    info: >-
-      [Prof Dr Ulrike Lindner](https://neuere-geschichte.phil-fak.uni-koeln.de/personal/universitaetsprofessorinnen/lindner-prof-dr-ulrike) ist eine deutsche Historikerin. Sie ist Professorin an der Universität zu Köln und fokussiert sich in ihrer Arbeit vor allem auf die Geschichte der Neuzeit.
+lindner_urlike:
+  first_name: Ulrike
+  full_name: Lindner, Ulrike
+  info:
+    "[Prof Dr Ulrike Lindner](https://neuere-geschichte.phil-fak.uni-koeln.de/personal/universitaetsprofessorinnen/lindner-prof-dr-ulrike)
+    ist eine deutsche Historikerin. Sie ist Professorin an der Universität zu Köln
+    und fokussiert sich in ihrer Arbeit vor allem auf die Geschichte der Neuzeit."
+  last_name: Lindner
 
-  - name: Said, Edward
-    info: >-
-      [Dr Edward Said](https://de.wikipedia.org/wiki/Edward_Said) (1935 - 2003) war ein US-amerikanischer Historiker palästinensischer Herkunft. Sein Werk 'Orientalism' ist ein pivotales Werk in der Geschichtswissenschaft und veränderte, wie die akademische Forschung die Nichteuropäische Welt betrachtet. Seine Arbeit befasst sich zu grossem Teil mit der Kritik von Eurozentrismus und Postkolonialismus.
+mueller_sean:
+  first_name: Sean
+  last_name: Mueller
+  full_name: Mueller, Sean
+  info: >-
+    [Dr Sean Mueller] ist ein Politologe mit Fokus auf direkte Demokratie und gilt insbesondere als Experte in Sachen schweizer Demokratie. Mueller unterrichtete bereits international; bereits in Georgien, den UK und innerhalb der Schweiz unterrichtete der Politologe diverse Bereiche der Politikwissenschaft. Aktuell ist Mueller als Privatdozent an der Universität Bern tätig.
 
-  - name: Chakrabarty, Dipesh
-    info: >-
-      [Prof Dr Dipesh Chakrabarty](https://en.wikipedia.org/wiki/Dipesh_Chakrabarty) ist ein indischer Historiker. Er ist einer der führenden Forschenden im Bereich der Postkolonialgeschichte. Er studierte Physik am Presidency College, erlangte ein MBA und promovierte an der University of Canberra in Geschichte.
+said_edward:
+  first_name: Edward
+  full_name: Said, Edward
+  info:
+    "[Dr Edward Said](https://de.wikipedia.org/wiki/Edward_Said) (1935 - 2003)
+    war ein US-amerikanischer Historiker palästinensischer Herkunft. Sein Werk 'Orientalism'
+    ist ein pivotales Werk in der Geschichtswissenschaft und veränderte, wie die akademische
+    Forschung die Nichteuropäische Welt betrachtet. Seine Arbeit befasst sich zu grossem
+    Teil mit der Kritik von Eurozentrismus und Postkolonialismus."
+  last_name: Said
 
-  - name: Coombes, Annie E.
-    info: >-
-      [Prof Dr Annie E. Coombes](https://www.bbk.ac.uk/about-us/fellows/annie-coombes) ist eine in Deutschland geborene Kunsthistorikerin der Neuzeit. Sie ist Professorin an der University of London und beschäftigt sich in ihrer Arbeit vor allem mit Kunstgeschichte im Kontext mit kolonialen Raubgütern und Museumsgeschichte.
+savoy_benedicte:
+  first_name: Benedicte
+  full_name: Savoy, Benedicte
+  info:
+    "[**Prof Dr Benedicte Savoy**](https://www.tu.berlin/en/kuk/ueber-uns/team/leitung/prof-dr-benedicte-savoy)
+    ist eine französische Kunsthistorikerin mit einem Fokus auf Kunst- und Kulturtransfer
+    im Europa des 18./19. Jahrhunderts, Museumsgeschichte, Französisch-Deutsche Verhältnisse
+    und Kunstraub. Im Jahr 2018 war sie Hauptberaterin Emmanuel Macrons mit der Auseinandersetzung
+    mit Reparationen für die Raubzüge der Kolonialmächte auf dem afrikanischen Kontinent."
+  last_name: Savoy
 
-  - name: Koselleck, Reinhart
-    info: >-
-      [Dr Reinhart Koselleck](https://www.suhrkamp.de/nachricht/zum-100-geburtstag-von-reinhart-koselleck-b-4001) (1923 - 2006) war ein deutscher Historiker. Geboren wurde er in Görlitz und verstarb in Bad Oeynhausen. In seinen Werken befasste er sich insbesondere mit europäischer Aufklärung, Theorie der Geschichtswissenschaft und Begriffsgeschichte. Er arbeitete als Professor an den Universitäten Heidelberg, Bielefeld und Bochum.
+sellin_volker:
+  first_name: Volker
+  full_name: Sellin, Volker
+  info:
+    "[Dr Volker Sellin](https://de.wikipedia.org/wiki/Volker_Sellin) ist ein mittlerweile
+    pensionierter deutscher Historiker, der Professor mit einem eigenen Lehrstuhl
+    an der Universität Heidelberg war. Seine Forschung befasst sich hauptsächlich
+    mit der Theorie der Geschichte und Sozial- und Wirtschaftsgeschichte."
+  last_name: Sellin
 
-  - name: Stoler, Ann
-    info: >-
-      [Prof Dr Ann Stoler](https://www.newschool.edu/nssr/faculty/Ann-Stoler/) ist eine Professorin für Anthropologie und Geschichtswissenschaft an der Willy Brandt Universität. Ihre Arbeit fokussiert sich besonders auf (Post)Kolonialgeschichte, Kapitalismus, Wirtschaftsgeschichte und gesellschaftliche Dynamiken.
-
-  - name: Cooper, Frederick
-    info: >-
-      [Prof Dr Frederick Cooper](https://as.nyu.edu/faculty/frederick-cooper.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1) ist ein Historiker der Neuzeit. Er ist Professor an der New York University und fokussiert sich in seiner Arbeit insbesondere auf Imperialgeschichte, modernes Afrika, Kolonialisierung und Dekolonialisierung.
+stoler_ann:
+  first_name: Ann
+  full_name: Stoler, Ann
+  info:
+    "[Prof Dr Ann Stoler](https://www.newschool.edu/nssr/faculty/Ann-Stoler/)
+    ist eine Professorin für Anthropologie und Geschichtswissenschaft an der Willy
+    Brandt Universität. Ihre Arbeit fokussiert sich besonders auf (Post)Kolonialgeschichte,
+    Kapitalismus, Wirtschaftsgeschichte und gesellschaftliche Dynamiken."
+  last_name: Stoler
