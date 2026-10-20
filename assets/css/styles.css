@@ -6,6 +6,7 @@ Flashcard Styles
   align-items: center;
   height: 100%;
   border: 1px solid #ddd;
+  border-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
   padding: 10px;
   margin-top: 10px;
@@ -44,13 +45,12 @@ Flashcard Styles
   height: 100%;
   backface-visibility: hidden;
   padding: 10px;
-  border: 1px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   background-color: #27262b;
 }
 
 .card-back {
-  border-color: rgba(94, 161, 251, 0.45);
   backface-visibility: hidden;
   justify-content: center;
   transform: rotateY(180deg);
