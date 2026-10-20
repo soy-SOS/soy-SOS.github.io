@@ -1,0 +1,57 @@
+---
+layout: page
+title: Deklinationsübungen
+parent: Latein
+permalink: /latin/quiz/decl
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+</head>
+
+<body>
+  {% assign questions = site.data.quiz.latin.voci_decls %}
+
+  {% assign units = questions | map: "unit" | compact | uniq %}
+  {% assign unit_filter = site.data.filter | where: "attribute", "unit" %}
+  {% include components/quiz_filter_group.html filter=unit_filter attributes=units %}
+
+  {% for item in site.data.quiz.latin.voci_decls %}
+  {% assign classname = "unit-" | append: item.unit %}
+
+  <div class="flashcard-container {{classname}}">
+    <details>
+      <summary>{{item.question}}</summary>
+      {%for c in item.children%}
+      <div class="card" onclick="this.classList.toggle('flipped')">
+        <p class="unit"></p>
+        <div class="card-inner">
+          <div class="card-front">
+            <p class="question-text">
+              <i>{{c.question}}</i>
+              <br>
+              <b><u>{{item.question}}</u></b>
+            </p>
+          </div>
+          <div class="card-back">
+            <p>
+              {{c.answer}}
+            </p>
+          </div>
+        </div>
+      </div>
+      {%endfor%}
+    </details>
+  </div>
+
+  {% endfor %}
+
+</body>
+
+</html>

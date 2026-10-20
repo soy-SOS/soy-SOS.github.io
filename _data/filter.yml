@@ -5,3 +5,23 @@
   target_class: "quiz_zip"
   attribute: "topic"
 
+- label: "Lektion"
+  name: "unit"
+  button_class: "filter-unit-button"
+  buttons_group_class: "filter-unit-buttons"
+  target_class: "flashcard-container"
+  attribute: "unit"
+
+- label: "Deklinationsklasse"
+  name: "decl_class"
+  button_class: "filter-decl-button"
+  buttons_group_class: "filter-decl-buttons"
+  target_class: "flashcard-container"
+  attribute: decl_class
+
+- label: "Genus"
+  name: "genus"
+  button_class: "filter-genus-button"
+  buttons_group_class: "filter-genus-buttons"
+  target_class: "latin_flash"
+  attribute: genus

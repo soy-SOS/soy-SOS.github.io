@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Politische Systeme und Theorien 1
+title: Einführung in die Schweizer Politik
 parent: Politikwissenschaft
 permalink: /poli-sci/swipo/
 published: true

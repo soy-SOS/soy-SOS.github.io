@@ -7,5 +7,5 @@ vendor
 Gemfile.lock
 notes
 util
-_data/quiz/latin
+_data/quiz/latin/data
 quiz/latin.html
