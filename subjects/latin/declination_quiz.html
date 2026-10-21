@@ -37,16 +37,20 @@ permalink: /latin/quiz/decl
 
   <div class="flashcard-container {{classname}}">
     <details>
-      <summary>{{item.question}} {{classname}}</summary>
+      <summary class="flash">
+        ({{item.unit}}) <b>{{item.question}}</b>
+      </summary>
+      <ul>
+        <li>Deklinationsklasse: <b>{{item.decl_class}}</b></li>
+        <li>Genus: <b>{{item.genus}}</b></li>
+      </ul>
       {%for c in item.children%}
       <div class="card" onclick="this.classList.toggle('flipped')">
         <p class="unit"></p>
         <div class="card-inner">
           <div class="card-front">
             <p class="question-text">
-              <i>{{c.question}}</i>
-              <br>
-              <b><u>{{item.question}}</u></b>
+              <i>{{c.question | capitalize | replace: "sg", "Sg" | replace: "pl", "Pl" }}</i>
             </p>
           </div>
           <div class="card-back">
