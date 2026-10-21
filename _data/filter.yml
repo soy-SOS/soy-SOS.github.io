@@ -23,5 +23,5 @@
   name: "genus"
   button_class: "filter-genus-button"
   buttons_group_class: "filter-genus-buttons"
-  target_class: "latin_flash"
+  target_class: "flashcard-container"
   attribute: genus

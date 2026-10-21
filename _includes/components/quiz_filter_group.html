@@ -14,18 +14,19 @@
     {{filter.label}} </label>
   <div class="{{filter.buttons_group_class}} filter-group">
     <button onclick="onFilterByAttribute(
-        /*button=*/this, /*attribute=*/'{{filter.target_class}}', 
+        /*button=*/this, /*attribute=*/'{{filter.attribute}}', 
         /*targetName*/'{{filter.target_class}}',
         /*buttonName*/'{{filter.button_class}}')" name="{{button_class}}" class="{{button_class}} btn btn-blue on"
       type="radio" value="all">Alle</button>
 
     {% for attribute in include.attributes %}
+    {% assign attr = filter.attribute | append: "-" | append: attribute |slugify: "pretty" %}
     <button onclick="onFilterByAttribute(
       /*button=*/this,
-      /*attribute=*/'{{attribute |slugify}}', 
+      /*attribute=*/'{{attr}}', 
       /*targetName*/'{{filter.target_class}}',
       /*buttonName*/'{{filter.button_class}}')" class="{{button_class}} btn btn-blue" type="radio"
-      name="{{button_class}}" value="{{attribute | slugify}}">{{attribute}}</button>
+      name="{{button_class}}" value="{{attr}}">{{attribute}}</button>
     {% endfor %}
   </div>
 

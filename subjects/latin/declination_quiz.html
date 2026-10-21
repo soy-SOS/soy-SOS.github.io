@@ -22,12 +22,22 @@ permalink: /latin/quiz/decl
   {% assign unit_filter = site.data.filter | where: "attribute", "unit" %}
   {% include components/quiz_filter_group.html filter=unit_filter attributes=units %}
 
+  {% assign decls = questions | map: "decl_class" | compact | uniq | sort %}
+  {% assign decl_filter = site.data.filter | where: "attribute", "decl_class" %}
+  {% include components/quiz_filter_group.html filter=decl_filter attributes=decls %}
+
+  {% assign genera = questions | map: "genus" | compact | uniq | sort %}
+  {% assign genus_filter = site.data.filter | where: "attribute", "genus" %}
+  {% include components/quiz_filter_group.html filter=genus_filter attributes=genera %}
+
   {% for item in site.data.quiz.latin.voci_decls %}
   {% assign classname = "unit-" | append: item.unit %}
+  {% assign classname = classname | append: " genus-" | append: item.genus %}
+  {% assign classname = classname | append: " decl_class-" | append: item.decl_class %}
 
   <div class="flashcard-container {{classname}}">
     <details>
-      <summary>{{item.question}}</summary>
+      <summary>{{item.question}} {{classname}}</summary>
       {%for c in item.children%}
       <div class="card" onclick="this.classList.toggle('flipped')">
         <p class="unit"></p>
