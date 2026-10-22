@@ -38,7 +38,7 @@ permalink: /latin/quiz/decl
   <div class="flashcard-container {{classname}}">
     <details>
       <summary class="flash">
-        ({{item.unit}}) <b>{{item.question}}</b>
+        ({{item.unit}}) <b>{{item.question | slugify: "latin"}}</b>
       </summary>
       <ul>
         <li>Deklinationsklasse: <b>{{item.decl_class}}</b></li>

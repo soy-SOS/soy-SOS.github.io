@@ -4,113 +4,113 @@
     answer: amicus
     parent: amicus
   - question: gen sg
-    answer: amici
+    answer: "amic\u012B"
     parent: amicus
   - question: dat sg
-    answer: amico
+    answer: "am\u012Bc\u014D"
     parent: amicus
   - question: akk sg
-    answer: amicum
+    answer: "am\u012Bcum"
     parent: amicus
   - question: abl sg
-    answer: amico
+    answer: "amic\u014D"
     parent: amicus
   - question: nom pl
-    answer: amici
+    answer: "am\u012Bc\u012B"
     parent: amicus
   - question: gen pl
-    answer: amicorum
+    answer: "am\u012Bcorum"
     parent: amicus
   - question: dat pl
-    answer: amicis
+    answer: "am\u012Bc\u012Bs"
     parent: amicus
   - question: akk pl
-    answer: amicos
+    answer: "am\u012Bc\u014Ds"
     parent: amicus
   - question: abl pl
-    answer: amicis
+    answer: "amic\u012Bs"
     parent: amicus
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '1'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
-- question: cena
+- question: "c\u0113na"
   children:
   - question: nom sg
-    answer: cena
-    parent: cena
+    answer: "c\u0113na"
+    parent: "c\u0113na"
   - question: gen sg
-    answer: cenae
-    parent: cena
+    answer: "c\u0113n\xE6"
+    parent: "c\u0113na"
   - question: dat sg
-    answer: cenae
-    parent: cena
+    answer: "c\u0113n\xE6"
+    parent: "c\u0113na"
   - question: akk sg
-    answer: cenam
-    parent: cena
+    answer: "c\u0113nam"
+    parent: "c\u0113na"
   - question: abl sg
-    answer: cena
-    parent: cena
+    answer: "c\u0113n\u0101"
+    parent: "c\u0113na"
   - question: nom pl
-    answer: cenae
-    parent: cena
+    answer: "c\u0113n\xE6"
+    parent: "c\u0113na"
   - question: gen pl
-    answer: cenarum
-    parent: cena
+    answer: "c\u0113n\u0101rum"
+    parent: "c\u0113na"
   - question: dat pl
-    answer: cenis
-    parent: cena
+    answer: "c\u0113n\u012Bs"
+    parent: "c\u0113na"
   - question: akk pl
-    answer: cenas
-    parent: cena
+    answer: "c\u0113n\u0101s"
+    parent: "c\u0113na"
   - question: abl pl
-    answer: cenis
-    parent: cena
+    answer: "c\u0113n\u012Bs"
+    parent: "c\u0113na"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '1'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
-- question: vinum
+- question: "v\u012Bnum"
   children:
   - question: nom sg
-    answer: vinum
-    parent: vinum
+    answer: "v\u012Bnum"
+    parent: "v\u012Bnum"
   - question: gen sg
-    answer: vini
-    parent: vinum
+    answer: "v\u012Bn\u012B"
+    parent: "v\u012Bnum"
   - question: dat sg
-    answer: vino
-    parent: vinum
+    answer: "v\u012Bn\u014D"
+    parent: "v\u012Bnum"
   - question: akk sg
-    answer: vinum
-    parent: vinum
+    answer: "v\u012Bnum"
+    parent: "v\u012Bnum"
   - question: abl sg
-    answer: vino
-    parent: vinum
+    answer: "v\u012Bn\u014D"
+    parent: "v\u012Bnum"
   - question: nom pl
-    answer: vina
-    parent: vinum
+    answer: "v\u012Bna"
+    parent: "v\u012Bnum"
   - question: gen pl
-    answer: vinorum
-    parent: vinum
+    answer: "v\u012Bn\u014Drum"
+    parent: "v\u012Bnum"
   - question: dat pl
-    answer: vinis
-    parent: vinum
+    answer: "v\u012Bn\u012Bs"
+    parent: "v\u012Bnum"
   - question: akk pl
-    answer: vina
-    parent: vinum
+    answer: "v\u012Bna"
+    parent: "v\u012Bnum"
   - question: abl pl
-    answer: vinis
-    parent: vinum
+    answer: "v\u012Bn\u012Bs"
+    parent: "v\u012Bnum"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '1'
-  decl_class: '2'
+  decl_class: 2-o
   genus: n
 - question: familia
   children:
@@ -118,10 +118,10 @@
     answer: familia
     parent: familia
   - question: gen sg
-    answer: familiae
+    answer: "famili\xE6"
     parent: familia
   - question: dat sg
-    answer: familiae
+    answer: "famili\xE6"
     parent: familia
   - question: akk sg
     answer: familiam
@@ -130,25 +130,25 @@
     answer: familia
     parent: familia
   - question: nom pl
-    answer: familiae
+    answer: "famili\xE6"
     parent: familia
   - question: gen pl
-    answer: familiarum
+    answer: "famili\u0101rum"
     parent: familia
   - question: dat pl
-    answer: familiis
+    answer: "famili\u012Bs"
     parent: familia
   - question: akk pl
-    answer: familias
+    answer: "famili\u0101s"
     parent: familia
   - question: abl pl
-    answer: familiis
+    answer: "famili\u012Bs"
     parent: familia
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '1'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
 - question: dominus
   children:
@@ -156,37 +156,37 @@
     answer: dominus
     parent: dominus
   - question: gen sg
-    answer: domini
+    answer: "domin\u012B"
     parent: dominus
   - question: dat sg
-    answer: domino
+    answer: "domin\u014D"
     parent: dominus
   - question: akk sg
     answer: dominum
     parent: dominus
   - question: abl sg
-    answer: domino
+    answer: "domin\u014D"
     parent: dominus
   - question: nom pl
-    answer: donimi
+    answer: "domin\u012B"
     parent: dominus
   - question: gen pl
-    answer: dominorum
+    answer: "domin\u014Drum"
     parent: dominus
   - question: dat pl
-    answer: dominis
+    answer: "domin\u012Bs"
     parent: dominus
   - question: akk pl
-    answer: dominos
+    answer: "domin\u014Ds"
     parent: dominus
   - question: abl pl
-    answer: dominis
+    answer: "domin\u012Bs"
     parent: dominus
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '1'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
 - question: ancilla
   children:
@@ -194,10 +194,10 @@
     answer: ancilla
     parent: ancilla
   - question: gen sg
-    answer: ancillae
+    answer: "ancill\xE6"
     parent: ancilla
   - question: dat sg
-    answer: ancillae
+    answer: "ancill\xE6"
     parent: ancilla
   - question: akk sg
     answer: ancillam
@@ -206,25 +206,25 @@
     answer: ancilla
     parent: ancilla
   - question: nom pl
-    answer: ancillae
+    answer: "ancill\xE6"
     parent: ancilla
   - question: gen pl
-    answer: ancillarum
+    answer: "ancill\u0101rum"
     parent: ancilla
   - question: dat pl
-    answer: ancillis
+    answer: "ancill\u012Bs"
     parent: ancilla
   - question: akk pl
-    answer: ancillas
+    answer: "ancill\u0101s"
     parent: ancilla
   - question: abl pl
-    answer: ancillis
+    answer: "ancill\u012Bs"
     parent: ancilla
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '1'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
 - question: villa
   children:
@@ -232,75 +232,75 @@
     answer: villa
     parent: villa
   - question: gen sg
-    answer: villae
+    answer: "v\u012Bll\xE6"
     parent: villa
   - question: dat sg
-    answer: villae
+    answer: "v\u012Bll\xE6"
     parent: villa
   - question: akk sg
-    answer: villam
+    answer: "v\u012Bllam"
     parent: villa
   - question: abl sg
-    answer: villa
+    answer: "v\u012Blla"
     parent: villa
   - question: nom pl
-    answer: villae
+    answer: "v\u012Bll\xE6"
     parent: villa
   - question: gen pl
-    answer: villarum
+    answer: "v\u012Bll\u0101rum"
     parent: villa
   - question: dat pl
-    answer: villis
+    answer: "v\u012Bll\u012Bs"
     parent: villa
   - question: akk pl
-    answer: villas
+    answer: "v\u012Bll\u0101s"
     parent: villa
   - question: abl pl
-    answer: villis
+    answer: "vill\u012Bs"
     parent: villa
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '1'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
-- question: hora
+- question: "h\u014Dra"
   children:
   - question: nom sg
-    answer: hora
-    parent: hora
+    answer: "h\u014Dra"
+    parent: "h\u014Dra"
   - question: gen sg
-    answer: horae
-    parent: hora
+    answer: "h\u014Dr\xE6"
+    parent: "h\u014Dra"
   - question: dat sg
-    answer: horae
-    parent: hora
+    answer: "h\u014Dr\xE6"
+    parent: "h\u014Dra"
   - question: akk sg
-    answer: horam
-    parent: hora
+    answer: "h\u014Dram"
+    parent: "h\u014Dra"
   - question: abl sg
-    answer: hora
-    parent: hora
+    answer: "h\u014Dr\u0101"
+    parent: "h\u014Dra"
   - question: nom pl
-    answer: horae
-    parent: hora
+    answer: "h\u014Dr\xE6"
+    parent: "h\u014Dra"
   - question: gen pl
-    answer: horarum
-    parent: hora
+    answer: "h\u014Dr\u0101rum"
+    parent: "h\u014Dra"
   - question: dat pl
-    answer: horis
-    parent: hora
+    answer: "h\u014Dr\u012Bs"
+    parent: "h\u014Dra"
   - question: akk pl
-    answer: horas
-    parent: hora
+    answer: "h\u014Dr\u0101s"
+    parent: "h\u014Dra"
   - question: abl pl
-    answer: horis
-    parent: hora
+    answer: "h\u014Dr\u012Bs"
+    parent: "h\u014Dra"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
 - question: servus
   children:
@@ -308,113 +308,113 @@
     answer: servus
     parent: servus
   - question: gen sg
-    answer: servi
+    answer: "serv\u012B"
     parent: servus
   - question: dat sg
-    answer: servo
+    answer: "serv\u014D"
     parent: servus
   - question: akk sg
     answer: servum
     parent: servus
   - question: abl sg
-    answer: servo
+    answer: "serv\u014D"
     parent: servus
   - question: nom pl
-    answer: servi
+    answer: "serv\u012B"
     parent: servus
   - question: gen pl
-    answer: servorum
+    answer: "serv\u014Drum"
     parent: servus
   - question: dat pl
-    answer: servis
+    answer: "serv\u012Bs"
     parent: servus
   - question: akk pl
-    answer: servos
+    answer: "serv\u014Ds"
     parent: servus
   - question: abl pl
-    answer: servis
+    answer: "serv\u012Bs"
     parent: servus
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
-- question: cura
+- question: "c\u016Bra"
   children:
   - question: nom sg
-    answer: cura
-    parent: cura
+    answer: "c\u016Bra"
+    parent: "c\u016Bra"
   - question: gen sg
-    answer: curae
-    parent: cura
+    answer: "c\u016Br\xE6"
+    parent: "c\u016Bra"
   - question: dat sg
-    answer: curae
-    parent: cura
+    answer: "c\u016Br\xE6"
+    parent: "c\u016Bra"
   - question: akk sg
-    answer: curam
-    parent: cura
+    answer: "c\u016Bram"
+    parent: "c\u016Bra"
   - question: abl sg
-    answer: cura
-    parent: cura
+    answer: "c\u016Bra"
+    parent: "c\u016Bra"
   - question: nom pl
-    answer: curae
-    parent: cura
+    answer: "c\u016Br\xE6"
+    parent: "c\u016Bra"
   - question: gen pl
-    answer: curarum
-    parent: cura
+    answer: "c\u016Br\u0101rum"
+    parent: "c\u016Bra"
   - question: dat pl
-    answer: curis
-    parent: cura
+    answer: "c\u016Br\u012Bs"
+    parent: "c\u016Bra"
   - question: akk pl
-    answer: curas
-    parent: cura
+    answer: "c\u016Br\u0101s"
+    parent: "c\u016Bra"
   - question: abl pl
-    answer: curis
-    parent: cura
+    answer: "c\u016Br\u012Bs"
+    parent: "c\u016Bra"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
-- question: vita
+- question: "v\u012Bta"
   children:
   - question: nom sg
-    answer: vita
-    parent: vita
+    answer: "v\u012Bta"
+    parent: "v\u012Bta"
   - question: gen sg
-    answer: vitae
-    parent: vita
+    answer: "v\u012Bt\xE6"
+    parent: "v\u012Bta"
   - question: dat sg
-    answer: vitae
-    parent: vita
+    answer: "v\u012Bt\xE6"
+    parent: "v\u012Bta"
   - question: akk sg
     answer: citam
-    parent: vita
+    parent: "v\u012Bta"
   - question: abl sg
     answer: cita
-    parent: vita
+    parent: "v\u012Bta"
   - question: nom pl
-    answer: citae
-    parent: vita
+    answer: "cit\xE6"
+    parent: "v\u012Bta"
   - question: gen pl
-    answer: citarum
-    parent: vita
+    answer: "cit\u0101rum"
+    parent: "v\u012Bta"
   - question: dat pl
-    answer: vitis
-    parent: vita
+    answer: "v\u012Bt\u012Bs"
+    parent: "v\u012Bta"
   - question: akk pl
-    answer: vitas
-    parent: vita
+    answer: "v\u012Bt\u0101s"
+    parent: "v\u012Bta"
   - question: abl pl
-    answer: vitis
-    parent: vita
+    answer: "v\u012Bt\u012Bs"
+    parent: "v\u012Bta"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
 - question: puer
   children:
@@ -422,98 +422,98 @@
     answer: puer
     parent: puer
   - question: gen sg
-    answer: pueri
+    answer: "puer\u012B"
     parent: puer
   - question: dat sg
-    answer: puero
+    answer: "puer\u014D"
     parent: puer
   - question: akk sg
     answer: puerum
     parent: puer
   - question: abl sg
-    answer: puero
+    answer: "puer\u014D"
     parent: puer
   - question: nom pl
-    answer: pueri
+    answer: "puer\u012B"
     parent: puer
   - question: gen pl
-    answer: puerorum
+    answer: "puer\u014Drum"
     parent: puer
   - question: dat pl
-    answer: pueris
+    answer: "puer\u012Bs"
     parent: puer
   - question: akk pl
-    answer: pueros
+    answer: "puer\u014Ds"
     parent: puer
   - question: abl pl
-    answer: pueris
+    answer: "puer\u012Bs"
     parent: puer
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
-- question: liberi
+- question: "l\u012Bber\u012B"
   children:
   - question: nom pl
-    answer: liberi
-    parent: liberi
+    answer: "l\u012Bber\u012B"
+    parent: "l\u012Bber\u012B"
   - question: gen pl
-    answer: liberorum
-    parent: liberi
+    answer: "l\u012Bber\u014Drum"
+    parent: "l\u012Bber\u012B"
   - question: dat pl
-    answer: liberis
-    parent: liberi
+    answer: "l\u012Bber\u012Bs"
+    parent: "l\u012Bber\u012B"
   - question: akk pl
-    answer: liberos
-    parent: liberi
+    answer: "l\u012Bber\u014Ds"
+    parent: "l\u012Bber\u012B"
   - question: abl pl
-    answer: liberis
-    parent: liberi
+    answer: "l\u012Bber\u012Bs"
+    parent: "l\u012Bber\u012B"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
-- question: fortuna
+- question: "fort\u016Bna"
   children:
   - question: nom sg
-    answer: fortuna
-    parent: fortuna
+    answer: "fort\u016Bna"
+    parent: "fort\u016Bna"
   - question: gen sg
-    answer: fortunae
-    parent: fortuna
+    answer: "fort\u016Bn\xE6"
+    parent: "fort\u016Bna"
   - question: dat sg
-    answer: fortunae
-    parent: fortuna
+    answer: "fort\u016Bn\xE6"
+    parent: "fort\u016Bna"
   - question: akk sg
-    answer: fortunam
-    parent: fortuna
+    answer: "fort\u016Bnam"
+    parent: "fort\u016Bna"
   - question: abl sg
-    answer: fortuna
-    parent: fortuna
+    answer: "fort\u016Bna"
+    parent: "fort\u016Bna"
   - question: nom pl
-    answer: fortunae
-    parent: fortuna
+    answer: "fort\u016Bn\xE6"
+    parent: "fort\u016Bna"
   - question: gen pl
-    answer: fortunarum
-    parent: fortuna
+    answer: "fort\u016Bn\u0101rum"
+    parent: "fort\u016Bna"
   - question: dat pl
-    answer: fortunis
-    parent: fortuna
+    answer: "fort\u016Bn\u012Bs"
+    parent: "fort\u016Bna"
   - question: akk pl
-    answer: fortunas
-    parent: fortuna
+    answer: "fort\u016Bn\u0101s"
+    parent: "fort\u016Bna"
   - question: abl pl
-    answer: fortunis
-    parent: fortuna
+    answer: "fort\u016Bn\u012Bs"
+    parent: "fort\u016Bna"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
 - question: gladius
   children:
@@ -521,136 +521,136 @@
     answer: gladius
     parent: gladius
   - question: gen sg
-    answer: gladii
+    answer: "gladi\u012B"
     parent: gladius
   - question: dat sg
-    answer: gladio
+    answer: "gladi\u014D"
     parent: gladius
   - question: akk sg
     answer: gladium
     parent: gladius
   - question: abl sg
-    answer: gladio
+    answer: "gladi\u014D"
     parent: gladius
   - question: nom pl
-    answer: gladii
+    answer: "gladi\u012B"
     parent: gladius
   - question: gen pl
-    answer: gladiorum
+    answer: "gladi\u014Drum"
     parent: gladius
   - question: dat pl
-    answer: gladiis
+    answer: "gladi\u012Bs"
     parent: gladius
   - question: akk pl
-    answer: gladios
+    answer: "gladi\u014Ds"
     parent: gladius
   - question: abl pl
-    answer: gladiis
+    answer: "gladi\u012Bs"
     parent: gladius
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
-- question: periculum
+- question: "per\u012Bculum"
   children:
   - question: nom sg
-    answer: periculum
-    parent: periculum
+    answer: "per\u012Bculum"
+    parent: "per\u012Bculum"
   - question: gen sg
-    answer: periculi
-    parent: periculum
+    answer: "per\u012Bcul\u012B"
+    parent: "per\u012Bculum"
   - question: dat sg
-    answer: periculo
-    parent: periculum
+    answer: "per\u012Bcul\u014D"
+    parent: "per\u012Bculum"
   - question: akk sg
-    answer: periculum
-    parent: periculum
+    answer: "per\u012Bculum"
+    parent: "per\u012Bculum"
   - question: abl sg
-    answer: periculo
-    parent: periculum
+    answer: "per\u012Bcul\u014D"
+    parent: "per\u012Bculum"
   - question: nom pl
-    answer: pericula
-    parent: periculum
+    answer: "per\u012Bcula"
+    parent: "per\u012Bculum"
   - question: gen pl
-    answer: periculorum
-    parent: periculum
+    answer: "per\u012Bcul\u014Drum"
+    parent: "per\u012Bculum"
   - question: dat pl
-    answer: periculis
-    parent: periculum
+    answer: "per\u012Bcul\u012Bs"
+    parent: "per\u012Bculum"
   - question: akk pl
-    answer: pericula
-    parent: periculum
+    answer: "per\u012Bcula"
+    parent: "per\u012Bculum"
   - question: abl pl
-    answer: periculis
-    parent: periculum
+    answer: "per\u012Bcul\u012Bs"
+    parent: "per\u012Bculum"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '2'
+  decl_class: 2-o
   genus: n
-- question: vera
+- question: "v\u0113ra"
   children:
   - question: nom pl
-    answer: vera
-    parent: vera
+    answer: "v\u0113ra"
+    parent: "v\u0113ra"
   - question: gen pl
-    answer: verorum
-    parent: vera
+    answer: "v\u0113r\u014Drum"
+    parent: "v\u0113ra"
   - question: dat pl
-    answer: veris
-    parent: vera
+    answer: "v\u0113r\u012Bs"
+    parent: "v\u0113ra"
   - question: akk pl
-    answer: vera
-    parent: vera
+    answer: "v\u0113ra"
+    parent: "v\u0113ra"
   - question: abl pl
-    answer: veris
-    parent: vera
+    answer: "v\u0113r\u012Bs"
+    parent: "v\u0113ra"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '2'
+  decl_class: 2-o
   genus: n
-- question: officim
+- question: officium
   children:
   - question: nom sg
-    answer: officim
-    parent: officim
+    answer: officium
+    parent: officium
   - question: gen sg
-    answer: officii
-    parent: officim
+    answer: "offici\u012B"
+    parent: officium
   - question: dat sg
-    answer: officio
-    parent: officim
+    answer: "offici\u014D"
+    parent: officium
   - question: akk sg
     answer: officium
-    parent: officim
+    parent: officium
   - question: abl sg
-    answer: officio
-    parent: officim
+    answer: "offici\u014D"
+    parent: officium
   - question: nom pl
     answer: officia
-    parent: officim
+    parent: officium
   - question: gen pl
-    answer: officiorum
-    parent: officim
+    answer: "offici\u014Drum"
+    parent: officium
   - question: dat pl
-    answer: officiis
-    parent: officim
+    answer: "offici\u012Bs"
+    parent: officium
   - question: akk pl
     answer: officia
-    parent: officim
+    parent: officium
   - question: abl pl
-    answer: officiis
-    parent: officim
+    answer: "offici\u012Bs"
+    parent: officium
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '2'
-  decl_class: '2'
+  decl_class: 2-o
   genus: n
 - question: vir
   children:
@@ -658,75 +658,75 @@
     answer: vir
     parent: vir
   - question: gen sg
-    answer: viri
+    answer: "vir\u012B"
     parent: vir
   - question: dat sg
-    answer: viro
+    answer: "vir\u014D"
     parent: vir
   - question: akk sg
     answer: virum
     parent: vir
   - question: abl sg
-    answer: viro
+    answer: "vir\u014D"
     parent: vir
   - question: nom pl
-    answer: viri
+    answer: "vir\u012B"
     parent: vir
   - question: gen pl
-    answer: virorum
+    answer: "vir\u014Drum"
     parent: vir
   - question: dat pl
-    answer: viris
+    answer: "vir\u012Bs"
     parent: vir
   - question: akk pl
-    answer: viros
+    answer: "vir\u014Ds"
     parent: vir
   - question: abl pl
-    answer: viris
+    answer: "vir\u012Bs"
     parent: vir
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
-- question: femina
+- question: "f\u0113mina"
   children:
   - question: nom sg
-    answer: femina
-    parent: femina
+    answer: "f\u0113mina"
+    parent: "f\u0113mina"
   - question: gen sg
-    answer: feminae
-    parent: femina
+    answer: "f\u0113min\xE6"
+    parent: "f\u0113mina"
   - question: dat sg
-    answer: feminae
-    parent: femina
+    answer: "f\u0113min\xE6"
+    parent: "f\u0113mina"
   - question: akk sg
-    answer: feminam
-    parent: femina
+    answer: "f\u0113minam"
+    parent: "f\u0113mina"
   - question: abl sg
-    answer: femina
-    parent: femina
+    answer: "f\u0113min\u0101"
+    parent: "f\u0113mina"
   - question: nom pl
-    answer: feminae
-    parent: femina
+    answer: "f\u0113min\xE6"
+    parent: "f\u0113mina"
   - question: gen pl
-    answer: feminarum
-    parent: femina
+    answer: "f\u0113min\u0101rum"
+    parent: "f\u0113mina"
   - question: dat pl
-    answer: feminis
-    parent: femina
+    answer: "femin\u012Bs"
+    parent: "f\u0113mina"
   - question: akk pl
-    answer: feminas
-    parent: femina
+    answer: "f\u0113min\u0101s"
+    parent: "f\u0113mina"
   - question: abl pl
-    answer: feminis
-    parent: femina
+    answer: "f\u0113min\u012Bs"
+    parent: "f\u0113mina"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
 - question: aqua
   children:
@@ -734,113 +734,113 @@
     answer: aqua
     parent: aqua
   - question: gen sg
-    answer: aquae
+    answer: "aqu\xE6"
     parent: aqua
   - question: dat sg
-    answer: aquae
+    answer: "aqu\xE6"
     parent: aqua
   - question: akk sg
     answer: aquam
     parent: aqua
   - question: abl sg
-    answer: aqua
+    answer: "aqu\u0101"
     parent: aqua
   - question: nom pl
-    answer: aquae
+    answer: "aqu\xE6"
     parent: aqua
   - question: gen pl
-    answer: aquarum
+    answer: "aqu\u0101rum"
     parent: aqua
   - question: dat pl
-    answer: aquis
+    answer: "aqu\u012Bs"
     parent: aqua
   - question: akk pl
-    answer: aquas
+    answer: "aqu\u0101s"
     parent: aqua
   - question: abl pl
-    answer: aquis
+    answer: "aqu\u012Bs"
     parent: aqua
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
-- question: filius
+- question: "f\u012Blius"
   children:
   - question: nom sg
-    answer: filius
-    parent: filius
+    answer: "f\u012Blius"
+    parent: "f\u012Blius"
   - question: gen sg
-    answer: filii
-    parent: filius
+    answer: "f\u012Bli\u012B"
+    parent: "f\u012Blius"
   - question: dat sg
-    answer: filio
-    parent: filius
+    answer: "f\u012Bli\u014D"
+    parent: "f\u012Blius"
   - question: akk sg
-    answer: filium
-    parent: filius
+    answer: "f\u012Blium"
+    parent: "f\u012Blius"
   - question: abl sg
-    answer: filio
-    parent: filius
+    answer: "f\u012Bli\u014D"
+    parent: "f\u012Blius"
   - question: nom pl
-    answer: filii
-    parent: filius
+    answer: "f\u012Bli\u012B"
+    parent: "f\u012Blius"
   - question: gen pl
-    answer: filiorum
-    parent: filius
+    answer: "f\u012Bli\u014Drum"
+    parent: "f\u012Blius"
   - question: dat pl
-    answer: filiis
-    parent: filius
+    answer: "f\u012Bli\u012Bs"
+    parent: "f\u012Blius"
   - question: akk pl
-    answer: filios
-    parent: filius
+    answer: "f\u012Bli\u014Ds"
+    parent: "f\u012Blius"
   - question: abl pl
-    answer: filiis
-    parent: filius
+    answer: "f\u012Bli\u012Bs"
+    parent: "f\u012Blius"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
-- question: filia
+- question: "f\u012Blia"
   children:
   - question: nom sg
-    answer: filia
-    parent: filia
+    answer: "f\u012Blia"
+    parent: "f\u012Blia"
   - question: gen sg
-    answer: filiae
-    parent: filia
+    answer: "f\u012Bli\xE6"
+    parent: "f\u012Blia"
   - question: dat sg
-    answer: filiae
-    parent: filia
+    answer: "f\u012Bli\xE6"
+    parent: "f\u012Blia"
   - question: akk sg
-    answer: filiam
-    parent: filia
+    answer: "f\u012Bliam"
+    parent: "f\u012Blia"
   - question: abl sg
-    answer: filia
-    parent: filia
+    answer: "f\u012Bli\u0101"
+    parent: "f\u012Blia"
   - question: nom pl
-    answer: filiae
-    parent: filia
+    answer: "f\u012Bli\xE6"
+    parent: "f\u012Blia"
   - question: gen pl
-    answer: iliarum
-    parent: filia
+    answer: "\u012Ali\u0101rum"
+    parent: "f\u012Blia"
   - question: dat pl
-    answer: filiis
-    parent: filia
+    answer: "f\u012Bli\u012Bs"
+    parent: "f\u012Blia"
   - question: akk pl
-    answer: filias
-    parent: filia
+    answer: "f\u012Bli\u0101s"
+    parent: "f\u012Blia"
   - question: abl pl
-    answer: filiis
-    parent: filia
+    answer: "f\u012Bli\u012Bs"
+    parent: "f\u012Blia"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
 - question: toga
   children:
@@ -848,37 +848,37 @@
     answer: toga
     parent: toga
   - question: gen sg
-    answer: togae
+    answer: "tog\xE6"
     parent: toga
   - question: dat sg
-    answer: togae
+    answer: "tog\xE6"
     parent: toga
   - question: akk sg
     answer: togam
     parent: toga
   - question: abl sg
-    answer: toga
+    answer: "tog\u0101"
     parent: toga
   - question: nom pl
-    answer: togae
+    answer: "tog\xE6"
     parent: toga
   - question: gen pl
-    answer: togarum
+    answer: "tog\u0101rum"
     parent: toga
   - question: dat pl
-    answer: togis
+    answer: "tog\u012Bs"
     parent: toga
   - question: akk pl
-    answer: togas
+    answer: "tog\u0101s"
     parent: toga
   - question: abl pl
-    answer: togis
+    answer: "tog\u012Bs"
     parent: toga
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
 - question: animus
   children:
@@ -886,37 +886,37 @@
     answer: animus
     parent: animus
   - question: gen sg
-    answer: animi
+    answer: "anim\u012B"
     parent: animus
   - question: dat sg
-    answer: animo
+    answer: "anim\u014D"
     parent: animus
   - question: akk sg
     answer: animum
     parent: animus
   - question: abl sg
-    answer: animo
+    answer: "anim\u014D"
     parent: animus
   - question: nom pl
-    answer: animi
+    answer: "anim\u012B"
     parent: animus
   - question: gen pl
-    answer: animorum
+    answer: "anim\u014Drum"
     parent: animus
   - question: dat pl
-    answer: animis
+    answer: "anim\u012Bs"
     parent: animus
   - question: akk pl
-    answer: animos
+    answer: "anim\u014Ds"
     parent: animus
   - question: abl pl
-    answer: animis
+    answer: "anim\u012Bs"
     parent: animus
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
 - question: studium
   children:
@@ -924,37 +924,37 @@
     answer: studium
     parent: studium
   - question: gen sg
-    answer: studii
+    answer: "studi\u012B"
     parent: studium
   - question: dat sg
-    answer: studio
+    answer: "studi\u014D"
     parent: studium
   - question: akk sg
     answer: studium
     parent: studium
   - question: abl sg
-    answer: studio
+    answer: "studi\u014D"
     parent: studium
   - question: nom pl
     answer: studia
     parent: studium
   - question: gen pl
-    answer: studiorum
+    answer: "studi\u014Drum"
     parent: studium
   - question: dat pl
-    answer: studiis
+    answer: "studi\u012Bs"
     parent: studium
   - question: akk pl
     answer: studia
     parent: studium
   - question: abl pl
-    answer: studiis
+    answer: "studi\u012Bs"
     parent: studium
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '2'
+  decl_class: 2-o
   genus: n
 - question: philosophus
   children:
@@ -962,37 +962,37 @@
     answer: philosophus
     parent: philosophus
   - question: gen sg
-    answer: philosophi
+    answer: "philosoph\u012B"
     parent: philosophus
   - question: dat sg
-    answer: philosopho
+    answer: "philosoph\u014D"
     parent: philosophus
   - question: akk sg
     answer: philosophum
     parent: philosophus
   - question: abl sg
-    answer: philosopho
+    answer: "philosoph\u014D"
     parent: philosophus
   - question: nom pl
-    answer: philosophi
+    answer: "philosoph\u012B"
     parent: philosophus
   - question: gen pl
-    answer: philosophorum
+    answer: "philosoph\u014Drum"
     parent: philosophus
   - question: dat pl
-    answer: philosophis
+    answer: "philosoph\u012Bs"
     parent: philosophus
   - question: akk pl
-    answer: philosophos
+    answer: "philosoph\u014Ds"
     parent: philosophus
   - question: abl pl
-    answer: philosophis
+    answer: "philosoph\u012Bs"
     parent: philosophus
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
 - question: silentium
   children:
@@ -1000,37 +1000,37 @@
     answer: silentium
     parent: silentium
   - question: gen sg
-    answer: silentii
+    answer: "silenti\u012B"
     parent: silentium
   - question: dat sg
-    answer: silentiio
+    answer: "silenti\u014D"
     parent: silentium
   - question: akk sg
-    answer: siletium
+    answer: silentium
     parent: silentium
   - question: abl sg
-    answer: silentio
+    answer: "silenti\u014D"
     parent: silentium
   - question: nom pl
     answer: silentia
     parent: silentium
   - question: gen pl
-    answer: silentiorum
+    answer: "silenti\u014Drum"
     parent: silentium
   - question: dat pl
-    answer: silentiis
+    answer: "silenti\u012Bs"
     parent: silentium
   - question: akk pl
     answer: silentia
     parent: silentium
   - question: abl pl
-    answer: silentiis
+    answer: "silenti\u012Bs"
     parent: silentium
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '2'
+  decl_class: 2-o
   genus: n
 - question: littera
   children:
@@ -1038,75 +1038,75 @@
     answer: littera
     parent: littera
   - question: gen sg
-    answer: litterae
+    answer: "litter\xE6"
     parent: littera
   - question: dat sg
-    answer: litterae
+    answer: "litter\xE6"
     parent: littera
   - question: akk sg
     answer: litteram
     parent: littera
   - question: abl sg
-    answer: littera
+    answer: "litter\u0101"
     parent: littera
   - question: nom pl
-    answer: litterae
+    answer: "litter\xE6"
     parent: littera
   - question: gen pl
-    answer: litterarum
+    answer: "litter\u0101rum"
     parent: littera
   - question: dat pl
-    answer: litteris
+    answer: "litter\u012Bs"
     parent: littera
   - question: akk pl
-    answer: litteras
+    answer: "litter\u0101s"
     parent: littera
   - question: abl pl
-    answer: litteris
+    answer: "litter\u012Bs"
     parent: littera
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '3'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
-- question: homo
+- question: "hom\u014D"
   children:
   - question: nom sg
-    answer: homo
-    parent: homo
+    answer: "hom\u014D"
+    parent: "hom\u014D"
   - question: gen sg
     answer: hominis
-    parent: homo
+    parent: "hom\u014D"
   - question: dat sg
-    answer: homini
-    parent: homo
+    answer: "homin\u012B"
+    parent: "hom\u014D"
   - question: akk sg
     answer: hominem
-    parent: homo
+    parent: "hom\u014D"
   - question: abl sg
     answer: homine
-    parent: homo
+    parent: "hom\u014D"
   - question: nom pl
-    answer: homines
-    parent: homo
+    answer: "homin\u0113s"
+    parent: "hom\u014D"
   - question: gen pl
     answer: hominum
-    parent: homo
+    parent: "hom\u014D"
   - question: dat pl
     answer: hominibus
-    parent: homo
+    parent: "hom\u014D"
   - question: akk pl
-    answer: homies
-    parent: homo
+    answer: "homin\u0113s"
+    parent: "hom\u014D"
   - question: abl pl
     answer: hominibus
-    parent: homo
+    parent: "hom\u014D"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-gemischt
   genus: m
 - question: senex
   children:
@@ -1117,7 +1117,7 @@
     answer: senis
     parent: senex
   - question: dat sg
-    answer: seni
+    answer: "sen\u012B"
     parent: senex
   - question: akk sg
     answer: senem
@@ -1126,7 +1126,7 @@
     answer: sene
     parent: senex
   - question: nom pl
-    answer: senes
+    answer: "sen\u0113s"
     parent: senex
   - question: gen pl
     answer: senum
@@ -1135,7 +1135,7 @@
     answer: senibus
     parent: senex
   - question: akk pl
-    answer: senes
+    answer: "sen\u0113s"
     parent: senex
   - question: abl pl
     answer: senibus
@@ -1144,7 +1144,7 @@
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-konsonant
   genus: m
 - question: iuvenis
   children:
@@ -1155,7 +1155,7 @@
     answer: iuvenis
     parent: iuvenis
   - question: dat sg
-    answer: iuveni
+    answer: "iuven\u012B"
     parent: iuvenis
   - question: akk sg
     answer: iuvenem
@@ -1164,7 +1164,7 @@
     answer: iuvene
     parent: iuvenis
   - question: nom pl
-    answer: iuvenes
+    answer: "iuven\u0113s"
     parent: iuvenis
   - question: gen pl
     answer: iuvenum
@@ -1173,7 +1173,7 @@
     answer: iuvenibus
     parent: iuvenis
   - question: akk pl
-    answer: iuvenes
+    answer: "iuven\u0113s"
     parent: iuvenis
   - question: abl pl
     answer: iuvenibus
@@ -1182,7 +1182,7 @@
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-konsonant
   genus: m+f
 - question: oculus
   children:
@@ -1190,75 +1190,75 @@
     answer: oculus
     parent: oculus
   - question: gen sg
-    answer: oculi
+    answer: "ocul\u012B"
     parent: oculus
   - question: dat sg
-    answer: oculo
+    answer: "ocul\u014D"
     parent: oculus
   - question: akk sg
     answer: oculum
     parent: oculus
   - question: abl sg
-    answer: oculo
+    answer: "ocul\u014D"
     parent: oculus
   - question: nom pl
-    answer: oculi
+    answer: "ocul\u012B"
     parent: oculus
   - question: gen pl
-    answer: oculorum
+    answer: "ocul\u014Drum"
     parent: oculus
   - question: dat pl
-    answer: oculis
+    answer: "ocul\u012Bs"
     parent: oculus
   - question: akk pl
-    answer: oculos
+    answer: "ocul\u014Ds"
     parent: oculus
   - question: abl pl
-    answer: oculis
+    answer: "ocul\u012Bs"
     parent: oculus
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
-- question: vox
+- question: "v\u014Dx"
   children:
   - question: nom sg
-    answer: vox
-    parent: vox
+    answer: "v\u014Dx"
+    parent: "v\u014Dx"
   - question: gen sg
-    answer: vocis
-    parent: vox
+    answer: "v\u014Dcis"
+    parent: "v\u014Dx"
   - question: dat sg
-    answer: voci
-    parent: vox
+    answer: "v\u014Dc\u012B"
+    parent: "v\u014Dx"
   - question: akk sg
-    answer: vocem
-    parent: vox
+    answer: "v\u014Dcem"
+    parent: "v\u014Dx"
   - question: abl sg
-    answer: voce
-    parent: vox
+    answer: "v\u014Dce"
+    parent: "v\u014Dx"
   - question: nom pl
-    answer: voces
-    parent: vox
+    answer: "v\u014Dc\u0113s"
+    parent: "v\u014Dx"
   - question: gen pl
-    answer: vocum
-    parent: vox
+    answer: "v\u014Dcum"
+    parent: "v\u014Dx"
   - question: dat pl
-    answer: vocibus
-    parent: vox
+    answer: "v\u014Dcibus"
+    parent: "v\u014Dx"
   - question: akk pl
-    answer: voces
-    parent: vox
+    answer: "v\u014Dc\u0113s"
+    parent: "v\u014Dx"
   - question: abl pl
-    answer: vocibus
-    parent: vox
+    answer: "v\u014Dcibus"
+    parent: "v\u014Dx"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-konsonant
   genus: f
 - question: populus
   children:
@@ -1266,37 +1266,37 @@
     answer: populus
     parent: populus
   - question: gen sg
-    answer: populi
+    answer: "popul\u012B"
     parent: populus
   - question: dat sg
-    answer: populo
+    answer: "popul\u014D"
     parent: populus
   - question: akk sg
     answer: populum
     parent: populus
   - question: abl sg
-    answer: populo
+    answer: "popul\u014D"
     parent: populus
   - question: nom pl
-    answer: populi
+    answer: "popul\u012B"
     parent: populus
   - question: gen pl
-    answer: populorum
+    answer: "popul\u014Drum"
     parent: populus
   - question: dat pl
-    answer: populis
+    answer: "popul\u012Bs"
     parent: populus
   - question: akk pl
-    answer: populos
+    answer: "popul\u014Ds"
     parent: populus
   - question: abl pl
-    answer: populis
+    answer: "popul\u012Bs"
     parent: populus
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '2'
+  decl_class: 2-o
   genus: m
 - question: ferrum
   children:
@@ -1304,37 +1304,37 @@
     answer: ferrum
     parent: ferrum
   - question: gen sg
-    answer: ferri
+    answer: "ferr\u012B"
     parent: ferrum
   - question: dat sg
-    answer: ferro
+    answer: "ferr\u014D"
     parent: ferrum
   - question: akk sg
     answer: ferrum
     parent: ferrum
   - question: abl sg
-    answer: ferro
+    answer: "ferr\u014D"
     parent: ferrum
   - question: nom pl
     answer: ferra
     parent: ferrum
   - question: gen pl
-    answer: ferrorum
+    answer: "ferr\u014Drum"
     parent: ferrum
   - question: dat pl
-    answer: ferris
+    answer: "ferr\u012Bs"
     parent: ferrum
   - question: akk pl
     answer: ferra
     parent: ferrum
   - question: abl pl
-    answer: ferris
+    answer: "ferr\u012Bs"
     parent: ferrum
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '2'
+  decl_class: 2-o
   genus: n
 - question: vulnus
   children:
@@ -1345,7 +1345,7 @@
     answer: vulneris
     parent: vulnus
   - question: dat sg
-    answer: vulneri
+    answer: "vulner\u012B"
     parent: vulnus
   - question: akk sg
     answer: vulnus
@@ -1372,7 +1372,7 @@
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-konsonant
   genus: n
 - question: mors
   children:
@@ -1383,7 +1383,7 @@
     answer: mortis
     parent: mors
   - question: dat sg
-    answer: morti
+    answer: "mort\u012B"
     parent: mors
   - question: akk sg
     answer: mortem
@@ -1392,7 +1392,7 @@
     answer: morte
     parent: mors
   - question: nom pl
-    answer: mortes
+    answer: "mort\u0113s"
     parent: mors
   - question: gen pl
     answer: mortium
@@ -1401,7 +1401,7 @@
     answer: mortibus
     parent: mors
   - question: akk pl
-    answer: mortes
+    answer: "mort\u0113s"
     parent: mors
   - question: abl pl
     answer: mortibus
@@ -1410,7 +1410,7 @@
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-gemischt
   genus: f
 - question: pugna
   children:
@@ -1418,113 +1418,113 @@
     answer: pugna
     parent: pugna
   - question: gen sg
-    answer: pugnae
+    answer: "pugn\xE6"
     parent: pugna
   - question: dat sg
-    answer: pugnae
+    answer: "pugn\xE6"
     parent: pugna
   - question: akk sg
     answer: pugnam
     parent: pugna
   - question: abl sg
-    answer: pugna
+    answer: "pugn\u0101"
     parent: pugna
   - question: nom pl
-    answer: pugnae
+    answer: "pugn\xE6"
     parent: pugna
   - question: gen pl
-    answer: pugnarum
+    answer: "pugn\u0101rum"
     parent: pugna
   - question: dat pl
-    answer: pugnis
+    answer: "pugn\u012Bs"
     parent: pugna
   - question: akk pl
-    answer: pugnas
+    answer: "pugn\u0101s"
     parent: pugna
   - question: abl pl
-    answer: pugnis
+    answer: "pugn\u012Bs"
     parent: pugna
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
-- question: spectator
+- question: "spect\u0101tor"
   children:
   - question: nom sg
-    answer: spectator
-    parent: spectator
+    answer: "spect\u0101tor"
+    parent: "spect\u0101tor"
   - question: gen sg
-    answer: spectatoris
-    parent: spectator
+    answer: "spect\u0101t\u014Dris"
+    parent: "spect\u0101tor"
   - question: dat sg
-    answer: spectatori
-    parent: spectator
+    answer: "spect\u0101t\u014Dr\u012B"
+    parent: "spect\u0101tor"
   - question: akk sg
-    answer: spectatorem
-    parent: spectator
+    answer: "spect\u0101t\u014Drem"
+    parent: "spect\u0101tor"
   - question: abl sg
-    answer: spectatore
-    parent: spectator
+    answer: "spect\u0101t\u014Dre"
+    parent: "spect\u0101tor"
   - question: nom pl
-    answer: spectatores
-    parent: spectator
+    answer: "spect\u0101t\u014Dr\u0113s"
+    parent: "spect\u0101tor"
   - question: gen pl
-    answer: spectatorum
-    parent: spectator
+    answer: "spect\u0101t\u014Drum"
+    parent: "spect\u0101tor"
   - question: dat pl
-    answer: spectatoribus
-    parent: spectator
+    answer: "spect\u0101t\u014Dribus"
+    parent: "spect\u0101tor"
   - question: akk pl
-    answer: spectatores
-    parent: spectator
+    answer: "spect\u0101t\u014Dr\u0113s"
+    parent: "spect\u0101tor"
   - question: abl pl
-    answer: spectatoribus
-    parent: spectator
+    answer: "spect\u0101t\u014Dribus"
+    parent: "spect\u0101tor"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-konsonant
   genus: m
-- question: nomen
+- question: "n\u014Dmen"
   children:
   - question: nom sg
-    answer: nomen
-    parent: nomen
+    answer: "n\u014Dmen"
+    parent: "n\u014Dmen"
   - question: gen sg
-    answer: nominis
-    parent: nomen
+    answer: "n\u014Dminis"
+    parent: "n\u014Dmen"
   - question: dat sg
-    answer: nomini
-    parent: nomen
+    answer: "n\u014Dmin\u012B"
+    parent: "n\u014Dmen"
   - question: akk sg
-    answer: nomen
-    parent: nomen
+    answer: "n\u014Dmen"
+    parent: "n\u014Dmen"
   - question: abl sg
-    answer: nomine
-    parent: nomen
+    answer: "n\u014Dmine"
+    parent: "n\u014Dmen"
   - question: nom pl
-    answer: nomina
-    parent: nomen
+    answer: "n\u014Dmina"
+    parent: "n\u014Dmen"
   - question: gen pl
-    answer: nominum
-    parent: nomen
+    answer: "n\u014Dminum"
+    parent: "n\u014Dmen"
   - question: dat pl
-    answer: nominibus
-    parent: nomen
+    answer: "n\u014Dminibus"
+    parent: "n\u014Dmen"
   - question: akk pl
-    answer: nomina
-    parent: nomen
+    answer: "n\u014Dmina"
+    parent: "n\u014Dmen"
   - question: abl pl
-    answer: nominibus
-    parent: nomen
+    answer: "n\u014Dminibus"
+    parent: "n\u014Dmen"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-konsonant
   genus: n
 - question: victor
   children:
@@ -1532,113 +1532,113 @@
     answer: victor
     parent: victor
   - question: gen sg
-    answer: victoris
+    answer: "vict\u014Dris"
     parent: victor
   - question: dat sg
-    answer: victori
+    answer: "vict\u014Dr\u012B"
     parent: victor
   - question: akk sg
-    answer: victorem
+    answer: "vict\u014Drem"
     parent: victor
   - question: abl sg
-    answer: victore
+    answer: "vict\u014Dre"
     parent: victor
   - question: nom pl
-    answer: victores
+    answer: "vict\u014Dr\u0113s"
     parent: victor
   - question: gen pl
-    answer: victorum
+    answer: "vict\u014Drum"
     parent: victor
   - question: dat pl
-    answer: victoribus
+    answer: "vict\u014Dribus"
     parent: victor
   - question: akk pl
-    answer: victores
+    answer: "vict\u014Dr\u0113s"
     parent: victor
   - question: abl pl
-    answer: victibus
+    answer: "v\u012Bctibus"
     parent: victor
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-konsonant
   genus: m
-- question: caedes
+- question: "c\xE6d\u0113s"
   children:
   - question: nom sg
-    answer: caedes
-    parent: caedes
+    answer: "c\xE6d\u0113s"
+    parent: "c\xE6d\u0113s"
   - question: gen sg
-    answer: caedis
-    parent: caedes
+    answer: "c\xE6dis"
+    parent: "c\xE6d\u0113s"
   - question: dat sg
-    answer: caedi
-    parent: caedes
+    answer: "c\xE6d\u012B"
+    parent: "c\xE6d\u0113s"
   - question: akk sg
-    answer: caedem
-    parent: caedes
+    answer: "c\xE6dem"
+    parent: "c\xE6d\u0113s"
   - question: abl sg
-    answer: caede
-    parent: caedes
+    answer: "c\xE6de"
+    parent: "c\xE6d\u0113s"
   - question: nom pl
-    answer: caedes
-    parent: caedes
+    answer: "c\xE6d\u0113s"
+    parent: "c\xE6d\u0113s"
   - question: gen pl
-    answer: caedium
-    parent: caedes
+    answer: "c\xE6dium"
+    parent: "c\xE6d\u0113s"
   - question: dat pl
-    answer: caedibus
-    parent: caedes
+    answer: "c\xE6dibus"
+    parent: "c\xE6d\u0113s"
   - question: akk pl
-    answer: caedes
-    parent: caedes
+    answer: "c\xE6d\u0113s"
+    parent: "c\xE6d\u0113s"
   - question: abl pl
-    answer: caedibus
-    parent: caedes
+    answer: "c\xE6dibus"
+    parent: "c\xE6d\u0113s"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-gemischt
   genus: f
-- question: gladiator
+- question: "gladi\u0101tor"
   children:
   - question: nom sg
-    answer: gladiator
-    parent: gladiator
+    answer: "gladi\u0101tor"
+    parent: "gladi\u0101tor"
   - question: gen sg
-    answer: gladiatoris
-    parent: gladiator
+    answer: "gladi\u0101t\u014Dris"
+    parent: "gladi\u0101tor"
   - question: dat sg
-    answer: gladiatori
-    parent: gladiator
+    answer: "gladi\u0101t\u014Dr\u012B"
+    parent: "gladi\u0101tor"
   - question: akk sg
-    answer: gladiatorem
-    parent: gladiator
+    answer: "gladi\u0101t\u014Drem"
+    parent: "gladi\u0101tor"
   - question: abl sg
-    answer: gladiatore
-    parent: gladiator
+    answer: "gladi\u0101t\u014Dre"
+    parent: "gladi\u0101tor"
   - question: nom pl
-    answer: glatiatores
-    parent: gladiator
+    answer: "gladi\u0101t\u014Dr\u0113s"
+    parent: "gladi\u0101tor"
   - question: gen pl
-    answer: gladiatorum
-    parent: gladiator
+    answer: "gladi\u0101t\u014Drum"
+    parent: "gladi\u0101tor"
   - question: dat pl
-    answer: gladiatoribus
-    parent: gladiator
+    answer: "gladi\u0101t\u014Dribus"
+    parent: "gladi\u0101tor"
   - question: akk pl
-    answer: gladiatores
-    parent: gladiator
+    answer: "gladi\u0101t\u014Dr\u0113s"
+    parent: "gladi\u0101tor"
   - question: abl pl
-    answer: gladiatoribus
-    parent: gladiator
+    answer: "gladi\u0101t\u014Dribus"
+    parent: "gladi\u0101tor"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-konsonant
   genus: m
 - question: corpus
   children:
@@ -1649,7 +1649,7 @@
     answer: corporis
     parent: corpus
   - question: dat sg
-    answer: corpori
+    answer: "corpor\u012B"
     parent: corpus
   - question: akk sg
     answer: corpus
@@ -1676,7 +1676,7 @@
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-konsonant
   genus: n
 - question: ars
   children:
@@ -1687,7 +1687,7 @@
     answer: artis
     parent: ars
   - question: dat sg
-    answer: arti
+    answer: "art\u012B"
     parent: ars
   - question: akk sg
     answer: artem
@@ -1696,7 +1696,7 @@
     answer: arte
     parent: ars
   - question: nom pl
-    answer: artes
+    answer: "art\u0113s"
     parent: ars
   - question: gen pl
     answer: artium
@@ -1705,7 +1705,7 @@
     answer: artibus
     parent: ars
   - question: akk pl
-    answer: artes
+    answer: "art\u0113s"
     parent: ars
   - question: abl pl
     answer: artibus
@@ -1714,7 +1714,7 @@
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '3'
+  decl_class: 3-konsonant
   genus: f
 - question: mora
   children:
@@ -1722,111 +1722,1107 @@
     answer: mora
     parent: mora
   - question: gen sg
-    answer: morae
+    answer: "mor\xE6"
     parent: mora
   - question: dat sg
-    answer: morae
+    answer: "mor\xE6"
     parent: mora
   - question: akk sg
     answer: moram
     parent: mora
   - question: abl sg
-    answer: mora
+    answer: "mor\u0101"
     parent: mora
   - question: nom pl
-    answer: morae
+    answer: "mor\xE6"
     parent: mora
   - question: gen pl
-    answer: morarum
+    answer: "mor\u0101rum"
     parent: mora
   - question: dat pl
-    answer: moris
+    answer: "m\u014Dris"
     parent: mora
   - question: akk pl
-    answer: moras
+    answer: "mor\u0101s"
     parent: mora
   - question: abl pl
-    answer: moris
+    answer: "m\u014Dr\u012Bs"
     parent: mora
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
-- question: clementia
+- question: "cl\u0113mentia"
   children:
   - question: nom sg
-    answer: clementia
-    parent: clementia
+    answer: "cl\u0113mentia"
+    parent: "cl\u0113mentia"
   - question: gen sg
-    answer: clementiae
-    parent: clementia
+    answer: "cl\u0113menti\xE6"
+    parent: "cl\u0113mentia"
   - question: dat sg
-    answer: clementiae
-    parent: clementia
+    answer: "cl\u0113menti\xE6"
+    parent: "cl\u0113mentia"
   - question: akk sg
-    answer: clementiam
-    parent: clementia
+    answer: "cl\u0113mentiam"
+    parent: "cl\u0113mentia"
   - question: abl sg
-    answer: clementia
-    parent: clementia
+    answer: "cl\u0113menti\u0101"
+    parent: "cl\u0113mentia"
   - question: nom pl
-    answer: clementiae
-    parent: clementia
+    answer: "cl\u0113menti\xE6"
+    parent: "cl\u0113mentia"
   - question: gen pl
-    answer: clementiarum
-    parent: clementia
+    answer: "cl\u0113menti\u0101rum"
+    parent: "cl\u0113mentia"
   - question: dat pl
-    answer: clementiis
-    parent: clementia
+    answer: "cl\u0113menti\u012Bs"
+    parent: "cl\u0113mentia"
   - question: akk pl
-    answer: clementias
-    parent: clementia
+    answer: "cl\u0113menti\u0101s"
+    parent: "cl\u0113mentia"
   - question: abl pl
-    answer: clementiis
-    parent: clementia
+    answer: "cl\u0113menti\u012Bs"
+    parent: "cl\u0113mentia"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '1'
+  decl_class: 1-a
   genus: f
-- question: victoria
+- question: "vict\u014Dria"
   children:
   - question: nom sg
-    answer: victoria
-    parent: victoria
+    answer: "vict\u014Dria"
+    parent: "vict\u014Dria"
   - question: gen sg
-    answer: victoriae
-    parent: victoria
+    answer: "vict\u014Dri\xE6"
+    parent: "vict\u014Dria"
   - question: dat sg
-    answer: victoriae
-    parent: victoria
+    answer: "vict\u014Dri\xE6"
+    parent: "vict\u014Dria"
   - question: akk sg
-    answer: victoriam
-    parent: victoria
+    answer: "vict\u014Driam"
+    parent: "vict\u014Dria"
   - question: abl sg
-    answer: victoria
-    parent: victoria
+    answer: "vict\u014Dri\u0101"
+    parent: "vict\u014Dria"
   - question: nom pl
-    answer: victoriae
-    parent: victoria
+    answer: "vict\u014Dri\xE6"
+    parent: "vict\u014Dria"
   - question: gen pl
-    answer: victoriarum
-    parent: victoria
+    answer: "vict\u014Dri\u0101rum"
+    parent: "vict\u014Dria"
   - question: dat pl
-    answer: victoriis
-    parent: victoria
+    answer: "vict\u014Dri\u012Bs"
+    parent: "vict\u014Dria"
   - question: akk pl
-    answer: victorias
-    parent: victoria
+    answer: "vict\u014Dri\u0101s"
+    parent: "vict\u014Dria"
   - question: abl pl
-    answer: victoriis
-    parent: victoria
+    answer: "vict\u014Dri\u012Bs"
+    parent: "vict\u014Dria"
   subject: Latein
   module: Grundlagen Latein
   topic: Deklination
   unit: '4'
-  decl_class: '1'
+  decl_class: 1-a
+  genus: f
+- question: "c\u014Dnsilium"
+  children:
+  - question: nom sg
+    answer: "c\u014Dnsilium"
+    parent: "c\u014Dnsilium"
+  - question: gen sg
+    answer: "c\u014Dnsili\u012B"
+    parent: "c\u014Dnsilium"
+  - question: dat sg
+    answer: "c\u014Dnsili\u014D"
+    parent: "c\u014Dnsilium"
+  - question: akk sg
+    answer: "c\u014Dnsilium"
+    parent: "c\u014Dnsilium"
+  - question: abl sg
+    answer: "c\u014Dnsili\u014D"
+    parent: "c\u014Dnsilium"
+  - question: nom pl
+    answer: "c\u014Dnsilia"
+    parent: "c\u014Dnsilium"
+  - question: gen pl
+    answer: "c\u014Dnsili\u014Drum"
+    parent: "c\u014Dnsilium"
+  - question: dat pl
+    answer: "c\u014Dnsili\u012Bs"
+    parent: "c\u014Dnsilium"
+  - question: akk pl
+    answer: "c\u014Dnsilia"
+    parent: "c\u014Dnsilium"
+  - question: abl pl
+    answer: "c\u014Dnsili\u012Bs"
+    parent: "c\u014Dnsilium"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 2-o
+  genus: n
+- question: "c\u014Dpia"
+  children:
+  - question: nom sg
+    answer: "c\u014Dpia"
+    parent: "c\u014Dpia"
+  - question: gen sg
+    answer: "c\u014Dpi\xE6"
+    parent: "c\u014Dpia"
+  - question: dat sg
+    answer: "c\u014Dpi\xE6"
+    parent: "c\u014Dpia"
+  - question: akk sg
+    answer: "c\u014Dpiam"
+    parent: "c\u014Dpia"
+  - question: abl sg
+    answer: "c\u014Dpi\u0101"
+    parent: "c\u014Dpia"
+  - question: nom pl
+    answer: "c\u014Dpi\xE6"
+    parent: "c\u014Dpia"
+  - question: gen pl
+    answer: "c\u014Dpi\u0101rum"
+    parent: "c\u014Dpia"
+  - question: dat pl
+    answer: "c\u014Dpi\u012Bs"
+    parent: "c\u014Dpia"
+  - question: akk pl
+    answer: "c\u014Dpi\u0101s"
+    parent: "c\u014Dpia"
+  - question: abl pl
+    answer: "c\u014Dpi\u012Bs"
+    parent: "c\u014Dpia"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 1-a
+  genus: f
+- question: "nostr\u012B"
+  children:
+  - question: nom pl
+    answer: "nostr\u012B"
+    parent: "nostr\u012B"
+  - question: gen pl
+    answer: "nostr\u014Drum"
+    parent: "nostr\u012B"
+  - question: dat pl
+    answer: "nostr\u012Bs"
+    parent: "nostr\u012B"
+  - question: akk pl
+    answer: "nostr\u014Ds"
+    parent: "nostr\u012B"
+  - question: abl pl
+    answer: "nostr\u012Bs"
+    parent: "nostr\u012B"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 2-o
+  genus: m
+- question: "n\u0101vis"
+  children:
+  - question: nom sg
+    answer: "n\u0101vis"
+    parent: "n\u0101vis"
+  - question: gen sg
+    answer: "n\u0101vis"
+    parent: "n\u0101vis"
+  - question: dat sg
+    answer: "n\u0101v\u012B"
+    parent: "n\u0101vis"
+  - question: akk sg
+    answer: "n\u0101vem"
+    parent: "n\u0101vis"
+  - question: abl sg
+    answer: "n\u0101v\u012B"
+    parent: "n\u0101vis"
+  - question: nom pl
+    answer: "n\u0101v\u0113s"
+    parent: "n\u0101vis"
+  - question: gen pl
+    answer: "n\u0101v\u0113s"
+    parent: "n\u0101vis"
+  - question: dat pl
+    answer: "n\u0101vium"
+    parent: "n\u0101vis"
+  - question: akk pl
+    answer: "n\u0101vibus"
+    parent: "n\u0101vis"
+  - question: abl pl
+    answer: "n\u0101v\u012Bs"
+    parent: "n\u0101vis"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 3-i
+  genus: f
+- question: "m\u012Bles"
+  children:
+  - question: nom sg
+    answer: "m\u012Bles"
+    parent: "m\u012Bles"
+  - question: gen sg
+    answer: "m\u012Blitis"
+    parent: "m\u012Bles"
+  - question: dat sg
+    answer: "m\u012Blit\u012B"
+    parent: "m\u012Bles"
+  - question: akk sg
+    answer: "m\u012Blitem"
+    parent: "m\u012Bles"
+  - question: abl sg
+    answer: "m\u012Blite"
+    parent: "m\u012Bles"
+  - question: nom pl
+    answer: "m\u012Blit\u0113s"
+    parent: "m\u012Bles"
+  - question: gen pl
+    answer: "m\u012Blitum"
+    parent: "m\u012Bles"
+  - question: dat pl
+    answer: "m\u012Blitibus"
+    parent: "m\u012Bles"
+  - question: akk pl
+    answer: "m\u012Blit\u0113s"
+    parent: "m\u012Bles"
+  - question: abl pl
+    answer: "m\u012Blitibus"
+    parent: "m\u012Bles"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 3-konsonant
+  genus: m
+- question: arma
+  children:
+  - question: nom pl
+    answer: arma
+    parent: arma
+  - question: gen pl
+    answer: "arm\u014Drum"
+    parent: arma
+  - question: dat pl
+    answer: "arm\u012Bs"
+    parent: arma
+  - question: akk pl
+    answer: arma
+    parent: arma
+  - question: abl pl
+    answer: "arm\u012Bs"
+    parent: arma
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 2-o
+  genus: n
+- question: "fl\u016Bctus"
+  children:
+  - question: nom sg
+    answer: "fl\u016Bctus"
+    parent: "fl\u016Bctus"
+  - question: gen sg
+    answer: "fl\u016Bct\u016Bs"
+    parent: "fl\u016Bctus"
+  - question: dat sg
+    answer: "fl\u016Bctu\u012B"
+    parent: "fl\u016Bctus"
+  - question: akk sg
+    answer: "fl\u016Bctum"
+    parent: "fl\u016Bctus"
+  - question: abl sg
+    answer: "fl\u016Bct\u016B"
+    parent: "fl\u016Bctus"
+  - question: nom pl
+    answer: "fl\u016Bct\u016Bs"
+    parent: "fl\u016Bctus"
+  - question: gen pl
+    answer: "fl\u016Bctuum"
+    parent: "fl\u016Bctus"
+  - question: dat pl
+    answer: "fl\u016Bctibus"
+    parent: "fl\u016Bctus"
+  - question: akk pl
+    answer: "fl\u016Bct\u016Bs"
+    parent: "fl\u016Bctus"
+  - question: abl pl
+    answer: "fl\u016Bctibus"
+    parent: "fl\u016Bctus"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 4-u
+  genus: m
+- question: hostis
+  children:
+  - question: nom sg
+    answer: hostis
+    parent: hostis
+  - question: gen sg
+    answer: hostis
+    parent: hostis
+  - question: dat sg
+    answer: "host\u012B"
+    parent: hostis
+  - question: akk sg
+    answer: hostem
+    parent: hostis
+  - question: abl sg
+    answer: hoste
+    parent: hostis
+  - question: nom pl
+    answer: "host\u0113s"
+    parent: hostis
+  - question: gen pl
+    answer: hostium.hostibus
+    parent: hostis
+  - question: dat pl
+    answer: "host\u0113s"
+    parent: hostis
+  - question: akk pl
+    answer: hostibus
+    parent: hostis
+  - question: abl pl
+    answer: null
+    parent: hostis
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 3-i
+  genus: m+f
+- question: "t\u0113lum"
+  children:
+  - question: nom sg
+    answer: "t\u0113lum"
+    parent: "t\u0113lum"
+  - question: gen sg
+    answer: "t\u0113l\u012B"
+    parent: "t\u0113lum"
+  - question: dat sg
+    answer: "t\u0113l\u014D"
+    parent: "t\u0113lum"
+  - question: akk sg
+    answer: "t\u0113lum"
+    parent: "t\u0113lum"
+  - question: abl sg
+    answer: "t\u0113l\u014D"
+    parent: "t\u0113lum"
+  - question: nom pl
+    answer: "t\u0113la"
+    parent: "t\u0113lum"
+  - question: gen pl
+    answer: "t\u0113l\u014Drum"
+    parent: "t\u0113lum"
+  - question: dat pl
+    answer: "t\u0113l\u012Bs"
+    parent: "t\u0113lum"
+  - question: akk pl
+    answer: "t\u0113la"
+    parent: "t\u0113lum"
+  - question: abl pl
+    answer: "t\u0113l\u012Bs"
+    parent: "t\u0113lum"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 2-o
+  genus: n
+- question: equus
+  children:
+  - question: nom sg
+    answer: equus
+    parent: equus
+  - question: gen sg
+    answer: "equ\u012B"
+    parent: equus
+  - question: dat sg
+    answer: "equ\u014D"
+    parent: equus
+  - question: akk sg
+    answer: equum
+    parent: equus
+  - question: abl sg
+    answer: "equ\u014D"
+    parent: equus
+  - question: nom pl
+    answer: "equ\u012B"
+    parent: equus
+  - question: gen pl
+    answer: "equ\u014Drum"
+    parent: equus
+  - question: dat pl
+    answer: "equ\u012Bs"
+    parent: equus
+  - question: akk pl
+    answer: "equ\u014Ds"
+    parent: equus
+  - question: abl pl
+    answer: "equ\u012Bs"
+    parent: equus
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 2-o
+  genus: m
+- question: latus
+  children:
+  - question: nom sg
+    answer: latus
+    parent: latus
+  - question: gen sg
+    answer: lateris
+    parent: latus
+  - question: dat sg
+    answer: "later\u012B"
+    parent: latus
+  - question: akk sg
+    answer: latus
+    parent: latus
+  - question: abl sg
+    answer: latere
+    parent: latus
+  - question: nom pl
+    answer: latera
+    parent: latus
+  - question: gen pl
+    answer: laterum
+    parent: latus
+  - question: dat pl
+    answer: lateribus
+    parent: latus
+  - question: akk pl
+    answer: latera
+    parent: latus
+  - question: abl pl
+    answer: lateribus
+    parent: latus
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 3-gemischt
+  genus: n
+- question: mare
+  children:
+  - question: nom sg
+    answer: mare
+    parent: mare
+  - question: gen sg
+    answer: maris
+    parent: mare
+  - question: dat sg
+    answer: "mar\u012B"
+    parent: mare
+  - question: akk sg
+    answer: mare
+    parent: mare
+  - question: abl sg
+    answer: "mar\u012B"
+    parent: mare
+  - question: nom pl
+    answer: maria
+    parent: mare
+  - question: gen pl
+    answer: marium
+    parent: mare
+  - question: dat pl
+    answer: maribus
+    parent: mare
+  - question: akk pl
+    answer: maria
+    parent: mare
+  - question: abl pl
+    answer: maribus
+    parent: mare
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 3-i
+  genus: n
+- question: deus
+  children:
+  - question: nom sg
+    answer: deus
+    parent: deus
+  - question: gen sg
+    answer: "d\u0113i\u012B"
+    parent: deus
+  - question: dat sg
+    answer: "de\u014D"
+    parent: deus
+  - question: akk sg
+    answer: deum
+    parent: deus
+  - question: abl sg
+    answer: "de\u014D"
+    parent: deus
+  - question: nom pl
+    answer: "d\u012B / d\u012B\u012B / de\u012B"
+    parent: deus
+  - question: gen pl
+    answer: "de\u014Drum / deum"
+    parent: deus
+  - question: dat pl
+    answer: "d\u012Bs / d\u012B\u012Bs / de\u012Bs"
+    parent: deus
+  - question: akk pl
+    answer: "de\u014Ds"
+    parent: deus
+  - question: abl pl
+    answer: "d\u012Bs / d\u012B\u012Bs / de\u012Bs"
+    parent: deus
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 2-o
+  genus: m
+- question: auxilium
+  children:
+  - question: nom sg
+    answer: auxilium
+    parent: auxilium
+  - question: gen sg
+    answer: "auxili\u012B"
+    parent: auxilium
+  - question: dat sg
+    answer: "auxili\u014D"
+    parent: auxilium
+  - question: akk sg
+    answer: auxilium
+    parent: auxilium
+  - question: abl sg
+    answer: "auxili\u014D"
+    parent: auxilium
+  - question: nom pl
+    answer: auxilia
+    parent: auxilium
+  - question: gen pl
+    answer: "auxili\u014Drum"
+    parent: auxilium
+  - question: dat pl
+    answer: "auxili\u012Bs"
+    parent: auxilium
+  - question: akk pl
+    answer: auxilia
+    parent: auxilium
+  - question: abl pl
+    answer: "auxili\u012Bs"
+    parent: auxilium
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 2-o
+  genus: n
+- question: exercitus
+  children:
+  - question: nom sg
+    answer: exercitus
+    parent: exercitus
+  - question: gen sg
+    answer: "exercit\u016Bs"
+    parent: exercitus
+  - question: dat sg
+    answer: "exercitu\u012B"
+    parent: exercitus
+  - question: akk sg
+    answer: exercitum
+    parent: exercitus
+  - question: abl sg
+    answer: "exercit\u016B"
+    parent: exercitus
+  - question: nom pl
+    answer: "exercit\u016Bs"
+    parent: exercitus
+  - question: gen pl
+    answer: exercituum
+    parent: exercitus
+  - question: dat pl
+    answer: exercitibus
+    parent: exercitus
+  - question: akk pl
+    answer: "exercit\u016Bs"
+    parent: exercitus
+  - question: abl pl
+    answer: exercitibus
+    parent: exercitus
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 4-u
+  genus: m
+- question: portus
+  children:
+  - question: nom sg
+    answer: portus
+    parent: portus
+  - question: gen sg
+    answer: "port\u016Bs"
+    parent: portus
+  - question: dat sg
+    answer: "portu\u012B"
+    parent: portus
+  - question: akk sg
+    answer: portum
+    parent: portus
+  - question: abl sg
+    answer: "port\u016B"
+    parent: portus
+  - question: nom pl
+    answer: "port\u016Bs"
+    parent: portus
+  - question: gen pl
+    answer: portuum
+    parent: portus
+  - question: dat pl
+    answer: portibus
+    parent: portus
+  - question: akk pl
+    answer: "port\u016Bs"
+    parent: portus
+  - question: abl pl
+    answer: portibus
+    parent: portus
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '5'
+  decl_class: 4-u
+  genus: m
+- question: "\u014Drd\u014D"
+  children:
+  - question: nom sg
+    answer: "\u014Drd\u014D"
+    parent: "\u014Drd\u014D"
+  - question: gen sg
+    answer: "\u014Drdinis"
+    parent: "\u014Drd\u014D"
+  - question: dat sg
+    answer: "\u014Drdin\u012B"
+    parent: "\u014Drd\u014D"
+  - question: akk sg
+    answer: "\u014Drdinem"
+    parent: "\u014Drd\u014D"
+  - question: abl sg
+    answer: "\u014Drdine"
+    parent: "\u014Drd\u014D"
+  - question: nom pl
+    answer: "\u014Drdin\u0113s"
+    parent: "\u014Drd\u014D"
+  - question: gen pl
+    answer: "\u014Drdinum"
+    parent: "\u014Drd\u014D"
+  - question: dat pl
+    answer: "\u014Drdinibus"
+    parent: "\u014Drd\u014D"
+  - question: akk pl
+    answer: "\u014Drdin\u0113s"
+    parent: "\u014Drd\u014D"
+  - question: abl pl
+    answer: "\u014Drdinibus"
+    parent: "\u014Drd\u014D"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 3-gemischt
+  genus: m
+- question: signum
+  children:
+  - question: nom sg
+    answer: signum
+    parent: signum
+  - question: gen sg
+    answer: "sign\u012B"
+    parent: signum
+  - question: dat sg
+    answer: "sign\u014D"
+    parent: signum
+  - question: akk sg
+    answer: signum
+    parent: signum
+  - question: abl sg
+    answer: "sign\u014D"
+    parent: signum
+  - question: nom pl
+    answer: signa
+    parent: signum
+  - question: gen pl
+    answer: "sign\u014Drum"
+    parent: signum
+  - question: dat pl
+    answer: "sign\u012Bs"
+    parent: signum
+  - question: akk pl
+    answer: signa
+    parent: signum
+  - question: abl pl
+    answer: "sign\u012Bs"
+    parent: signum
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 2-o
+  genus: n
+- question: "l\u012Btus"
+  children:
+  - question: nom sg
+    answer: "l\u012Btus"
+    parent: "l\u012Btus"
+  - question: gen sg
+    answer: "l\u012Btoris"
+    parent: "l\u012Btus"
+  - question: dat sg
+    answer: "l\u012Btor\u012B"
+    parent: "l\u012Btus"
+  - question: akk sg
+    answer: "l\u012Btus"
+    parent: "l\u012Btus"
+  - question: abl sg
+    answer: "l\u012Btore"
+    parent: "l\u012Btus"
+  - question: nom pl
+    answer: "l\u012Btora"
+    parent: "l\u012Btus"
+  - question: gen pl
+    answer: "l\u012Btorum"
+    parent: "l\u012Btus"
+  - question: dat pl
+    answer: "l\u012Btoribus"
+    parent: "l\u012Btus"
+  - question: akk pl
+    answer: "l\u012Btora"
+    parent: "l\u012Btus"
+  - question: abl pl
+    answer: "l\u012Btoribus"
+    parent: "l\u012Btus"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 3-konsonant
+  genus: n
+- question: impetus
+  children:
+  - question: nom sg
+    answer: impetus
+    parent: impetus
+  - question: gen sg
+    answer: "impet\u016Bs"
+    parent: impetus
+  - question: dat sg
+    answer: "impetu\u012B"
+    parent: impetus
+  - question: akk sg
+    answer: impetum
+    parent: impetus
+  - question: abl sg
+    answer: "impet\u016B"
+    parent: impetus
+  - question: nom pl
+    answer: "impet\u016Bs"
+    parent: impetus
+  - question: gen pl
+    answer: impetuum
+    parent: impetus
+  - question: dat pl
+    answer: impetibus
+    parent: impetus
+  - question: akk pl
+    answer: "impet\u016Bs"
+    parent: impetus
+  - question: abl pl
+    answer: impetibus
+    parent: impetus
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 4-u
+  genus: m
+- question: fuga
+  children:
+  - question: nom sg
+    answer: fuga
+    parent: fuga
+  - question: gen sg
+    answer: fugae
+    parent: fuga
+  - question: dat sg
+    answer: fugae
+    parent: fuga
+  - question: akk sg
+    answer: fugam
+    parent: fuga
+  - question: abl sg
+    answer: "fug\u0101"
+    parent: fuga
+  - question: nom pl
+    answer: fugae
+    parent: fuga
+  - question: gen pl
+    answer: fugarum
+    parent: fuga
+  - question: dat pl
+    answer: "fug\u012Bs"
+    parent: fuga
+  - question: akk pl
+    answer: "fug\u0101s"
+    parent: fuga
+  - question: abl pl
+    answer: "fug\u012Bs"
+    parent: fuga
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 1-a
+  genus: f
+- question: eques
+  children:
+  - question: nom sg
+    answer: eques
+    parent: eques
+  - question: gen sg
+    answer: equitis
+    parent: eques
+  - question: dat sg
+    answer: "equit\u012B"
+    parent: eques
+  - question: akk sg
+    answer: equitem
+    parent: eques
+  - question: abl sg
+    answer: equite
+    parent: eques
+  - question: nom pl
+    answer: "equit\u0113s"
+    parent: eques
+  - question: gen pl
+    answer: equitum
+    parent: eques
+  - question: dat pl
+    answer: equitibus
+    parent: eques
+  - question: akk pl
+    answer: "equit\u0113s"
+    parent: eques
+  - question: abl pl
+    answer: equitibus
+    parent: eques
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 3-konsonant
+  genus: m
+- question: cursus
+  children:
+  - question: nom sg
+    answer: cursus
+    parent: cursus
+  - question: gen sg
+    answer: "curs\u016Bs"
+    parent: cursus
+  - question: dat sg
+    answer: "cursu\u012B"
+    parent: cursus
+  - question: akk sg
+    answer: cursum
+    parent: cursus
+  - question: abl sg
+    answer: "curs\u016B"
+    parent: cursus
+  - question: nom pl
+    answer: "curs\u016Bs"
+    parent: cursus
+  - question: gen pl
+    answer: cursuum
+    parent: cursus
+  - question: dat pl
+    answer: cursibus
+    parent: cursus
+  - question: akk pl
+    answer: "curs\u016Bs"
+    parent: cursus
+  - question: abl pl
+    answer: cursibus
+    parent: cursus
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 4-u
+  genus: m
+- question: "\u012Bnsula"
+  children:
+  - question: nom sg
+    answer: "\u012Bnsula"
+    parent: "\u012Bnsula"
+  - question: gen sg
+    answer: "\u012Bnsulae"
+    parent: "\u012Bnsula"
+  - question: dat sg
+    answer: "\u012Bnsulae"
+    parent: "\u012Bnsula"
+  - question: akk sg
+    answer: "\u012Bnsulam"
+    parent: "\u012Bnsula"
+  - question: abl sg
+    answer: "\u012Bnsul\u0101"
+    parent: "\u012Bnsula"
+  - question: nom pl
+    answer: "\u012Bnsulae"
+    parent: "\u012Bnsula"
+  - question: gen pl
+    answer: "\u012Bnsul\u0101rum"
+    parent: "\u012Bnsula"
+  - question: dat pl
+    answer: "\u012Bnsul\u012Bs"
+    parent: "\u012Bnsula"
+  - question: akk pl
+    answer: "\u012Bnsul\u0101s"
+    parent: "\u012Bnsula"
+  - question: abl pl
+    answer: "\u012Bnsul\u012Bs"
+    parent: "\u012Bnsula"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 1-a
+  genus: f
+- question: proelium
+  children:
+  - question: nom sg
+    answer: proelium
+    parent: proelium
+  - question: gen sg
+    answer: "proeli\u012B"
+    parent: proelium
+  - question: dat sg
+    answer: "proeli\u014D"
+    parent: proelium
+  - question: akk sg
+    answer: proelium
+    parent: proelium
+  - question: abl sg
+    answer: "proeli\u014D"
+    parent: proelium
+  - question: nom pl
+    answer: proelia
+    parent: proelium
+  - question: gen pl
+    answer: "proeli\u014Drum"
+    parent: proelium
+  - question: dat pl
+    answer: "proeli\u012Bs"
+    parent: proelium
+  - question: akk pl
+    answer: proelia
+    parent: proelium
+  - question: abl pl
+    answer: "proeli\u012Bs"
+    parent: proelium
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 2-o
+  genus: n
+- question: "l\u0113g\u0101tus"
+  children:
+  - question: nom sg
+    answer: "l\u0113g\u0101tus"
+    parent: "l\u0113g\u0101tus"
+  - question: gen sg
+    answer: "l\u0113g\u0101t\u012B"
+    parent: "l\u0113g\u0101tus"
+  - question: dat sg
+    answer: "l\u0113g\u0101t\u014D"
+    parent: "l\u0113g\u0101tus"
+  - question: akk sg
+    answer: "l\u0113g\u0101tum"
+    parent: "l\u0113g\u0101tus"
+  - question: abl sg
+    answer: "l\u0113g\u0101t\u014D"
+    parent: "l\u0113g\u0101tus"
+  - question: nom pl
+    answer: "l\u0113g\u0101t\u012B"
+    parent: "l\u0113g\u0101tus"
+  - question: gen pl
+    answer: "l\u0113g\u0101t\u014Drum"
+    parent: "l\u0113g\u0101tus"
+  - question: dat pl
+    answer: "l\u0113g\u0101t\u012Bs"
+    parent: "l\u0113g\u0101tus"
+  - question: akk pl
+    answer: "l\u0113g\u0101t\u014Ds"
+    parent: "l\u0113g\u0101tus"
+  - question: abl pl
+    answer: "l\u0113g\u0101t\u012Bs"
+    parent: "l\u0113g\u0101tus"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 2-o
+  genus: m
+- question: "p\u0101x"
+  children:
+  - question: nom sg
+    answer: "p\u0101x"
+    parent: "p\u0101x"
+  - question: gen sg
+    answer: "p\u0101cis"
+    parent: "p\u0101x"
+  - question: dat sg
+    answer: "p\u0101c\u012B"
+    parent: "p\u0101x"
+  - question: akk sg
+    answer: "p\u0101cem"
+    parent: "p\u0101x"
+  - question: abl sg
+    answer: "p\u0101ce"
+    parent: "p\u0101x"
+  - question: nom pl
+    answer: "pac\u0113s"
+    parent: "p\u0101x"
+  - question: gen pl
+    answer: "p\u0101cum"
+    parent: "p\u0101x"
+  - question: dat pl
+    answer: "p\u0101cibus"
+    parent: "p\u0101x"
+  - question: akk pl
+    answer: "p\u0101c\u0113s"
+    parent: "p\u0101x"
+  - question: abl pl
+    answer: "p\u0101cibus"
+    parent: "p\u0101x"
+  subject: Latein
+  module: Grundlagen Latein
+  topic: Deklination
+  unit: '6'
+  decl_class: 3-konsonant
   genus: f
