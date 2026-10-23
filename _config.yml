@@ -42,6 +42,8 @@ collections:
     output: false
   poli_sci:
     output: false
+  latin:
+    output: false
 
 defaults:
   - scope:
@@ -91,7 +93,6 @@ callouts:
   warning:
     title: Warning
     color: red
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

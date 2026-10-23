@@ -1,4 +1,6 @@
-<!--  -->
+---
+published: false
+---
 ## Deklination
 
 {% assign test = site.data.latin.grammar.declinations %}
