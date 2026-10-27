@@ -6,6 +6,10 @@ parent: Latein
 # published: false
 ---
 
+
+1. TOC
+{:toc}
+
 {: .important-title }
 >FYI
 >
@@ -44,6 +48,129 @@ Deklinationsklassen sind:
 
 5. e-Deklination
     ---> Substandiva, die im Nominativ singular ein langes **e** ind der Endung haben
+
+## Deklinationsklassen
+
+Im diesem Kapitel werde ich die verschiedenen Deklinationsklassen festhalten jeweils mit Informationen zu den wichtigsten Eigenschaften und der Tabelle, welche die Wortendungen je nach Fall zeigt.
+
+*Eine Tabelle, die alle Informationen zu den Klassen dieses Kapitels kombiniert, ist im [Tabellenverzeichnis]({{site.baseurl}}/latin#decl-table) hinterlegt.*
+
+### 1. Deklination
+
+{% include content/decl_class_table.md decls=decls num=1%}
+
+Bei der a Deklination handelt es sich immer um weibliche Wörter. Speziell anzumerken ist hier nur, folgendes:
+
+- Gen Sg = Dat Sg = Nom Pl
+
+- Dat Pl = Abl Pl
+
+### 2. Deklination
+
+{% include content/decl_class_table.md decls=decls num=2%}
+
+Die zweite Deklination, auch o-Deklination genannt, umfasst die allermeisten Wörter, die mit `-us` oder `-um` enden im Nom Sg. Die `-us` Wörter sind maskulin, während `-um` neutra wörter sind.
+
+Im Singular spielt dies grösstenteils keine Rolle, der einzige Unterschied ist im Nom Sg, ansonsten sehen die deklinierten Formen in der Einzahl fast gleich aus.
+
+Im Plural ist dies allerdings schon etwas anders: Neutra Wörter müssen im NomPl und AkkPl nämlich immer mit einem `a` enden, was man hier sieht.
+
+- O-mask.
+  - Gen Sg = Nom Pl
+
+  - Dat Sg = Abl Sg
+  
+  - Dat Pl = Abl Pl
+
+- O-neutr.
+  - Dat Sg = Abl Sg
+
+  - Dat Pl = Abl Pl
+
+  - Nom Pl = Akk Pl => Endung auf `a`
+
+### 3. Deklination
+
+Die dritte Deklination hat sehr viele Untergruppierungen, weshalb ich vorerst nur die Gemeinsamkeiten hervorheben möchte.
+
+- `Gen Sg` bei allen `-is`
+- `Dat Sg` bei alen `-i`
+- `Dat Pl` = `Abl Pl` => bei allen `-ibus`
+- `Gen Pl` bei allen entweder `um` oder `ium`
+- `Nom Pl` = `Akk Pl` => gilt bei allen
+
+{% include content/decl_class_table.md decls=decls num=3%}
+
+#### 3a. Konsonantische Deklination
+
+Die Konsonantische Deklination ändert sich für alle drei Genera m/f/n.
+
+Spezielle Gemeinsamkeiten dieser Unterkategorie:
+
+- `Nom Sg` keine Endung
+
+- `Abl Sg` bei allen `e`
+
+- m und f fast überall gleich ***ausser*** `Gen Pl`. Dort hat f `-ium` und m hat `-um`.
+
+#### 3b. i Deklination
+
+Hier gibt es wiederum zwei Klassen, je nach Geschlecht des Nomens.
+
+- m/f
+  - `Nom Sg` = `Gen Sg` => `-is`
+  - `Dat Sg` = `Abl Sg` => `-ī`
+
+- neutra
+  - `Nom Pl` = `Akk Pl` => `-ia` (Neutraregel, auf a enden)
+  - `Nom Sg` = `Akk Sg` => `-e`
+
+- beide Klassen gemeinsam
+  - `Dat Sg` = `Abl Sg` => `-ī`
+  - `Gen Pl` = `-ium`
+
+#### 3c. Gemischte Deklination
+
+Diese Deklination ist etwas speziell, sie übernimmt Elemente der anderen Subtypen aus der dritten Deklination. So ergibt sich folgende Zusammenstellung:
+
+- Gleich wie bei `i`-Deklination (m/f)
+  - `Nom Sg`
+  - `Gen Sg`
+  - `Dat sg`
+- Gleich wie bei `konson.`-Deklination (f)
+  - `Akk Sg`
+  - `Abl Sg`
+  - `Nom Pl`
+  - `Gen Pl`
+  - `Dat Pl`
+  - `Akk Pl`
+  - `Abl Pl`
+
+### 4. Deklination
+
+{% include content/decl_class_table.md decls=decls num=4%}
+
+Die `u`-Deklination hat zwei Subtypen, je nachdem ob das Wort, um das es sich handelt, männlich oder neutra ist. Es gibt nur wenige Ausnahmen von Wörtern der u Deklination, deren Geschlecht nicht zur Deklinationsklasse passt (z.B. manus, die Hand, ein weibliches Wort).
+
+Spezielles hier:
+
+- U(mask)
+  - `Gen Sg = Nom Pl = Akk Pl` => `-ūs`
+
+- U(neutr)
+  - `Nom Sg = Dat Sg = Akk Sg = Abl Sg` => `-ū`
+  - `Nom Pl = Akk Pl` => `-ua` (Neutraregel, muss auf a enden)
+
+- beide Subtypen
+  - `Gen Sg` => `-ūs`
+  - `Gen Pl` => `-uum`
+  - `Dat Pl = Abl Pl` => `-ibus`
+
+### 5. Deklination
+
+{% include content/decl_class_table.md decls=decls num=5%}
+
+Die `ē`-Deklination kennt Unterteilungen, da die meisten Wörter weiblich sind.
 
 ## Deklinationsklassen von Substantiva bestimmen
 

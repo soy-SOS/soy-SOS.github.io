@@ -23,184 +23,197 @@ all_types:
   - &a0
     name: a
     number: 1
+    example: puella
     forms:
-      - nom_sg: a
-      - gen_sg: ae
-      - dat_sg: ae
-      - akk_sg: am
-      - abl_sg: a
-      - nom_pl: ae
-      - gen_pl: arum
-      - dat_pl: is
-      - akk_pl: as
-      - abl_pl: is
+      - a
+      - ae
+      - ae
+      - am
+      - ā
+      - ae
+      - ārum
+      - īs
+      - ās
+      - īs
   # 1
   - &o1
     name: o
     number: 2
-    subtype: masc
+    subtype: maskulin
+    example: amicus
     forms:
-      - nom_sg: us
-      - gen_sg: i
-      - dat_sg: o
-      - akk_sg: um
-      - abl_sg: o
-      - nom_pl: i
-      - gen_pl: orum
-      - dat_pl: is
-      - akk_pl: os
-      - abl_pl: is
+      - us
+      - ī
+      - ō
+      - um
+      - ō
+      - ī
+      - ōrum
+      - īs
+      - ōs
+      - īs
   # 2
   - &o2
     name: o
     number: 2
+    subtype: neutrum
+    example: verbum
     forms:
-      - nom_sg: um
-      - gen_sg: i
-      - dat_sg: o
-      - akk_sg: um
-      - abl_sg: o
-      - nom_pl: a
-      - gen_pl: orum
-      - dat_pl: is
-      - akk_pl: a
-      - abl_pl: is
+      - um
+      - ī
+      - ō
+      - um
+      - ō
+      - a
+      - ōrum
+      - īs
+      - a
+      - īs
   # 3
   - &k3
     name: konsonantisch
-    subtype: kurz-e
+    subtype: maskulin
+    example: rex
     number: 3
     forms:
-      - nom_sg: ""
-      - gen_sg: is
-      - dat_sg: i
-      - akk_sg: em
-      - abl_sg: e
-      - nom_pl: es
-      - gen_pl: um
-      - dat_pl: ibus
-      - akk_pl: es
-      - abl_pl: ibus
+      - ""
+      - is
+      - ī
+      - em
+      - e
+      - ēs
+      - um
+      - ibus
+      - ēs
+      - ibus
+  #
+  - name: konsonantisch
+    subtype: feminin
+    example: nox
+    number: 3
+    forms:
+      - ""
+      - is
+      - ī
+      - em
+      - e
+      - ēs
+      - ium
+      - ibus
+      - ēs
+      - ibus
   # 4
   - &k4
     name: konsonantisch
-    subtype: i
+    subtype: neutrum
     number: 3
+    example: nomen
     forms:
-      - nom_sg: ""
-      - gen_sg: is
-      - dat_sg: i
-      - akk_sg: ""
-      - abl_sg: e
-      - nom_pl: a
-      - gen_pl: um
-      - dat_pl: ibus
-      - akk_pl: a
-      - abl_pl: ibus
+      - ""
+      - is
+      - i
+      - ""
+      - e
+      - a
+      - um
+      - ibus
+      - a
+      - ibus
   # 5
-  - &i5
+  - &i7
     name: i
     example: turris
+    subtype: m/f
     number: 3
     forms:
-      - nom_sg: is
-      - gen_sg: is
-      - dat_sg: i
-      - akk_sg: im
-      - abl_sg: i
-      - nom_pl: es
-      - gen_pl: ium
-      - dat_pl: ibus
-      - akk_pl: es
-      - abl_pl: ibus
+      - is
+      - is
+      - ī
+      - im
+      - ī
+      - ēs
+      - ium
+      - ibus
+      - ēs
+      - ibus
   # 6
-  - &i6
+  - &i7
     name: i
-    subtype: rein i
+    subtype: neutrum
     example: mare
     number: 3
     forms:
-      - nom_sg: e
-      - gen_sg: is
-      - dat_sg: i
-      - akk_sg: e
-      - abl_sg: i
-      - nom_pl: ia
-      - gen_pl: ium
-      - dat_pl: ibus
-      - akk_pl: ia
-      - abl_pl: ibus
+      - e
+      - is
+      - ī
+      - e
+      - ī
+      - ia
+      - ium
+      - ibus
+      - ia
+      - ibus
   # 7
-  - &m7
-    name: gemischt
+  - name: gemischt
     example: navis
     number: 3
     forms:
-      - nom_sg: is
-      - gen_sg: is
-      - dat_sg: i
-      - akk_sg: em
-      - abl_sg: e
-      - nom_pl: es
-      - gen_pl: ium
-      - dat_pl: ibus
-      - akk_pl: es
-      - abl_pl: ibus
+      - is
+      - is
+      - ī
+      - em
+      - e
+      - ēs
+      - ium
+      - ibus
+      - ēs
+      - ibus
   # 8
-  - &u8
+  - &u9
     name: u
-    subtype: us
+    subtype: maskulin
     example: portus
     number: 4
     forms:
-      - nom_sg: us
-      - gen_sg: us
-      - dat_sg: ui
-      - akk_sg: um
-      - abl_sg: u
-      - nom_pl: us
-      - gen_pl: uum
-      - dat_pl: ibus
-      - akk_pl: us
-      - abl_pl: ibus
+      - us
+      - ūs
+      - uī
+      - um
+      - ū
+      - ūs
+      - uum
+      - ibus
+      - ūs
+      - ibus
   # 9
   - &u9
     name: u
-    subtype: u
+    subtype: neutrum
     example: cornu
     number: 4
     forms:
-      - nom_sg: u
-      - gen_sg: us
-      - dat_sg: u
-      - akk_sg: u
-      - abl_sg: u
-      - nom_pl: ua
-      - gen_pl: uum
-      - dat_pl: ibus
-      - akk_pl: ua
-      - abl_pl: ibus
+      - ū
+      - ūs
+      - ū
+      - ū
+      - ū
+      - ua
+      - uum
+      - ibus
+      - ua
+      - ibus
   # 10
-  - &e10
-    name: e
+  - name: e
     number: 5
     example: res
     forms:
-      - nom_sg: es
-      - gen_sg: ei
-      - dat_sg: ei
-      - akk_sg: em
-      - abl_sg: e
-      - nom_pl: es
-      - gen_pl: erum
-      - dat_pl: ebus
-      - akk_pl: es
-      - abl_pl: ebus
-
-a: [*a0]
-o: [*o1, *o2]
-consonant: [*k3, *k4]
-i: [*i5, *i6]
-mixed: [*m7]
-u: [*u8, *u9]
-e: [*e10]
+      - ēs
+      - eī
+      - eī
+      - em
+      - ē
+      - ēs
+      - ērum
+      - ēbus
+      - ēs
+      - ēbus

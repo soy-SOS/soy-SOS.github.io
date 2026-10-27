@@ -1,0 +1,69 @@
+---
+title: Deklinationstabelle
+name: decl-table
+type: table
+---
+{% assign decls = site.data.latin.grammar.declinations %}
+
+{% assign kasi = "Nom Sg,Gen Sg,Dat Sg,Akk Sg,Abl Sg,Nom Pl,Gen Pl,Dat Pl,Akk Pl,Abl Pl" | split: ","%}
+<style>
+  th {
+    min-width: min-content;
+  }
+
+  td {
+    min-width: min-content;
+  }
+</style>
+<table style="border-spacing: 0px; word-spacing: 0%;">
+  <thead>
+    <tr>
+      <th style="empty-cells: hide;"></th>
+      {%for i in (1..5)%}
+      {% assign subtypecount = decls.all_types | where: "number", i | size %}
+      <th style="text-decoration: underline;" colspan="{{subtypecount}}">{{i}}. Dekl.</th>
+      {%endfor%}
+    </tr>
+  </thead>
+  <tbody style="width: fit-content;">
+    <tr>
+      <td style="empty-cells: hide;"></td>
+      {% for i in (1..5) %}
+      {% assign declnames = decls.all_types | where: "number", i %}
+      {% assign dedupnames = declnames | map: "name" | uniq %}
+      {% for name in dedupnames %}
+      {% assign occurrences = declnames | where: "name", name %}
+      <td colspan="{{occurrences | size}}" style="text-align: center;font-weight: bold;">
+        {{name}}
+      </td>
+      {%endfor%}
+      {%endfor%}
+    </tr>
+    <tr>
+      <td style="font-style: italic;">
+        <b>Subtyp</b> <br>
+        *Bsp*
+      </td>
+      {% for i in (1..5) %}
+      {% assign declitems = decls.all_types | where: "number", i %}
+      {% for item in declitems %}
+      <td colspan="1" style="font-style: italic;">
+        <b>{{item.subtype}}</b> <br>
+        *{{item.example}}*
+      </td>
+      {%endfor%}
+      {%endfor%}
+    </tr>
+    {% assign borderstyle = 'style="border-top: 3px dotted grey"'%}
+    {% assign style = "" %}
+    {%for i in (0..9)%}
+    {% if i == 0 or i == 5 %}{%assign style = borderstyle%}{%else%}{%assign style = ""%}{%endif%}
+    <tr>
+      <td {{style}}>{{kasi[i]}}</td>
+      {% for elem in decls.all_types %}
+      <td {{style}}>{{elem.forms[i]}}</td>
+      {%endfor%}
+    </tr>
+    {%endfor%}
+  </tbody>
+</table>
