@@ -2,6 +2,7 @@
 title: Konjugation
 parent: Latein
 has_toc: true
+published: false
 ---
 
 
