@@ -13,6 +13,7 @@ auth_info:
       befasste er sich insbesondere mit europäischer Aufklärung, Theorie der
       Geschichtswissenschaft und Begriffsgeschichte. Er arbeitete als
       Professor an den Universitäten Heidelberg, Bielefeld und Bochum..
+page_count: 12
 ---
 
 Im Aufsatz *Archivalien - Quellen -

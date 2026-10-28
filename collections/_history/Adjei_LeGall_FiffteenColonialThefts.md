@@ -11,6 +11,7 @@ auth_info:
   - name: LeGall, Yann
     info: >-
       [Dr Yann LeGall](https://www.tu.berlin/en/kuk/ueber-uns/team/wissenschaftliche-mitarbeiterinnen/dr-yann-legall) doktorierte an der Universität Potsdam. Seine Dissertation, in Kollaboration mit Mnyaka Mboro behandelt Erinnerungskulturen während und nach der Rückführung menschlicher Überreste zu afrikanischen Gemeinschaften. Er ist aktuell an der Technischen Universität Berlin als wissenschaftlicher Mitarbeiter in Kunstgeschichte tätig.
+page_count: 17
 ---
 
 Adjel und LeGall untersuchen in ihrer Forschung die Welt der *ethnographischen* Museen, ihre kolonialen Geschichte und somit auch ihre inherent koloniale Grundstruktur.

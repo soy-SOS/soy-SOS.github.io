@@ -8,6 +8,7 @@ auth_info:
   - name: Purtschert, Patricia
     info: >-
       [Prof Dr Patricia Purtschert](https://de.wikipedia.org/wiki/Patricia_Purtschert) is eine schweizer Philosophin, Kulturwissenschaftlerin und Geschlechterforscherin. Sie habilitierte an der Universität Luzern im Fach Kulturwissenschaften und ist Professorin an der Universität Bern für interdisziplinäre Geschlechterforschung. In ihrer Forschung behandelt sie vor allem Geschlechterdynamiken und postkoloniale Theorie in Zusammenhang mit der Schweiz.
+page_count: 28
 ---
 
 (Leseauftrag Seiten 89-116)

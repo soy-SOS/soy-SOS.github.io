@@ -8,6 +8,7 @@ auth_info:
   - name: Savoy, Benedicte
     info: >-
       [**Prof Dr Benedicte Savoy**](https://www.tu.berlin/en/kuk/ueber-uns/team/leitung/prof-dr-benedicte-savoy) ist eine französische Kunsthistorikerin mit einem Fokus auf Kunst- und Kulturtransfer im Europa des 18./19. Jahrhunderts, Museumsgeschichte, Französisch-Deutsche Verhältnisse und Kunstraub. Im Jahr 2018 war sie Hauptberaterin Emmanuel Macrons mit der Auseinandersetzung mit Reparationen für die Raubzüge der Kolonialmächte auf dem afrikanischen Kontinent.
+page_count: 18
 ---
 
 Savoy behandelt den Umgang und Diskurs um Raubbestände in Museen. Hier geht er auf die Geschichte und Entstehung der Restitutionsforderungen ein und wie sich asymmetrische Verhätnisse auch im postkolonialen Zeitalter äussern.

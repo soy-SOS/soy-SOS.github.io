@@ -8,6 +8,7 @@ auth_info:
   - name: Coombes, Annie E.
     info: >-
       [Prof Dr Annie E. Coombes](https://www.bbk.ac.uk/about-us/fellows/annie-coombes) ist eine in Deutschland geborene Kunsthistorikerin der Neuzeit. Sie ist Professorin an der University of London und beschäftigt sich in ihrer Arbeit vor allem mit Kunstgeschichte im Kontext mit kolonialen Raubgütern und Museumsgeschichte.
+page_count: 20
 ---
 
 In Coombes Text steht insbesondere die Konstruktion populärer und "wissenschaftlicher" Narrative, ihre Beabsichtigung und ihre Konsequenz im Vordergrund. Hierfür wird die britische Geschichtsauffassung Benins mit den historischen Tatsachen und neueren Befunden in Verbindung gebracht. Motivationen und Tathergänge zur Gewaltausübung und zum berüchtigten Raub der Benin Bronzen werden aus neuerer Sicht beschrieben und der zeitgenössischen Darstellung gegenübergestellt.

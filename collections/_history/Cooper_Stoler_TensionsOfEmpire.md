@@ -11,6 +11,7 @@ auth_info:
   - name: Cooper, Frederick
     info: >-
       [Prof Dr Frederick Cooper](https://as.nyu.edu/faculty/frederick-cooper.html?challenge=d06e90d7-4d8f-4b88-9d8c-10b73beb60f1) ist ein Historiker der Neuzeit. Er ist Professor an der New York University und fokussiert sich in seiner Arbeit insbesondere auf Imperialgeschichte, modernes Afrika, Kolonialisierung und Dekolonialisierung.
+page_count: 12
 ---
 
 Die Lektüre nimmt sich zum Ziel

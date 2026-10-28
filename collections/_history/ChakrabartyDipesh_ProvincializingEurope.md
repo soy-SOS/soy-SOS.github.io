@@ -9,6 +9,7 @@ auth_info:
   - name: Chakrabarty, Dipesh
     info: >-
       [Prof Dr Dipesh Chakrabarty](https://en.wikipedia.org/wiki/Dipesh_Chakrabarty) ist ein indischer Historiker. Er ist einer der führenden Forschenden im Bereich der Postkolonialgeschichte. Er studierte Physik am Presidency College, erlangte ein MBA und promovierte an der University of Canberra in Geschichte.
+page_count: 4
 ---
 
 Im Text von Chakrabarty wurden die Seiten drei bis sechs gelesen

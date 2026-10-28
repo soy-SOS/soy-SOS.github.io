@@ -61,6 +61,7 @@ defaults:
         - name: ADD NAME
           info: ADD INFO
       status: TODO
+      page_count: 0
   - scope:
       path: ""
       type: "poli_sci"
