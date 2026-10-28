@@ -13,7 +13,7 @@
   {% assign items = items | reverse %}
 {% endif %}
 
-{% assign url = site.baseurl | append: "/" | append: include.subject %}
+{% assign url = site.url | append: site.baseurl | append: "/" | append: include.subject %}
 
 | Datum, Status | Modul | Author | Jahr:Titel |
 | :-: | :-- | :------- | :------------------ |
