@@ -3,7 +3,7 @@ heading: Postkoloniale Schweiz, 'Schorsch Gaggo reist uf Afrika'
 year: 2003
 module: bm1
 assignment_date: 2026-10-28
-status: TODO
+status: DONE
 auth_info:
   - name: Purtschert, Patricia
     info: >-
