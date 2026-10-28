@@ -1,6 +1,6 @@
 ---
 heading: Postkoloniale Schweiz, 'Schorsch Gaggo reist uf Afrika'
-year: 2003
+year: 2012
 module: bm1
 assignment_date: 2026-10-28
 status: DONE
