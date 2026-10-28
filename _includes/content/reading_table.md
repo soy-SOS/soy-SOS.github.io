@@ -13,11 +13,15 @@
   {% assign items = items | reverse %}
 {% endif %}
 
-{% assign url = site.url | append: site.baseurl | append: "/" | append: include.subject %}
+{% assign inc_url = site.baseurl | append: "/" | append: include.subject %}
 
 | Datum, Status | Modul | Author | Jahr:Titel |
 | :-: | :-- | :------- | :------------------ |
 | {% for i in items%}{%
+
+    if include.subject == nil
+    %}{% assign url = site.baseurl | append: i.subject %}{%
+    else %}{% assign url = inc_url %}{%endif%}{%
 
     include content/date_label.md item=i url=url -%} | {{
     i.module | upcase }} | {{
