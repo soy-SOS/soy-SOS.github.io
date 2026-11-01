@@ -19,7 +19,7 @@ classes:
     plusquamperfect: *a_pqp_endings
   - class: 3
     name: iō
-    present: [iō, is, it, imus, itis, unt]
+    present: [ō, s, t, mus, tis, unt]
     imperfect: *e_imperfect_endings
     perfect: *a_perfect_endings
     plusquamperfect: *a_pqp_endings
@@ -106,7 +106,7 @@ verbs:
     meanings: [machen, tun, handeln]
     class: 3
     subtype: iō
-    stem: { present: fac, perfect: fēc }
+    stem: { present: faci, perfect: fēc }
   - infinitive: dēbēre
     unit: 1
     meanings: [müssen, schulden]
@@ -173,7 +173,7 @@ verbs:
     meanings: [fassen / nehmen / ergreifen, erhalten, erobern]
     class: 3
     subtype: iō
-    stem: { present: cap, perfect: cēp }
+    stem: { present: capi, perfect: cēp }
   - infinitive: occīdere
     unit: 2
     meanings: [niederschlagen, töten]
@@ -370,7 +370,7 @@ verbs:
     meanings: [anfangen, beginnen]
     class: 3
     subtype: iō
-    stem: { present: incip, perfect: coep }
+    stem: { present: incipi, perfect: coep }
   - infinitive: surgere
     unit: 5
     meanings: [aufstehen, sich erheben]
@@ -394,7 +394,7 @@ verbs:
     meanings: [erblicken]
     class: 3
     subtype: iō
-    stem: { present: cōnspic, perfect: cōnspex }
+    stem: { present: cōnspici, perfect: cōnspex }
   - infinitive: iactāre
     unit: 6
     meanings: [werfen, schleudern]
@@ -432,7 +432,7 @@ verbs:
     meanings: [sich zurückziehen]
     class: 3
     subtype: iō
-    stem: { present: recip, perfect: recēp }
+    stem: { present: recipi, perfect: recēp }
   - infinitive: administrāre
     unit: 6
     meanings: [verwalten, verrichten]
