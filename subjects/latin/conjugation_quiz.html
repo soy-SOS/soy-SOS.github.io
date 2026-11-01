@@ -1,0 +1,53 @@
+---
+layout: page
+title: Verben Konjugieren
+parent: Latein
+permalink: /latin/quiz/verbs-conj
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="{{site.baseurl}}/assets/js/quiz_filter.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+</head>
+
+<body>
+  {% assign questions = site.data.quiz.latin.voci_verb_forms %}
+
+  <button onclick="loadcon(50)">Wähle 50 zufällige Items aus.</button>
+  <button onclick="switchBack()">Tausche Vorder- und Rückseite</button>
+
+  <div class="flashcard-container conjugate">
+    {% for q in questions %}
+    {% assign front = "{{q[0]}}<br>{{q[3]}} {{q[4]}}" %}
+    {% assign back = "{{q[1]}}<br>{{q[5]}}" %}
+    <div class="card conjugations" id="{{forloop.index0}}" onclick="this.classList.toggle('flipped')">
+      <p class="unit"></p>
+      <div class="card-inner">
+        <div class="card-front">
+          <p class="question-text">
+            <i>{{q[0]}}</i><br>{{q[3]}} {{q[4]}}
+          </p>
+        </div>
+        <div class="card-back">
+          <p style="font-size: small;font-weight:normal;"><i>{{q[1] | join: ", "}}</i></p>
+          <p style="font-weight:normal;">
+            <b>{{q[5]}}</b>
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+
+
+
+</body>
+
+</html>

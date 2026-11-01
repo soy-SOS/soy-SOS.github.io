@@ -1,0 +1,405 @@
+classes:
+  - class: 1
+    name: ā
+    present: [ō, ās, at, āmus, ātis, ant]
+    imperfect: [ābam, ābas, ābat, ābamus, ābatis, ābant]
+    perfect: &a_perfect_endings [ī, istī, it, imus, istis, ērunt]
+  - class: 2
+    name: ē
+    present: [eō, ēs, et, ēmus, ētis, ent]
+    imperfect: &e_imperfect_endings [ēbam, ēbās, ēbat, ēbāmus, ēbātis, ēbant]
+    perfect: *a_perfect_endings
+  - class: 3
+    name: konsonant
+    present: &konsonant_imperfect_endings [ō, is, it, imus, itis, unt]
+    imperfect: *e_imperfect_endings
+    perfect: *a_perfect_endings
+  - class: 3
+    name: iō
+    present: [iō, is, it, imus, itis, unt]
+    imperfect: *e_imperfect_endings
+    perfect: *a_perfect_endings
+  - class: irregular
+    name: irregular
+    present: *konsonant_imperfect_endings
+    imperfect: *e_imperfect_endings
+    perfect: *a_perfect_endings
+  - class: 3
+    name: suppletive
+    present: [ō, s, t, imus, tis, unt]
+    imperfect: *e_imperfect_endings
+    perfect: *a_perfect_endings
+  - class: 4
+    name: ī
+    present: [iō, īs, it, īmus, ītis, iunt]
+    imperfect: [iēbam, iēbās, iēbat, iēbāmus, iēbātis, iēbant]
+    perfect: *a_perfect_endings
+
+time:
+  - name: present
+    display: Präsens
+    stem: present
+  - name: imperfect
+    display: Imperfekt
+    stem: present
+  - name: perfect
+    display: Perfekt
+    stem: perfect
+
+person:
+  - "1. Sg"
+  - "2. Sg"
+  - "3. Sg"
+  - "1. Pl"
+  - "2. Pl"
+  - "3. Pl"
+
+verbs:
+  - infinitive: invītāre
+    unit: 1
+    meanings: [einladen]
+    class: 1
+    stem: { present: invīt, perfect: invītāv }
+  - infinitive: exspectāre
+    unit: 1
+    meanings: [(er)warten]
+    class: 1
+    stem: { present: exspect, perfect: exspectāv }
+  - infinitive: parāre
+    unit: 1
+    meanings: [(vor)bereiten, zubereiten, vorhaben, erwerben]
+    class: 1
+    stem: { present: par, perfect: parāv }
+  - infinitive: dīcere
+    unit: 1
+    meanings: [sagen, sprechen, (be)nennen]
+    class: 3
+    subtype: konsonant
+    stem: { present: dīc, perfect: dīx }
+  - infinitive: venīre
+    unit: 1
+    meanings: [kommen]
+    class: 4
+    stem: { present: ven, perfect: ven }
+  - infinitive: habēre
+    unit: 1
+    meanings: [haben, halten]
+    class: 2
+    stem: { present: hab, perfect: habu }
+  - infinitive: cēnāre
+    unit: 1
+    meanings: [zu Abend essen]
+    class: 1
+    stem: { present: cēn, perfect: cēnāv }
+  - infinitive: facere
+    unit: 1
+    meanings: [machen, tun, handeln]
+    class: 3
+    subtype: iō
+    stem: { present: fac, perfect: fēc }
+  - infinitive: dēbēre
+    unit: 1
+    meanings: [müssen, schulden]
+    class: 2
+    stem: { present: dēb, perfect: dēbu }
+  - infinitive: valēre
+    unit: 1
+    meanings: [gesund / stark sein, Einfluss haben, gelten]
+    class: 2
+    stem: { present: val, perfect: valu }
+  - infinitive: apportāre
+    unit: 1
+    meanings: [(herbei)bringen]
+    class: 1
+    stem: { present: apport, perfect: apportāv }
+  #
+  - infinitive: petere
+    unit: 2
+    meanings:
+      [
+        aufsuchen / sich begeben (nach),
+        verlangen,
+        (er)bitten,
+        streben nach,
+        angreifen,
+      ]
+    class: 3
+    subtype: konsonant
+    stem: { present: pet, perfect: petīv }
+  - infinitive: audīre
+    unit: 2
+    meanings: [hören]
+    class: 4
+    stem: { present: aud, perfect: audīv }
+  - infinitive: labōrāre
+    unit: 2
+    meanings:
+      [
+        sich anstrengen / sich bemühen / arbeiten,
+        in Schwierigeiten sein,
+        leiden,
+      ]
+    class: 1
+    stem: { present: labōr, perfect: labōrāv }
+  - infinitive: agere
+    unit: 2
+    meanings: [tun / handeln, verhandeln]
+    class: 3
+    subtype: konsonant
+    stem: { present: ag, perfect: ēg }
+  - infinitive: putāre
+    unit: 2
+    meanings: [glauben / meinen, halten für]
+    class: 1
+    stem: { present: put, perfect: putāv }
+  - infinitive: lūdere
+    unit: 2
+    meanings: [spielen]
+    class: 3
+    subtype: konsonant
+    stem: { present: lūd, perfect: lūs }
+  - infinitive: capere
+    unit: 2
+    meanings: [fassen / nehmen / ergreifen, erhalten, erobern]
+    class: 3
+    subtype: iō
+    stem: { present: cap, perfect: cēp }
+  - infinitive: occīdere
+    unit: 2
+    meanings: [niederschlagen, töten]
+    class: 3
+    subtype: konsonant
+    stem: { present: occīd, perfect: occīd }
+  - infinitive: possidēre
+    unit: 2
+    meanings: [besitzen]
+    class: 2
+    stem: { present: possid, perfect: possēd }
+  #
+  - infinitive: placēre
+    unit: 3
+    meanings: [gefallen]
+    class: 2
+    stem: { present: plac, perfect: placu }
+  - infinitive: exercēre
+    unit: 3
+    meanings: [sich üben / trainieren, sich quälen]
+    class: 2
+    stem: { present: exerc, perfect: exercu }
+  - infinitive: salīre
+    unit: 3
+    meanings: [springen]
+    class: 4
+    stem: { present: sal, perfect: sali }
+  - infinitive: tacēre
+    unit: 3
+    meanings: [schweigen]
+    class: 2
+    stem: { present: tac, perfect: tacu }
+  - infinitive: clāmāre
+    unit: 3
+    meanings: [rufen, schreien]
+    class: 1
+    stem: { present: clām, perfect: clām }
+  - infinitive: cōgere
+    unit: 3
+    meanings: [zusammentreiben, versammeln, zwingen]
+    class: 3
+    subtype: konsonant
+    stem: { present: cōg, perfect: cōēg }
+  - infinitive: emere
+    unit: 3
+    meanings: [kaufen]
+    class: 3
+    subtype: konsonant
+    stem: { present: em, perfect: ēm }
+  - infinitive: dare
+    unit: 3
+    meanings: [geben]
+    class: irregular
+    present: [dō, dās, dat, damus, datis, dant]
+    imperfect: [dabam, dabās, dabat, dabāmus, dabātis, dabant]
+    perfect: [dedī, dedistī, dedit, dedimus, dedistis, dedērunt]
+    plusquamperfect: [dederam, dederās, dederat, dederāmus, dederātis, dederant]
+    stem: { present: da, perfect: de }
+  - infinitive: tenēre
+    unit: 3
+    meanings: [haben / besitzen, halten / fest- /zurückhalten]
+    class: 2
+    stem: { present: ten, perfect: tenu }
+  #
+  - infinitive: spectāre
+    unit: 4
+    meanings: [betrachten, anschauen]
+    class: 1
+    stem: { present: spect, perfect: spectāv }
+  - infinitive: currere
+    unit: 4
+    meanings: [laufen, eilen, rennen]
+    class: 3
+    subtype: konsonant
+    stem: { present: curr, perfect: cucurr }
+  - infinitive: fugere
+    unit: 4
+    meanings: [vor jdm / etw fliehen, etw vermeiden]
+    class: 3
+    subtype: iō
+    stem: { present: fugi, perfect: fūg }
+  - infinitive: effugere
+    unit: 4
+    meanings: [entfliehen, entkommen]
+    class: 3
+    subtype: iō
+    stem: { present: effugi, perfect: effūg }
+  - infinitive: occĭdere
+    unit: 4
+    meanings: [umkommen / sterben, untergehen]
+    class: 3
+    subtype: konsonant
+    stem: { present: occĭd, perfect: occĭd }
+  - infinitive: timēre
+    unit: 4
+    meanings: [jmd / etw fürchten, sich fürchten vor, Angst haben vor]
+    class: 2
+    stem: { present: tim, perfect: timu }
+  - infinitive: cadere
+    unit: 3
+    meanings: [fallen]
+    class: 3
+    subtype: konsonant
+    stem: { present: cad, perfect: cecid }
+  - infinitive: movēre
+    unit: 4
+    meanings: [bewegen, beeindrucken]
+    class: 2
+    stem: { present: mov, perfect: mov }
+  - infinitive: tegere
+    unit: 4
+    meanings: [bedecken, verbergen, schützen]
+    class: 3
+    subtype: konsonant
+    stem: { present: teg, perfect: tēx }
+  - infinitive: posse
+    unit: 4
+    meanings: [können]
+    class: irregular
+    present: [possum, potes, potest, possumus, potestis, possunt]
+    imperfect: [poteram, poterās, poterat, poterāmus, poterātis, poterant]
+    perfect: [potuī, potuistī, potuit, potuimus, potuistis, potuērunt]
+    plusquamperfect:
+      [potueram, potuerās, potuerat, potuerāmus, potuerātis, potuerant]
+    stem: { present: pot, perfect: potu }
+  - infinitive: pellere
+    unit: 4
+    meanings: [stossen / schlagen, vertreiben, zurückstossen]
+    class: 3
+    subtype: konsonant
+    stem: { present: pell, perfect: pepu }
+  - infinitive: cognōscere
+    unit: 5
+    meanings:
+      [kennenlernen / erkennen / erfahren, "im Perfekt: kennen / wissen"]
+    class: 3
+    subtype: konsonant
+    stem: { present: cognōsc, perfect: cognōv }
+  - infinitive: mittere
+    unit: 5
+    meanings: [schicken, lassen / loslassen / freilassen]
+    class: 3
+    subtype: konsonant
+    stem: { present: mitt, perfect: mīsī }
+  - infinitive: pūgnāre
+    unit: 5
+    meanings: [kämpfen]
+    class: 1
+    stem: { present: pūgn, perfect: pūgnāv }
+  - infinitive: incitāre
+    unit: 5
+    meanings: [erregen, antreiben]
+    class: 1
+    stem: { present: incit, perfect: in-citāv }
+  - infinitive: terrēre
+    unit: 5
+    meanings: [erschrecken / in Schrecken versetzen, einschüchtern]
+    class: 2
+    stem: { present: terr, perfect: terru }
+  - infinitive: aperīre
+    unit: 5
+    meanings: [öffnen, offen darlegen, aufdecken]
+    class: 4
+    stem: { present: aper, perfect: aperu }
+  - infinitive: iubēre
+    unit: 5
+    meanings: [jdn auffordern, jdm befehlen]
+    class: 2
+    stem: { present: iub, perfect: iuss }
+  - infinitive: dubitāre
+    unit: 5
+    meanings: [bezweifeln, zögern]
+    class: 1
+    stem: { present: dubit, perfect: dubitāv }
+  - infinitive: ferre
+    unit: 5
+    meanings: [tragen, bringen]
+    class: 3
+    subtype: suppletive
+    stem: { present: fer, perfect: tul }
+  - infinitive: vocāre
+    unit: 5
+    meanings: [rufen, nennen]
+    class: 1
+    stem: { present: voc, perfect: vocāv }
+  - infinitive: trādere
+    unit: 5
+    meanings: [übergeben, überliefern]
+    class: 3
+    subtype: konsonant
+    stem: { present: trād, perfect: trādid }
+  - infinitive: incipere
+    unit: 5
+    meanings: [anfangen, beginnen]
+    class: 3
+    subtype: iō
+    stem: { present: incip, perfect: coep }
+  - infinitive: surgere
+    unit: 5
+    meanings: [aufstehen, sich erheben]
+    class: 3
+    subtype: konsonant
+    stem: { present: surg, perfect: surrēx }
+  - infinitive: fundere
+    unit: 5
+    meanings: [(aus)giessen, zerstreuen, vertreiben]
+    class: 3
+    subtype: konsonant
+    stem: { present: fund, perfect: fūd }
+  #
+  - infinitive: servāre
+    unit: 6
+    meanings: [bewahren, retten, beobachten]
+    class: 1
+    stem: { present: serv, perfect: servā }
+  - infinitive: cōnspicere
+    unit: 6
+    meanings: [erblicken]
+    class: 3
+    subtype: iō
+    stem: { present: cōnspic, perfect: cōnspex }
+  # - infinitive:
+  #   unit:
+  #   meanings: []
+  #   class:
+  #   stem_present:
+  #   stem_perfect:
+  # - infinitive:
+  #   unit:
+  #   meanings: []
+  #   class:
+  #   stem_present:
+  #   stem_perfect:
+  # - infinitive:
+  #   unit:
+  #   meanings: []
+  #   class:
+  #   stem_present:
+  #   stem_perfect:

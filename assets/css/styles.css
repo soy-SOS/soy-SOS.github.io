@@ -27,6 +27,19 @@ Flashcard Styles
   margin: 5px;
 }
 
+.card.conjugations {
+  margin-top: 0;
+
+  width: 45%;
+  height: 150px;
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+  display: inline-table;
+  justify-items: center;
+  margin: 5px;
+}
+
 .card-inner {
   width: 100%;
   height: inherit;
@@ -76,6 +89,11 @@ Flashcard Styles
   text-align: center;
   justify-content: center;
   align-content: center;
+}
+
+.card-back.conjugations {
+  align-content: end !important;
+  line-height: normal;
 }
 
 

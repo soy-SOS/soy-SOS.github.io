@@ -36,6 +36,7 @@ kramdown:
   gfm_quirks: [paragraph_end]
 
 collections_dir: collections
+plugins_dir: ./_plugins
 
 collections:
   history:
