@@ -307,7 +307,7 @@ verbs:
     meanings: [schicken, lassen / loslassen / freilassen]
     class: 3
     subtype: konsonant
-    stem: { present: mitt, perfect: mīsī }
+    stem: { present: mitt, perfect: mīs }
   - infinitive: pūgnāre
     unit: 5
     meanings: [kämpfen]
@@ -385,21 +385,159 @@ verbs:
     class: 3
     subtype: iō
     stem: { present: cōnspic, perfect: cōnspex }
+  - infinitive: iactāre
+    unit: 6
+    meanings: [werfen, schleudern]
+    class: 1
+    stem: { present: iact, perfect: iactā }
+  - infinitive: complēre
+    unit: 6
+    meanings: [anfüllen, erfüllen]
+    class: 2
+    stem: { present: compl, perfect: complē }
+  - infinitive: cōnsistere
+    unit: 6
+    meanings: [sich aufstellen, stehen bleiben, Halt machen]
+    class: 3
+    subtype: konsonant
+    stem: { present: cōnsist, perfect: cōnsistit }
+  - infinitive: dēesse
+    unit: 6
+    meanings: [fehlen, nicht da sein, jdn im Stick lassen]
+    class: irregular
+    present: [dēsum, dēes, dēest, dēsumus, dēestis, dēsunt]
+    imperfect: [dēeram, dēerās, dēerat, dēerāmus, dēerātis, dēerant]
+    perfect: [dēfuī, dēfuistī, dēfuit, dēfuimus, dēfuistis, dēfuērunt]
+    plusquamperfect:
+      [dēfueram, dēfuerās, dēfuerat, dēfuerāmus, dēfuerātis, dēfuerant]
+    stem: { present: dēe, perfect: dēfu }
+  - infinitive: vincere
+    unit: 6
+    meanings: [siegen, besiegen, übertreffen]
+    class: 3
+    subtype: konsonant
+    stem: { present: vinc, perfect: vic }
+  - infinitive: sē recipere
+    unit: 6
+    meanings: [sich zurückziehen]
+    class: 3
+    subtype: iō
+    stem: { present: recip, perfect: recēp }
+  - infinitive: administrāre
+    unit: 6
+    meanings: [verwalten, verrichten]
+    class: 1
+    stem: { present: administr, perfect: administrāv }
+  #
+  - infinitive: auferre
+    unit: 7
+    meanings: [wegtragen, wegbringen, wegschleppen, rauben]
+    class: 3
+    subtype: suppletive
+    stem: { present: aufer, perfect: abstul }
+  - infinitive: respondēre
+    unit: 7
+    meanings: [antworten]
+    class: 2
+    stem: { present: respond, perfect: respond }
+  - infinitive: prohibēre
+    unit: 7
+    meanings: [abhalten (von), hindern (an)]
+    class: 2
+    stem: { present: prohib, perfect: prohibu }
+  - infinitive: permittere
+    unit: 7
+    meanings: [überlassen, erlauben]
+    class: 3
+    subtype: konsonant
+    stem: { present: permitt, perfect: permīs }
+  - infinitive: nārrāre
+    unit: 7
+    meanings: [erzählen]
+    class: 1
+    stem: { present: nārr, perfect: nārrāv }
+  - infinitive: relinquere
+    unit: 7
+    meanings: [verlassen, zurücklassen, unbeachtet lassen]
+    class: 3
+    subtype: konsonant
+    stem: { present: relinqu, perfect: relīqu }
+  - infinitive: negāre
+    unit: 7
+    meanings: [verneinen, verweigern, sagen dass nicht..., sich weigern]
+    class: 1
+    stem: { present: neg, perfect: negāv }
+  - infinitive: sedēre
+    unit: 7
+    meanings: [sitzen]
+    class: 2
+    stem: { present: sed, perfect: sēd }
+  - infinitive: cōnstituere
+    unit: 7
+    meanings: [aufstellen, festsetzen, beschliessen]
+    class: 3
+    subtype:
+    stem: { present: cōnstitu, perfect: cōnstitu }
+  - infinitive: vincīre
+    unit: 7
+    meanings: [binden, fesseln]
+    class: 4
+    stem: { present: vinc, perfect: vinx }
+  - infinitive: prōmittere
+    unit: 7
+    meanings: [versprechen]
+    class: 3
+    subtype: konsonant
+    stem: { present: prōmitt, perfect: prōmīs }
+  - infinitive: abesse
+    unit: 7
+    meanings: [abwesend sein, fehlen]
+    class: irregular
+    present: [absum, abes, abest, absumus, abestis, absunt]
+    imperfect: [aberam, aberās, aberat, aberāmus, aberātis, aberant]
+    perfect: [āfuī, āfuistī, āfuit, āfuimus, āfuistis, āfuērunt]
+    plusquamperfect: [āfueram, āfuerās, āfuerat, āfuerāmus, āfuerātis, āfuerant]
+    stem: { present: abe, perfect: āfu }
+  - infinitive: committere
+    unit: 7
+    meanings: [stattfinden lassen, beginnen, veranstalten]
+    class: 3
+    subtype: konsonant
+    stem: { present: committ, perfect: commīs }
+    #
   # - infinitive:
   #   unit:
   #   meanings: []
   #   class:
-  #   stem_present:
-  #   stem_perfect:
+  #   stem: { present, perfect }
   # - infinitive:
   #   unit:
   #   meanings: []
   #   class:
-  #   stem_present:
-  #   stem_perfect:
+  #   stem: { present, perfect }
   # - infinitive:
   #   unit:
   #   meanings: []
   #   class:
-  #   stem_present:
-  #   stem_perfect:
+  #   stem: { present, perfect }
+  # - infinitive:
+  #   unit:
+  #   meanings: []
+  #   class:
+  #   stem: { present, perfect }
+  # - infinitive:
+  #   unit:
+  #   meanings: []
+  #   class:
+  #   stem: { present, perfect }
+  # - infinitive:
+  #   unit:
+  #   meanings: []
+  #   class:
+  #   stem: { present, perfect }
+
+  # - infinitive:
+  #   unit:
+  #   meanings: []
+  #   class:
+  #   stem: { present, perfect }
