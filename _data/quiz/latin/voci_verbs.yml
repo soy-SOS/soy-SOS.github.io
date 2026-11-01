@@ -220,7 +220,7 @@ verbs:
     unit: 3
     meanings: [rufen, schreien]
     class: 1
-    stem: { present: clām, perfect: clām }
+    stem: { present: clām, perfect: clāmāv }
   - infinitive: cōgere
     unit: 3
     meanings: [zusammentreiben, versammeln, zwingen]
@@ -314,7 +314,7 @@ verbs:
     meanings: [stossen / schlagen, vertreiben, zurückstossen]
     class: 3
     subtype: konsonant
-    stem: { present: pell, perfect: pepu }
+    stem: { present: pell, perfect: pepul }
   - infinitive: cognōscere
     unit: 5
     meanings:
@@ -398,7 +398,7 @@ verbs:
     unit: 6
     meanings: [bewahren, retten, beobachten]
     class: 1
-    stem: { present: serv, perfect: servā }
+    stem: { present: serv, perfect: servāv }
   - infinitive: cōnspicere
     unit: 6
     meanings: [erblicken]
@@ -409,18 +409,18 @@ verbs:
     unit: 6
     meanings: [werfen, schleudern]
     class: 1
-    stem: { present: iact, perfect: iactā }
+    stem: { present: iact, perfect: iactāv }
   - infinitive: complēre
     unit: 6
     meanings: [anfüllen, erfüllen]
     class: 2
-    stem: { present: compl, perfect: complē }
+    stem: { present: compl, perfect: complēv }
   - infinitive: cōnsistere
     unit: 6
     meanings: [sich aufstellen, stehen bleiben, Halt machen]
     class: 3
     subtype: konsonant
-    stem: { present: cōnsist, perfect: cōnsistit }
+    stem: { present: cōnsist, perfect: cōnstit }
   - infinitive: dēesse
     unit: 6
     meanings: [fehlen, nicht da sein, jdn im Stick lassen]
@@ -496,7 +496,7 @@ verbs:
     unit: 7
     meanings: [aufstellen, festsetzen, beschliessen]
     class: 3
-    subtype:
+    subtype: konsonant
     stem: { present: cōnstitu, perfect: cōnstitu }
   - infinitive: vincīre
     unit: 7
@@ -640,6 +640,7 @@ verbs:
   - infinitive: gaudēre
     unit: 9
     meanings: [sich freuen (über / an)]
+    exclude_ts: [perfect, plusquamperfect]
     class: 2
     stem: { present: gaud, perfect: gaudu } # TODO NOT ALL EXIST
   - infinitive: stāre
@@ -651,11 +652,13 @@ verbs:
     unit: 9
     meanings: [wagen]
     class: 2
+    exclude_ts: [perfect, plusquamperfect]
     stem: { present: aud, perfect: aus }
   - infinitive: cōnsīdere
     unit: 9
     meanings: [sich setzen, sich niederlassen]
     class: 3
+    subtype: konsonant
     stem: { present: cōnsīd, perfect: cōnsēd }
   - infinitive: parēre
     unit: 9

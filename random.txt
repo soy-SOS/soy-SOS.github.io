@@ -1,0 +1,603 @@
+
+
+
+invito, invitas, invitat, invitamus, invitatis, invitant, 
+invitabam, invitabas, invitabat, invitabamus, invitabatis, invitabant, 
+invitavi, invitavisti, invitavit, invitavimus, invitavistis, invitaverunt, 
+invitaveram, invitaveras, invitaverat, invitaveramus, invitaveratis, invitaverant, 
+
+
+exspecto, exspectas, exspectat, exspectamus, exspectatis, exspectant, 
+exspectabam, exspectabas, exspectabat, exspectabamus, exspectabatis, exspectabant, 
+exspectavi, exspectavisti, exspectavit, exspectavimus, exspectavistis, exspectaverunt, 
+exspectaveram, exspectaveras, exspectaverat, exspectaveramus, exspectaveratis, exspectaverant, 
+
+
+paro, paras, parat, paramus, paratis, parant, 
+parabam, parabas, parabat, parabamus, parabatis, parabant, 
+paravi, paravisti, paravit, paravimus, paravistis, paraverunt, 
+paraveram, paraveras, paraverat, paraveramus, paraveratis, paraverant, 
+
+
+dico, dicis, dicit, dicimus, dicitis, dicunt, 
+dicebam, dicebas, dicebat, dicebamus, dicebatis, dicebant, 
+dixi, dixisti, dixit, diximus, dixistis, dixerunt, 
+dixeram, dixeras, dixerat, dixeramus, dixeratis, dixerant, 
+
+
+venio, venis, venit, venimus, venitis, veniunt, 
+veniebam, veniebas, veniebat, veniebamus, veniebatis, veniebant, 
+veni, venisti, venit, venimus, venistis, venerunt, 
+veneram, veneras, venerat, veneramus, veneratis, venerant, 
+
+
+habeo, habes, habet, habemus, habetis, habent, 
+habebam, habebas, habebat, habebamus, habebatis, habebant, 
+habui, habuisti, habuit, habuimus, habuistis, habuerunt, 
+habueram, habueras, habuerat, habueramus, habueratis, habuerant, 
+
+
+ceno, cenas, cenat, cenamus, cenatis, cenant, 
+cenabam, cenabas, cenabat, cenabamus, cenabatis, cenabant, 
+cenavi, cenavisti, cenavit, cenavimus, cenavistis, cenaverunt, 
+cenaveram, cenaveras, cenaverat, cenaveramus, cenaveratis, cenaverant, 
+
+
+facio, facis, facit, facimus, facitis, faciunt, 
+faciebam, faciebas, faciebat, faciebamus, faciebatis, faciebant, 
+feci, fecisti, fecit, fecimus, fecistis, fecerunt, 
+feceram, feceras, fecerat, feceramus, feceratis, fecerant, 
+
+
+debeo, debes, debet, debemus, debetis, debent, 
+debebam, debebas, debebat, debebamus, debebatis, debebant, 
+debui, debuisti, debuit, debuimus, debuistis, debuerunt, 
+debueram, debueras, debuerat, debueramus, debueratis, debuerant, 
+
+
+valeo, vales, valet, valemus, valetis, valent, 
+valebam, valebas, valebat, valebamus, valebatis, valebant, 
+valui, valuisti, valuit, valuimus, valuistis, valuerunt, 
+valueram, valueras, valuerat, valueramus, valueratis, valuerant, 
+
+
+apporto, apportas, apportat, apportamus, apportatis, apportant, 
+apportabam, apportabas, apportabat, apportabamus, apportabatis, apportabant, 
+apportavi, apportavisti, apportavit, apportavimus, apportavistis, apportaverunt, 
+apportaveram, apportaveras, apportaverat, apportaveramus, apportaveratis, apportaverant, 
+
+
+peto, petis, petit, petimus, petitis, petunt, 
+petebam, petebas, petebat, petebamus, petebatis, petebant, 
+petivi, petivisti, petivit, petivimus, petivistis, petiverunt, 
+petiveram, petiveras, petiverat, petiveramus, petiveratis, petiverant, 
+
+
+audio, audis, audit, audimus, auditis, audiunt, 
+audiebam, audiebas, audiebat, audiebamus, audiebatis, audiebant, 
+audivi, audivisti, audivit, audivimus, audivistis, audiverunt, 
+audiveram, audiveras, audiverat, audiveramus, audiveratis, audiverant, 
+
+
+laboro, laboras, laborat, laboramus, laboratis, laborant, 
+laborabam, laborabas, laborabat, laborabamus, laborabatis, laborabant, 
+laboravi, laboravisti, laboravit, laboravimus, laboravistis, laboraverunt, 
+laboraveram, laboraveras, laboraverat, laboraveramus, laboraveratis, laboraverant, 
+
+
+ago, agis, agit, agimus, agitis, agunt, 
+agebam, agebas, agebat, agebamus, agebatis, agebant, 
+egi, egisti, egit, egimus, egistis, egerunt, 
+egeram, egeras, egerat, egeramus, egeratis, egerant, 
+
+
+puto, putas, putat, putamus, putatis, putant, 
+putabam, putabas, putabat, putabamus, putabatis, putabant, 
+putavi, putavisti, putavit, putavimus, putavistis, putaverunt, 
+putaveram, putaveras, putaverat, putaveramus, putaveratis, putaverant, 
+
+
+ludo, ludis, ludit, ludimus, luditis, ludunt, 
+ludebam, ludebas, ludebat, ludebamus, ludebatis, ludebant, 
+lusi, lusisti, lusit, lusimus, lusistis, luserunt, 
+luseram, luseras, luserat, luseramus, luseratis, luserant, 
+
+
+capio, capis, capit, capimus, capitis, capiunt, 
+capiebam, capiebas, capiebat, capiebamus, capiebatis, capiebant, 
+cepi, cepisti, cepit, cepimus, cepistis, ceperunt, 
+ceperam, ceperas, ceperat, ceperamus, ceperatis, ceperant, 
+
+
+occido, occidis, occidit, occidimus, occiditis, occidunt, 
+occidebam, occidebas, occidebat, occidebamus, occidebatis, occidebant, 
+occidi, occidisti, occidit, occidimus, occidistis, occiderunt, 
+occideram, occideras, occiderat, occideramus, occideratis, occiderant, 
+
+
+possideo, possides, possidet, possidemus, possidetis, possident, 
+possidebam, possidebas, possidebat, possidebamus, possidebatis, possidebant, 
+possedi, possedisti, possedit, possedimus, possedistis, possederunt, 
+possederam, possederas, possederat, possederamus, possederatis, possederant, 
+
+
+placeo, places, placet, placemus, placetis, placent, 
+placebam, placebas, placebat, placebamus, placebatis, placebant, 
+placui, placuisti, placuit, placuimus, placuistis, placuerunt, 
+placueram, placueras, placuerat, placueramus, placueratis, placuerant, 
+
+
+exerceo, exerces, exercet, exercemus, exercetis, exercent, 
+exercebam, exercebas, exercebat, exercebamus, exercebatis, exercebant, 
+exercui, exercuisti, exercuit, exercuimus, exercuistis, exercuerunt, 
+exercueram, exercueras, exercuerat, exercueramus, exercueratis, exercuerant, 
+
+
+salio, salis, salit, salimus, salitis, saliunt, 
+saliebam, saliebas, saliebat, saliebamus, saliebatis, saliebant, 
+salii, saliisti, saliit, saliimus, saliistis, salierunt, 
+salieram, salieras, salierat, salieramus, salieratis, salierant, 
+
+
+taceo, taces, tacet, tacemus, tacetis, tacent, 
+tacebam, tacebas, tacebat, tacebamus, tacebatis, tacebant, 
+tacui, tacuisti, tacuit, tacuimus, tacuistis, tacuerunt, 
+tacueram, tacueras, tacuerat, tacueramus, tacueratis, tacuerant, 
+
+
+clamo, clamas, clamat, clamamus, clamatis, clamant, 
+clamabam, clamabas, clamabat, clamabamus, clamabatis, clamabant, 
+clamavi, clamavisti, clamavit, clamavimus, clamavistis, clamaverunt, 
+clamaveram, clamaveras, clamaverat, clamaveramus, clamaveratis, clamaverant, 
+
+
+cogo, cogis, cogit, cogimus, cogitis, cogunt, 
+cogebam, cogebas, cogebat, cogebamus, cogebatis, cogebant, 
+coegi, coegisti, coegit, coegimus, coegistis, coegerunt, 
+coegeram, coegeras, coegerat, coegeramus, coegeratis, coegerant, 
+
+
+emo, emis, emit, emimus, emitis, emunt, 
+emebam, emebas, emebat, emebamus, emebatis, emebant, 
+emi, emisti, emit, emimus, emistis, emerunt, 
+emeram, emeras, emerat, emeramus, emeratis, emerant, 
+
+
+do, das, dat, damus, datis, dant, 
+dabam, dabas, dabat, dabamus, dabatis, dabant, 
+dedi, dedisti, dedit, dedimus, dedistis, dederunt, 
+dederam, dederas, dederat, dederamus, dederatis, dederant, 
+
+
+teneo, tenes, tenet, tenemus, tenetis, tenent, 
+tenebam, tenebas, tenebat, tenebamus, tenebatis, tenebant, 
+tenui, tenuisti, tenuit, tenuimus, tenuistis, tenuerunt, 
+tenueram, tenueras, tenuerat, tenueramus, tenueratis, tenuerant, 
+
+
+specto, spectas, spectat, spectamus, spectatis, spectant, 
+spectabam, spectabas, spectabat, spectabamus, spectabatis, spectabant, 
+spectavi, spectavisti, spectavit, spectavimus, spectavistis, spectaverunt, 
+spectaveram, spectaveras, spectaverat, spectaveramus, spectaveratis, spectaverant, 
+
+
+curro, curris, currit, currimus, curritis, currunt, 
+currebam, currebas, currebat, currebamus, currebatis, currebant, 
+cucurri, cucurristi, cucurrit, cucurrimus, cucurristis, cucurrerunt, 
+cucurreram, cucurreras, cucurrerat, cucurreramus, cucurreratis, cucurrerant, 
+
+
+fugio, fugis, fugit, fugimus, fugitis, fugiunt, 
+fugiebam, fugiebas, fugiebat, fugiebamus, fugiebatis, fugiebant, 
+fugi, fugisti, fugit, fugimus, fugistis, fugerunt, 
+fugeram, fugeras, fugerat, fugeramus, fugeratis, fugerant, 
+
+
+effugio, effugis, effugit, effugimus, effugitis, effugiunt, 
+effugiebam, effugiebas, effugiebat, effugiebamus, effugiebatis, effugiebant, 
+effugi, effugisti, effugit, effugimus, effugistis, effugerunt, 
+effugeram, effugeras, effugerat, effugeramus, effugeratis, effugerant, 
+
+
+occĭdo, occĭdis, occĭdit, occĭdimus, occĭditis, occĭdunt, 
+occĭdebam, occĭdebas, occĭdebat, occĭdebamus, occĭdebatis, occĭdebant, 
+occĭdi, occĭdisti, occĭdit, occĭdimus, occĭdistis, occĭderunt, 
+occĭderam, occĭderas, occĭderat, occĭderamus, occĭderatis, occĭderant, 
+
+
+timeo, times, timet, timemus, timetis, timent, 
+timebam, timebas, timebat, timebamus, timebatis, timebant, 
+timui, timuisti, timuit, timuimus, timuistis, timuerunt, 
+timueram, timueras, timuerat, timueramus, timueratis, timuerant, 
+
+
+cado, cadis, cadit, cadimus, caditis, cadunt, 
+cadebam, cadebas, cadebat, cadebamus, cadebatis, cadebant, 
+cecidi, cecidisti, cecidit, cecidimus, cecidistis, ceciderunt, 
+cecideram, cecideras, ceciderat, cecideramus, cecideratis, ceciderant, 
+
+
+moveo, moves, movet, movemus, movetis, movent, 
+movebam, movebas, movebat, movebamus, movebatis, movebant, 
+movi, movisti, movit, movimus, movistis, moverunt, 
+moveram, moveras, moverat, moveramus, moveratis, moverant, 
+
+
+tego, tegis, tegit, tegimus, tegitis, tegunt, 
+tegebam, tegebas, tegebat, tegebamus, tegebatis, tegebant, 
+texi, texisti, texit, teximus, texistis, texerunt, 
+texeram, texeras, texerat, texeramus, texeratis, texerant, 
+
+
+possum, potes, potest, possumus, potestis, possunt, 
+poteram, poteras, poterat, poteramus, poteratis, poterant, 
+potui, potuisti, potuit, potuimus, potuistis, potuerunt, 
+potueram, potueras, potuerat, potueramus, potueratis, potuerant, 
+
+
+pello, pellis, pellit, pellimus, pellitis, pellunt, 
+pellebam, pellebas, pellebat, pellebamus, pellebatis, pellebant, 
+pepuli, pepulisti, pepulit, pepulimus, pepulistis, pepulerunt, 
+pepuleram, pepuleras, pepulerat, pepuleramus, pepuleratis, pepulerant, 
+
+
+cognosco, cognoscis, cognoscit, cognoscimus, cognoscitis, cognoscunt, 
+cognoscebam, cognoscebas, cognoscebat, cognoscebamus, cognoscebatis, cognoscebant, 
+cognovi, cognovisti, cognovit, cognovimus, cognovistis, cognoverunt, 
+cognoveram, cognoveras, cognoverat, cognoveramus, cognoveratis, cognoverant, 
+
+
+mitto, mittis, mittit, mittimus, mittitis, mittunt, 
+mittebam, mittebas, mittebat, mittebamus, mittebatis, mittebant, 
+misi, misisti, misit, misimus, misistis, miserunt, 
+miseram, miseras, miserat, miseramus, miseratis, miserant, 
+
+
+pugno, pugnas, pugnat, pugnamus, pugnatis, pugnant, 
+pugnabam, pugnabas, pugnabat, pugnabamus, pugnabatis, pugnabant, 
+pugnavi, pugnavisti, pugnavit, pugnavimus, pugnavistis, pugnaverunt, 
+pugnaveram, pugnaveras, pugnaverat, pugnaveramus, pugnaveratis, pugnaverant, 
+
+
+incito, incitas, incitat, incitamus, incitatis, incitant, 
+incitabam, incitabas, incitabat, incitabamus, incitabatis, incitabant, 
+in-citavi, in-citavisti, in-citavit, in-citavimus, in-citavistis, in-citaverunt, 
+in-citaveram, in-citaveras, in-citaverat, in-citaveramus, in-citaveratis, in-citaverant, 
+
+
+terreo, terres, terret, terremus, terretis, terrent, 
+terrebam, terrebas, terrebat, terrebamus, terrebatis, terrebant, 
+terrui, terruisti, terruit, terruimus, terruistis, terruerunt, 
+terrueram, terrueras, terruerat, terrueramus, terrueratis, terruerant, 
+
+
+aperio, aperis, aperit, aperimus, aperitis, aperiunt, 
+aperiebam, aperiebas, aperiebat, aperiebamus, aperiebatis, aperiebant, 
+aperui, aperuisti, aperuit, aperuimus, aperuistis, aperuerunt, 
+aperueram, aperueras, aperuerat, aperueramus, aperueratis, aperuerant, 
+
+
+iubeo, iubes, iubet, iubemus, iubetis, iubent, 
+iubebam, iubebas, iubebat, iubebamus, iubebatis, iubebant, 
+iussi, iussisti, iussit, iussimus, iussistis, iusserunt, 
+iusseram, iusseras, iusserat, iusseramus, iusseratis, iusserant, 
+
+
+dubito, dubitas, dubitat, dubitamus, dubitatis, dubitant, 
+dubitabam, dubitabas, dubitabat, dubitabamus, dubitabatis, dubitabant, 
+dubitavi, dubitavisti, dubitavit, dubitavimus, dubitavistis, dubitaverunt, 
+dubitaveram, dubitaveras, dubitaverat, dubitaveramus, dubitaveratis, dubitaverant, 
+
+
+fero, fers, fert, ferimus, fertis, ferunt, 
+ferebam, ferebas, ferebat, ferebamus, ferebatis, ferebant, 
+tuli, tulisti, tulit, tulimus, tulistis, tulerunt, 
+tuleram, tuleras, tulerat, tuleramus, tuleratis, tulerant, 
+
+
+voco, vocas, vocat, vocamus, vocatis, vocant, 
+vocabam, vocabas, vocabat, vocabamus, vocabatis, vocabant, 
+vocavi, vocavisti, vocavit, vocavimus, vocavistis, vocaverunt, 
+vocaveram, vocaveras, vocaverat, vocaveramus, vocaveratis, vocaverant, 
+
+
+trado, tradis, tradit, tradimus, traditis, tradunt, 
+tradebam, tradebas, tradebat, tradebamus, tradebatis, tradebant, 
+tradidi, tradidisti, tradidit, tradidimus, tradidistis, tradiderunt, 
+tradideram, tradideras, tradiderat, tradideramus, tradideratis, tradiderant, 
+
+
+incipio, incipis, incipit, incipimus, incipitis, incipiunt, 
+incipiebam, incipiebas, incipiebat, incipiebamus, incipiebatis, incipiebant, 
+coepi, coepisti, coepit, coepimus, coepistis, coeperunt, 
+coeperam, coeperas, coeperat, coeperamus, coeperatis, coeperant, 
+
+
+surgo, surgis, surgit, surgimus, surgitis, surgunt, 
+surgebam, surgebas, surgebat, surgebamus, surgebatis, surgebant, 
+surrexi, surrexisti, surrexit, surreximus, surrexistis, surrexerunt, 
+surrexeram, surrexeras, surrexerat, surrexeramus, surrexeratis, surrexerant, 
+
+
+fundo, fundis, fundit, fundimus, funditis, fundunt, 
+fundebam, fundebas, fundebat, fundebamus, fundebatis, fundebant, 
+fudi, fudisti, fudit, fudimus, fudistis, fuderunt, 
+fuderam, fuderas, fuderat, fuderamus, fuderatis, fuderant, 
+
+
+servo, servas, servat, servamus, servatis, servant, 
+servabam, servabas, servabat, servabamus, servabatis, servabant, 
+servavi, servavisti, servavit, servavimus, servavistis, servaverunt, 
+servaveram, servaveras, servaverat, servaveramus, servaveratis, servaverant, 
+
+
+conspicio, conspicis, conspicit, conspicimus, conspicitis, conspiciunt, 
+conspiciebam, conspiciebas, conspiciebat, conspiciebamus, conspiciebatis, conspiciebant, 
+conspexi, conspexisti, conspexit, conspeximus, conspexistis, conspexerunt, 
+conspexeram, conspexeras, conspexerat, conspexeramus, conspexeratis, conspexerant, 
+
+
+iacto, iactas, iactat, iactamus, iactatis, iactant, 
+iactabam, iactabas, iactabat, iactabamus, iactabatis, iactabant, 
+iactavi, iactavisti, iactavit, iactavimus, iactavistis, iactaverunt, 
+iactaveram, iactaveras, iactaverat, iactaveramus, iactaveratis, iactaverant, 
+
+
+compleo, comples, complet, complemus, completis, complent, 
+complebam, complebas, complebat, complebamus, complebatis, complebant, 
+complevi, complevisti, complevit, complevimus, complevistis, compleverunt, 
+compleveram, compleveras, compleverat, compleveramus, compleveratis, compleverant, 
+
+
+consisto, consistis, consistit, consistimus, consistitis, consistunt, 
+consistebam, consistebas, consistebat, consistebamus, consistebatis, consistebant, 
+constiti, constitisti, constitit, constitimus, constitistis, constiterunt, 
+constiteram, constiteras, constiterat, constiteramus, constiteratis, constiterant, 
+
+
+desum, dees, deest, desumus, deestis, desunt, 
+deeram, deeras, deerat, deeramus, deeratis, deerant, 
+defui, defuisti, defuit, defuimus, defuistis, defuerunt, 
+defueram, defueras, defuerat, defueramus, defueratis, defuerant, 
+
+
+vinco, vincis, vincit, vincimus, vincitis, vincunt, 
+vincebam, vincebas, vincebat, vincebamus, vincebatis, vincebant, 
+vici, vicisti, vicit, vicimus, vicistis, vicerunt, 
+viceram, viceras, vicerat, viceramus, viceratis, vicerant, 
+
+
+recipio, recipis, recipit, recipimus, recipitis, recipiunt, 
+recipiebam, recipiebas, recipiebat, recipiebamus, recipiebatis, recipiebant, 
+recepi, recepisti, recepit, recepimus, recepistis, receperunt, 
+receperam, receperas, receperat, receperamus, receperatis, receperant, 
+
+
+administro, administras, administrat, administramus, administratis, administrant, 
+administrabam, administrabas, administrabat, administrabamus, administrabatis, administrabant, 
+administravi, administravisti, administravit, administravimus, administravistis, administraverunt, 
+administraveram, administraveras, administraverat, administraveramus, administraveratis, administraverant, 
+
+
+aufero, aufers, aufert, auferimus, aufertis, auferunt, 
+auferebam, auferebas, auferebat, auferebamus, auferebatis, auferebant, 
+abstuli, abstulisti, abstulit, abstulimus, abstulistis, abstulerunt, 
+abstuleram, abstuleras, abstulerat, abstuleramus, abstuleratis, abstulerant, 
+
+
+respondeo, respondes, respondet, respondemus, respondetis, respondent, 
+respondebam, respondebas, respondebat, respondebamus, respondebatis, respondebant, 
+respondi, respondisti, respondit, respondimus, respondistis, responderunt, 
+responderam, responderas, responderat, responderamus, responderatis, responderant, 
+
+
+prohibeo, prohibes, prohibet, prohibemus, prohibetis, prohibent, 
+prohibebam, prohibebas, prohibebat, prohibebamus, prohibebatis, prohibebant, 
+prohibui, prohibuisti, prohibuit, prohibuimus, prohibuistis, prohibuerunt, 
+prohibueram, prohibueras, prohibuerat, prohibueramus, prohibueratis, prohibuerant, 
+
+
+permitto, permittis, permittit, permittimus, permittitis, permittunt, 
+permittebam, permittebas, permittebat, permittebamus, permittebatis, permittebant, 
+permisi, permisisti, permisit, permisimus, permisistis, permiserunt, 
+permiseram, permiseras, permiserat, permiseramus, permiseratis, permiserant, 
+
+
+narro, narras, narrat, narramus, narratis, narrant, 
+narrabam, narrabas, narrabat, narrabamus, narrabatis, narrabant, 
+narravi, narravisti, narravit, narravimus, narravistis, narraverunt, 
+narraveram, narraveras, narraverat, narraveramus, narraveratis, narraverant, 
+
+
+relinquo, relinquis, relinquit, relinquimus, relinquitis, relinquunt, 
+relinquebam, relinquebas, relinquebat, relinquebamus, relinquebatis, relinquebant, 
+reliqui, reliquisti, reliquit, reliquimus, reliquistis, reliquerunt, 
+reliqueram, reliqueras, reliquerat, reliqueramus, reliqueratis, reliquerant, 
+
+
+nego, negas, negat, negamus, negatis, negant, 
+negabam, negabas, negabat, negabamus, negabatis, negabant, 
+negavi, negavisti, negavit, negavimus, negavistis, negaverunt, 
+negaveram, negaveras, negaverat, negaveramus, negaveratis, negaverant, 
+
+
+sedeo, sedes, sedet, sedemus, sedetis, sedent, 
+sedebam, sedebas, sedebat, sedebamus, sedebatis, sedebant, 
+sedi, sedisti, sedit, sedimus, sedistis, sederunt, 
+sederam, sederas, sederat, sederamus, sederatis, sederant, 
+
+
+constituo, constituis, constituit, constituimus, constituitis, constituunt, 
+constituebam, constituebas, constituebat, constituebamus, constituebatis, constituebant, 
+constitui, constituisti, constituit, constituimus, constituistis, constituerunt, 
+constitueram, constitueras, constituerat, constitueramus, constitueratis, constituerant, 
+
+
+vincio, vincis, vincit, vincimus, vincitis, vinciunt, 
+vinciebam, vinciebas, vinciebat, vinciebamus, vinciebatis, vinciebant, 
+vinxi, vinxisti, vinxit, vinximus, vinxistis, vinxerunt, 
+vinxeram, vinxeras, vinxerat, vinxeramus, vinxeratis, vinxerant, 
+
+
+promitto, promittis, promittit, promittimus, promittitis, promittunt, 
+promittebam, promittebas, promittebat, promittebamus, promittebatis, promittebant, 
+promisi, promisisti, promisit, promisimus, promisistis, promiserunt, 
+promiseram, promiseras, promiserat, promiseramus, promiseratis, promiserant, 
+
+
+absum, abes, abest, absumus, abestis, absunt, 
+aberam, aberas, aberat, aberamus, aberatis, aberant, 
+afui, afuisti, afuit, afuimus, afuistis, afuerunt, 
+afueram, afueras, afuerat, afueramus, afueratis, afuerant, 
+
+
+committo, committis, committit, committimus, committitis, committunt, 
+committebam, committebas, committebat, committebamus, committebatis, committebant, 
+commisi, commisisti, commisit, commisimus, commisistis, commiserunt, 
+commiseram, commiseras, commiserat, commiseramus, commiseratis, commiserant, 
+
+
+vivo, vivis, vivit, vivimus, vivitis, vivunt, 
+vivebam, vivebas, vivebat, vivebamus, vivebatis, vivebant, 
+vixi, vixisti, vixit, viximus, vixistis, vixerunt, 
+vixeram, vixeras, vixerat, vixeramus, vixeratis, vixerant, 
+
+
+revivo, revivis, revivit, revivimus, revivitis, revivunt, 
+revivebam, revivebas, revivebat, revivebamus, revivebatis, revivebant, 
+revixi, revixisti, revixit, reviximus, revixistis, revixerunt, 
+revixeram, revixeras, revixerat, revixeramus, revixeratis, revixerant, 
+
+
+eo, is, it, imus, itis, eunt, 
+ibam, ibas, ibat, ibamus, ibatis, ibant, 
+ibo, ibis, ibit, ibimus, ibitis, ibunt, 
+ii, isti, iit, iimus, istis, ierunt, 
+
+
+ineo, inis, init, inimus, initis, ineunt, 
+inibam, inibas, inibat, inibamus, inibatis, inibant, 
+inii, inisti, iniit, iniimus, inistis, inierunt, 
+inieram, inieras, inierat, inieramus, inieratis, inierant, 
+
+
+abeo, abis, abit, abimus, abitis, abeunt, 
+abibam, abibas, abibat, abibamus, abibatis, abibant, 
+abii, abisti, abiit, abiimus, abistis, abierunt, 
+abieram, abieras, abierat, abieramus, abieratis, abierant, 
+
+
+traho, trahis, trahit, trahimus, trahitis, trahunt, 
+trahebam, trahebas, trahebat, trahebamus, trahebatis, trahebant, 
+traxi, traxisti, traxit, traximus, traxistis, traxerunt, 
+traxeram, traxeras, traxerat, traxeramus, traxeratis, traxerant, 
+
+
+retraho, retrahis, retrahit, retrahimus, retrahitis, retrahunt, 
+retrahebam, retrahebas, retrahebat, retrahebamus, retrahebatis, retrahebant, 
+retraxi, retraxisti, retraxit, retraximus, retraxistis, retraxerunt, 
+retraxeram, retraxeras, retraxerat, retraxeramus, retraxeratis, retraxerant, 
+
+
+duco, ducis, ducit, ducimus, ducitis, ducunt, 
+ducebam, ducebas, ducebat, ducebamus, ducebatis, ducebant, 
+duxi, duxisti, duxit, duximus, duxistis, duxerunt, 
+duxeram, duxeras, duxerat, duxeramus, duxeratis, duxerant, 
+
+
+refero, refers, refert, referimus, refertis, referunt, 
+referebam, referebas, referebat, referebamus, referebatis, referebant, 
+rettuli, rettulisti, rettulit, rettulimus, rettulistis, rettulerunt, 
+rettuleram, rettuleras, rettulerat, rettuleramus, rettuleratis, rettulerant, 
+
+
+laudo, laudas, laudat, laudamus, laudatis, laudant, 
+laudabam, laudabas, laudabat, laudabamus, laudabatis, laudabant, 
+laudavi, laudavisti, laudavit, laudavimus, laudavistis, laudaverunt, 
+laudaveram, laudaveras, laudaverat, laudaveramus, laudaveratis, laudaverant, 
+
+
+ardeo, ardes, ardet, ardemus, ardetis, ardent, 
+ardebam, ardebas, ardebat, ardebamus, ardebatis, ardebant, 
+arsi, arsisti, arsit, arsimus, arsistis, arserunt, 
+arseram, arseras, arserat, arseramus, arseratis, arserant, 
+
+
+caedo, caedis, caedit, caedimus, caeditis, caedunt, 
+caedebam, caedebas, caedebat, caedebamus, caedebatis, caedebant, 
+cecidi, cecidisti, cecidit, cecidimus, cecidistis, ceciderunt, 
+cecideram, cecideras, ceciderat, cecideramus, cecideratis, ceciderant, 
+
+
+vexo, vexas, vexat, vexamus, vexatis, vexant, 
+vexabam, vexabas, vexabat, vexabamus, vexabatis, vexabant, 
+vexavi, vexavisti, vexavit, vexavimus, vexavistis, vexaverunt, 
+vexaveram, vexaveras, vexaverat, vexaveramus, vexaveratis, vexaverant, 
+
+
+doleo, doles, dolet, dolemus, doletis, dolent, 
+dolebam, dolebas, dolebat, dolebamus, dolebatis, dolebant, 
+dolui, doluisti, doluit, doluimus, doluistis, doluerunt, 
+dolueram, dolueras, doluerat, dolueramus, dolueratis, doluerant, 
+
+
+convenio, convenis, convenit, convenimus, convenitis, conveniunt, 
+conveniebam, conveniebas, conveniebat, conveniebamus, conveniebatis, conveniebant, 
+conveni, convenisti, convenit, convenimus, convenistis, convenerunt, 
+conveneram, conveneras, convenerat, conveneramus, conveneratis, convenerant, 
+
+
+pono, ponis, ponit, ponimus, ponitis, ponunt, 
+ponebam, ponebas, ponebat, ponebamus, ponebatis, ponebant, 
+posui, posuisti, posuit, posuimus, posuistis, posuerunt, 
+posueram, posueras, posuerat, posueramus, posueratis, posuerant, 
+
+
+depono, deponis, deponit, deponimus, deponitis, deponunt, 
+deponebam, deponebas, deponebat, deponebamus, deponebatis, deponebant, 
+deposui, deposuisti, deposuit, deposuimus, deposuistis, deposuerunt, 
+deposueram, deposueras, deposuerat, deposueramus, deposueratis, deposuerant, 
+
+
+misceo, misces, miscet, miscemus, miscetis, miscent, 
+miscebam, miscebas, miscebat, miscebamus, miscebatis, miscebant, 
+miscui, miscuisti, miscuit, miscuimus, miscuistis, miscuerunt, 
+miscueram, miscueras, miscuerat, miscueramus, miscueratis, miscuerant, 
+
+
+gaudeo, gaudes, gaudet, gaudemus, gaudetis, gaudent, 
+gaudebam, gaudebas, gaudebat, gaudebamus, gaudebatis, gaudebant, 
+
+
+sto, stas, stat, stamus, statis, stant, 
+stabam, stabas, stabat, stabamus, stabatis, stabant, 
+steti, stetisti, stetit, stetimus, stetistis, steterunt, 
+steteram, steteras, steterat, steteramus, steteratis, steterant, 
+
+
+audeo, audes, audet, audemus, audetis, audent, 
+audebam, audebas, audebat, audebamus, audebatis, audebant, 
+
+
+consido, considis, considit, considimus, considitis, considunt, 
+considebam, considebas, considebat, considebamus, considebatis, considebant, 
+consedi, consedisti, consedit, consedimus, consedistis, consederunt, 
+consederam, consederas, consederat, consederamus, consederatis, consederant, 
+
+
+pareo, pares, paret, paremus, paretis, parent, 
+parebam, parebas, parebat, parebamus, parebatis, parebant, 
+parui, paruisti, paruit, paruimus, paruistis, paruerunt, 
+parueram, parueras, paruerat, parueramus, parueratis, paruerant, 
+
+
+lavo, lavas, lavat, lavamus, lavatis, lavant, 
+lavabam, lavabas, lavabat, lavabamus, lavabatis, lavabant, 
+lavi, lavisti, lavit, lavimus, lavistis, laverunt, 
+laveram, laveras, laverat, laveramus, laveratis, laverant, 
+
+
+adeo, adis, adit, adimus, aditis, adeunt, 
+adibam, adibas, adibat, adibamus, adibatis, adibant, 
+adii, adisti, adiit, adiimus, adistis, adierunt, 
+adieram, adieras, adierat, adieramus, adieratis, abierant, 
