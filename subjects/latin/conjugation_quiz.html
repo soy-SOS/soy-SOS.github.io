@@ -19,6 +19,15 @@ permalink: /latin/quiz/verbs-conj
 <body>
   {% assign questions = site.data.quiz.latin.voci_verb_forms %}
 
+  <div id="conj-filters" class="conj-filters">
+    <input type="checkbox" name="unit" value="3" id="unit-3"> Unit 3 <br>
+    <input type="checkbox" name="class" value="1" id="class-1"> Konjugationsklasse 1 <br>
+    <input type="checkbox" name="time" value="perfect" id="perfect"> Zeit Perfect <br>
+    <input type="checkbox" name="randomize" value="randomize" id="randomize"> Reihefolge Random <br>
+
+  </div>
+  <input type="button" value="Apply" onclick="showVals('conj-filters')">
+
   <button onclick="loadcon(50)">Wähle 50 zufällige Items aus.</button>
   <button onclick="switchBack()">Tausche Vorder- und Rückseite</button>
 

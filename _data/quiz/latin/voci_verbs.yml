@@ -1,3 +1,13 @@
+esse:
+  indicative:
+    active:
+      present: [sum, es, est, summus, estis, sunt]
+      imperfect: [eram, erās, erat, erāmus, erātis, erant]
+      perfect: [fuī, fuistī, fuit, fuimus, fuistis, fuērunt]
+      plusquamperfect: [fueram, fuerās, fuerat, fuerāmus, fuerātis, fuerant]
+  imperative:
+    present: [es, este]
+
 classes:
   - class: 1
     name: ā
@@ -515,37 +525,157 @@ verbs:
     subtype: konsonant
     stem: { present: committ, perfect: commīs }
     #
-  # - infinitive:
-  #   unit:
-  #   meanings: []
-  #   class:
-  #   stem: { present, perfect }
-  # - infinitive:
-  #   unit:
-  #   meanings: []
-  #   class:
-  #   stem: { present, perfect }
-  # - infinitive:
-  #   unit:
-  #   meanings: []
-  #   class:
-  #   stem: { present, perfect }
-  # - infinitive:
-  #   unit:
-  #   meanings: []
-  #   class:
-  #   stem: { present, perfect }
-  # - infinitive:
-  #   unit:
-  #   meanings: []
-  #   class:
-  #   stem: { present, perfect }
-  # - infinitive:
-  #   unit:
-  #   meanings: []
-  #   class:
-  #   stem: { present, perfect }
-
+  - infinitive: vīvere
+    unit: 8
+    meanings: [leben]
+    class: 3
+    subtype: konsonant
+    stem: { present: vīv, perfect: vīx }
+  - infinitive: revīvere
+    unit: 8
+    meanings: [qieder aufleben]
+    class: 3
+    subtype: konsonant
+    stem: { present: revīv, perfect: revīx }
+  - infinitive: īre
+    unit: 8
+    meanings: [gehen]
+    class: irregular
+    present: [eō, īs, it, īmus, ītis, eunt]
+    imperfect: [ībam, ībās, ībat, ībāmus, ībātis, ībant]
+    perfect: [ībō, ībis, ībit, ībimus, ībitis, ībunt]
+    plusquamperfect: [iī, īstī, iit, iimus, īstis, iērunt]
+    stem: { present: ī, perfect: i }
+  - infinitive: inīre
+    unit: 8
+    meanings: [hineingehen, betreten]
+    class: irregular
+    present: [ineō, inīs, init, inīmus, inītis, ineunt]
+    imperfect: [inībam, inībās, inībat, inībāmus, inībātis, inībant]
+    perfect: [iniī, inīstī, iniit, iniimus, inīstis, iniērunt]
+    plusquamperfect: [inieram, inierās, inierat, inierāmus, inierātis, inierant]
+    stem: { present: inī, perfect: ini }
+  - infinitive: abīre
+    unit: 8
+    meanings: [weggehen, fortgehen]
+    class: irregular
+    present: [abeō, abīs, abit, abīmus, abītis, abeunt]
+    imperfect: [abībam, abībās, abībat, abībāmus, abībātis, abībant]
+    perfect: [abiī, abīstī, abiit, abiimus, abīstis, abiērunt]
+    plusquamperfect: [abieram, abierās, abierat, abierāmus, abierātis, abierant]
+    stem: { present: abī, perfect: abi }
+  - infinitive: trahere
+    unit: 8
+    meanings: [ziehen, schleppen]
+    class: 3
+    subtype: konsonant
+    stem: { present: trah, perfect: trāx }
+  - infinitive: retrahere
+    unit: 8
+    meanings: [zurückziehen]
+    class: 3
+    subtype: konsonant
+    stem: { present: retrah, perfect: retrāx }
+  - infinitive: dūcere
+    unit: 8
+    meanings: [führen / ziehen, (mit dopp. Akk) halten für]
+    class: 3
+    subtype: konsonant
+    stem: { present: dūc, perfect: dūx }
+  - infinitive: re-ferre
+    unit: 8
+    meanings: [zurückbringen, berichten]
+    class: 3
+    subtype: suppletive
+    stem: { present: refer, perfect: rettul }
+  - infinitive: laudāre
+    unit: 8
+    meanings: [loben]
+    class: 1
+    stem: { present: laud, perfect: laudāv }
+  - infinitive: ārdēre
+    unit: 8
+    meanings: [brennen, glühen]
+    class: 2
+    stem: { present: ārd, perfect: ārs }
+  - infinitive: caedere
+    unit: 8
+    meanings: [fällen, (ab)schlagen, töten / totschlagen]
+    class: 3
+    subtype: konsonant
+    stem: { present: caed, perfect: cecīd }
+  - infinitive: vexāre
+    unit: 8
+    meanings: [quälen, plagen]
+    class: 1
+    stem: { present: vex, perfect: vexāv }
+  - infinitive: dolēre
+    unit: 8
+    meanings: [scherzen, wehtun, bedauern, Schmerz empfinden]
+    class: 2
+    stem: { present: dol, perfect: dolu }
+    #
+  - infinitive: convenīre
+    unit: 9
+    meanings: [(zusammenkommen), jdn treffen, sich einigen]
+    class: 4
+    stem: { present: conven, perfect: convēn }
+  - infinitive: pōnere
+    unit: 9
+    meanings: [setzen, stellen, legen]
+    class: 3
+    subtype: konsonant
+    stem: { present: pōn, perfect: pōsu }
+  - infinitive: dēpōnere
+    unit: 9
+    meanings: [ablegen, weglegen, aufgeben]
+    class: 3
+    subtype: konsonant
+    stem: { present: dēpōn, perfect: dēpōsu }
+  - infinitive: miscēre
+    unit: 9
+    meanings: [mischen, verwirren]
+    class: 2
+    stem: { present: misc, perfect: miscu }
+  - infinitive: gaudēre
+    unit: 9
+    meanings: [sich freuen (über / an)]
+    class: 2
+    stem: { present: gaud, perfect: gaudu } # TODO NOT ALL EXIST
+  - infinitive: stāre
+    unit: 9
+    meanings: [stehen]
+    class: 1
+    stem: { present: st, perfect: stet }
+  - infinitive: audēre
+    unit: 9
+    meanings: [wagen]
+    class: 2
+    stem: { present: aud, perfect: aus }
+  - infinitive: cōnsīdere
+    unit: 9
+    meanings: [sich setzen, sich niederlassen]
+    class: 3
+    stem: { present: cōnsīd, perfect: cōnsēd }
+  - infinitive: parēre
+    unit: 9
+    meanings: [gehorchen]
+    class: 2
+    stem: { present: par, perfect: paru }
+  - infinitive: lavāre
+    unit: 9
+    meanings: [waschen]
+    class: 1
+    stem: { present: lav, perfect: lāv }
+  - infinitive: adīre
+    unit:
+    meanings: []
+    class: irregular
+    present: [adeō, adīs, adit, adīmus, adītis, adeunt]
+    imperfect: [adībam, adībās, adībat, adībāmus, adībātis, adībant]
+    perfect: [adiī, adīstī, adiit, adiimus, adīstis, adiērunt]
+    plusquamperfect: [adieram, adierās, adierat, adierāmus, adierātis, abierant]
+    stem: { present: adī, perfect: adi }
   # - infinitive:
   #   unit:
   #   meanings: []

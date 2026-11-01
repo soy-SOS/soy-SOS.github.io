@@ -58,3 +58,8 @@ function loadcon(items) {
 function switchBack() {
   document.querySelectorAll('.card.conjugations').forEach(e => e.classList.toggle('flipped'));
 }
+
+function showVals(classname) {
+  document.getElementById(classname).children;
+  
+}
