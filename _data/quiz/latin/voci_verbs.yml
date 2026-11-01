@@ -668,7 +668,7 @@ verbs:
     class: 1
     stem: { present: lav, perfect: lāv }
   - infinitive: adīre
-    unit:
+    unit: 9
     meanings: []
     class: irregular
     present: [adeō, adīs, adit, adīmus, adītis, adeunt]
