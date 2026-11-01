@@ -4,36 +4,43 @@ classes:
     present: [ō, ās, at, āmus, ātis, ant]
     imperfect: [ābam, ābas, ābat, ābamus, ābatis, ābant]
     perfect: &a_perfect_endings [ī, istī, it, imus, istis, ērunt]
+    plusquamperfect: &a_pqp_endings [eram, erās, erat, erāmus, erātis, erant]
   - class: 2
     name: ē
     present: [eō, ēs, et, ēmus, ētis, ent]
     imperfect: &e_imperfect_endings [ēbam, ēbās, ēbat, ēbāmus, ēbātis, ēbant]
     perfect: *a_perfect_endings
+    plusquamperfect: *a_pqp_endings
   - class: 3
     name: konsonant
     present: &konsonant_imperfect_endings [ō, is, it, imus, itis, unt]
     imperfect: *e_imperfect_endings
     perfect: *a_perfect_endings
+    plusquamperfect: *a_pqp_endings
   - class: 3
     name: iō
     present: [iō, is, it, imus, itis, unt]
     imperfect: *e_imperfect_endings
     perfect: *a_perfect_endings
+    plusquamperfect: *a_pqp_endings
   - class: irregular
     name: irregular
     present: *konsonant_imperfect_endings
     imperfect: *e_imperfect_endings
     perfect: *a_perfect_endings
+    plusquamperfect: *a_pqp_endings
   - class: 3
     name: suppletive
     present: [ō, s, t, imus, tis, unt]
     imperfect: *e_imperfect_endings
     perfect: *a_perfect_endings
+    plusquamperfect: *a_pqp_endings
   - class: 4
     name: ī
     present: [iō, īs, it, īmus, ītis, iunt]
     imperfect: [iēbam, iēbās, iēbat, iēbāmus, iēbātis, iēbant]
     perfect: *a_perfect_endings
+    plusquamperfect: *a_pqp_endings
 
 time:
   - name: present
@@ -44,6 +51,9 @@ time:
     stem: present
   - name: perfect
     display: Perfekt
+    stem: perfect
+  - name: plusquamperfect
+    display: Plusquamperfekt
     stem: perfect
 
 person:
