@@ -1,0 +1,83 @@
+- word: vir
+  type: substantive
+  unit: 3
+  translations: [der Mann]
+  genus: m
+  forms: [vir, virī, virō, virum, virō, virī, virōrum, virīs, virōs, virīs]
+  decl_class: 2-o
+- word: fēmina
+  type: substantive
+  unit: 3
+  translations: [die Frau]
+  genus: f
+  forms: [fēmina, fēminae, fēminae, fēminam, fēminā, fēminae, fēminārum, feminīs,
+    fēminās, fēminīs]
+  decl_class: 1-a
+- word: aqua
+  type: substantive
+  unit: 3
+  translations: [das Wasser]
+  genus: f
+  forms: [aqua, aquae, aquae, aquam, aquā, aquae, aquārum, aquīs, aquās, aquīs]
+  decl_class: 1-a
+- word: fīlius
+  type: substantive
+  unit: 3
+  translations: [der Sohn]
+  genus: m
+  forms: [fīlius, fīliī, fīliō, fīlium, fīliō, fīliī, fīliōrum, fīliīs, fīliōs, fīliīs]
+  decl_class: 2-o
+- word: fīlia
+  type: substantive
+  unit: 3
+  translations: [die Tochter]
+  genus: f
+  forms: [fīlia, fīliae, fīliae, fīliam, fīliā, fīliae, Īliārum, fīliīs, fīliās, fīliīs]
+  decl_class: 1-a
+- word: toga
+  type: substantive
+  unit: 3
+  translations: [die Toga]
+  genus: f
+  forms: [toga, togae, togae, togam, togā, togae, togārum, togīs, togās, togīs]
+  decl_class: 1-a
+- word: animus
+  type: substantive
+  unit: 3
+  translations: [der Geist, der Sinn, die Gesinnung, das Herz, der Mut]
+  genus: m
+  forms: [animus, animī, animō, animum, animō, animī, animōrum, animīs, animōs, animīs]
+  decl_class: 2-o
+- word: studium
+  type: substantive
+  unit: 3
+  translations: [der Eifer, die Bemühung, die Beschäftigung, das Interesse]
+  genus: n
+  forms: [studium, studiī, studiō, studium, studiō, studia, studiōrum, studiīs, studia,
+    studiīs]
+  decl_class: 2-o
+- word: philosophus
+  type: substantive
+  unit: 3
+  translations: [der Philosoph]
+  genus: m
+  forms: [philosophus, philosophī, philosophō, philosophum, philosophō, philosophī,
+    philosophōrum, philosophīs, philosophōs, philosophīs]
+  decl_class: 2-o
+- word: silentium
+  type: substantive
+  unit: 3
+  translations: [die Stille, das Schweigen, die Ruhe]
+  genus: n
+  forms: [silentium, silentiī, silentiō, silentium, silentiō, silentia, silentiōrum,
+    silentiīs, silentia, silentiīs]
+  decl_class: 2-o
+- word: littera
+  type: substantive
+  unit: 3
+  translations: [der Buchstabe, '(Plural: alles Geschrieben: der Brief / die Literatur
+      / die Wissenschaft(en))']
+  genus: f
+  forms: [littera, litterae, litterae, litteram, litterā, litterae, litterārum, litterīs,
+    litterās, litterīs]
+  decl_class: 1-a

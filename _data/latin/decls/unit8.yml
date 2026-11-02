@@ -1,0 +1,71 @@
+- word: lūx
+  type: substantive
+  unit: 8
+  translations: [das Licht]
+  genus: f
+  forms: [lūx, lūcis, līcī, lūcem, lūce, lūcēs, lūcum, lūcibus, lūcēs, lūcibus]
+  decl_class: 3-konsonant
+- word: lībertās
+  type: substantive
+  unit: 8
+  translations: [die Freiheit]
+  genus: f
+  forms: [lībertās, lībertātis, lībertātī, lībertātem, lībertāte, lībertātēs, lībertātum,
+    lībertātibus, lībertātēs, lībertātibus]
+  decl_class: 3-konsonant
+- word: iter
+  type: substantive
+  unit: 8
+  translations: [der Weg, der Marsch, die Reise]
+  genus: n
+  forms: [iter, itineris, itinerī, itinere, itinerī, itinera, itinerum, itineribus,
+    itinera, itineribus]
+  decl_class: 3-konsonant
+- word: facinus
+  type: substantive
+  unit: 8
+  translations: [die Tat, die Untat, das Verbrechen]
+  genus: n
+  forms: [facinus, facinoris, facinorī, facinus, facinore, facinora, facinorum, facinoribus,
+    facinora, facinoribus]
+  decl_class: 3-konsonant
+- word: magistrātus
+  type: substantive
+  unit: 8
+  translations: [der (hohe) Beamte, die Behörde]
+  genus: m
+  forms: [magistrātus, magistrātūs, magistrātuī, magistrātum, magistrātū, magistrātūs,
+    magistrātuum, magistrātibus, magistrātūs, magistrātibus]
+  decl_class: 4-u
+- word: cīvis
+  type: substantive
+  unit: 8
+  translations: [der Bürger, die Bürgerin]
+  genus: m+f
+  forms: [cīvis, cīvis, cīvī, cīvem, cīve, cīvēs, cīvium, cīvibus, cīvēs, cīvibus]
+  decl_class: 3-i
+- word: grātia
+  type: substantive
+  unit: 8
+  translations: [die Ausstrahlung, der Charme, die Beliebtheit, die Sympathie, die
+      Gefälligkeit, der Dank]
+  genus: f
+  forms: [grātia, grātiae, grātiae, grātiam, grātiā, grātiae, grātiārum, grātiīs,
+    grātiās, grātiīs]
+  decl_class: 1-a
+- word: dīligentia
+  type: substantive
+  unit: 8
+  translations: [die Sorgfalt]
+  genus: f
+  forms: [dīligentia, dīligentiae, dīligentiae, dīligentiam, dīligentiā, dīligentiae,
+    dīligentiārum, dīligentiīs, dīligentiās, dīligentiīs]
+  decl_class: 1-a
+- word: incola
+  type: substantive
+  unit: 8
+  translations: [der Einwohner, die Einwohnerin]
+  genus: m+f
+  forms: [incola, incolae, incolae, incolam, incolā, incolae, incolārum, incolīs,
+    incolās, incolīs]
+  decl_class: 1-a

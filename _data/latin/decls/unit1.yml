@@ -1,0 +1,53 @@
+- word: amicus
+  type: substantive
+  unit: 1
+  translations: [der Freund]
+  genus: m
+  forms: [amicus, amicī, amīcō, amīcum, amicō, amīcī, amīcorum, amīcīs, amīcōs, amicīs]
+  decl_class: 2-o
+- word: cēna
+  type: substantive
+  unit: 1
+  translations: [das Essen, die Mahlzeit]
+  genus: f
+  forms: [cēna, cēnae, cēnae, cēnam, cēnā, cēnae, cēnārum, cēnīs, cēnās, cēnīs]
+  decl_class: 1-a
+- word: vīnum
+  type: substantive
+  unit: 1
+  translations: [der Wein]
+  genus: n
+  forms: [vīnum, vīnī, vīnō, vīnum, vīnō, vīna, vīnōrum, vīnīs, vīna, vīnīs]
+  decl_class: 2-o
+- word: familia
+  type: substantive
+  unit: 1
+  translations: [die Familie]
+  genus: f
+  forms: [familia, familiae, familiae, familiam, familia, familiae, familiārum, familiīs,
+    familiās, familiīs]
+  decl_class: 1-a
+- word: dominus
+  type: substantive
+  unit: 1
+  translations: [der (Haus-)Herr]
+  genus: m
+  forms: [dominus, dominī, dominō, dominum, dominō, dominī, dominōrum, dominīs, dominōs,
+    dominīs]
+  decl_class: 2-o
+- word: ancilla
+  type: substantive
+  unit: 1
+  translations: [die Sklavin]
+  genus: f
+  forms: [ancilla, ancillae, ancillae, ancillam, ancilla, ancillae, ancillārum, ancillīs,
+    ancillās, ancillīs]
+  decl_class: 1-a
+- word: villa
+  type: substantive
+  unit: 1
+  translations: [das Landhaus]
+  genus: f
+  forms: [villa, vīllae, vīllae, vīllam, vīlla, vīllae, vīllārum, vīllīs, vīllās,
+    villīs]
+  decl_class: 1-a

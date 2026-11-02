@@ -1,0 +1,118 @@
+- word: oppidum
+  type: substantive
+  unit: 7
+  translations: [die (befestigte) Siedlung, die Stadt]
+  genus: n
+  forms: [oppidum, oppidī, oppidō, oppidum, oppidō, oppida, oppidōrum, oppidīs, oppida,
+    oppidīs]
+  decl_class: 2-o
+- word: religiō
+  type: substantive
+  unit: 7
+  translations: [Religion, die (relig.) Gewissenhaftigkeit, die (relig.) Ehrfurcht,
+    die (Götter-)Verehrung]
+  genus: f
+  forms: [religiō, religiōnis, religiōnī, religiōnem, religiōne, religiōnēs, religiōnum,
+    religiōnibus, religiōnēs, religiōnibus]
+  decl_class: 3-konsonant
+- word: senātus
+  type: substantive
+  unit: 7
+  translations: [der Senat, die Senatsversammlung]
+  genus: m
+  forms: [senātus, senātūs, senātuī, senātum, senātū, senātūs, senātuum, senātibus,
+    senātūs, senātibus]
+  decl_class: 4-u
+- word: poena
+  type: substantive
+  unit: 7
+  translations: [die Strafe]
+  genus: f
+  forms: [poena, poenae, poenae, poenam, poenā, poenae, poenārum, poenīs, poenās,
+    poenīs]
+  decl_class: 1-a
+- word: statua
+  type: substantive
+  unit: 7
+  translations: [das Standbild, die Statue]
+  genus: f
+  forms: [statua, statuae, statuae, statuā, statuae, statuārum, statuīs, statuās,
+    statuīs, null]
+  decl_class: 1-a
+- word: līctor
+  type: substantive
+  unit: 7
+  translations: [der Liktor]
+  genus: m
+  forms: [līctor, līctōris, līctōrī, līctōrem, līctōre, līctōrēs, līctōrum, līctōribus,
+    līctōrēs, līctōribus]
+  decl_class: 3-konsonant
+- word: forum
+  type: substantive
+  unit: 7
+  translations: [das Forum, der Marktplatz]
+  genus: n
+  forms: [forum, forī, forō, forum, forō, fora, forōrum, forīs, fora, forīs]
+  decl_class: 2-o
+- word: iūdex
+  type: substantive
+  unit: 7
+  translations: [der Richter]
+  genus: m
+  forms: [iūdex, iūdicis, iūdicī, iūdicem, iūdice, iūdicēs, iūdicum, iūdicibus, iūdicēs,
+    iūdicibus]
+  decl_class: 3-gemischt
+- word: mēns
+  type: substantive
+  unit: 7
+  translations: [der Verstand, der Geist, die Gesinnung]
+  genus: f
+  forms: [mēns, mentis, mentī, mentem, mente, mentēs, mentium, mentibus, mentēs, mentibus]
+  decl_class: 3-gemischt
+- word: fīnis
+  type: substantive
+  unit: 7
+  translations: [das Ende, die Grenze, '(Pl: die Grenzen', das Gebiet)]
+  genus: m
+  forms: [fīnis, fīnīs, fīnī, fīnem, fīne, fīnēs, fīnium, fīnibus, fīniēs, fīnibus]
+  decl_class: 3-i
+- word: iniūria
+  type: substantive
+  unit: 7
+  translations: [das Unrecht]
+  genus: f
+  forms: [iniūria, iniūriae, iniūriae, iniūriam, iniūriā, iniūriae, iniūriārum, iniūriīs,
+    iniūriās, iniūriīs]
+  decl_class: 1-a
+- word: crūdēlitās
+  type: substantive
+  unit: 7
+  translations: [die Grausamkeit]
+  genus: f
+  forms: [crūdēlitās, crūdēlitātis, crūdēlitātī, crūdēlitātem, crūdēlitāte, crūdēlitātēs,
+    crūdēlitātum, crūdēlitātibus, crūdēlitātēs, crūdēlitātibus]
+  decl_class: 3-konsonant
+- word: clāmor
+  type: substantive
+  unit: 7
+  translations: [das Geschrei, der Lärm]
+  genus: m
+  forms: [clāmor, clāmōris, clāmōrī, clāmōrem, clāmōre, clāmōrēs, clāmōrum, clāmōribus,
+    clāmōrēs, clāmōribus]
+  decl_class: 3-konsonant
+- word: crīmen
+  type: substantive
+  unit: 7
+  translations: [der Vorwurf, die Beschuldigung, das Verbrechen]
+  genus: n
+  forms: [crīmen, crīminis, crīminī, crīminem, crīmine, crīminēs, crīminum, crīminibus,
+    crīminēs, crīminibus]
+  decl_class: 3-konsonant
+- word: templum
+  type: substantive
+  unit: 7
+  translations: [der heilige Ort, der Tempel]
+  genus: n
+  forms: [templum, templī, templō, templum, templō, templa, templōrum, templīs, templa,
+    templīs]
+  decl_class: 2-o

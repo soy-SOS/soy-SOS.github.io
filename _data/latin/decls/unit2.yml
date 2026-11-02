@@ -1,0 +1,81 @@
+- word: hōra
+  type: substantive
+  unit: 2
+  translations: [die Stunde, die Zeit]
+  genus: f
+  forms: [hōra, hōrae, hōrae, hōram, hōrā, hōrae, hōrārum, hōrīs, hōrās, hōrīs]
+  decl_class: 1-a
+- word: servus
+  type: substantive
+  unit: 2
+  translations: ['der Sklave,der Diener']
+  genus: m
+  forms: [servus, servī, servō, servum, servō, servī, servōrum, servīs, servōs, servīs]
+  decl_class: 2-o
+- word: cūra
+  type: substantive
+  unit: 2
+  translations: [die (Für)Sorge, die Pflege]
+  genus: f
+  forms: [cūra, cūrae, cūrae, cūram, cūra, cūrae, cūrārum, cūrīs, cūrās, cūrīs]
+  decl_class: 1-a
+- word: vīta
+  type: substantive
+  unit: 2
+  translations: [das Leben]
+  genus: f
+  forms: [vīta, vītae, vītae, citam, cita, citae, citārum, vītīs, vītās, vītīs]
+  decl_class: 1-a
+- word: puer
+  type: substantive
+  unit: 2
+  translations: [der Junge, der junge Sklave]
+  genus: m
+  forms: [puer, puerī, puerō, puerum, puerō, puerī, puerōrum, puerīs, puerōs, puerīs]
+  decl_class: 2-o
+- word: līberī
+  type: substantive
+  unit: 2
+  translations: [die Kinder]
+  genus: m
+  forms: [līberī, līberōrum, līberīs, līberōs, līberīs]
+  decl_class: 2-o
+- word: fortūna
+  type: substantive
+  unit: 2
+  translations: [das Schicksal, das Glück]
+  genus: f
+  forms: [fortūna, fortūnae, fortūnae, fortūnam, fortūna, fortūnae, fortūnārum, fortūnīs,
+    fortūnās, fortūnīs]
+  decl_class: 1-a
+- word: gladius
+  type: substantive
+  unit: 2
+  translations: [das Schwert]
+  genus: m
+  forms: [gladius, gladiī, gladiō, gladium, gladiō, gladiī, gladiōrum, gladiīs, gladiōs,
+    gladiīs]
+  decl_class: 2-o
+- word: perīculum
+  type: substantive
+  unit: 2
+  translations: [die Gefahr]
+  genus: n
+  forms: [perīculum, perīculī, perīculō, perīculum, perīculō, perīcula, perīculōrum,
+    perīculīs, perīcula, perīculīs]
+  decl_class: 2-o
+- word: vēra
+  type: substantive
+  unit: 2
+  translations: [etw Wahres, die Wahrheit]
+  genus: n
+  forms: [vēra, vērōrum, vērīs, vēra, vērīs]
+  decl_class: 2-o
+- word: officium
+  type: substantive
+  unit: 2
+  translations: [die Pflicht, der Dienst, das Pflichtgefühl, der Gehorsam, das Amt]
+  genus: n
+  forms: [officium, officiī, officiō, officium, officiō, officia, officiōrum, officiīs,
+    officia, officiīs]
+  decl_class: 2-o

@@ -1,0 +1,129 @@
+- word: cōnsilium
+  type: substantive
+  unit: 5
+  translations: [die Beratung, der Rat, der Plan, die Absicht, der Beschluss]
+  genus: n
+  forms: [cōnsilium, cōnsiliī, cōnsiliō, cōnsilium, cōnsiliō, cōnsilia, cōnsiliōrum,
+    cōnsiliīs, cōnsilia, cōnsiliīs]
+  decl_class: 2-o
+- word: cōpia
+  type: substantive
+  unit: 5
+  translations: [die Menge, der Vorrat, die Möglichkeit, '(Pl: die Truppen)']
+  genus: f
+  forms: [cōpia, cōpiae, cōpiae, cōpiam, cōpiā, cōpiae, cōpiārum, cōpiīs, cōpiās,
+    cōpiīs]
+  decl_class: 1-a
+- word: nostrī
+  type: substantive
+  unit: 5
+  translations: [die unsrigen]
+  genus: m
+  forms: [nostrī, nostrōrum, nostrīs, nostrōs, nostrīs]
+  decl_class: 2-o
+- word: nāvis
+  type: substantive
+  unit: 5
+  translations: [das Schiff]
+  genus: f
+  forms: [nāvis, nāvis, nāvī, nāvem, nāvī, nāvēs, nāvēs, nāvium, nāvibus, nāvīs]
+  decl_class: 3-i
+- word: mīles
+  type: substantive
+  unit: 5
+  translations: [der Soldat]
+  genus: m
+  forms: [mīles, mīlitis, mīlitī, mīlitem, mīlite, mīlitēs, mīlitum, mīlitibus, mīlitēs,
+    mīlitibus]
+  decl_class: 3-konsonant
+- word: arma
+  type: substantive
+  unit: 5
+  translations: [die Waffen, das Gerät]
+  genus: n
+  forms: [arma, armōrum, armīs, arma, armīs]
+  decl_class: 2-o
+- word: flūctus
+  type: substantive
+  unit: 5
+  translations: [die Welle, die Flut, die Strömung]
+  genus: m
+  forms: [flūctus, flūctūs, flūctuī, flūctum, flūctū, flūctūs, flūctuum, flūctibus,
+    flūctūs, flūctibus]
+  decl_class: 4-u
+- word: hostis
+  type: substantive
+  unit: 5
+  translations: [der Feind, die Feinding]
+  genus: m+f
+  forms: [hostis, hostis, hostī, hostem, hoste, hostēs, hostium.hostibus, hostēs,
+    hostibus, null]
+  decl_class: 3-i
+- word: tēlum
+  type: substantive
+  unit: 5
+  translations: [das Geschoss, der Wurfspiess]
+  genus: n
+  forms: [tēlum, tēlī, tēlō, tēlum, tēlō, tēla, tēlōrum, tēlīs, tēla, tēlīs]
+  decl_class: 2-o
+- word: equus
+  type: substantive
+  unit: 5
+  translations: [das Pferd]
+  genus: m
+  forms: [equus, equī, equō, equum, equō, equī, equōrum, equīs, equōs, equīs]
+  decl_class: 2-o
+- word: latus
+  type: substantive
+  unit: 5
+  translations: [die Seite, die Flanke]
+  genus: n
+  forms: [latus, lateris, laterī, latus, latere, latera, laterum, lateribus, latera,
+    lateribus]
+  decl_class: 3-gemischt
+- word: ūsus
+  type: substantive
+  unit: 5
+  translations: [der Gebrauch, die Benutzung, der Nutzen, die Erfahrung]
+  genus: m
+  forms: [ūsus, ūsūs, ūsuī, ūsum, ūsū, ūsūs, ūsuum, ūsibus, ūsūs, ūsibus]
+  decl_class: 4-u
+- word: mare
+  type: substantive
+  unit: 5
+  translations: [das Meer]
+  genus: n
+  forms: [mare, maris, marī, mare, marī, maria, marium, maribus, maria, maribus]
+  decl_class: 3-i
+- word: deus
+  type: substantive
+  unit: 5
+  translations: [der Gott]
+  genus: m
+  forms: [deus, dēiī, deō, deum, deō, dī / dīī / deī, deōrum / deum, dīs / dīīs /
+      deīs, deōs, dīs / dīīs / deīs]
+  decl_class: 2-o
+- word: auxilium
+  type: substantive
+  unit: 5
+  translations: [die Hilfe, '(Pl: Hilfstruppen)']
+  genus: n
+  forms: [auxilium, auxiliī, auxiliō, auxilium, auxiliō, auxilia, auxiliōrum, auxiliīs,
+    auxilia, auxiliīs]
+  decl_class: 2-o
+- word: exercitus
+  type: substantive
+  unit: 5
+  translations: [das Heer]
+  genus: m
+  forms: [exercitus, exercitūs, exercituī, exercitum, exercitū, exercitūs, exercituum,
+    exercitibus, exercitūs, exercitibus]
+  decl_class: 4-u
+- word: portus
+  type: substantive
+  unit: 5
+  translations: [der Hafen]
+  genus: m
+  forms: [portus, portūs, portuī, portum, portū, portūs, portuum, portibus, portūs,
+    portibus]
+  decl_class: 4-u

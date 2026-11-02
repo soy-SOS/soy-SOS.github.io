@@ -1,0 +1,85 @@
+- word: ōrdō
+  type: substantive
+  unit: 6
+  translations: [die Reihe, die Ordnung, der Rang, der (soziale) Stand]
+  genus: m
+  forms: [ōrdō, ōrdinis, ōrdinī, ōrdinem, ōrdine, ōrdinēs, ōrdinum, ōrdinibus, ōrdinēs,
+    ōrdinibus]
+  decl_class: 3-gemischt
+- word: signum
+  type: substantive
+  unit: 6
+  translations: [das Zeichen, das Merkmal, das Feldzeichen, die Statue]
+  genus: n
+  forms: [signum, signī, signō, signum, signō, signa, signōrum, signīs, signa, signīs]
+  decl_class: 2-o
+- word: lītus
+  type: substantive
+  unit: 6
+  translations: [die Küste, der Strand]
+  genus: n
+  forms: [lītus, lītoris, lītorī, lītus, lītore, lītora, lītorum, lītoribus, lītora,
+    lītoribus]
+  decl_class: 3-konsonant
+- word: impetus
+  type: substantive
+  unit: 6
+  translations: [der Angriff, der Ansturm, der Schwung]
+  genus: m
+  forms: [impetus, impetūs, impetuī, impetum, impetū, impetūs, impetuum, impetibus,
+    impetūs, impetibus]
+  decl_class: 4-u
+- word: fuga
+  type: substantive
+  unit: 6
+  translations: [die Flucht]
+  genus: f
+  forms: [fuga, fugae, fugae, fugam, fugā, fugae, fugarum, fugīs, fugās, fugīs]
+  decl_class: 1-a
+- word: eques
+  type: substantive
+  unit: 6
+  translations: [der Reiter]
+  genus: m
+  forms: [eques, equitis, equitī, equitem, equite, equitēs, equitum, equitibus, equitēs,
+    equitibus]
+  decl_class: 3-konsonant
+- word: cursus
+  type: substantive
+  unit: 6
+  translations: [der Lauf, die bahn, der Kurs]
+  genus: m
+  forms: [cursus, cursūs, cursuī, cursum, cursū, cursūs, cursuum, cursibus, cursūs,
+    cursibus]
+  decl_class: 4-u
+- word: īnsula
+  type: substantive
+  unit: 6
+  translations: [die Insel, der Wohnblock]
+  genus: f
+  forms: [īnsula, īnsulae, īnsulae, īnsulam, īnsulā, īnsulae, īnsulārum, īnsulīs,
+    īnsulās, īnsulīs]
+  decl_class: 1-a
+- word: proelium
+  type: substantive
+  unit: 6
+  translations: [die Schlacht, der Kampf]
+  genus: n
+  forms: [proelium, proeliī, proeliō, proelium, proeliō, proelia, proeliōrum, proeliīs,
+    proelia, proeliīs]
+  decl_class: 2-o
+- word: lēgātus
+  type: substantive
+  unit: 6
+  translations: [der Gesandte, der Offizier]
+  genus: m
+  forms: [lēgātus, lēgātī, lēgātō, lēgātum, lēgātō, lēgātī, lēgātōrum, lēgātīs, lēgātōs,
+    lēgātīs]
+  decl_class: 2-o
+- word: pāx
+  type: substantive
+  unit: 6
+  translations: [der Frieden]
+  genus: f
+  forms: [pāx, pācis, pācī, pācem, pāce, pacēs, pācum, pācibus, pācēs, pācibus]
+  decl_class: 3-konsonant

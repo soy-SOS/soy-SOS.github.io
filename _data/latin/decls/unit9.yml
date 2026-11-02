@@ -1,0 +1,133 @@
+- word: terra
+  type: substantive
+  unit: 9
+  translations: [das Land, die Erde]
+  genus: f
+  forms: [terra, terrae, terrae, terram, terrā, terrae, terrārum, terrīs, terrās,
+    terrīs]
+  decl_class: 1-a
+- word: bove
+  type: substantive
+  unit: 9
+  translations: [das Rind]
+  genus: m+f
+  forms: [bōs, bovis, bovī, bovem, bove, bovēs, boum, bōbus, bovēs]
+  decl_class: '3'
+- word: rēx
+  type: substantive
+  unit: 9
+  translations: [der König]
+  genus: m
+  forms: [rēx, rēgis, rēgī, rēgem, rēge, rēgēs, rēgium, rēgibus, rēgēs, rēgibus]
+  decl_class: 3-konsonant
+- word: pater
+  type: substantive
+  unit: 9
+  translations: [der Vater]
+  genus: m
+  forms: [pater, patris, patrī, patrem, patre, patrēs, patrum, patribus, patrēs, patribus]
+  decl_class: 3-konsonant
+- word: mōns
+  type: substantive
+  unit: 9
+  translations: [der Berg]
+  genus: m
+  forms: [mōns, montis, montī, montem, monte, montēs, mōntium, montibus, montēs, montibus]
+  decl_class: 3-gemischt
+- word: virgō
+  type: substantive
+  unit: 9
+  translations: [das Mädchen (unverheiratet)]
+  genus: f
+  forms: [virgō, virginis, virginī, virginem, virgine, virginēs, virginum, virginibus,
+    virginēs, virginibus]
+  decl_class: 3-konsonant
+- word: amor
+  type: substantive
+  unit: 9
+  translations: [die Liebe]
+  genus: m
+  forms: [amor, amōris, amōrī, amōrem, amōre, amōrēs, amōrum, amōribus, amōrēs, amōribus]
+  decl_class: 3-konsonant
+- word: orbis
+  type: substantive
+  unit: 9
+  translations: [der Kreis(lauf)]
+  genus: m
+  forms: [orbis, orbis, orbī, orbem, orbe, orbēs, orbium, orbibus, orbēs, orbibus]
+  decl_class: 3-i
+- word: dextra
+  type: substantive
+  unit: 9
+  translations: [die rechte Hand]
+  genus: f
+  forms: [dextra, dextrae, dextrae, dextram, dextrā, dextrae, dextrārum, dextrīs,
+    dextrās, dextrīs]
+  decl_class: 1-a
+- word: herba
+  type: substantive
+  unit: 9
+  translations: [das Gras]
+  genus: f
+  forms: [herba, herbae, herbae, herbam, herbā, herbae, herbārum, herbīs, herbās,
+    herbīs]
+  decl_class: 1-a
+- word: color
+  type: substantive
+  unit: 9
+  translations: [die Farbe]
+  genus: m
+  forms: [color, colōris, colōrī, colōrem, colōre, colōrēs, colōrum, colōribus, colōrēs,
+    colōribus]
+  decl_class: 3-konsonant
+- word: cornū
+  type: substantive
+  unit: 9
+  translations: [das Horn, die Flügel (des Heeres)]
+  genus: n
+  forms: [cornū, cornūs, cornū, cornū, cornū, cornua, cornuum, cornibus, cornua, cornibus]
+  decl_class: 4-u
+- word: puella
+  type: substantive
+  unit: 9
+  translations: [das Mädchen]
+  genus: f
+  forms: [puella, puellae, puellae, puellam, puellā, puellae, puellārum, puellīs,
+    puellās, puellīs]
+  decl_class: 1-a
+- word: manus
+  type: substantive
+  unit: 9
+  translations: [die Hand, die Handvoll, die Schar, die Gruppe]
+  genus: f
+  forms: [manus, manūs, manuī, manum, manū, manūs, manuum, manibus, manūs, manibus]
+  decl_class: 4-u
+- word: pēs
+  type: substantive
+  unit: 9
+  translations: [der Fuss]
+  genus: m
+  forms: [pēs, pedis, pedī, pedem, pede, pedēs, pedium, pedibus, pedēs, pedibus]
+  decl_class: 3-konsonant
+- word: unda
+  type: substantive
+  unit: 9
+  translations: [die Welle, das Gewässer]
+  genus: f
+  forms: [unda, undae, undae, undam, undā, undae, undārum, undīs, undās, undīs]
+  decl_class: 1-a
+- word: sōlitūdō
+  type: substantive
+  unit: 9
+  translations: [die Einsamkeit, die Einöde]
+  genus: f
+  forms: [sōlitūdō, sōlitūdinis, sōlitūdinī, sōlitūdinem, sōlitūdine, sōlitūdinēs,
+    sōlitūdinum, sōlitūdinibus, sōlitūdinēs, sōlitūdinibus]
+  decl_class: 3-konsonant
+- word: āra
+  type: substantive
+  unit: 9
+  translations: [der Altar]
+  genus: f
+  forms: [āra, ārae, ārae, āram, ārā, ārae, ārārum, ārīs, ārās, ārīs]
+  decl_class: 1-a

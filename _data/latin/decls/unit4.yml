@@ -1,0 +1,153 @@
+- word: homō
+  type: substantive
+  unit: 4
+  translations: [der Mensch, der Mann]
+  genus: m
+  forms: [homō, hominis, hominī, hominem, homine, hominēs, hominum, hominibus, hominēs,
+    hominibus]
+  decl_class: 3-gemischt
+- word: senex
+  type: substantive
+  unit: 4
+  translations: [der alte Mann]
+  genus: m
+  forms: [senex, senis, senī, senem, sene, senēs, senum, senibus, senēs, senibus]
+  decl_class: 3-konsonant
+- word: iuvenis
+  type: substantive
+  unit: 4
+  translations: [der junge Mann, die junge Frau]
+  genus: m+f
+  forms: [iuvenis, iuvenis, iuvenī, iuvenem, iuvene, iuvenēs, iuvenum, iuvenibus,
+    iuvenēs, iuvenibus]
+  decl_class: 3-i
+- word: oculus
+  type: substantive
+  unit: 4
+  translations: [das Auge]
+  genus: m
+  forms: [oculus, oculī, oculō, oculum, oculō, oculī, oculōrum, oculīs, oculōs, oculīs]
+  decl_class: 2-o
+- word: vōx
+  type: substantive
+  unit: 4
+  translations: [die Stimme, der Laut, die Äusserung]
+  genus: f
+  forms: [vōx, vōcis, vōcī, vōcem, vōce, vōcēs, vōcum, vōcibus, vōcēs, vōcibus]
+  decl_class: 3-konsonant
+- word: populus
+  type: substantive
+  unit: 4
+  translations: [das Volk]
+  genus: m
+  forms: [populus, populī, populō, populum, populō, populī, populōrum, populīs, populōs,
+    populīs]
+  decl_class: 2-o
+- word: ferrum
+  type: substantive
+  unit: 4
+  translations: [das Eisen, die Waffe, das Schwert]
+  genus: n
+  forms: [ferrum, ferrī, ferrō, ferrum, ferrō, ferra, ferrōrum, ferrīs, ferra, ferrīs]
+  decl_class: 2-o
+- word: vulnus
+  type: substantive
+  unit: 4
+  translations: [die Wunde]
+  genus: n
+  forms: [vulnus, vulneris, vulnerī, vulnus, vulnere, vulnera, vulnerum, vulneribus,
+    vulnera, vulneribus]
+  decl_class: 3-konsonant
+- word: mors
+  type: substantive
+  unit: 4
+  translations: [der Tod]
+  genus: f
+  forms: [mors, mortis, mortī, mortem, morte, mortēs, mortium, mortibus, mortēs, mortibus]
+  decl_class: 3-gemischt
+- word: pugna
+  type: substantive
+  unit: 4
+  translations: [der Kampf, die Schlacht]
+  genus: f
+  forms: [pugna, pugnae, pugnae, pugnam, pugnā, pugnae, pugnārum, pugnīs, pugnās,
+    pugnīs]
+  decl_class: 1-a
+- word: spectātor
+  type: substantive
+  unit: 4
+  translations: [der Zuschauer]
+  genus: m
+  forms: [spectātor, spectātōris, spectātōrī, spectātōrem, spectātōre, spectātōrēs,
+    spectātōrum, spectātōribus, spectātōrēs, spectātōribus]
+  decl_class: 3-konsonant
+- word: nōmen
+  type: substantive
+  unit: 4
+  translations: [der Name]
+  genus: n
+  forms: [nōmen, nōminis, nōminī, nōmen, nōmine, nōmina, nōminum, nōminibus, nōmina,
+    nōminibus]
+  decl_class: 3-konsonant
+- word: victor
+  type: substantive
+  unit: 4
+  translations: [der Sieger]
+  genus: m
+  forms: [victor, victōris, victōrī, victōrem, victōre, victōrēs, victōrum, victōribus,
+    victōrēs, vīctibus]
+  decl_class: 3-konsonant
+- word: caedēs
+  type: substantive
+  unit: 4
+  translations: [der Mord, das Blutbad]
+  genus: f
+  forms: [caedēs, caedis, caedī, caedem, caede, caedēs, caedium, caedibus, caedēs,
+    caedibus]
+  decl_class: 3-gemischt
+- word: gladiātor
+  type: substantive
+  unit: 4
+  translations: [der Gladiator]
+  genus: m
+  forms: [gladiātor, gladiātōris, gladiātōrī, gladiātōrem, gladiātōre, gladiātōrēs,
+    gladiātōrum, gladiātōribus, gladiātōrēs, gladiātōribus]
+  decl_class: 3-konsonant
+- word: corpus
+  type: substantive
+  unit: 4
+  translations: [der Körper, der Leichnam]
+  genus: n
+  forms: [corpus, corporis, corporī, corpus, corpore, corpora, corporum, corporibus,
+    corpora, corporibus]
+  decl_class: 3-konsonant
+- word: ars
+  type: substantive
+  unit: 4
+  translations: [die Fertigkeit, das Können, das Handwerk, die Kunst]
+  genus: f
+  forms: [ars, artis, artī, artem, arte, artēs, artium, artibus, artēs, artibus]
+  decl_class: 3-konsonant
+- word: mora
+  type: substantive
+  unit: 4
+  translations: [der Aufschub, die Verzögerung, der Aufenthalt]
+  genus: f
+  forms: [mora, morae, morae, moram, morā, morae, morārum, mōris, morās, mōrīs]
+  decl_class: 1-a
+- word: clēmentia
+  type: substantive
+  unit: 4
+  translations: [die Milde, die Gnade]
+  genus: f
+  forms: [clēmentia, clēmentiae, clēmentiae, clēmentiam, clēmentiā, clēmentiae, clēmentiārum,
+    clēmentiīs, clēmentiās, clēmentiīs]
+  decl_class: 1-a
+- word: victōria
+  type: substantive
+  unit: 4
+  translations: [der Sieg]
+  genus: f
+  forms: [victōria, victōriae, victōriae, victōriam, victōriā, victōriae, victōriārum,
+    victōriīs, victōriās, victōriīs]
+  decl_class: 1-a
