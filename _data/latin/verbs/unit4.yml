@@ -1,0 +1,68 @@
+#
+- infinitive: spectāre
+  unit: 4
+  meanings: [betrachten, anschauen]
+  class: 1
+  root: { present: spect, perfect: spectāv }
+- infinitive: currere
+  unit: 4
+  meanings: [laufen, eilen, rennen]
+  class: 3
+  subtype: konsonant
+  root: { present: curr, perfect: cucurr }
+- infinitive: fugere
+  unit: 4
+  meanings: [vor jdm / etw fliehen, etw vermeiden]
+  class: 3
+  subtype: iō
+  root: { present: fugi, perfect: fūg }
+- infinitive: effugere
+  unit: 4
+  meanings: [entfliehen, entkommen]
+  class: 3
+  subtype: iō
+  root: { present: effugi, perfect: effūg }
+- infinitive: occĭdere
+  unit: 4
+  meanings: [umkommen / sterben, untergehen]
+  class: 3
+  subtype: konsonant
+  root: { present: occĭd, perfect: occĭd }
+- infinitive: timēre
+  unit: 4
+  meanings: [jmd / etw fürchten, sich fürchten vor, Angst haben vor]
+  class: 2
+  root: { present: tim, perfect: timu }
+- infinitive: cadere
+  unit: 3
+  meanings: [fallen]
+  class: 3
+  subtype: konsonant
+  root: { present: cad, perfect: cecid }
+- infinitive: movēre
+  unit: 4
+  meanings: [bewegen, beeindrucken]
+  class: 2
+  root: { present: mov, perfect: mov }
+- infinitive: tegere
+  unit: 4
+  meanings: [bedecken, verbergen, schützen]
+  class: 3
+  subtype: konsonant
+  root: { present: teg, perfect: tēx }
+- infinitive: posse
+  unit: 4
+  meanings: [können]
+  class: irregular
+  present: [possum, potes, potest, possumus, potestis, possunt]
+  imperfect: [poteram, poterās, poterat, poterāmus, poterātis, poterant]
+  perfect: [potuī, potuistī, potuit, potuimus, potuistis, potuērunt]
+  plusquamperfect:
+    [potueram, potuerās, potuerat, potuerāmus, potuerātis, potuerant]
+  root: { present: pot, perfect: potu }
+- infinitive: pellere
+  unit: 4
+  meanings: [stossen / schlagen, vertreiben, zurückstossen]
+  class: 3
+  subtype: konsonant
+  root: { present: pell, perfect: pepul }

@@ -1,0 +1,56 @@
+- infinitive: invītāre
+  meanings: [einladen]
+  class: 1
+  root: { present: invīt, perfect: invītāv }
+- infinitive: exspectāre
+  unit: 1
+  meanings: [(er)warten]
+  class: 1
+  root: { present: exspect, perfect: exspectāv }
+- infinitive: parāre
+  unit: 1
+  meanings: [(vor)bereiten, zubereiten, vorhaben, erwerben]
+  class: 1
+  root: { present: par, perfect: parāv }
+- infinitive: dīcere
+  unit: 1
+  meanings: [sagen, sprechen, (be)nennen]
+  class: 3
+  subtype: konsonant
+  root: { present: dīc, perfect: dīx }
+- infinitive: venīre
+  unit: 1
+  meanings: [kommen]
+  class: 4
+  root: { present: ven, perfect: ven }
+- infinitive: habēre
+  unit: 1
+  meanings: [haben, halten]
+  class: 2
+  root: { present: hab, perfect: habu }
+- infinitive: cēnāre
+  unit: 1
+  meanings: [zu Abend essen]
+  class: 1
+  root: { present: cēn, perfect: cēnāv }
+- infinitive: facere
+  unit: 1
+  meanings: [machen, tun, handeln]
+  class: 3
+  subtype: iō
+  root: { present: faci, perfect: fēc }
+- infinitive: dēbēre
+  unit: 1
+  meanings: [müssen, schulden]
+  class: 2
+  root: { present: dēb, perfect: dēbu }
+- infinitive: valēre
+  unit: 1
+  meanings: [gesund / stark sein, Einfluss haben, gelten]
+  class: 2
+  root: { present: val, perfect: valu }
+- infinitive: apportāre
+  unit: 1
+  meanings: [(herbei)bringen]
+  class: 1
+  root: { present: apport, perfect: apportāv }

@@ -1,0 +1,58 @@
+- infinitive: petere
+  unit: 2
+  meanings:
+    [
+      aufsuchen / sich begeben (nach),
+      verlangen,
+      (er)bitten,
+      streben nach,
+      angreifen,
+    ]
+  class: 3
+  subtype: konsonant
+  root: { present: pet, perfect: petīv }
+- infinitive: audīre
+  unit: 2
+  meanings: [hören]
+  class: 4
+  root: { present: aud, perfect: audīv }
+- infinitive: labōrāre
+  unit: 2
+  meanings:
+    [sich anstrengen / sich bemühen / arbeiten, in Schwierigeiten sein, leiden]
+  class: 1
+  root: { present: labōr, perfect: labōrāv }
+- infinitive: agere
+  unit: 2
+  meanings: [tun / handeln, verhandeln]
+  class: 3
+  subtype: konsonant
+  root: { present: ag, perfect: ēg }
+- infinitive: putāre
+  unit: 2
+  meanings: [glauben / meinen, halten für]
+  class: 1
+  root: { present: put, perfect: putāv }
+- infinitive: lūdere
+  unit: 2
+  meanings: [spielen]
+  class: 3
+  subtype: konsonant
+  root: { present: lūd, perfect: lūs }
+- infinitive: capere
+  unit: 2
+  meanings: [fassen / nehmen / ergreifen, erhalten, erobern]
+  class: 3
+  subtype: iō
+  root: { present: capi, perfect: cēp }
+- infinitive: occīdere
+  unit: 2
+  meanings: [niederschlagen, töten]
+  class: 3
+  subtype: konsonant
+  root: { present: occīd, perfect: occīd }
+- infinitive: possidēre
+  unit: 2
+  meanings: [besitzen]
+  class: 2
+  root: { present: possid, perfect: possēd }

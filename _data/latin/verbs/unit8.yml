@@ -1,0 +1,90 @@
+#
+- infinitive: vīvere
+  unit: 8
+  meanings: [leben]
+  class: 3
+  subtype: konsonant
+  root: { present: vīv, perfect: vīx }
+- infinitive: revīvere
+  unit: 8
+  meanings: [qieder aufleben]
+  class: 3
+  subtype: konsonant
+  root: { present: revīv, perfect: revīx }
+- infinitive: īre
+  unit: 8
+  meanings: [gehen]
+  class: irregular
+  present: [eō, īs, it, īmus, ītis, eunt]
+  imperfect: [ībam, ībās, ībat, ībāmus, ībātis, ībant]
+  perfect: [ībō, ībis, ībit, ībimus, ībitis, ībunt]
+  plusquamperfect: [iī, īstī, iit, iimus, īstis, iērunt]
+  root: { present: ī, perfect: i }
+- infinitive: inīre
+  unit: 8
+  meanings: [hineingehen, betreten]
+  class: irregular
+  present: [ineō, inīs, init, inīmus, inītis, ineunt]
+  imperfect: [inībam, inībās, inībat, inībāmus, inībātis, inībant]
+  perfect: [iniī, inīstī, iniit, iniimus, inīstis, iniērunt]
+  plusquamperfect: [inieram, inierās, inierat, inierāmus, inierātis, inierant]
+  root: { present: inī, perfect: ini }
+- infinitive: abīre
+  unit: 8
+  meanings: [weggehen, fortgehen]
+  class: irregular
+  present: [abeō, abīs, abit, abīmus, abītis, abeunt]
+  imperfect: [abībam, abībās, abībat, abībāmus, abībātis, abībant]
+  perfect: [abiī, abīstī, abiit, abiimus, abīstis, abiērunt]
+  plusquamperfect: [abieram, abierās, abierat, abierāmus, abierātis, abierant]
+  root: { present: abī, perfect: abi }
+- infinitive: trahere
+  unit: 8
+  meanings: [ziehen, schleppen]
+  class: 3
+  subtype: konsonant
+  root: { present: trah, perfect: trāx }
+- infinitive: retrahere
+  unit: 8
+  meanings: [zurückziehen]
+  class: 3
+  subtype: konsonant
+  root: { present: retrah, perfect: retrāx }
+- infinitive: dūcere
+  unit: 8
+  meanings: [führen / ziehen, (mit dopp. Akk) halten für]
+  class: 3
+  subtype: konsonant
+  root: { present: dūc, perfect: dūx }
+- infinitive: re-ferre
+  unit: 8
+  meanings: [zurückbringen, berichten]
+  class: 3
+  subtype: suppletive
+  root: { present: refer, perfect: rettul }
+- infinitive: laudāre
+  unit: 8
+  meanings: [loben]
+  class: 1
+  root: { present: laud, perfect: laudāv }
+- infinitive: ārdēre
+  unit: 8
+  meanings: [brennen, glühen]
+  class: 2
+  root: { present: ārd, perfect: ārs }
+- infinitive: caedere
+  unit: 8
+  meanings: [fällen, (ab)schlagen, töten / totschlagen]
+  class: 3
+  subtype: konsonant
+  root: { present: caed, perfect: cecīd }
+- infinitive: vexāre
+  unit: 8
+  meanings: [quälen, plagen]
+  class: 1
+  root: { present: vex, perfect: vexāv }
+- infinitive: dolēre
+  unit: 8
+  meanings: [scherzen, wehtun, bedauern, Schmerz empfinden]
+  class: 2
+  root: { present: dol, perfect: dolu }

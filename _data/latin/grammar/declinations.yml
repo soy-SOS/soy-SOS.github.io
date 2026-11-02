@@ -18,6 +18,109 @@
 #   u               *Entry
 #   e               *Entry
 
+pronouns:
+  relative:
+    display: Relatvpronomina
+    items:
+      - de:
+          [
+            der/die/das,
+            dessen/deren/dessen,
+            dem/der/dem,
+            den/die/das,
+            durch den/die/das,
+            die,
+            deren,
+            die,
+            die,
+            durch die,
+          ]
+        la:
+          [
+            quī/quae/quod,
+            cuius/cuius/cuius,
+            cui/cui/cui,
+            quem/quam/quod,
+            quō/quā/quō,
+            quī/quae/quae,
+            quōrum/quārum/quōrum,
+            quibus/quibus/quibus,
+            quōs/quās/quae,
+            quibus/quibus/quibus,
+          ]
+  personal:
+    display: Personalpronomina
+    items:
+      - de:
+          [
+            ich,
+            meiner,
+            mir,
+            mich,
+            durch mich,
+            wir,
+            unser/von uns,
+            uns,
+            uns,
+            durch uns,
+          ]
+        la: [ego, meī, mihī, mē, mē, nōs, nostrī/nostrum, nōbīs, nōs, nōbīs]
+      - de:
+          [
+            du,
+            deiner,
+            dir,
+            dich,
+            durch dich,
+            ihr,
+            euer/von euch,
+            euch,
+            euch,
+            durch euch,
+          ]
+        la: [tū, tuī, tibī, tē, tē, vōs, vestrī/vestrum, vōbīs, vōs, vōbīs]
+      - de:
+          [
+            er/sie/es,
+            seiner/ihrer,
+            ihm/ihr,
+            ihn/sie/es,
+            durch ihn/sie,
+            sie,
+            ihrer,
+            ihnen,
+            sie,
+            durch sie,
+          ]
+        la:
+          [
+            is/ea/id,
+            eius/eius/eius,
+            eī/eī/eī,
+            eum/eam/id,
+            eō/eā/eō,
+            eī (ii)/eae/ea,
+            eōrum/eārum/eōrum,
+            eīs/eīs/eīs (iis),
+            eōs/eās/ea,
+            eīs/eīs/eīs (iis),
+          ]
+
+adjectives:
+  third:
+    one_termination:
+      - f: &stf ["", is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+      - m: *stf
+      - n: ["", is, ī, "", ī, ia, ium, ibus, ia, ibus]
+    two_termination:
+      - f: &ttf [is, is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+      - m: *ttf
+      - n: &ttn [e, is, ī, em, ī, ia, ium, ibus, ia, ibus]
+    three_termination:
+      - f: *ttf
+      - m: *stf
+      - n: *ttn
+
 all_types:
   # 0
   - &a0

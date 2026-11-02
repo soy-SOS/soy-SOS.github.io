@@ -1,0 +1,77 @@
+- infinitive: cognōscere
+  unit: 5
+  meanings: [kennenlernen / erkennen / erfahren, "im Perfekt: kennen / wissen"]
+  class: 3
+  subtype: konsonant
+  root: { present: cognōsc, perfect: cognōv }
+- infinitive: mittere
+  unit: 5
+  meanings: [schicken, lassen / loslassen / freilassen]
+  class: 3
+  subtype: konsonant
+  root: { present: mitt, perfect: mīs }
+- infinitive: pūgnāre
+  unit: 5
+  meanings: [kämpfen]
+  class: 1
+  root: { present: pūgn, perfect: pūgnāv }
+- infinitive: incitāre
+  unit: 5
+  meanings: [erregen, antreiben]
+  class: 1
+  root: { present: incit, perfect: in-citāv }
+- infinitive: terrēre
+  unit: 5
+  meanings: [erschrecken / in Schrecken versetzen, einschüchtern]
+  class: 2
+  root: { present: terr, perfect: terru }
+- infinitive: aperīre
+  unit: 5
+  meanings: [öffnen, offen darlegen, aufdecken]
+  class: 4
+  root: { present: aper, perfect: aperu }
+- infinitive: iubēre
+  unit: 5
+  meanings: [jdn auffordern, jdm befehlen]
+  class: 2
+  root: { present: iub, perfect: iuss }
+- infinitive: dubitāre
+  unit: 5
+  meanings: [bezweifeln, zögern]
+  class: 1
+  root: { present: dubit, perfect: dubitāv }
+- infinitive: ferre
+  unit: 5
+  meanings: [tragen, bringen]
+  class: 3
+  subtype: suppletive
+  root: { present: fer, perfect: tul }
+- infinitive: vocāre
+  unit: 5
+  meanings: [rufen, nennen]
+  class: 1
+  root: { present: voc, perfect: vocāv }
+- infinitive: trādere
+  unit: 5
+  meanings: [übergeben, überliefern]
+  class: 3
+  subtype: konsonant
+  root: { present: trād, perfect: trādid }
+- infinitive: incipere
+  unit: 5
+  meanings: [anfangen, beginnen]
+  class: 3
+  subtype: iō
+  root: { present: incipi, perfect: coep }
+- infinitive: surgere
+  unit: 5
+  meanings: [aufstehen, sich erheben]
+  class: 3
+  subtype: konsonant
+  root: { present: surg, perfect: surrēx }
+- infinitive: fundere
+  unit: 5
+  meanings: [(aus)giessen, zerstreuen, vertreiben]
+  class: 3
+  subtype: konsonant
+  root: { present: fund, perfect: fūd }

@@ -1,0 +1,55 @@
+#
+- infinitive: servāre
+  unit: 6
+  meanings: [bewahren, retten, beobachten]
+  class: 1
+  root: { present: serv, perfect: servāv }
+- infinitive: cōnspicere
+  unit: 6
+  meanings: [erblicken]
+  class: 3
+  subtype: iō
+  root: { present: cōnspici, perfect: cōnspex }
+- infinitive: iactāre
+  unit: 6
+  meanings: [werfen, schleudern]
+  class: 1
+  root: { present: iact, perfect: iactāv }
+- infinitive: complēre
+  unit: 6
+  meanings: [anfüllen, erfüllen]
+  class: 2
+  root: { present: compl, perfect: complēv }
+- infinitive: cōnsistere
+  unit: 6
+  meanings: [sich aufstellen, stehen bleiben, Halt machen]
+  class: 3
+  subtype: konsonant
+  root: { present: cōnsist, perfect: cōnstit }
+- infinitive: dēesse
+  unit: 6
+  meanings: [fehlen, nicht da sein, jdn im Stick lassen]
+  class: irregular
+  present: [dēsum, dēes, dēest, dēsumus, dēestis, dēsunt]
+  imperfect: [dēeram, dēerās, dēerat, dēerāmus, dēerātis, dēerant]
+  perfect: [dēfuī, dēfuistī, dēfuit, dēfuimus, dēfuistis, dēfuērunt]
+  plusquamperfect:
+    [dēfueram, dēfuerās, dēfuerat, dēfuerāmus, dēfuerātis, dēfuerant]
+  root: { present: dēe, perfect: dēfu }
+- infinitive: vincere
+  unit: 6
+  meanings: [siegen, besiegen, übertreffen]
+  class: 3
+  subtype: konsonant
+  root: { present: vinc, perfect: vic }
+- infinitive: sē recipere
+  unit: 6
+  meanings: [sich zurückziehen]
+  class: 3
+  subtype: iō
+  root: { present: recipi, perfect: recēp }
+- infinitive: administrāre
+  unit: 6
+  meanings: [verwalten, verrichten]
+  class: 1
+  root: { present: administr, perfect: administrāv }

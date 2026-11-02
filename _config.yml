@@ -45,6 +45,8 @@ collections:
     output: false
   latin:
     output: false
+  latin_verbs:
+    output: false
 
 defaults:
   - scope:

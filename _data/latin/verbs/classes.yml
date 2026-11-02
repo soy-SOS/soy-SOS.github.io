@@ -1,0 +1,76 @@
+tempori:
+  - name: present
+    display: Präsens
+    stem: present
+    base_endings: &present_end [ō, s, t, mus, tis, nt]
+  - name: imperfect
+    display: Imperfekt
+    stem: present
+    base_endings: *present_end
+  - name: perfect
+    display: Perfekt
+    stem: perfect
+    base_endings: &perfect_end [ī, istī, it, imus, istis, ērunt]
+  - name: plusquamperfect
+    display: Plusquamperfekt
+    stem: perfect
+    base_endings: &plusquamperfect_end [eram, erās, erat, erāmus, erātis, erant]
+
+persons:
+  - "1. Sg"
+  - "2. Sg"
+  - "3. Sg"
+  - "1. Pl"
+  - "2. Pl"
+  - "3. Pl"
+
+classes:
+  - class: 1
+    name: ā
+    tempus_sign: ba
+    present: *present_end
+    imperfect: *present_end
+    perfect: *perfect_end
+    plusquamperfect: *plusquamperfect_end
+  - class: 2
+    name: ē
+    tempus_sign: ba
+    present: *present_end
+    imperfect: *present_end
+    perfect: *perfect_end
+    plusquamperfect: *plusquamperfect_end
+  - class: 3
+    name: konsonant
+    tempus_sign: eba
+    present: *present_end
+    imperfect: *present_end
+    perfect: *perfect_end
+    plusquamperfect: *plusquamperfect_end
+  - class: 3
+    name: iō
+    tempus_sign: eba
+    present: [ō, s, t, mus, tis, unt]
+    imperfect: *present_end
+    perfect: *perfect_end
+    plusquamperfect: *plusquamperfect_end
+  - class: irregular
+    name: irregular
+    tempus_sign: ba
+    present: *konsonant_present_endings
+    imperfect: *present_end
+    perfect: *perfect_end
+    plusquamperfect: *plusquamperfect_end
+  - class: 3
+    name: suppletive
+    tempus_sign: eba
+    present: [ō, s, t, imus, tis, unt]
+    imperfect: *present_end
+    perfect: *perfect_end
+    plusquamperfect: *plusquamperfect_end
+  - class: 4
+    name: ī
+    tempus_sign: eba
+    present: *present_end
+    imperfect: *present_end
+    perfect: *perfect_end
+    plusquamperfect: *plusquamperfect_end

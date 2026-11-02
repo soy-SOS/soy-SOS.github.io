@@ -15,13 +15,11 @@ parent: Latein
 >
 >Übungen zur Deklination findest du hier:
 >
->- [Regeln zu Deklinationsklassen]({{site.baseurl}}/latin/quiz/decl-general)
 >- [Brevia Vocis: Substantiva deklinieren]({{site.baseurl}}/latin/quiz/decl-subs)
->- [Brevia Vocis: Substantiva, Deklinationsklasse bestimmen]
 
 ## Deklination Allgemein
 
-Das Anpassen von Wörtern, anhand ihrer Funktion im Satzbau, nennt man Deklination.
+Das Anpassen von Nomen, Pronomen und Adjektive, anhand ihrer Funktion im Satzbau, nennt man Deklination.
 Das Lateinische kennt verschiedene Arten von Anpassungen, so wie wir auch im Deutschen. Ein einführendes Beispiel mit zwei Fällen wäre Folgendes:
 
 | Kasus | DE | LA |
@@ -48,6 +46,10 @@ Deklinationsklassen sind:
 
 5. e-Deklination
     ---> Substandiva, die im Nominativ singular ein langes **e** ind der Endung haben
+
+### Was wird dekliniert?
+
+Wie genannt können wir Substantiva deklinieren, ähnlich wie auch auf Deutsch. Allerdings gibt es auch auf Deutsch Satzelemente, die wir dem Fall und Geschlecht anpassen; [Adjektive] und [Pronomen].
 
 ## Deklinationsklassen
 
@@ -191,3 +193,87 @@ Jedoch gibt es Substantiva, die nur im Plural vorkommen, hierfür gibt es auch e
 *Diese Tabelle ist im [Tabellenverzeichnis]({{site.baseurl}}/latin#determine-decl-class-table) hinterlegt.*
 {% assign table = site.latin | where: "name", "determine-decl-class-table" %}
 {{ table }}
+
+## Adjketive
+
+{: .important-title }
+> Definition des Adjektivs
+>
+> Adjektive sind Wörter, die ein Substantiv näher beschreiben.
+
+Adjektive werden auf das Bezugssubstantiv angepasst, hierbei gilt die sogenannte KNG-Kongruenz.
+
+Die Deklinationsklassen für Adjektive sind jedoch beschränkt auf die ersten drei Klassen, die wir schon für die Substantiva kennen.
+
+### KNG Kongruenz
+
+KNG-Kongruenz heisst, das Adjektiv übernimmt die folgenden Parameter des Substantivs:
+
+- **Kasus** des Substantivs wird übernommen.
+
+- **Numerus** (= Person) des Substantivs wird übernommen.
+
+- **Genus** des Substantivs wird übernommen.
+
+| Substantiv | Kasus | Numerus | Genus |
+| :-------- | :---: | :---: | :---: |
+| amicus | Nominativ | Singular | maskulin |
+| amicam | Akkusativ | Singular | feminin |
+| vina | Nom. / Akk. | Plural | neutra |
+
+### Adjektive der ersten und zweiten Deklination
+
+Diese Adjektive haben in allen Fällen dieselbe Endung, wie die Substantiva. Wir erkennen Adjektive der 1. / 2. Deklination wir gewohnt a der Endung im Genitiv Singular / Plural (siehe [hier](#deklinationsklassen-von-substantiva-bestimmen)).
+
+{: .important-title}
+> Genus des Substantivs ≠ Deklinationsklasse des Substantivs
+>
+> Es gibt Substantiva, die ein anderes Geschlecht haben, als für die Deklinationsklasse üblich ist.
+> Beispielsweise wird "pirata" nach a-Deklination angepasst, das Wort selber ist jedoch maskulin.
+> Es kann also nicht immer dieselbe Endung übernommen werden für das Adjektiv, man muss sich zwingend an der KNG-Kongruenz orientieren.
+
+Beispiele mit dem Adjektiv **bonus / bona / bonum**:
+
+| Substantiv | KNG | mit Adjektiv |
+| :--------- | :--: | ----------: |
+| amicārum | [Gen] [Pl] [f] | amic**ārum** bon**ārum** |
+| amicō | [Abl.] [Sg] [m] | amic**ō** bon**ō** |
+| vīnī | [Gen] [Sg] [n] | vīn**ī** bon**ī** |
+| piratae | [Dat] [Sg] [m] | pirat**ae** bon**ō** |
+
+### Adjektive der dritten Deklination
+
+Diese Adjektive werden anders angepasst, wobei wir uns allerdings immer noch grösstenteils an den Endungen der Substantiva orientieren.
+
+Die wichtigsten Unterschiede sind folgende:
+
+- Abl Sg: `-i`
+- Nom Pl (n): `-ia`
+- Gen Pl: `-ium`
+
+Des weiteren gibt es für Adjektive der dritten Deklination verschiedene Formen im Nominativ Singular: solche mit 1, 2 oder 3 verschiedenen Nom Sg Formen.
+
+1 Endung für alle Genera Beispiele:
+
+- felix
+- senex
+
+2 Endungen, (m/f) und (n)
+
+- trist**is** / trist**e**
+- fort**is** / fort**e*
+
+3 Endungen, (m), (f), (n)
+
+- celer / celer**is** / celer**e**
+- acer / acr**is** / acr**e**
+
+## Pronomina
+
+### Personalpronomen is / ea / id
+
+{{ site.latin | where: "name", "personal-pronomina-iei" }}
+
+### Relativpronomen qui / quae / quod
+
+{{ site.latin | where: "name", "relative-pronomina-qqq" }}

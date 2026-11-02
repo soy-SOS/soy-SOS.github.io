@@ -1,0 +1,51 @@
+- infinitive: placēre
+  unit: 3
+  meanings: [gefallen]
+  class: 2
+  root: { present: plac, perfect: placu }
+- infinitive: exercēre
+  unit: 3
+  meanings: [sich üben / trainieren, sich quälen]
+  class: 2
+  root: { present: exerc, perfect: exercu }
+- infinitive: salīre
+  unit: 3
+  meanings: [springen]
+  class: 4
+  root: { present: sal, perfect: sali }
+- infinitive: tacēre
+  unit: 3
+  meanings: [schweigen]
+  class: 2
+  root: { present: tac, perfect: tacu }
+- infinitive: clāmāre
+  unit: 3
+  meanings: [rufen, schreien]
+  class: 1
+  root: { present: clām, perfect: clāmāv }
+- infinitive: cōgere
+  unit: 3
+  meanings: [zusammentreiben, versammeln, zwingen]
+  class: 3
+  subtype: konsonant
+  root: { present: cōg, perfect: cōēg }
+- infinitive: emere
+  unit: 3
+  meanings: [kaufen]
+  class: 3
+  subtype: konsonant
+  root: { present: em, perfect: ēm }
+- infinitive: dare
+  unit: 3
+  meanings: [geben]
+  class: irregular
+  present: [dō, dās, dat, damus, datis, dant]
+  imperfect: [dabam, dabās, dabat, dabāmus, dabātis, dabant]
+  perfect: [dedī, dedistī, dedit, dedimus, dedistis, dedērunt]
+  plusquamperfect: [dederam, dederās, dederat, dederāmus, dederātis, dederant]
+  root: { present: da, perfect: de }
+- infinitive: tenēre
+  unit: 3
+  meanings: [haben / besitzen, halten / fest- /zurückhalten]
+  class: 2
+  root: { present: ten, perfect: tenu }
