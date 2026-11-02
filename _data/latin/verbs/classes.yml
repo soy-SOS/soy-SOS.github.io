@@ -3,18 +3,24 @@ tempori:
     display: Präsens
     stem: present
     base_endings: &present_end [ō, s, t, mus, tis, nt]
+    formation: [pres-r_e, pres-s_e, pres-s_e, pres-s_e, pres-s_e, pres-s_e]
   - name: imperfect
     display: Imperfekt
     stem: present
     base_endings: *present_end
+    formation:
+      [pres-s_t_e, pres-s_t_e, pres-s_t_e, pres-s_t_e, pres-s_t_e, pres-s_t_e]
   - name: perfect
     display: Perfekt
     stem: perfect
     base_endings: &perfect_end [ī, istī, it, imus, istis, ērunt]
+    formation: [perf-r_e, perf-s_e, perf-s_e, perf-s_e, perf-s_e, perf-s_e]
   - name: plusquamperfect
     display: Plusquamperfekt
     stem: perfect
     base_endings: &plusquamperfect_end [eram, erās, erat, erāmus, erātis, erant]
+    formation:
+      [perf-s_t_e, perf-s_t_e, perf-s_t_e, perf-s_t_e, perf-s_t_e, perf-s_t_e]
 
 persons:
   - "1. Sg"
