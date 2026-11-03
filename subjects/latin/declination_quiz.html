@@ -43,6 +43,7 @@ permalink: /latin/quiz/decl-subs
       <ul>
         <li>Deklinationsklasse: <b>{{item.decl_class}}</b></li>
         <li>Genus: <b>{{item.genus}}</b></li>
+        <li>Bedeutung: {{iem.translations | join: ", "}}</li>
       </ul>
       {%for c in item.children%}
       <div class="card" onclick="this.classList.toggle('flipped')">
