@@ -176,7 +176,7 @@ Die `ē`-Deklination kennt Unterteilungen, da die meisten Wörter weiblich sind.
 
 ## Deklinationsklassen von Substantiva bestimmen
 
-Substantiva haben, je nach Deklinationsklasse und Kasus verschiene Endungen. Teilweise überschneiden sich Endungen von bestimmen Kasi verschiedener Deklinationsklassen, was es schwierig macht, von dem deklinierten Substantiv auf die Grundform oder andere Deklinationen zu schliessen. Dabei hilft es, die Dkelinaionsklassen zu kennen, da diese (abgesehen von wenigen Ausnahmen) bestimmten Regeln folgen.
+Substantiva haben, je nach Deklinationsklasse und Kasus verschiene Endungen. Teilweise überschneiden sich Endungen von bestimmen Kasus verschiedener Deklinationsklassen, was es schwierig macht, von dem deklinierten Substantiv auf die Grundform oder andere Deklinationen zu schliessen. Dabei hilft es, die Dkelinaionsklassen zu kennen, da diese (abgesehen von wenigen Ausnahmen) bestimmten Regeln folgen.
 
 Für eine eindeutige Bestimmung der Deklinationsklasse, braucht man nur den Genitiv singular, denn dieser ist für alle fünf Klassen eindeutig und unterschiedlich.
 

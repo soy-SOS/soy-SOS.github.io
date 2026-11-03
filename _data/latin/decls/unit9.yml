@@ -6,12 +6,12 @@
   forms: [terra, terrae, terrae, terram, terrā, terrae, terrārum, terrīs, terrās,
     terrīs]
   decl_class: 1-a
-- word: bove
+- word: bōs
   type: substantive
   unit: 9
   translations: [das Rind]
   genus: m+f
-  forms: [bōs, bovis, bovī, bovem, bove, bovēs, boum, bōbus, bovēs]
+  forms: [bōs, bovis, bovī, bovem, bove, bovēs, boum, bōbus, bovēs, bōbus]
   decl_class: '3'
 - word: rēx
   type: substantive

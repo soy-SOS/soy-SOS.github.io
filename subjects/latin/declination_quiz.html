@@ -16,7 +16,11 @@ permalink: /latin/quiz/decl-subs
 </head>
 
 <body>
-  {% assign questions = site.data.quiz.latin.voci_decls %}
+  {% assign questions = '' | split: '' %}
+  {% for decls in site.data.latin.decls %}
+  {% assign questions = questions | concat: decls[1] | compact %}
+  {% endfor %}
+
 
   {% assign units = questions | map: "unit" | compact | uniq %}
   {% assign unit_filter = site.data.filter | where: "attribute", "unit" %}
@@ -30,7 +34,9 @@ permalink: /latin/quiz/decl-subs
   {% assign genus_filter = site.data.filter | where: "attribute", "genus" %}
   {% include components/quiz_filter_group.html filter=genus_filter attributes=genera %}
 
-  {% for item in site.data.quiz.latin.voci_decls %}
+  {% assign kasus = "Nom Sg,Gen Sg,Dat Sg,Akk Sg,Abl Sg,Nom Pl,Gen Pl,Dat Pl,Akk Pl,Abl Pl" | split: ","%}
+
+  {% for item in questions %}
   {% assign classname = "unit-" | append: item.unit %}
   {% assign classname = classname | append: " genus-" | append: item.genus %}
   {% assign classname = classname | append: " decl_class-" | append: item.decl_class %}
@@ -38,25 +44,25 @@ permalink: /latin/quiz/decl-subs
   <div class="flashcard-container {{classname}}">
     <details>
       <summary class="flash">
-        ({{item.unit}}) <b>{{item.question | slugify: "latin"}}</b>
+        ({{item.unit}}) <b>{{item.word | slugify: "latin"}}</b>
       </summary>
       <ul>
         <li>Deklinationsklasse: <b>{{item.decl_class}}</b></li>
         <li>Genus: <b>{{item.genus}}</b></li>
         <li>Bedeutung: {{item.translations | join: ", "}}</li>
       </ul>
-      {%for c in item.children%}
+      {%for c in item.forms%}
       <div class="card" onclick="this.classList.toggle('flipped')">
         <p class="unit"></p>
         <div class="card-inner">
           <div class="card-front">
             <p class="question-text">
-              <i>{{c.question | capitalize | replace: "sg", "Sg" | replace: "pl", "Pl" }}</i>
+              <i>{{kasus[forloop.index0]}}</i>
             </p>
           </div>
           <div class="card-back">
             <p>
-              {{c.answer}}
+              {{c}}
             </p>
           </div>
         </div>
