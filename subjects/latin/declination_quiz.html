@@ -45,13 +45,13 @@ permalink: /latin/quiz/decl-subs
   <div class="flashcard-container {{classname}}">
     <details>
       <summary class="flash">
-        ({{item.unit}}) <b>{{item}}</b>
+        ({{item.unit}}) <b>{{word}}</b>
       </summary>
       <ul>
         <li>Deklinationsklasse: <b>{{item.decl_class}}</b></li>
         <li>Genus: <b>{{item.genus}}</b></li>
         <li>Bedeutung: {{item.translations | join: ", "}}</li>
-        <li>Link: <a href="https://en.wiktionary.org/wiki/{word}#Latin">Wiktionary</a></li>
+        <li>Link: <a href="https://en.wiktionary.org/wiki/{{word}}#Latin">Wiktionary</a></li>
       </ul>
       {%for c in item.forms%}
       <div class="card" onclick="this.classList.toggle('flipped')">
