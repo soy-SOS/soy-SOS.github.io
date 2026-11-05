@@ -1,0 +1,87 @@
+- word: exilium
+  type: substantive
+  unit: 10
+  translations: [das Exil]
+  genus: n
+  forms: [exilium, exiliī, exiliō, exilium, exiliō, exilia, exiliōrum, exiliīs, exilia,
+    exiliīs]
+  decl_class: 2-o
+- word: caelum
+  type: substantive
+  unit: 10
+  translations: [der Himmel]
+  genus: n
+  forms: [caelum, caelī, caelō, caelum, caelō, caelī, caelōrum, caelīs, caelōs, caelīs]
+  decl_class: 2-o
+- word: via
+  type: substantive
+  unit: 10
+  translations: [der Weg, die Strasse]
+  genus: f
+  forms: [via, viae, viae, viam, viā, viae, viārum, viīs, viās, viīs]
+  decl_class: 1-a
+- word: aura
+  type: substantive
+  unit: 10
+  translations: [die Luft, der Luftzug]
+  genus: f
+  forms: [aura, aurae, aurae, auram, aurā, aurae, aurārum, aurīs, aurās, aurīs]
+  decl_class: 1-a
+- word: opus
+  type: substantive
+  unit: 10
+  translations: [das Werk, die Arbeit, die Mühe]
+  genus: n
+  forms: [opus, operis, operī, opus, opere, opera, operum, operibus, opera, operibus]
+  decl_class: 3-konsonant
+- word: sōl
+  type: substantive
+  unit: 10
+  translations: [die Sonne]
+  genus: m
+  forms: [sōl, sōlis, sōlī, sōlem, sōle, sōlēs, sōlum, sōlibus, sōlēs, sōlibus]
+  decl_class: 3-konsonant
+- word: dux
+  type: substantive
+  unit: 10
+  translations: [der Anführer, der Führer]
+  genus: m
+  forms: [dux, ducis, ducī, ducem, duce, ducēs, ducum, ducibus, ducēs, ducibus]
+  decl_class: 3-konsonant
+- word: sepulcrum
+  type: substantive
+  unit: 10
+  translations: [das Grab, das Grabmal]
+  genus: n
+  forms: [sepulcrum, sepulcrī, sepulcrō, sepulcrum, sepulcrō, sepulcra, sepulcrōrum,
+    sepulcrīs, sepulcra, sepulcrīs]
+  decl_class: 2-o
+- word: fābula
+  type: substantive
+  unit: 10
+  translations: [die Erzählung, die Geschichte, das Theaterstück]
+  genus: f
+  forms: [fābula, fābulae, fābulae, fābulam, fābulā, fābulae, fābulārum, fābulīs,
+    fābulās, fābulīs]
+  decl_class: 1-a
+- word: dea
+  type: substantive
+  unit: 10
+  translations: [die Göttin]
+  genus: f
+  forms: [dea, deae, deae, deam, deā, deae, deārum, deābus, deās, deābus]
+  decl_class: 1-a-ābus
+- word: āēr
+  type: substantive
+  unit: 10
+  translations: [die Luft]
+  genus: m
+  forms: [āēr, āeris, āerī, āera, āere, āerēs, āerum, āeribus, āerēs, āeribus]
+  decl_class: '3'
+- word: cāsus
+  type: substantive
+  unit: 10
+  translations: [der Fall, der Zufall, der Unfall, der Unglücksfall]
+  genus: m
+  forms: [cāsus, cāsūs, cāsuī, cāsum, cāsū, cāsūs, cāsuum, cāsibus, cāsūs, cāsibus]
+  decl_class: 4-u
