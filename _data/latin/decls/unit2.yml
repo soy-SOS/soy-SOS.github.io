@@ -38,7 +38,7 @@
   unit: 2
   translations: [die Kinder]
   genus: m
-  forms: [līberī, līberōrum, līberīs, līberōs, līberīs]
+  forms: [N/A, N/A, N/A, N/A, N/A, līberī, līberōrum, līberīs, līberōs, līberīs]
   decl_class: 2-o
 - word: fortūna
   type: substantive
@@ -69,7 +69,7 @@
   unit: 2
   translations: [etw Wahres, die Wahrheit]
   genus: n
-  forms: [vēra, vērōrum, vērīs, vēra, vērīs]
+  forms: [N/A, N/A, N/A, N/A, N/A, vēra, vērōrum, vērīs, vēra, vērīs]
   decl_class: 2-o
 - word: officium
   type: substantive
