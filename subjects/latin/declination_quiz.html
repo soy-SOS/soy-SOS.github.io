@@ -40,16 +40,18 @@ permalink: /latin/quiz/decl-subs
   {% assign classname = "unit-" | append: item.unit %}
   {% assign classname = classname | append: " genus-" | append: item.genus %}
   {% assign classname = classname | append: " decl_class-" | append: item.decl_class %}
+  {% assign word = item.word | slugify: "latin" %}
 
   <div class="flashcard-container {{classname}}">
     <details>
       <summary class="flash">
-        ({{item.unit}}) <b>{{item.word | slugify: "latin"}}</b>
+        ({{item.unit}}) <b>{{word}}</b>
       </summary>
       <ul>
         <li>Deklinationsklasse: <b>{{item.decl_class}}</b></li>
         <li>Genus: <b>{{item.genus}}</b></li>
         <li>Bedeutung: {{item.translations | join: ", "}}</li>
+        <li>Link: <a href="https://en.wiktionary.org/wiki/{{word}}#Latin">Wiktionary</a></li>
       </ul>
       {%for c in item.forms%}
       <div class="card" onclick="this.classList.toggle('flipped')">
