@@ -1,0 +1,25 @@
+<script type="module">
+import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@12/dist/mermaid.esm.min.mjs';
+mermaid.initialize({startOnLoad: true });
+</script>
+
+<pre class="mermaid">
+---
+config:
+    sequence:
+        look: classic
+        darkMode: true
+        theme: redux-dark-color
+---
+sequenceDiagram
+  autonumber
+  participant science as Forschungsstand
+  participant theory as Theorie
+  participant question as Frage
+  participant concept as Konzept
+  participant operationalize as Operationalisierung
+  participant data as Daten
+  participant answer as Antwort
+
+  science->>thoery: Theorie aufstellen
+</pre>
