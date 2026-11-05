@@ -183,6 +183,8 @@ Latente Konzepte können verschieden Operationalisiert werden:
 - 1 Indikator, der das Konzept abdeckt
 - Index: mehrere Indikatoren, die kombiniert zu einem Gesamtwert führen.
 
+Bei einem Index ist es sehr wichtig, dass die Indikatoren, die man auswählt, auch zusammenpassen, um die Reliabilität der Daten sicherzustellen. Hierzu verwendet man in der Statistik **Cronbachs Alpha**.
+
 {: .important-title }
 > Definition Daten
 >
@@ -209,12 +211,35 @@ Antworten haben folgende Elemente:
 
 ### Statistische Grössen
 
+Ich versuche Stichpunkte zu den statistischen Grössen hier aufzuführen, indem ich erkläre, wie sie hergeleitet werden. Da es sich um Datenreihen, also Listen von Werten handelt, enthalten diese schrittweisen Erklärungen Listen.
+Diese Erklärungen gehen von einer 0-indexierten Liste aus (d.h. das 0-te Element ist das erste der Liste).
+
+Beispiel:
+```
+values = [a, b, c, d, e, f, g]
+values[0] = a
+values[1] = b
+values[6] = g
+```
+
 #### Mittelwert
 
 {: .important-title}
 > Definition Mittelwert
 >
 > Der Mittelwert (auch arithmetisches Mittel, Durchschnitt) ist die Summe aller Werte geteilt durch deren Anzahl.
+
+1. `all`: Alle Werte für die Variable
+2. `N`: Anzahl Elemente in `all`
+3. `sum`: Summe aller Werte in `all`
+4. `average`: `sum` geteilt durch `N`
+
+Beispiel:
+
+1. `all = [1, 2, 2, 4, 5, 4]`
+2. `N = 6`
+3. `sum = 18`
+4. `average = 3` = `sum ÷ N = 18 ÷ 6`
 
 ```py
 def mittelwert(data):
@@ -232,34 +257,137 @@ def mittelwert(data):
 >
 > Der Modus ist der Wert mit der grössten absoluten Häufigkeit.
 
-```py
-def modus(data):
-    unique_data_values = []
-    sorted_data = data.sort()
+1. `all`: Alle Werte für die Variable
+2. `unique`: Einzigartige Werte
+3. `modus` = der `unique`-Wert, der am Häufigsten in `all` vorkommt
 
-    modus = 0
-    N_modus = 0
+Beispiel:
 
-    for d in sorted_data:
-        d_count = sorted_data.count(d)
-        if d_count > N_modus:
-            modus = d
-            N_modus = d_count
+1. `all = [0, 0, 0, 4, 5, 6, 7, 7, 7, 7]`
+2. `unique = [0, 4, 5, 6, 7]`
+3. `modus = 7`
 
-    return modus
+weil
+
+```
+unique_count = [
+    0 ⇒ 3,
+    4 ⇒ 1,
+    5 ⇒ 1,
+    6 ⇒ 1,
+    7 ⇒ 4,
+]
 ```
 
 #### Median
 
-Der Median, auch Zentralwert, ist die Mitte der sortierten Datenreihe.
+Der Median, auch Zentralwert, ist die Mitte der sortierten Datenreihe. Also ist das der Wert, der unseren Datensatz entzweiteilt: die eine Hälfte der Werte liegt über dem Median, die andere Hälfte darunter.
 
-```py
+1. `all`: Alle Werte für die Variable
+2. `N`: Anzahl Werte in `all`
+3. `all_sorted`: `all` aufsteigend sortiert
+4. `median`: die Mitte von `all_sorted`.
+    a) Wenn `N` ungerade: `all_sorted[c]` mit `c` = abrunden(`N` ÷ 2) 
+    b) Wenn `N` gerade: `mittelwert(c1, c2)` mit `c1` = abrunden(`N` ÷ 2), `c2` = `c1` + 1
 
-def median(data):
-    sorted_data = data.sort()
-    N = sorted_data.__len__()
-    if N % 2 == 0
+Beispiel 1:
+1. `all` = `[3, 4, 2, 2, 1]`
+2. `N` = 5
+3. `all_sorted` = `[1, 2, 2, 3, 4]`
+4. `median` = `all_sorted[c]` = 2
+    a) `c` = abrunden(`5 ÷ 2`) = 2
+
+Beispiel 2:
+1. `all` = `[3, 4, 2, 2, 1, 5]`
+2. `N` = 6
+3. `all_sorted` = `[1, 2, 2, 3, 4, 5]`
+4. `median` = `mittelwert(3, 2)` = 2.5
+    b) `c1 = abrunden(6 ÷ 2) = 3`, `c2 = c1 - 1 = 2` ⇒ `all_sorted[c1] = 3`, `all_sorted[c2] = 2` 
+
+#### Quantile
+
+Quantile teilen eine geordnte Datenreihe in Teile, analog zum Vorgehen beim Median. `p` ist hier immer der Dezimalwert des Anteils der Werte, die unter dem Quantil Q<sub>p</sub> liegen.
+
+- Q<sub>p</sub>: `p` der Werte sind kleiner als Q<sub>p</sub>
+- Q<sub>0.8</sub>: `0.8` bzw `3/5` der Werte sind kleiner als Q<sub>0.6</sub>
+- Q<sub>0.25</sub>: `0.25` bzw `1/4` der Werte sind kleiner als Q<sub>0.25</sub>
+- Q<sub>0.5</sub>: `0.5` bzw `1/2` der Werte sind kleiner als Q<sub>0.5</sub>
+
+**Quartil**: Für die Quantile, die den Datensatz in vier Teilen, wird auch der Begriff *Quartil* verwendet. Diese werden auch als 1./2./3./4. Quartil beeichnet.
+
+**Perzentile**: sind eine andere Ausdrucksweise für Quartile. `p` wird, anstelle eines Dezimalbruches, als Prozent ausgedrückt. Also ist das 99% Quantil, bzw das 99. Perzentil, das gleiche, wie Q<sub>0.99</sub>.
+
+Bezeichnungen für Quantile:
+- Q<sub>0.25</sub>
+    - 1. Quartil
+    - 25. Perzentil
+- Q<sub>0.5</sub>
+    - 2. Quartil
+    - das gleiche wie der Median
+    - 50. Perzentil
+- Q<sub>0.75</sub>
+    - 3. Quartil
+    - 75. Perzentil
+
+**Interquantilsabstände** ermöglichen es, eine Range anzugeben. So kann eine allgemeine Verteilung des Datensatzes genauer beschrieben werden.
+
+Beispiel:
+- mittlere 50%
+    - Q<sub>0.25</sub> bis Q<sub>0.75</sub>
+    - 1. bis 3. Quartil
+    - 25. bis 75. Perzentil
+- mittlere 10%
+    - Q<sub>0.45</sub> bis Q<sub>0.55</sub>
+    - 45. bis 55. Perzentil
+- mittlere 90%
+    - Q<sub>0.05</sub> bis Q<sub>0.95</sub>
+    - 5. bis 95. Perzentil
+
+#### Cronbachs Alpha
+
+Ein statistisches Mass, das für die Erstellung eines Index verwendet wird. Es zeigt auf, wie gut die Indikatoren sich zu einem Index zusammenfassen lassen und das latente Konzept messen.
+
+Der Cronbachs Alpha Wert geht von 0 bis 1:
+
+- 0: Indikatoren sind nicht verwandt.
+- 1: Alle Indikatoren beantworten die Fragen mit deckungsgleichem Muster.
+
+Faustregel: Alpha > 0.7 ⇒ passen gut zusammen.
+
+#### Korrelationskoeffizient
+
+Gemessene Variablen (UV) und (AV) wurden normiert und kombinier
+
+
+### Operationen
+
+#### Zusammenhang untersuchen
+
+Grundsätzlich versuchen wir die Beziehung zwischen einer vermuteten Ursache (unabhängige Variable) und dem erwarteten Resultat (abhängige Variable) herzustellen. Um zu bestimmen, ob die Variablen unseres Konzepts tatsächlich zusammenhängen, müssen die UV und AV Werte in einen Bezug gebracht werden.
+
+Beispiel:
+1. Ich erwarte, wenn UV gross ==(Bezug)⇒ AV gross
+2. Ich erwarte, wenn UV gross ==(Bezug)⇒ AV klein
+
+Unsere Datensätze haben also jeweils Werte für UV und AV. Also können wir uns die Werte als zweidimensionale Vektoren Vorstellen; Punkte mit (UV, AV). 
+
+Insofern die Skalen für AV und UV normiert sind (d.h. Skalen sind gleich, Datentypen sind gleich, Intervalle sind gleich), kann man ihre Informationen in einem kartesischen Koordinatensystem darstellen und sogar eine lineare Funktion erstellen.
+
 ```
+Zur Erinnerung:
+    f : f(x) = y = a * x + b
+
+Und hier:
+    f : f(AV) = mean(UV) = a * AV + b
+```
+
+Verbindet man
+- UV<sub>Durchschnitt</sub> bei f(AV) mit AV = AV<sub>min</sub>
+- UV<sub>Durchschnitt</sub> bei f(AV) mit AV = AV<sub>max</sub>
+
+so ergibt sich eine Regressionsgerade mit `f : f(AV) = mean(UV) = a * AV + b`.
+
+Diese Steigung `a` nennt man **Korrelationskoeffizient**.
 
 ## Notizen
 
