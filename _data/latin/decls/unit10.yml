@@ -11,7 +11,7 @@
   unit: 10
   translations: [der Himmel]
   genus: n
-  forms: [caelum, caelī, caelō, caelum, caelō, caelī, caelōrum, caelīs, caelōs, caelīs]
+  forms: [caelum, caelī, caelō, caelum, caelō, caela, caelōrum, caelīs, caela, caelīs]
   decl_class: 2-o
 - word: via
   type: substantive

@@ -19,7 +19,7 @@
   unit: 5
   translations: [die unsrigen]
   genus: m
-  forms: [nostrī, nostrōrum, nostrīs, nostrōs, nostrīs]
+  forms: [N/A, N/A, N/A, N/A, N/A, nostrī, nostrōrum, nostrīs, nostrōs, nostrīs]
   decl_class: 2-o
 - word: nāvis
   type: substantive
@@ -41,7 +41,7 @@
   unit: 5
   translations: [die Waffen, das Gerät]
   genus: n
-  forms: [arma, armōrum, armīs, arma, armīs]
+  forms: [N/A, N/A, N/A, N/A, N/A, arma, armōrum, armīs, arma, armīs]
   decl_class: 2-o
 - word: flūctus
   type: substantive
