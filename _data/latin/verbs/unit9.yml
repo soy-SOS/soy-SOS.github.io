@@ -2,6 +2,7 @@
   unit: 9
   meanings: [(zusammenkommen), jdn treffen, sich einigen]
   class: 4
+  subtype: ī
   root: { present: conven, perfect: convēn }
 - infinitive: pōnere
   unit: 9
@@ -19,22 +20,26 @@
   unit: 9
   meanings: [mischen, verwirren]
   class: 2
+  subtype: ē
   root: { present: misc, perfect: miscu }
 - infinitive: gaudēre
   unit: 9
   meanings: [sich freuen (über / an)]
   exclude_ts: [perfect, plusquamperfect]
   class: 2
+  subtype: ē
   root: { present: gaud, perfect: gaudu } # TODO NOT ALL EXIST
 - infinitive: stāre
   unit: 9
   meanings: [stehen]
   class: 1
+  subtype: ā
   root: { present: st, perfect: stet }
 - infinitive: audēre
   unit: 9
   meanings: [wagen]
   class: 2
+  subtype: ē
   exclude_ts: [perfect, plusquamperfect]
   root: { present: aud, perfect: aus }
 - infinitive: cōnsīdere
@@ -47,16 +52,19 @@
   unit: 9
   meanings: [gehorchen]
   class: 2
+  subtype: ē
   root: { present: par, perfect: paru }
 - infinitive: lavāre
   unit: 9
   meanings: [waschen]
   class: 1
+  subtype: ā
   root: { present: lav, perfect: lāv }
 - infinitive: adīre
   unit: 9
   meanings: []
   class: irregular
+  subtype: irregular
   present: [adeō, adīs, adit, adīmus, adītis, adeunt]
   imperfect: [adībam, adībās, adībat, adībāmus, adībātis, adībant]
   perfect: [adiī, adīstī, adiit, adiimus, adīstis, adiērunt]

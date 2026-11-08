@@ -3,22 +3,25 @@
   unit: 6
   meanings: [bewahren, retten, beobachten]
   class: 1
+  subtype: ā
   root: { present: serv, perfect: servāv }
 - infinitive: cōnspicere
   unit: 6
   meanings: [erblicken]
   class: 3
   subtype: iō
-  root: { present: cōnspici, perfect: cōnspex }
+  root: { present: cōnspic, perfect: cōnspex }
 - infinitive: iactāre
   unit: 6
   meanings: [werfen, schleudern]
   class: 1
+  subtype: ā
   root: { present: iact, perfect: iactāv }
 - infinitive: complēre
   unit: 6
   meanings: [anfüllen, erfüllen]
   class: 2
+  subtype: ē
   root: { present: compl, perfect: complēv }
 - infinitive: cōnsistere
   unit: 6
@@ -30,6 +33,7 @@
   unit: 6
   meanings: [fehlen, nicht da sein, jdn im Stick lassen]
   class: irregular
+  subtype: irregular
   present: [dēsum, dēes, dēest, dēsumus, dēestis, dēsunt]
   imperfect: [dēeram, dēerās, dēerat, dēerāmus, dēerātis, dēerant]
   perfect: [dēfuī, dēfuistī, dēfuit, dēfuimus, dēfuistis, dēfuērunt]
@@ -47,9 +51,10 @@
   meanings: [sich zurückziehen]
   class: 3
   subtype: iō
-  root: { present: recipi, perfect: recēp }
+  root: { present: recip, perfect: recēp }
 - infinitive: administrāre
   unit: 6
   meanings: [verwalten, verrichten]
   class: 1
+  subtype: ā
   root: { present: administr, perfect: administrāv }

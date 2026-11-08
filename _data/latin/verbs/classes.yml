@@ -3,24 +3,18 @@ tempori:
     display: Präsens
     stem: present
     base_endings: &present_end [ō, s, t, mus, tis, nt]
-    formation: [pres-r_e, pres-s_e, pres-s_e, pres-s_e, pres-s_e, pres-s_e]
   - name: imperfect
     display: Imperfekt
     stem: present
-    base_endings: *present_end
-    formation:
-      [pres-s_t_e, pres-s_t_e, pres-s_t_e, pres-s_t_e, pres-s_t_e, pres-s_t_e]
+    base_endings: &imperfect_end [m, s, t, mus, tis, nt]
   - name: perfect
     display: Perfekt
     stem: perfect
     base_endings: &perfect_end [ī, istī, it, imus, istis, ērunt]
-    formation: [perf-r_e, perf-s_e, perf-s_e, perf-s_e, perf-s_e, perf-s_e]
   - name: plusquamperfect
     display: Plusquamperfekt
     stem: perfect
     base_endings: &plusquamperfect_end [eram, erās, erat, erāmus, erātis, erant]
-    formation:
-      [perf-s_t_e, perf-s_t_e, perf-s_t_e, perf-s_t_e, perf-s_t_e, perf-s_t_e]
 
 persons:
   - "1. Sg"
@@ -33,50 +27,120 @@ persons:
 classes:
   - class: 1
     name: ā
+    subtype: ā
     tempus_sign: ba
     present: *present_end
-    imperfect: *present_end
+    imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
+    stem: { present: root-ā, perfect: root }
+    formation:
+      present: [root-end, stem-end, root-a-end, stem-end, stem-end, root-a-end]
+      imperfect: &imperfect_formations
+        - stem-temp-end
+        - stem-temp-end
+        - stem-temp-end
+        - stem-temp-end
+        - stem-temp-end
+        - stem-temp-end
+      perfect: &perfect_formations
+        - root-end
+        - stem-end
+        - stem-end
+        - stem-end
+        - stem-end
+        - stem-end
+      plusquamperfect: &pqp_formations
+        - stem-end
+        - stem-end
+        - stem-end
+        - stem-end
+        - stem-end
+        - stem-end
   - class: 2
     name: ē
+    subtype: ē
     tempus_sign: ba
     present: *present_end
-    imperfect: *present_end
+    imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
+    stem: { present: "root-ē", perfect: root }
+    formation:
+      present:
+        [root-e-end, stem-end, root-e-end, stem-end, stem-end, root-e-end]
+      imperfect: *imperfect_formations
+      perfect: *perfect_formations
+      plusquamperfect: *pqp_formations
   - class: 3
     name: konsonant
-    tempus_sign: eba
+    subtype: konsonant
+    tempus_sign: ēba
     present: *present_end
-    imperfect: *present_end
+    imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
-  - class: 3
-    name: iō
-    tempus_sign: eba
-    present: [ō, s, t, mus, tis, unt]
-    imperfect: *present_end
-    perfect: *perfect_end
-    plusquamperfect: *plusquamperfect_end
-  - class: irregular
-    name: irregular
-    tempus_sign: ba
-    present: *konsonant_present_endings
-    imperfect: *present_end
-    perfect: *perfect_end
-    plusquamperfect: *plusquamperfect_end
+    stem: { present: root, perfect: root }
+    formation:
+      present:
+        [root-end, root-i-end, root-i-end, root-i-end, root-i-end, root-u-end]
+      imperfect: *imperfect_formations
+      perfect: *perfect_formations
+      plusquamperfect: *pqp_formations
   - class: 3
     name: suppletive
-    tempus_sign: eba
-    present: [ō, s, t, imus, tis, unt]
-    imperfect: *present_end
+    subtype: suppletive
+    tempus_sign: ēba
+    present: *present_end
+    imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
+    stem: { present: root, perfect: root }
+    formation:
+      present: [root-end, root-end, root-end, root-i-end, root-end, root-u-end]
+      imperfect: *imperfect_formations
+      perfect: *perfect_formations
+      plusquamperfect: *pqp_formations
+  - class: 3
+    name: iō
+    subtype: iō
+    tempus_sign: ēba
+    present: [ō, s, t, mus, tis, unt]
+    imperfect: *present_end
+    perfect: *imperfect_end
+    plusquamperfect: *plusquamperfect_end
+    stem: { present: root-i, perfect: root }
+    formation:
+      present: [stem-end, stem-end, stem-end, stem-end, stem-end, stem-u-end]
+      imperfect: *imperfect_formations
+      perfect: *perfect_formations
+      plusquamperfect: *pqp_formations
+  - class: irregular
+    name: irregular
+    subtype: irregular
+    tempus_sign: ba
+    present: *konsonant_present_endings
+    imperfect: *imperfect_end
+    perfect: *perfect_end
+    plusquamperfect: *plusquamperfect_end
+    stem: { present: root, perfect: root }
+    formation:
+      present: [root-end, stem-end, stem-end, stem-end, stem-end, stem-end]
+      imperfect: *imperfect_formations
+      perfect: *perfect_formations
+      plusquamperfect: *pqp_formations
   - class: 4
     name: ī
+    subtype: ī
     tempus_sign: eba
     present: *present_end
-    imperfect: *present_end
+    imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
+    stem: { present: "root-i", perfect: root }
+    formation:
+      present:
+        [stem-end, root-ī-end, stem-end, root-ī-end, root-ī-end, stem-u-end]
+      imperfect: *imperfect_formations
+      perfect: *perfect_formations
+      plusquamperfect: *pqp_formations

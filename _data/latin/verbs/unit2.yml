@@ -15,12 +15,14 @@
   unit: 2
   meanings: [hören]
   class: 4
+  subtype: ī
   root: { present: aud, perfect: audīv }
 - infinitive: labōrāre
   unit: 2
   meanings:
     [sich anstrengen / sich bemühen / arbeiten, in Schwierigeiten sein, leiden]
   class: 1
+  subtype: ā
   root: { present: labōr, perfect: labōrāv }
 - infinitive: agere
   unit: 2
@@ -32,6 +34,7 @@
   unit: 2
   meanings: [glauben / meinen, halten für]
   class: 1
+  subtype: ā
   root: { present: put, perfect: putāv }
 - infinitive: lūdere
   unit: 2
@@ -44,7 +47,7 @@
   meanings: [fassen / nehmen / ergreifen, erhalten, erobern]
   class: 3
   subtype: iō
-  root: { present: capi, perfect: cēp }
+  root: { present: cap, perfect: cēp }
 - infinitive: occīdere
   unit: 2
   meanings: [niederschlagen, töten]
@@ -55,4 +58,5 @@
   unit: 2
   meanings: [besitzen]
   class: 2
+  subtype: ē
   root: { present: possid, perfect: possēd }

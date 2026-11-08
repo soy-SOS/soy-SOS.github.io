@@ -15,6 +15,7 @@
   unit: 8
   meanings: [gehen]
   class: irregular
+  subtype: irregular
   present: [eō, īs, it, īmus, ītis, eunt]
   imperfect: [ībam, ībās, ībat, ībāmus, ībātis, ībant]
   perfect: [ībō, ībis, ībit, ībimus, ībitis, ībunt]
@@ -24,6 +25,7 @@
   unit: 8
   meanings: [hineingehen, betreten]
   class: irregular
+  subtype: irregular
   present: [ineō, inīs, init, inīmus, inītis, ineunt]
   imperfect: [inībam, inībās, inībat, inībāmus, inībātis, inībant]
   perfect: [iniī, inīstī, iniit, iniimus, inīstis, iniērunt]
@@ -33,6 +35,7 @@
   unit: 8
   meanings: [weggehen, fortgehen]
   class: irregular
+  subtype: irregular
   present: [abeō, abīs, abit, abīmus, abītis, abeunt]
   imperfect: [abībam, abībās, abībat, abībāmus, abībātis, abībant]
   perfect: [abiī, abīstī, abiit, abiimus, abīstis, abiērunt]
@@ -56,7 +59,7 @@
   class: 3
   subtype: konsonant
   root: { present: dūc, perfect: dūx }
-- infinitive: re-ferre
+- infinitive: referre
   unit: 8
   meanings: [zurückbringen, berichten]
   class: 3
@@ -66,11 +69,13 @@
   unit: 8
   meanings: [loben]
   class: 1
+  subtype: ā
   root: { present: laud, perfect: laudāv }
 - infinitive: ārdēre
   unit: 8
   meanings: [brennen, glühen]
   class: 2
+  subtype: ē
   root: { present: ārd, perfect: ārs }
 - infinitive: caedere
   unit: 8
@@ -82,9 +87,11 @@
   unit: 8
   meanings: [quälen, plagen]
   class: 1
+  subtype: ā
   root: { present: vex, perfect: vexāv }
 - infinitive: dolēre
   unit: 8
   meanings: [scherzen, wehtun, bedauern, Schmerz empfinden]
   class: 2
+  subtype: ē
   root: { present: dol, perfect: dolu }

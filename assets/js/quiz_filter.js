@@ -37,7 +37,7 @@ function getRandomInt(max) {
 
 function loadcon(items) {
   const maxId = document.querySelectorAll('.conjugations').length - 1;
-  let arr = []
+  let arr = [];
   for (let i = 0; i <= items; ++i) {
     arr.push(getRandomInt(maxId));
   }
@@ -61,5 +61,5 @@ function switchBack() {
 
 function showVals(classname) {
   document.getElementById(classname).children;
-  
+
 }

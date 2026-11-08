@@ -9,11 +9,13 @@
   unit: 7
   meanings: [antworten]
   class: 2
+  subtype: ē
   root: { present: respond, perfect: respond }
 - infinitive: prohibēre
   unit: 7
   meanings: [abhalten (von), hindern (an)]
   class: 2
+  subtype: ē
   root: { present: prohib, perfect: prohibu }
 - infinitive: permittere
   unit: 7
@@ -25,6 +27,7 @@
   unit: 7
   meanings: [erzählen]
   class: 1
+  subtype: ā
   root: { present: nārr, perfect: nārrāv }
 - infinitive: relinquere
   unit: 7
@@ -36,11 +39,13 @@
   unit: 7
   meanings: [verneinen, verweigern, sagen dass nicht..., sich weigern]
   class: 1
+  subtype: ā
   root: { present: neg, perfect: negāv }
 - infinitive: sedēre
   unit: 7
   meanings: [sitzen]
   class: 2
+  subtype: ē
   root: { present: sed, perfect: sēd }
 - infinitive: cōnstituere
   unit: 7
@@ -52,6 +57,7 @@
   unit: 7
   meanings: [binden, fesseln]
   class: 4
+  subtype: ī
   root: { present: vinc, perfect: vinx }
 - infinitive: prōmittere
   unit: 7
@@ -63,6 +69,7 @@
   unit: 7
   meanings: [abwesend sein, fehlen]
   class: irregular
+  subtype: irregular
   present: [absum, abes, abest, absumus, abestis, absunt]
   imperfect: [aberam, aberās, aberat, aberāmus, aberātis, aberant]
   perfect: [āfuī, āfuistī, āfuit, āfuimus, āfuistis, āfuērunt]

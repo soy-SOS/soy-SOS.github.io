@@ -3,6 +3,7 @@
   unit: 4
   meanings: [betrachten, anschauen]
   class: 1
+  subtype: ā
   root: { present: spect, perfect: spectāv }
 - infinitive: currere
   unit: 4
@@ -15,23 +16,24 @@
   meanings: [vor jdm / etw fliehen, etw vermeiden]
   class: 3
   subtype: iō
-  root: { present: fugi, perfect: fūg }
+  root: { present: fug, perfect: fūg }
 - infinitive: effugere
   unit: 4
   meanings: [entfliehen, entkommen]
   class: 3
   subtype: iō
-  root: { present: effugi, perfect: effūg }
+  root: { present: effug, perfect: effūg }
 - infinitive: occĭdere
   unit: 4
   meanings: [umkommen / sterben, untergehen]
   class: 3
   subtype: konsonant
-  root: { present: occĭd, perfect: occĭd }
+  root: { present: occid, perfect: occid }
 - infinitive: timēre
   unit: 4
   meanings: [jmd / etw fürchten, sich fürchten vor, Angst haben vor]
   class: 2
+  subtype: ē
   root: { present: tim, perfect: timu }
 - infinitive: cadere
   unit: 3
@@ -43,6 +45,7 @@
   unit: 4
   meanings: [bewegen, beeindrucken]
   class: 2
+  subtype: ē
   root: { present: mov, perfect: mov }
 - infinitive: tegere
   unit: 4
@@ -54,6 +57,7 @@
   unit: 4
   meanings: [können]
   class: irregular
+  subtype: irregular
   present: [possum, potes, potest, possumus, potestis, possunt]
   imperfect: [poteram, poterās, poterat, poterāmus, poterātis, poterant]
   perfect: [potuī, potuistī, potuit, potuimus, potuistis, potuērunt]

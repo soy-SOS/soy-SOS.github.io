@@ -1,0 +1,37 @@
+---
+layout: page
+title: Verben TEST
+parent: Übung
+permalink: /latin/quiz/verbs-test
+published: false
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="{{site.baseurl}}/assets/js/latin/conjugation.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+</head>
+
+<body>
+  {% assign questions = site.data.quiz.latin.voci_verb_forms %}
+  {% assign unitstest = site.data.latin.verbs %}
+
+
+  <!-- <button onclick="loadcon(50)">Wähle 50 zufällige Items aus.</button>
+  <button onclick="switchBack()">Tausche Vorder- und Rückseite</button> -->
+  <button
+    onclick="mytest('flashcard-container', JSON.parse(decodeURIComponent('{{unitstest |jsonify |uri_escape}}')))">test</button>
+  <p>{{questions | size}}</p>
+
+  <div class="flashcard-container conjugate" id="flashcard-container">
+
+  </div>
+
+</body>
+
+</html>

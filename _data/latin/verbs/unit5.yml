@@ -14,31 +14,37 @@
   unit: 5
   meanings: [kämpfen]
   class: 1
+  subtype: ā
   root: { present: pūgn, perfect: pūgnāv }
 - infinitive: incitāre
   unit: 5
   meanings: [erregen, antreiben]
   class: 1
+  subtype: ā
   root: { present: incit, perfect: in-citāv }
 - infinitive: terrēre
   unit: 5
   meanings: [erschrecken / in Schrecken versetzen, einschüchtern]
   class: 2
+  subtype: ē
   root: { present: terr, perfect: terru }
 - infinitive: aperīre
   unit: 5
   meanings: [öffnen, offen darlegen, aufdecken]
   class: 4
+  subtype: ī
   root: { present: aper, perfect: aperu }
 - infinitive: iubēre
   unit: 5
   meanings: [jdn auffordern, jdm befehlen]
   class: 2
+  subtype: ē
   root: { present: iub, perfect: iuss }
 - infinitive: dubitāre
   unit: 5
   meanings: [bezweifeln, zögern]
   class: 1
+  subtype: ā
   root: { present: dubit, perfect: dubitāv }
 - infinitive: ferre
   unit: 5
@@ -50,6 +56,7 @@
   unit: 5
   meanings: [rufen, nennen]
   class: 1
+  subtype: ā
   root: { present: voc, perfect: vocāv }
 - infinitive: trādere
   unit: 5
@@ -62,7 +69,7 @@
   meanings: [anfangen, beginnen]
   class: 3
   subtype: iō
-  root: { present: incipi, perfect: coep }
+  root: { present: incip, perfect: coep }
 - infinitive: surgere
   unit: 5
   meanings: [aufstehen, sich erheben]
