@@ -177,3 +177,13 @@ Zip Styles
 .zip {
   border: 1px solid #ddd;
 }
+
+
+.plot {
+  width: 100%;
+  height: 400px;
+  margin: 20px 0;
+  /* Adjust margin if needed */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}

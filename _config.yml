@@ -30,19 +30,19 @@ plugins:
   - jekyll-toc
   - jekyll-mermaid
 
-mermaid:
-  src: https://cdn.jsdelivr.net/npm/mermaid@11.9.0/dist/mermaid.min.js
-  # Optional: Custom configuration
-  config:
-    theme: default
-    startOnLoad: true
-    flowchart:
-      htmlLabels: true
-      curve: basis
-    sequenceDiagram:
-      look: classic
-      darkMode: true
-      theme: redux-dark-color
+# mermaid:
+#   src: https://cdn.jsdelivr.net/npm/mermaid@11.9.0/dist/mermaid.min.js
+#   # Optional: Custom configuration
+#   config:
+#     theme: default
+#     startOnLoad: true
+#     flowchart:
+#       htmlLabels: true
+#       curve: basis
+#     sequenceDiagram:
+#       look: classic
+#       darkMode: true
+#       theme: redux-dark-color
 
 encoding: utf-8
 kramdown:

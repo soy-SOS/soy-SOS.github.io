@@ -6,6 +6,9 @@ permalink: /poli-sci/intro-statistics/
 ---
 ## {{page.title}}
 
+1. TOC
+{:toc}
+
 ### Verortung der Quantitativen empirischen Forschung
 
 Die Methodik und Statistik bildet einen Bestandteil der Empirischen Sozialforschung ab.
@@ -70,6 +73,8 @@ Das Verfahren befolgt immer einen fixen Ablauf, die sog. Analysekette:
                         + neue Fragestellungen
 ```
 
+#### Konzept
+
 {: .important-title }
 > Definition Konzept
 >
@@ -101,6 +106,8 @@ Konzepte können auf verschiedene Weisen erstellt werden. Drei wichtige, miteina
 > {: .note }
 > **hinreichend** heisst wenn A erfüllt ist, tritt K ein.
 > `A ⇒ K (A impliziert K)`
+>
+#### Theorie
 
 {: .important-title }
 > Definition Theorie
@@ -108,6 +115,8 @@ Konzepte können auf verschiedene Weisen erstellt werden. Drei wichtige, miteina
 > Die Theorie ist eine Annahme bezüglich der Beziehung zwischen verschiedenen Konzepten und ihren Mechanismen. Sie informiert Frage, wie auch Konzept.
 
 Theorie beinhaltet eine begründete Auswahl möglicher Mechanismen. Ein Mechanismus ist die Relation zwischen zwei Konzepten. Durch das Vernetzen von Konzepten in einem Mechanismus, werden Erwartungen sichtbar gemacht.
+
+#### Frage
 
 {: .important-title }
 > Definition Frage
@@ -127,7 +136,11 @@ Es gibt verschiedene Fragetypen:
 | Evaluativ | Wirkung von Interventionen beurteilen |
 | Normativ | Kriterien begründen und anwenden |
 
-Die Hypothese formuliert dann, basierend auf Theorie und Fragestellung eine Annahme. Die Hypothese beinhaltet den Mechanismus in der Form (UV) -> (AV).
+Die **Hypothese** formuliert dann, basierend auf Theorie und Fragestellung eine Annahme. Die Hypothese beinhaltet den Mechanismus in der Form (UV) -> (AV).
+
+Die **Nullhypothese** *H<sub>0</sub>* ist das Gegenstück zur Erwartung der Forschung. Sie formuliert die Hypothese so um, dass die formulierte Erwartung aus *H<sub>0</sub>* von der Absenz eines Zusammenhangs ausgeht. Man nimmt also an, dass es keinen Unterschied gibt (i.e. UV beeinflusst die AV nicht).
+
+#### Operationalisierung
 
 {: .important-title }
 > Definition Operationalisierung
@@ -185,6 +198,8 @@ Latente Konzepte können verschieden Operationalisiert werden:
 
 Bei einem Index ist es sehr wichtig, dass die Indikatoren, die man auswählt, auch zusammenpassen, um die Reliabilität der Daten sicherzustellen. Hierzu verwendet man in der Statistik **Cronbachs Alpha**.
 
+#### Daten
+
 {: .important-title }
 > Definition Daten
 >
@@ -198,6 +213,48 @@ Die Daten werden in Datensätzen gespeichert, welche folgende Elemente umfassen:
 - Zelle = Wert
 - ID = Identifier (macht jede Beobachtung eindeutig)
 
+Diese Daten erlauben es einerseits, die gesammelten Informationen systematisch nud mithilfe von statistischen Grössen und Funktionen zu untersuchen, und auch Annahmen mit statistischen Verfahren zu testen.
+
+Datenbasierte Annahmen können mithilfe von statistischen Tests analysiert und ausgewertet werden. So kann ein vermeintlicher Zusammenhang überprüft und quantifiziert werden, um eine Aussage über die **Generalisierbarkeit** zu tätigen. Hierzu benötigen wir die Nullhypothese.
+
+Daten können beschrieben werden, verschiedene Aspekte werden in den kommenden Absätzen erläutert.
+
+**Streumasse** beschreiben die Verteilung der Daten
+
+- Varianz: durchschnittliche quadrierte Abweichung eines Wertes vom Durchschnitt
+- Standardabweichung: durchschnittliche Abweichung eines Wertes vom Durchschnitt
+- Standardfehler: durchschnittliche Streuung von *Schätzungen* (zB Mittelwert) in Abhängigkeit zur Grösse des Datensatzes
+
+{: .important-note}
+> Der Zentrale Grenzwertsatz
+>
+> Je grösser die Stichprobe, desto enger liegen die möglichen Stichprobenwerte um den wahren Mittelwert verteilt, unabhängig von der Distribution der einzelnen Werte.
+
+| Form | Lage | Streuung |
+| - symmetrisch<br>- rechtsschief <br>- linksschief<br>- modalität | Lagemasse<br><br>- Mittelwert<br>- Modus<br>- Median | - Spannweite (delta Min-Max)<br>- IQR (delta Q.25-Q.75)<br> |
+
+**Verteilungen** können meist in verschiedene Idealtypen eingeteilt werden. Solche Verteilungsdiagramme zeigen die absolute / relative Häufigkeit für einen Wert auf. Die vier Idealtypen sind:
+
+| | Symmetrisch | Rechtsschief | Linksschief | Bimodal |
+| :---- | ----- | ----- | ---- | ---- |
+| **Schätzungen** | Mittelwert =~ Median | Mittelwert > Median | Mittelwert < Median | Mittelwert =~ Median |
+| **Kurzbeschrieb** | Spiegelbare Verteilung, die den Datensatz entzweiteilt | Gehäufte Daten links, negaive Steigung Werte nach rechts | Gehäufte Daten rechts, links positives und langsames Aufsteigen der Werte | zwei Gipfel mit gehäuften Daten |
+| **Formen** | Glocke, Gleichverteilung, Uni-/Bimodal | Unimodal, Asymmetrisch | Unimodal, Asymmetrisch | Bimodal, Glocken, Symmetrisch, Asymmetrisch |
+| **Deutet auf was hin?** | zu allgemein, kommt darauf an welche Art vonsymmetrischer Form. | Skalentypen eventuell falsch definiert / Operationalisierung evt nochmals überarbeiten? Je nachdem was erwartet wird, evt widerspiegelt das auch die Antwort zur Forschungsfrage. | Skalentypen eventuell falsch definiert / Operationalisierung evt nochmals überarbeiten? Je nachdem was erwartet wird, evt widerspiegelt das auch die Antwort zur Forschungsfrage. | Deutet auf Häufung zweier Gruppen hin. Frage: Wieso ist die Gruppe nicht getrennt erfasst? Gibt es noch andere Faktoren, die nicht gemessen worde sind, die unser Konzept stark beeinflussen? Konzept und Operationalisierung nochmals begutachten. |
+
+{%assign normal = "Symmetrisch*0, 0.5, 1, 3, 5, 5, 3, 1, 0.5, 0"%}
+{% assign rechtsschief = "Rechtsschief*0.5,6,10,7.8,3.5,1,0.75,0.18,0.2,0.1"%}
+{%assign linksschief = "Linksschief*0,0,0.2,0.5,1,1,4,9,10,5"%}
+{%assign localmax = "Bimodal*0.7,1.5,5,2,1,1.5,5,1.75,1,0.5"%}
+{% assign data = normal|append:":"|append:rechtsschief|append:":"|append:linksschief|append:":"|append:localmax %}
+{% include
+    content/poli-sci/HS2026-stats-hist.html
+    divclass="hist-test"
+    items=data
+%}
+
+#### Antwort
+
 {: .important-title }
 > Definition Antwort
 >
@@ -209,18 +266,77 @@ Antworten haben folgende Elemente:
 2. Infer (Inferenz / Schlussfolgerung aus dem, was in den Daten zu beobachten ist)
 3. Predict (Voraussage, was das für die Zukunft bedeutet)
 
+### Statistische Tests
+
+Statistische Tests erlauben es zu untersuchen, ob die Hypothese der Forschung angenommen werden kann oder verworfen werden muss.
+Die Art der gewählten Tests, sind bestimmt durch das Volumnen der Daten und die Skalentypen vorliegender Variablen ([siehe "Operationalisierung"](#operationalisierung)).
+
+| -- | (UV)<br>2-Gruppen | (UV)<br>> 2 Gruppen | (UV)<br>kontinuierlich |
+| :--: | :--: | :--: | :--: |
+| **(AV)<br>kategorial** | Prozentpunktdifferenz<br><br>→ *Chi^2-Test* | Cramer's V<br><br>→ *Chi^2-Test* | Rollen tauschen<br><br>→ *t-Test / ANOVA* |
+| **(AV)<br>kontinuierlich** | Mittelwertdifferenz<br><br>→ *t-Test* | Eta-Quadrat<br><br>→ *ANOVA (F-Test)* | Korrellation r/r<sub>s</sub><br><br>→ *Korrelationstest* |
+
+#### t-Test
+
+```r
+y <- my_data$independent_var    # UV, independent variable.
+x <- my_data$dependent_var      # AV, dependent variable.
+
+result <- t.test(y, x
+                 conf.level = 0.95)
+
+print(result.statistic)    # t-value
+print(result.parameter)    # Df (i.e. degrees of freedom)
+print(result.estimate)     # estimated true mean or estimated true mean delta
+print(result.stderr)       # SE
+```
+
+#### Korrelationstest
+
+```r
+y <- my_data$independent_var    # UV, independent variable.
+x <- my_data$dependent_var      # AV, dependent variable.
+if (nrow(x) != nrow(y)) {
+    "Independent and dependent variable must have the same nuber of entries."
+    stop()
+}
+cor.test(y, x,                       # y = UV, x = AV
+         method = "pearson",         # default: "pearson"
+         conf.level = 0.95)          # default: 0.95
+```
+
+#### ANOVA (F-Test)
+
+```r
+> summary(aov(independent_var - dependent_var,
+              data = my_data))
+```
+
+#### Chi^2-Test
+
+```r
+> chiqsq.test(table(my_data$independent_var,
+                    my_data$dependent_var),
+              method = <"pearson"|"spearman"|"kendall">
+              correct = <TRUE | FALSE>)
+```
+
 ### Statistische Grössen
 
 Ich versuche Stichpunkte zu den statistischen Grössen hier aufzuführen, indem ich erkläre, wie sie hergeleitet werden. Da es sich um Datenreihen, also Listen von Werten handelt, enthalten diese schrittweisen Erklärungen Listen.
 Diese Erklärungen gehen von einer 0-indexierten Liste aus (d.h. das 0-te Element ist das erste der Liste).
 
 Beispiel:
+
 ```
 values = [a, b, c, d, e, f, g]
 values[0] = a
 values[1] = b
 values[6] = g
 ```
+
+| Lagemasse | [Mittelwert](#mittelwert) | [Median](#median) | [Modus](#modus) |
+| Streuung | [Quantile] | [Varianz](#varianz) | [Standardabweichung](#standardabweichung) | [Standardfehler](#standardfehler) | [Kovarianz](#kovarianz) |
 
 #### Mittelwert
 
@@ -240,15 +356,6 @@ Beispiel:
 2. `N = 6`
 3. `sum = 18`
 4. `average = 3` = `sum ÷ N = 18 ÷ 6`
-
-```py
-def mittelwert(data):
-    sum = 0
-    N = data.__len__
-    for d in data:
-        sum += d
-    return sum / N.
-```
 
 #### Modus
 
@@ -287,10 +394,11 @@ Der Median, auch Zentralwert, ist die Mitte der sortierten Datenreihe. Also ist 
 2. `N`: Anzahl Werte in `all`
 3. `all_sorted`: `all` aufsteigend sortiert
 4. `median`: die Mitte von `all_sorted`.
-    a) Wenn `N` ungerade: `all_sorted[c]` mit `c` = abrunden(`N` ÷ 2) 
+    a) Wenn `N` ungerade: `all_sorted[c]` mit `c` = abrunden(`N` ÷ 2)
     b) Wenn `N` gerade: `mittelwert(c1, c2)` mit `c1` = abrunden(`N` ÷ 2), `c2` = `c1` + 1
 
 Beispiel 1:
+
 1. `all` = `[3, 4, 2, 2, 1]`
 2. `N` = 5
 3. `all_sorted` = `[1, 2, 2, 3, 4]`
@@ -298,11 +406,12 @@ Beispiel 1:
     a) `c` = abrunden(`5 ÷ 2`) = 2
 
 Beispiel 2:
+
 1. `all` = `[3, 4, 2, 2, 1, 5]`
 2. `N` = 6
 3. `all_sorted` = `[1, 2, 2, 3, 4, 5]`
 4. `median` = `mittelwert(3, 2)` = 2.5
-    b) `c1 = abrunden(6 ÷ 2) = 3`, `c2 = c1 - 1 = 2` ⇒ `all_sorted[c1] = 3`, `all_sorted[c2] = 2` 
+    b) `c1 = abrunden(6 ÷ 2) = 3`, `c2 = c1 - 1 = 2` ⇒ `all_sorted[c1] = 3`, `all_sorted[c2] = 2`
 
 #### Quantile
 
@@ -318,30 +427,176 @@ Quantile teilen eine geordnte Datenreihe in Teile, analog zum Vorgehen beim Medi
 **Perzentile**: sind eine andere Ausdrucksweise für Quartile. `p` wird, anstelle eines Dezimalbruches, als Prozent ausgedrückt. Also ist das 99% Quantil, bzw das 99. Perzentil, das gleiche, wie Q<sub>0.99</sub>.
 
 Bezeichnungen für Quantile:
+
 - Q<sub>0.25</sub>
-    - 1. Quartil
-    - 25. Perzentil
+  - 1. Quartil
+  - 1. Perzentil
 - Q<sub>0.5</sub>
-    - 2. Quartil
-    - das gleiche wie der Median
-    - 50. Perzentil
+  - 2. Quartil
+  - das gleiche wie der Median
+  - 1. Perzentil
 - Q<sub>0.75</sub>
-    - 3. Quartil
-    - 75. Perzentil
+  - 3. Quartil
+  - 1. Perzentil
 
 **Interquantilsabstände** ermöglichen es, eine Range anzugeben. So kann eine allgemeine Verteilung des Datensatzes genauer beschrieben werden.
 
 Beispiel:
+
 - mittlere 50%
-    - Q<sub>0.25</sub> bis Q<sub>0.75</sub>
-    - 1. bis 3. Quartil
-    - 25. bis 75. Perzentil
+  - Q<sub>0.25</sub> bis Q<sub>0.75</sub>
+  - 1. bis 3. Quartil
+  - 1. bis 75. Perzentil
 - mittlere 10%
-    - Q<sub>0.45</sub> bis Q<sub>0.55</sub>
-    - 45. bis 55. Perzentil
+  - Q<sub>0.45</sub> bis Q<sub>0.55</sub>
+  - 1. bis 55. Perzentil
 - mittlere 90%
-    - Q<sub>0.05</sub> bis Q<sub>0.95</sub>
-    - 5. bis 95. Perzentil
+  - Q<sub>0.05</sub> bis Q<sub>0.95</sub>
+  - 1. bis 95. Perzentil
+
+#### Varianz
+
+Die Varianz beschreibt, wie verstreut die Daten einer Variable sind. Sie macht also eine Aussage über die Verteilung der Werte.
+Die Varianz ist die quadrierte Durchschnittliche Mittelwertsdifferenz.
+
+1. `all`: alle Werte
+2. `mittelwert`: Mittelwert von `all`
+3. `N`: Anzahl Werte in `all`
+4. `varianz`: Summe der quadrierten Mittelwertsdifferenzen geteilt durch `N`
+
+Beispiel:
+
+1. `all = [3, 4, 2, 2, 1]`
+2. `mittelwert = 3`
+3. `N = 5`
+4. `varianz = 1.4`
+    a) `Mittelwertsdifferenzen = deltas = [0, 1, -1, -1, -2]`
+    b) `deltas_quadriert = [0, 1, 1, 1, 4]`
+    c) `delta_quad_sum = 7`
+    d) `sum_pro_N = varianz = 7÷5 = 1.4`
+
+#### Standardabweichung
+
+Die Standardabweichung ist die Quadratwurzel der Varianz. Sie beschreibt die Durchschnittliche Abweichung eines Wertes vom Durchschnitt aller Werte.
+
+Der Standardfehler wird kleiner, je mehr Daten, desto kleiner ist die Standardabweichung tendenziell. Das liegt daran, dass bei einer grösseren Datenmenge, Ausreisser den Mittelwert oft weniger stark beeinflussen.
+
+1. `all = [3, 4, 2, 2, 1]`
+2. `mittelwert = 3`
+3. `N = 5`
+4. `varianz = 1.4`
+    a) `Mittelwertsdifferenzen = deltas = [0, 1, -1, -1, -2]`
+    b) `deltas_quadriert = [0, 1, 1, 1, 4]`
+    c) `delta_quad_sum = 7`
+    d) `sum_pro_N = varianz = 7÷5 = 1.4`
+5. `s = sqrt(varianz) = ~ 1.183215957`
+
+{% include
+    content/poli-sci/HS2026-stats-boxplot.html
+    divclass="box-test"
+%}
+
+#### Standardfehler
+
+Der Standardfehler ist ein Mass, um die Volatilität statistischer Grössen für einen Datensatz zu beschreiben. Beispielsweise, wie stark der Mittelwert einer gesampelten Stichprobe streut.
+
+SE hängt von der Streuung einzelner Werte und der Grösse des Datensatzes ab (da, die Standardabweichung von der Grösse der Gruppe beeinflusst wird).
+
+1. `all`: Werte
+2. `N`: Anzahl einzelner Werte
+3. `s`: Standardabweichung für Werte in `all`
+4. `SE = s/sqrt(N)`: Standardfehler
+
+Beispiel:
+
+1. `all = [3, 4, 2, 2, 1]`
+2. `N = 5`
+3. `s = sqrt(varianz) = ~ 1.183215957`
+4. `SE =~ 0.529150262 = s/sqrt(5)`
+
+#### Stichprobenkovarianz {#kovarianz}
+
+{: .important-title }
+> Definition Kovarianz
+>
+> Die Kovarianz ist das durchschnittliche Abweichungsprodukt zweier Variabeln.
+
+Die Kovarianz baut auf der Idee der Varianz auf. WICHTIG: In diesem Dokument werde ich mich auf die Stichprobenkovarianz beziehen. Diese ist nur eine der Formeln für die Kovarianz, jedoch ist es die, die in der empirischen Forschung immer verwendet wird. Also fortlaufend innerhalb dieser Notizen: Kovarianz = Stichprobenkovarianz.
+
+*Zur Erinnerung*: Die **Varianz** ist die durchschnittliche quadrierte Abweichung einer Wertes vom Mittelwert der Datenreihe. Dadurch, dass die Differenz (`Wert - Mittelwert`) quadriert wird, lässt sich nicht mehr auf das Vorzeichen zurückschliessen; `(Wert - Mittelwert)^2 >= 0`.
+
+Die **Kovarianz** nimmt nun dieses Konzept und wendet es auf zwei zusammenhängende Variablen an. Signifikante Zusammenhänge können jedoch positiv oder negativ sein, je nach Korrelationskoeffizient `r`;
+
+- mit r > 0: positiver Zusammenhang => je höher UV, desto höher AV.
+- mit r < 0: negativer Zusammenhang => je höher UV, desto tiefer AV.
+
+Die Kovarianz muss Vorzeichen beachten, da ansonsten die Art des Zusammenhangs verloren geht. Somit ergibt sich für die Kovarianz die Definition:
+
+> Die Kovarianz ist das durchschnittliche Abweichungsprodukt zweier Variabeln.
+>
+> Man summiere für einen Datensatz mit Variablen (X,Y) die Produkte der Mittelwertsdifferenzen je X,Y und teile diese Summe durch die Anzahl Reihen minus 1 (==> n-1).
+
+Beispiel:
+
+mean_X = 2
+mean_Y = 11
+
+var(A) = avg([4, 0, 9, 0, 1]) = 14/5 = 2.8
+stddev(A) = sqrt(2.8)
+var(B) = avg([1, 0, 2.25, 0, 0.25]) = 3.5/5 = 0.7
+stddev(B) = sqrt(0.7)
+
+| x[i] | A | B | meanDiff_A | meanDiff_B | produkt(dA, dB) |
+| --- | -- | --- | ---------- | --- | --- |
+| x[0] | 0 | 12 | -2 | 1 | -2 |
+| x[1] | 2 | 11 | 0 | 0 | 0 |
+| x[2] | 5 | 9.5 | 3 | -1.5 | -4.5 |
+| x[3] | 2 | 11 | 0 | 0 | 0 |
+| x[4] | 1 | 11.5 | -1 | 0.5 | -0.5 |
+| --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
+| Produktsumme | -7AB |
+| Cov(A,B) | -1.75AB |
+
+#### Pearsons-r
+
+{: .important-title }
+> Definition Pearson's r
+>
+> Person's r quantifiziert den Zusammenhang zwischen zwei Variablen.
+> Man berechnet `r` als:
+>> Kovarianz(X,Y)<br>-----------------<br>sqrt(SD(x)*SD(Y))
+> Kovarianz geteilt durch die Wurzel vom Produkt beider Standardabweichungen
+
+Der Kovarianzwert hat immernoch die ursprünglichen Einheiten der jeweiligen Variablen, die für ihne verwendet wurden. Um die Werte vergleichbar und einfacher zu machen, müssen sie normiert werden, indem Skala und Masseinheit vereinheitlicht werden.
+
+Dies tut man, indem man die Kovarianz durch das Produkt der Standardabweichungen der Variablen teilt. So löschen sich die Einheiten aus und man erhält einen skalierten Wert zwischen -1 und 1.
+
+- r = Cov(X,Y) / SD<sub>x</sub> *<sub>y</sub>
+
+- r = Cov(X,Y) / sqrt(Var<sub>x</sub>)* sqrt(Var<sub>y</sub>)
+
+(Denke an die Formel, um den Zwischenwinkel zweier Vektoren zu erhalten. Es ist praktisch das Gleiche!)
+
+Skalarprodukt(X,Y)<br>
+\------------------------------------     = cos(phi)<br>
+sqrt(x<sub>a</sub>^2 + x<sub>b</sub>^2) * sqrt(y<sub>a</sub>^2 + y<sub>b</sub>^2)
+
+#### Spearmans r<sub>s</sub> {#spearmans}
+
+{: .important-title }
+> Definition Spearman's r<sub>s</sub>
+>
+> Spearman's rs quantifiziert den Zusammenhang zwischen dem Rang zweier Variablen.
+> Man berechnet rs als:
+>> 1 - Summe((rA-rB)^2)<br>--------------------<br>    n(n^2 - 1)
+> 1 minus dem Quatient von quadrierter Rangdifferenzensumm und n(n^2-1)
+
+Spearman's Randkorrelation funktioniert nach demselben Schema wie Pearson's r, jedoch nicht mit den gemessenen Werten, sondern mit dem korrespondierenden Rang. Durch das zuweisen einer aufsteigenden Zahl, wandelt man die Datenreihe zu einer Ratioskala um, wodurch diese Formel stark vereinfacht wird und der Wert robuster gegenüber Ausreissern ist.
+
+#### p-Wert
+
+Der p-Wert beschreibt der prozentuale Anteil der Werte, welcher für eine PopulationsKorrelation(X,Y) = 0 zu einem Zusammenhang, der grösser oder gleich wie der Stichprobenzusammenhang ist.
 
 #### Cronbachs Alpha
 
@@ -354,11 +609,6 @@ Der Cronbachs Alpha Wert geht von 0 bis 1:
 
 Faustregel: Alpha > 0.7 ⇒ passen gut zusammen.
 
-#### Korrelationskoeffizient
-
-Gemessene Variablen (UV) und (AV) wurden normiert und kombinier
-
-
 ### Operationen
 
 #### Zusammenhang untersuchen
@@ -366,143 +616,8 @@ Gemessene Variablen (UV) und (AV) wurden normiert und kombinier
 Grundsätzlich versuchen wir die Beziehung zwischen einer vermuteten Ursache (unabhängige Variable) und dem erwarteten Resultat (abhängige Variable) herzustellen. Um zu bestimmen, ob die Variablen unseres Konzepts tatsächlich zusammenhängen, müssen die UV und AV Werte in einen Bezug gebracht werden.
 
 Beispiel:
+
 1. Ich erwarte, wenn UV gross ==(Bezug)⇒ AV gross
 2. Ich erwarte, wenn UV gross ==(Bezug)⇒ AV klein
 
-Unsere Datensätze haben also jeweils Werte für UV und AV. Also können wir uns die Werte als zweidimensionale Vektoren Vorstellen; Punkte mit (UV, AV). 
-
-Insofern die Skalen für AV und UV normiert sind (d.h. Skalen sind gleich, Datentypen sind gleich, Intervalle sind gleich), kann man ihre Informationen in einem kartesischen Koordinatensystem darstellen und sogar eine lineare Funktion erstellen.
-
-```
-Zur Erinnerung:
-    f : f(x) = y = a * x + b
-
-Und hier:
-    f : f(AV) = mean(UV) = a * AV + b
-```
-
-Verbindet man
-- UV<sub>Durchschnitt</sub> bei f(AV) mit AV = AV<sub>min</sub>
-- UV<sub>Durchschnitt</sub> bei f(AV) mit AV = AV<sub>max</sub>
-
-so ergibt sich eine Regressionsgerade mit `f : f(AV) = mean(UV) = a * AV + b`.
-
-Diese Steigung `a` nennt man **Korrelationskoeffizient**.
-
-## Notizen
-
-### ein Zusammenhang ermitteln, Schritte
-
-1. Zwei Variablen (UV, AV)
-2. Skalentyp bestimmen
-3. Daten anschauen, beschreiben
-4. Stärke des Zusammenhangs messen
-5. Testen, kann Zusammenhang ein Zufall sein oder signifikant?
-6. Antworten
-
-1:
-
-- Konzepte definieren
-- Variablen festlegen (UV) (AV)
-- Hyp definieren
-- Variablen betrachten
-
-3:
-
-- ausreisse?
-- kleine Gruppen?
-- wenige daten --> potenziell zu anderer gruppe dazu
-
-4:
-
-- stärke des zusammenhangs
-- mass hängt von skalentyp ab
-
-| | UV 2 | UV >2 | kontinuierlich |
-|--|--|--|--|
-| AV kontinuierlich | Mittelwertdiff (ttest) | Eta-Quadrat | Korrelation r |
-|
-
-mittelwertdiff (nicht signifikanz testen)
-
-- 2 gruppen, wie weit beide mittelwerte
-  - Cohens d (mittelwertdiff / stdev)
-
-2 kategorien: Anteile vergleichen, prozentpunktdifferenz
--
-
-etaquadrat
-
-- grupper aufteilen
-- kovarianz
-
-kortinuierlich / ordinal
-
-- pearson, wert zieht stark
-- spearman (rag)
-
-5: Testen basierend auf stärke des in (4) berechneten zusammenhangs
-
-- grundlage, nullhypothese
-- testen ob statistisch signifikant
-- statistischer test immer nur mit nullhypothese
-
-### zufall selber spielen
-
-- datensatz nehmen
-- viele kopien
-- mischen variable rein
-- differenz der variablen vermerken
-- wenn eigener unterschied weit weg, dann zufall unwahrscheinlich
-
-mischen:
-
-- mittelwert
-  - gruppenetikett tauschen
-  - tverteilung
-
-tests abkürzungen:
-
-- daten nicht mischen
-- verteilungskurve, normalisiertes statistisches mittel, verteilung vordefiniert
-
-teststatistik:
-
-teststat = (beobachtet - nullhyp-erwartung) / verianz-bei-nullhyp
-
-### Chi^2
-
-kein stärkemass
-
-summe alle zellen
-(beobachtet - erwartet) teilen durch erwartet = Chi`2
-
-kritischer wert alpha = 0.05
-
-```r
-chiqsq.test(table(UV, AV), correct false)
-```
-
-### Cramers V
-
-### ANOVA
-
- F test
-
-y: UV 0-1
-
-Wenig streuung innerhalb, grosse unterschiede zwischen gruppen: hoher f wert
-
-viel streueung innerhalb der gruppe, wenig unterschied zwischen. hoher f wert
-
-f = (varianz zwischen gruppen)
-    --------------------------
-    varianz innerhalb der gruppen
-
-ewnn nullhyp: F=1
-je höher F, desto eher H0 verwerfen
-
-```r
-summary(aov(av ~ uv))
-```
-
+Unsere Datensätze haben also jeweils Werte für UV und AV. Also können wir uns die Werte als zweidimensionale Vektoren Vorstellen; Punkte mit (UV, AV).

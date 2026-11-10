@@ -1,0 +1,42 @@
+<script src="https://cdn.plot.ly/plotly-4.1.1.min.js" charset="utf-8"></script>
+<div class="plot" id='parent-{{include.divclass}}'>
+  <div id="{{include.divclass}}">
+    <script>
+      function getVals() {
+        return '{{include.items}}'
+          .split(':')
+          .map(arrstr => {
+            let kv = arrstr.split("*");
+            if (kv.length > 1) {
+              return ({ name: kv[0], arr: kv[1] })
+            }
+            return { name: "", arr: kv[0] }
+          })
+          .map(namedArr = ({ name, arr }) => {
+            let expanded = arr
+              .split(",")
+              .map(it => it.trim() * 1)
+              .flatMap(it => {
+                let a = [];
+                for (let i = 0; i < 10; ++i) {
+                  a.push((Math.random() + it));
+                }
+                return a;
+              });
+            let max = expanded.slice().sort((a, b) => b - a)[0];
+            return {
+              name: name,
+              arr: expanded.map(it => it / max * 100)
+            };
+          })
+          .map(namedArr = ({ name, arr }) => ({
+            y: arr, type: 'bar', name: name, opacity: 0.6, barmode: "overlay", width: 1
+          }));
+      }
+      Plotly
+        .newPlot(
+          document.getElementById('{{include.divclass}}'),
+          getVals(), {});
+    </script>
+  </div>
+</div>
