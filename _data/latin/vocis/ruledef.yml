@@ -1,0 +1,450 @@
+word:
+  word: ""
+  meanings: []
+  type: [adjective, substantive, verb]
+  unit: num
+  class: "1.ā"
+
+# TODO: Change to tempora
+tempori:
+  - name: present
+    display: Präsens
+    stem: present
+    endings: &present_end [ō, s, t, mus, tis, nt]
+  - name: imperfect
+    display: Imperfekt
+    stem: present
+    endings: &imperfect_end [m, s, t, mus, tis, nt]
+  - name: perfect
+    display: Perfekt
+    stem: perfect
+    endings: &perfect_end [ī, istī, it, imus, istis, ērunt]
+  - name: plusquamperfect
+    display: Plusquamperfekt
+    stem: perfect
+    endings: &plusquamperfect_end [eram, erās, erat, erāmus, erātis, erant]
+
+persons:
+  - "1. Sg"
+  - "2. Sg"
+  - "3. Sg"
+  - "1. Pl"
+  - "2. Pl"
+  - "3. Pl"
+
+kasus:
+  - Nom Sg.
+  - Gen Sg.
+  - Dat Sg.
+  - Akk Sg.
+  - Abl Sg.
+  - Nom Pl.
+  - Gen Pl.
+  - Dat Pl.
+  - Akk Pl.
+  - Abl Pl.
+
+comparisons:
+  - name: positive
+    display: Positiv
+    endings: {}
+  - name: comparative
+    display: Komparativ
+    stem: "[root]"
+    formation:
+      f: &adjcompf
+        - "[stem]-ior"
+        - "[stem]-iōr-is"
+        - "[stem]-iōr-ī"
+        - "[stem]-iōr-em"
+        - "[stem]-iōr-e"
+        - "[stem]-iōr-ēs"
+        - "[stem]-iōr-um"
+        - "[stem]-iōr-ibus"
+        - "[stem]-iōr-ēs"
+        - "[stem]-iōr-ibus"
+      m: *adjcompf
+      n:
+        - "[stem]-ius"
+        - "[stem]-iōr-is"
+        - "[stem]-iōr-ī"
+        - "[stem]-ius"
+        - "[stem]-iōr-e"
+        - "[stem]-iōr-a"
+        - "[stem]-iōr-um"
+        - "[stem]-iōr-ibus"
+        - "[stem]-iōr-a"
+        - "[stem]-iōr-ibus"
+
+classes:
+  substantive:
+    - class: irregular
+      name: irregular
+      subtype: irregular
+      stem: "[root]"
+      endings: { f: [], m: [], n: [] }
+      formation: { f: [], m: [], n: [] }
+    - class: 1
+      name: ā
+      subtype: ā
+      stem: "[root]"
+      endings:
+        f: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+        m: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+        n: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+      formation:
+        f: &form_decl_1
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+        m: *form_decl_1
+        n: *form_decl_1
+    - class: 2
+      name: ō
+      subtype: ō
+      stem: "[root]"
+      endings:
+        f: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
+        m: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
+        n: [um, ī, ō, um, ō, a, ōrum, īs, a, īs]
+      formation:
+        m: *form_decl_1
+        n: *form_decl_1
+        f: *form_decl_1
+    - class: 3
+      name: konsonant
+      subtype: konsonant
+      stem: "[root]"
+      endings:
+        f: ["", is, ī, em, e, ēs, um, ibus, ēs, ibus]
+        m: ["", is, ī, em, e, ēs, um, ibus, ēs, ibus]
+        n: ["", is, i, "", e, a, um, ibus, a, ibus]
+      formation:
+        f: &form_decl_3kons_mf
+          - "[word]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+        m: *form_decl_3kons_mf
+        n: &form_decl_3kons_n
+          - "[word]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[word]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+    - class: 3
+      name: gemischt
+      subtype: gemischt
+      stem: "[root]"
+      endings:
+        f: [is, is, ī, em, e, ēs, ium, ibus, ēs, ibus]
+        m: [is, is, ī, em, e, ēs, ium, ibus, ēs, ibus]
+        n: [is, is, ī, em, e, ēs, ium, ibus, ēs, ibus]
+      formation:
+        f: *form_decl_1
+        m: *form_decl_1
+        n: *form_decl_1
+    - class: 3
+      name: i
+      subtype: i
+      stem: "[root]"
+      endings:
+        f: [is, is, ī, im, ī, ēs, ium, ibus, ēs, ibus]
+        m: [is, is, ī, im, ī, ēs, ium, ibus, ēs, ibus]
+        n: [e, is, ī, e, ī, ia, ium, ibus, ia, ibus]
+      formation:
+        f: *form_decl_1
+        m: *form_decl_1
+        n: *form_decl_1
+    - class: 4
+      name: ū
+      subtype: ū
+      stem: "[root]"
+      endings:
+        f: [us, ūs, uī, um, ū, ūs, uum, ibus, ūs, ibus]
+        m: [us, ūs, uī, um, ū, ūs, uum, ibus, ūs, ibus]
+        n: [ū, ūs, ū, ū, ū, ua, uum, ibus, ua, ibus]
+      formation:
+        f: *form_decl_1
+        m: *form_decl_1
+        n: *form_decl_1
+    - class: 5
+      name: ē
+      subtype: ē
+      stem: "[root]"
+      endings:
+        f: [ēs, eī, eī, em, ē, ēs, ērum, ēbus, ēs, ēbus]
+        m: [ēs, eī, eī, em, ē, ēs, ērum, ēbus, ēs, ēbus]
+        n: [ēs, eī, eī, em, ē, ēs, ērum, ēbus, ēs, ēbus]
+      formation:
+        f: *form_decl_1
+        m: *form_decl_1
+        n: *form_decl_1
+
+  adjective:
+    - class: 1
+      name: ā
+      subtype: ā
+      stem: { positive: "[root]", comparative: "[root]", superlative: "[root]" }
+      allowed_genus: [f]
+      endings:
+        positive:
+          f: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+        comparative:
+          f: ["", is, ī, em, e, ēs, um, ibus, ēs, ibus]
+        superlative:
+          f: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+      formation:
+        positive: { f: *form_decl_1 }
+        comparative:
+          f: &form_decl_comp_mf
+            - "[root]-ior"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+        superlative:
+          f: &form_decl_super
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+    - class: 2
+      name: ō
+      subtype: ō
+      stem: { positive: "[root]", comparative: "[root]", superlative: "[root]" }
+      allowed_genus: [m, n]
+      endings:
+        positive:
+          m: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
+          n: [um, ī, ō, um, ō, a, ōrum, īs, a, īs]
+        comparative:
+          m: ["", is, ī, em, e, ēs, um, ibus, ēs, ibus]
+          n: ["", is, ī, ius, e, a, um, ibus, a, ibus]
+      formation:
+        positive: { m: *form_decl_1, n: *form_decl_1 }
+        comparative:
+          m: *form_decl_comp_mf
+          n: &form_decl_comp_n
+            - "[root]-ius"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+            - "[stem]-[degsign]-[end]"
+        superlative:
+          m: *form_decl_super
+          n: *form_decl_super
+    - class: 3
+      name: konsonant
+      subtype: konsonant
+      stem: "[root]"
+      endings:
+        positive:
+          f: ["", is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+          m: ["", is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+          n: ["", is, ī, "", ī, ia, ium, ibus, ia, ibus]
+        comparative:
+          f:
+          m:
+          n:
+      formation:
+        positive:
+          f: *form_decl_3kons_mf
+          m: *form_decl_3kons_mf
+          n: *form_decl_3kons_n
+
+  verb:
+    - class: 1
+      name: ā
+      subtype: ā
+      tempus_sign: ba
+      present: *present_end
+      imperfect: *imperfect_end
+      perfect: *perfect_end
+      plusquamperfect: *plusquamperfect_end
+      stem: { present: "[root]-ā", perfect: "[root]" }
+      formation:
+        present:
+          [
+            "[root]-[end]",
+            "[stem]-[end]",
+            "[root]-a-[end]",
+            "[stem]-[end]",
+            "[stem]-[end]",
+            "[root]-a-[end]",
+          ]
+        imperfect: &imperfect_formations
+          - "[stem]-[temp]-[end]"
+          - "[stem]-[temp]-[end]"
+          - "[stem]-[temp]-[end]"
+          - "[stem]-[temp]-[end]"
+          - "[stem]-[temp]-[end]"
+          - "[stem]-[temp]-[end]"
+        perfect: &perfect_formations
+          - "[root]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+        plusquamperfect: &pqp_formations
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+    - class: 2
+      name: ē
+      subtype: ē
+      tempus_sign: ba
+      present: *present_end
+      imperfect: *imperfect_end
+      perfect: *perfect_end
+      plusquamperfect: *plusquamperfect_end
+      stem: { present: "[root]-ē", perfect: "[root]" }
+      formation:
+        present:
+          - "[root]-e-[end]"
+          - "[stem]-[end]"
+          - "[root]-e-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[root]-e-[end]"
+        imperfect: *imperfect_formations
+        perfect: *perfect_formations
+        plusquamperfect: *pqp_formations
+    - class: 3
+      name: konsonant
+      subtype: konsonant
+      tempus_sign: ēba
+      present: *present_end
+      imperfect: *imperfect_end
+      perfect: *perfect_end
+      plusquamperfect: *plusquamperfect_end
+      stem: { present: "[root]", perfect: "[root]" }
+      formation:
+        present:
+          - "[root]-[end]"
+          - "[root]-i-[end]"
+          - "[root]-i-[end]"
+          - "[root]-i-[end]"
+          - "[root]-i-[end]"
+          - "[root]-u-[end]"
+        imperfect: *imperfect_formations
+        perfect: *perfect_formations
+        plusquamperfect: *pqp_formations
+    - class: 3
+      name: suppletive
+      subtype: suppletive
+      tempus_sign: ēba
+      present: *present_end
+      imperfect: *imperfect_end
+      perfect: *perfect_end
+      plusquamperfect: *plusquamperfect_end
+      stem: { present: "[root]", perfect: "[root]" }
+      formation:
+        present:
+          - "[root]-[end]"
+          - "[root]-[end]"
+          - "[root]-[end]"
+          - "[root]-i-[end]"
+          - "[root]-[end]"
+          - "[root]-u-[end]"
+        imperfect: *imperfect_formations
+        perfect: *perfect_formations
+        plusquamperfect: *pqp_formations
+    - class: 3
+      name: iō
+      subtype: iō
+      tempus_sign: ēba
+      present: [ō, s, t, mus, tis, unt]
+      imperfect: *present_end
+      perfect: *imperfect_end
+      plusquamperfect: *plusquamperfect_end
+      stem: { present: "[root]-i", perfect: "[root]" }
+      formation:
+        present:
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-u-[end]"
+        imperfect: *imperfect_formations
+        perfect: *perfect_formations
+        plusquamperfect: *pqp_formations
+    - class: irregular
+      name: irregular
+      subtype: irregular
+      tempus_sign: ba
+      present: *konsonant_present_endings
+      imperfect: *imperfect_end
+      perfect: *perfect_end
+      plusquamperfect: *plusquamperfect_end
+      stem: { present: "[root]", perfect: "[root]" }
+      formation:
+        present:
+          - "[root]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+          - "[stem]-[end]"
+        imperfect: *imperfect_formations
+        perfect: *perfect_formations
+        plusquamperfect: *pqp_formations
+    - class: 4
+      name: ī
+      subtype: ī
+      tempus_sign: eba
+      present: *present_end
+      imperfect: *imperfect_end
+      perfect: *perfect_end
+      plusquamperfect: *plusquamperfect_end
+      stem: { present: "[root]-i", perfect: "[root]" }
+      formation:
+        present:
+          - "[stem]-[end]"
+          - "[root]-ī-[end]"
+          - "[stem]-[end]"
+          - "[root]-ī-[end]"
+          - "[root]-ī-[end]"
+          - "[stem]-u-[end]"
+        imperfect: *imperfect_formations
+        perfect: *perfect_formations
+        plusquamperfect: *pqp_formations

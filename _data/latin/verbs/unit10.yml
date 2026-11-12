@@ -1,0 +1,54 @@
+- infinitive: tangere
+  unit: 10
+  meanings: [berühren]
+  class: 3
+  subtype: konsonant
+  root: { present: tang, perfect: tetig }
+- infinitive: claudere
+  unit: 10
+  meanings: [schliessen, verschliessen, einschliessen]
+  class: 3
+  subtype: konsonant
+  root: { present: claud, perfect: claus }
+- infinitive: ignōrāre
+  unit: 10
+  meanings: [nicht wissen, nicht kennen]
+  class: 1
+  subtype: ā
+  root: { present: ignōr, perfect: ignōrāv }
+- infinitive: (ad)monēre
+  unit: 10
+  meanings: [(er)mahnen]
+  class: 2
+  subtype: ē
+  root: { present: (ad)mon, perfect: (ad)monu }
+- infinitive: incendere
+  unit: 10
+  meanings: [anzünden, entflammen]
+  class: 3
+  subtype: konsonant
+  root: { present: incend, perfect: incend }
+- infinitive: dēserere
+  unit: 10
+  meanings: [versen, im Stich lassen]
+  class: 3
+  subtype: konsonant
+  root: { present: dēser, perfect: dēseru }
+- infinitive: aspicere
+  unit: 10
+  meanings: [erblicken]
+  class: 3
+  subtype: iō
+  root: { present: aspic, perfect: aspex }
+- infinitive: condere
+  unit: 10
+  meanings: [gründen, erbauen, verwahren, verstecken, begraben]
+  class: 3
+  subtype: konsonant
+  root: { present: cond, perfect: condid }
+- infinitive: reddere
+  unit: 10
+  meanings: [zurückgeben]
+  class: 3
+  subtype: konsonant
+  root: { present: redd, perfect: reddid }

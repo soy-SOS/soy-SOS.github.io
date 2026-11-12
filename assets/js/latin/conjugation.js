@@ -193,14 +193,14 @@ function mytest(containerId, jsonData) {
         const ends = t["base_endings"];
         const tempusSign = c["tempus_sign"];
 
-        const stem = c["stem"][t["stem"]].replace("root", root);
+        const stem = c["stem"][t["stem"]].replace("[root]", root);
         for (let i = 0; i < persons.length; ++i) {
           const form = formation[i]
-            .replace("root", root)
-            .replace("stem", stem)
+            .replace("[root]", root)
+            .replace("[stem]", stem)
             .replaceAll("-", "")
-            .replace("temp", `-${tempusSign}`)
-            .replace("end", `-${ends[i]}`);
+            .replace("[temp]", `-${tempusSign}`)
+            .replace("[end]", `-${ends[i]}`);
           conjs.push(form);
         }
         result = new Object({ ...result, [t["name"]]: conjs });
@@ -214,6 +214,84 @@ function mytest(containerId, jsonData) {
     { head: "Imperfekt", dataField: "imperfect" },
     { head: "Plusquamperfekt", dataField: "plusquamperfect" }
   ];
+  const encoder = new TextEncoder();
+  const smth = encoder.encode(JSON.stringify(conjugations));
+  const size = smth.length;
+  const kb = size / 1024;
+  console.log(`KB: ${kb}`);
+  console.log(`MB: ${kb / 1024}`);
+  for (let i = 0; i < conjugations.length; ++i) {
+    sessionStorage.setItem(i, JSON.stringify(conjugations[i]));
+  }
+
   const table = new ConjugationTable(containerId, conjugations, tableMappings, true, true);
   table.displayTable();
+}
+
+function saveToSession(jsonData, selecteUnits, selectedClasses) {
+  if (sessionStorage.length != 0) {
+    return;
+  }
+  if (jsonData == undefined) {
+    console.log("jsonData is undefined, returning.");
+    return;
+  }
+  const persons = jsonData["classes"]["persons"];
+  const tempori = jsonData["classes"]["tempori"];
+  const classes = jsonData["classes"]["classes"];
+  const words = Object.keys(jsonData)
+    .flatMap(key => key.startsWith("unit") ? jsonData[key] : []);
+
+  const conjugations = words
+    .filter(word => isAllowedUnit(word, selecteUnits))
+    .filter(word => isAllowedClass(word, selectedClasses))
+    .map(word => ({ w: word, c: classes.find(c => c["subtype"] == word["subtype"]) }))
+    .map(it = ({ w, c }) => mapToTempora(w, c, tempori))
+    .flatMap(it = ({ w, c, ts }) => {
+      let result = {
+        unit: w["unit"],
+        class: c["name"],
+        infinitive: w["infinitive"],
+      };
+      if (w["class"] == "irregular") {
+        ts.forEach((t) => {
+          result = new Object({ ...result, [t["name"]]: w[t["name"]] });
+        });
+        return result;
+      }
+      for (t of ts) {
+        let conjs = [];
+        const root = w["root"][t["stem"]];
+        const formation = c["formation"][t["name"]];
+        const ends = t["base_endings"];
+        const tempusSign = c["tempus_sign"];
+
+        const stem = c["stem"][t["stem"]].replace("[root]", root);
+        for (let i = 0; i < persons.length; ++i) {
+          const form = formation[i]
+            .replace("[root]", root)
+            .replace("[stem]", stem)
+            .replaceAll("-", "")
+            .replace("[temp]", `-${tempusSign}`)
+            .replace("[end]", `-${ends[i]}`);
+          conjs.push(form);
+        }
+        result = new Object({ ...result, [t["name"]]: conjs });
+      }
+      return result;
+    });
+  for (let i = 0; i < conjugations.length; ++i) {
+    sessionStorage.setItem(i, JSON.stringify(conjugations[i]));
+  }
+  return;
+}
+
+function addFlashCards(divName, num) {
+  let indices = [];
+  const maxIndex = sessionStorage.length - 1;
+  for (let i = 0; i < num; ++i) {
+    const index = Math.floor(Math.random() * maxIndex);
+
+    
+  }
 }

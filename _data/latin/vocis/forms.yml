@@ -1,0 +1,249 @@
+
+
+verb:
+  classes:
+    - id: "verb.classes.1-ā"
+      tempus_sign: ba
+      conjugations:
+        - id: "indicative.active.present"
+          stem: "[root]-ā"
+          ends: [ō, s, t, mus, tis, nt]
+          formations:
+            - "[root]-[end]"
+            - "[stem]-[end]"
+            - "[root]-a-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[root]-a-[end]"
+        - id: "indicative.active.imperfect"
+          stem: "[root]-ā"
+          ends: [m, s, t, mus, tis, nt]
+          formations: &a_ind_ac_imperf
+            - "[stem]-[tempus_sign]-[end]"
+            - "[stem]-[tempus_sign]-[end]"
+            - "[stem]-[tempus_sign]-[end]"
+            - "[stem]-[tempus_sign]-[end]"
+            - "[stem]-[tempus_sign]-[end]"
+            - "[stem]-[tempus_sign]-[end]"
+        - id: "indicative.active.perfect"
+          stem: "[root]"
+          ends: [ī, istī, it, imus, istis, ērunt]
+          formations: &a_ind_ac_perf
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+        - id: "indicative.active.pluperfect"
+          stem: "[root]-ā"
+          ends: [eram, erās, erat, erāmus, erātis, erant]
+          formations: *a_ind_ac_perf
+
+    - id: "verb.classes.2-ē"
+      tempus_sign: ba
+      conjugations:
+        - id: "indicative.active.present"
+          stem: "[root]-ē"
+          ends: [ō, s, t, mus, tis, nt]
+          formations:
+            - "[root]-e-[end]"
+            - "[stem]-[end]"
+            - "[root]-e-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[root]-e-[end]"
+        - id: "indicative.active.imperfect"
+          stem: "[root]-ē"
+          ends: [m, s, t, mus, tis, nt]
+          formations: *a_ind_ac_imperf
+        - id: "indicative.active.perfect"
+          stem: "[root]"
+          ends: [ī, istī, it, imus, istis, ērunt]
+          formations: *a_ind_ac_perf
+        - id: "indicative.active.pluperfect"
+          stem: "[root]-ē"
+          ends: [eram, erās, erat, erāmus, erātis, erant]
+          formations: *a_ind_ac_perf
+
+    - id: "verb.classes.3-konsonant"
+      tempus_sign: ēba
+      conjugations:
+        - id: "indicative.active.present"
+          stem: "[root]"
+          ends: [ō, s, t, mus, tis, nt]
+          formations:
+            - "[stem]-[end]"
+            - "[stem]-i-[end]"
+            - "[stem]-i-[end]"
+            - "[stem]-i-[end]"
+            - "[stem]-i-[end]"
+            - "[stem]-u-[end]"
+        - id: "indicative.active.imperfect"
+          stem: "[root]"
+          ends: [m, s, t, mus, tis, nt]
+          formations: *a_ind_ac_imperf
+        - id: "indicative.active.perfect"
+          stem: "[root]"
+          ends: [ī, istī, it, imus, istis, ērunt]
+          formations: *a_ind_ac_perf
+        - id: "indicative.active.pluperfect"
+          stem: "[root]"
+          ends: [eram, erās, erat, erāmus, erātis, erant]
+          formations: *a_ind_ac_perf
+
+    - id: "verb.classes.3-suppletive"
+      tempus_sign: ēba
+      conjugations:
+        - id: "indicative.active.present"
+          stem: "[root]"
+          ends: [ō, s, t, mus, tis, nt]
+          formations:
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[stem]-i-[end]"
+            - "[stem]-[end]"
+            - "[stem]-u-[end]"
+        - id: "indicative.active.imperfect"
+          stem: "[root]"
+          ends: [m, s, t, mus, tis, nt]
+          formations: *a_ind_ac_imperf
+        - id: "indicative.active.perfect"
+          stem: "[root]"
+          ends: [ī, istī, it, imus, istis, ērunt]
+          formations: *a_ind_ac_perf
+        - id: "indicative.active.pluperfect"
+          stem: "[root]"
+          ends: [eram, erās, erat, erāmus, erātis, erant]
+          formations: *a_ind_ac_perf
+
+    - id: "verb.classes.3-iō"
+      tempus_sign: ēba
+      conjugations:
+        - id: "indicative.active.present"
+          stem: "[root]"
+          ends: [ō, s, t, mus, tis, nt]
+          formations:
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[stem]-u-[end]"
+        - id: "indicative.active.imperfect"
+          stem: "[root]"
+          ends: [m, s, t, mus, tis, nt]
+          formations: *a_ind_ac_imperf
+        - id: "indicative.active.perfect"
+          stem: "[root]"
+          ends: [ī, istī, it, imus, istis, ērunt]
+          formations: *a_ind_ac_perf
+        - id: "indicative.active.pluperfect"
+          stem: "[root]"
+          ends: [eram, erās, erat, erāmus, erātis, erant]
+          formations: *a_ind_ac_perf
+
+    - id: "verb.classes.4-ī"
+      tempus_sign: ēba
+      conjugations:
+        - id: "indicative.active.present"
+          stem: "[root]-ī"
+          ends: [ō, s, t, mus, tis, nt]
+          formations:
+            - "[root]-i-[end]"
+            - "[stem]-[end]"
+            - "[root]-i-[end]"
+            - "[stem]-[end]"
+            - "[stem]-[end]"
+            - "[root]-i-[end]"
+        - id: "indicative.active.imperfect"
+          stem: "[root]"
+          ends: [m, s, t, mus, tis, nt]
+          formations: *a_ind_ac_imperf
+        - id: "indicative.active.perfect"
+          stem: "[root]"
+          ends: [ī, istī, it, imus, istis, ērunt]
+          formations: *a_ind_ac_perf
+        - id: "indicative.active.pluperfect"
+          stem: "[root]"
+          ends: [eram, erās, erat, erāmus, erātis, erant]
+          formations: *a_ind_ac_perf
+
+    - id: "verb.classes.irregular"
+      tempus_sign: NA
+      conjugations:
+        - id: "indicative.active.present"
+          stem: "[root]"
+          ends: ["", "", "", "", "", ""]
+          formations: ["", "", "", "", "", ""]
+        - id: "indicative.active.imperfect"
+          stem: "[root]"
+          ends: ["", "", "", "", "", ""]
+          formations: ["", "", "", "", "", ""]
+        - id: "indicative.active.perfect"
+          stem: "[root]"
+          ends: ["", "", "", "", "", ""]
+          formations: ["", "", "", "", "", ""]
+        - id: "indicative.active.pluperfect"
+          stem: "[root]"
+          ends: ["", "", "", "", "", ""]
+          formations: ["", "", "", "", "", ""]
+
+  tenses:
+  conjugation:
+    indicative:
+      active:
+        - id: "verb.conjugation.indicative.active.present.class_id"
+          name: present
+          stem: "[]"
+          formation:
+            - formbyclass
+        - id: "verb.conjugation.indicative.active.present.class_id"
+          name: present
+          stem: "[]"
+          formation:
+            - formbyclass
+        - id: "verb.conjugation.indicative.active.present.class_id"
+          name: present
+          stem: "[]"
+          formation:
+            - formbyclass
+        - id: "verb.conjugation.indicative.active.present.class_id"
+          name: present
+          stem: "[]"
+          formation:
+            - formbyclass
+        - id: "verb.conjugation.indicative.active.present.class_id"
+          name: present
+          stem: "[]"
+          formation:
+            - formbyclass
+        - id: "verb.conjugation.indicative.active.present.class_id"
+          name: present
+          stem: "[]"
+          formation:
+            - formbyclass
+        - id: "verb.conjugation.indicative.active.present.class_id"
+          name: present
+          stem: "[]"
+          formation:
+            - formbyclass
+      passive: {}
+    subjunctive:
+      active: {}
+      passive: {}
+    imperative:
+      active: {}
+      passive: {}
+
+adjective:
+  classes: []
+  adverb: []
+  comparison:
+    positive:
+    comparative:
+    superlative:
+
+substantive:
+  classes: []

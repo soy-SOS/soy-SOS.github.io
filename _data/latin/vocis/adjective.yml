@@ -1,0 +1,89 @@
+- class: 1
+  name: ā
+  subtype: ā
+  stem:
+    positive: "[root]"
+    comparative: "[root]"
+    superlative: "[root]"
+  allowed_genus: [f]
+  endings:
+    positive:
+      f: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+    comparative:
+      f: ["", is, ī, em, e, ēs, um, ibus, ēs, ibus]
+    superlative:
+      f: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+  formation:
+    positive: { f: *form_decl_1 }
+    comparative:
+      f: &form_decl_comp_mf
+        - "[root]-ior"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+    superlative:
+      f: &form_decl_super
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+- class: 2
+  name: ō
+  subtype: ō
+  stem: { positive: "[root]", comparative: "[root]", superlative: "[root]" }
+  allowed_genus: [m, n]
+  endings:
+    positive:
+      m: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
+      n: [um, ī, ō, um, ō, a, ōrum, īs, a, īs]
+    comparative:
+      m: ["", is, ī, em, e, ēs, um, ibus, ēs, ibus]
+      n: ["", is, ī, ius, e, a, um, ibus, a, ibus]
+  formation:
+    positive: { m: *form_decl_1, n: *form_decl_1 }
+    comparative:
+      m: *form_decl_comp_mf
+      n: &form_decl_comp_n
+        - "[root]-ius"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+        - "[stem]-[degsign]-[end]"
+    superlative:
+      m: *form_decl_super
+      n: *form_decl_super
+- class: 3
+  name: konsonant
+  subtype: konsonant
+  stem: "[root]"
+  endings:
+    positive:
+      f: ["", is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+      m: ["", is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+      n: ["", is, ī, "", ī, ia, ium, ibus, ia, ibus]
+    comparative:
+      f:
+      m:
+      n:
+  formation:
+    positive:
+      f: *form_decl_3kons_mf
+      m: *form_decl_3kons_mf
+      n: *form_decl_3kons_n

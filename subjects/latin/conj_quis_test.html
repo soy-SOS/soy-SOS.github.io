@@ -5,6 +5,8 @@ parent: Übung
 permalink: /latin/quiz/verbs-test
 published: false
 ---
+{% assign questions = site.data.quiz.latin.voci_verb_forms %}
+{% assign unitstest = site.data.latin.verbs %}
 
 
 <!DOCTYPE html>
@@ -17,17 +19,12 @@ published: false
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
 </head>
 
-<body>
-  {% assign questions = site.data.quiz.latin.voci_verb_forms %}
-  {% assign unitstest = site.data.latin.verbs %}
+<body onload="saveToSession(JSON.parse(decodeURIComponent('{{unitstest |jsonify |uri_escape}}')), [],[])">
 
-
-  <!-- <button onclick="loadcon(50)">Wähle 50 zufällige Items aus.</button>
-  <button onclick="switchBack()">Tausche Vorder- und Rückseite</button> -->
-  <button
-    onclick="mytest('flashcard-container', JSON.parse(decodeURIComponent('{{unitstest |jsonify |uri_escape}}')))">test</button>
+  <!-- <button
+    onclick="mytest('flashcard-container', JSON.parse(decodeURIComponent('{{unitstest |jsonify |uri_escape}}')))">test</button> -->
   <p>{{questions | size}}</p>
-
+  <button onclick="addFlashCards('flashcard-container', 20)">Show Flashcards</button>
   <div class="flashcard-container conjugate" id="flashcard-container">
 
   </div>
