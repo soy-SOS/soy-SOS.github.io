@@ -155,6 +155,13 @@ class Conjugations {
     "flashcards-s": "conjugation-container-flashcards-s"
   };
 
+#_tenseToDisplay = new Map([
+["present", "Präsens"],
+["imperfect", "Imperfekt"],
+["perfect", "Perfekt"],
+["plusquamperfect", "Plusquamperfekt"]
+]);
+
   constructor(jsonData) {
     this.#_allConjugations = formConjugations(jsonData);
     this.#_conjugations = formConjugations(jsonData);
@@ -189,6 +196,7 @@ class Conjugations {
         person = this.#randInt(5);
       }
       const randomWordForm = randomWord[tempus][person];
+      const tempusStr = this.#_tenseToDisplay[tense];
 
       const meaningStr = randomWord["meanings"].join(", ");
       const loopIndex = i;
@@ -198,7 +206,7 @@ class Conjugations {
         <div class="card-inner">
           <div class="card-front">
             <p class="question-text">
-              <i>${infinitive}</i><br>${tempus} ${person}
+              <i>${infinitive}</i><br>${tempusStr} ${person}
             </p> 
           </div>
           <div class="card-back">
