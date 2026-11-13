@@ -155,18 +155,23 @@ class Conjugations {
     "flashcards-s": "conjugation-container-flashcards-s"
   };
 
-#_tenseToDisplay = new Map([
-["present", "Präsens"],
-["imperfect", "Imperfekt"],
-["perfect", "Perfekt"],
-["plusquamperfect", "Plusquamperfekt"]
-]);
+#_tenseToDisplay;
 
   constructor(jsonData) {
     this.#_allConjugations = formConjugations(jsonData);
     this.#_conjugations = formConjugations(jsonData);
     this.#_displayDivId = this.#_divIdMappings["flashcards-s"];
     this.#_allowedTenses = this.#_allTenses;
+  }
+
+  tenseStr(tense){
+    if(tense == "present"){
+      return "Präsens";
+    }
+    if(tense == "imperfect"){
+      return "Imperfekt";
+    }
+    return tense;
   }
 
   divIdMappings() {
@@ -196,7 +201,7 @@ class Conjugations {
         person = this.#randInt(5);
       }
       const randomWordForm = randomWord[tempus][person];
-      const tempusStr = this.#_tenseToDisplay[tense];
+      const tempusStr = this.tenseStr(tempus);
 
       const meaningStr = randomWord["meanings"].join(", ");
       const loopIndex = i;
