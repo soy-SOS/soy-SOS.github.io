@@ -147,6 +147,7 @@ class Conjugations {
   #_conjugations;
   #_allConjugations;
   #_allTenses = ["present", "imperfect", "perfect", "plusquamperfect"];
+  #_allPersons = ["1 Sg.", "2 Sg.", "3 Sg.", "1 Pl.", "2 Pl.", "3 Pl."];
   #_allowedTenses;
 
   #_divIdMappings = {
@@ -170,6 +171,12 @@ class Conjugations {
     }
     if(tense == "imperfect"){
       return "Imperfekt";
+    }
+    if(tense == "perfect") {
+      return "Perfekt";
+    }
+    if(tense == "plusquamperfect"){
+      return "Plusquamperfekt";
     }
     return tense;
   }
@@ -202,6 +209,7 @@ class Conjugations {
       }
       const randomWordForm = randomWord[tempus][person];
       const tempusStr = this.tenseStr(tempus);
+      const personStr = this.#_allPersons[person];
 
       const meaningStr = randomWord["meanings"].join(", ");
       const loopIndex = i;
@@ -211,7 +219,7 @@ class Conjugations {
         <div class="card-inner">
           <div class="card-front">
             <p class="question-text">
-              <i>${infinitive}</i><br>${tempusStr} ${person}
+              <i>${infinitive}</i><br>${tempusStr} ${personStr}
             </p> 
           </div>
           <div class="card-back">
