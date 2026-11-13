@@ -1,3 +1,21 @@
+.configure fieldset {
+  border: 1px solid #ddd;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 10px;
+  align-content: flex-start;
+}
+
+.configure .checkboxes {
+  justify-content: space-around;
+  align-content: center;
+  display: flex;
+}
+
+.configure .check {
+  display: inline-grid;
+}
+
 /* 
 Flashcard Styles
 */

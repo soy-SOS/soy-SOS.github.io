@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Verben TEST
+title: Verben konjugieren (update, WIP)
 parent: Übung
 permalink: /latin/quiz/verbs-test
-published: false
+published: true
 ---
 {% assign questions = site.data.quiz.latin.voci_verb_forms %}
 {% assign unitstest = site.data.latin.verbs %}
@@ -17,16 +17,66 @@ published: false
   <script src="{{site.baseurl}}/assets/js/latin/conjugation.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+  <script>
+    const conjugation = new Conjugations(JSON.parse(decodeURIComponent('{{unitstest |jsonify |uri_escape}}')));
+  </script>
 </head>
 
-<body onload="saveToSession(JSON.parse(decodeURIComponent('{{unitstest |jsonify |uri_escape}}')), [],[])">
+<body>
+
+  <div class="configure latin conjugation">
+    <fieldset>
+      <legend><small><i>Anz. Karten & Lektionen (für alle, einfach stehenlassen)</i></small></legend>
+      <p>
+        <label for="conf-cardmax">Anzahl Karten (min. 10, max. 100)</label>
+        <input id="conf-cardmax" value="20" min="10" max="100" size="3" type="number" />
+      </p>
+      <p>
+        <label for="conf-unit-min">Lektionen </label>
+        <input id="conf-unit-min" value="0" min="0" max="23" type="number" size="2" />
+        <label for="conf-unit-max"> - </label>
+        <input id="conf-unit-max" value="23" min="0" max="23" type="number" size="2" />
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <small><i>Tempora</i></small>
+      </legend>
+      <div class="checkboxes">
+        <div class="check">
+          <label for="">Präsens</label><br>
+          <input class="conf-tempus" id="conf-tempus-pres" value="present" type="checkbox" />
+        </div>
+        <div class="check">
+          <label for="">Imperfekt</label><br>
+          <input class="conf-tempus" id="conf-tempus-imperf" value="imperfect" type="checkbox" />
+        </div>
+        <div class="check">
+          <label for="">Perfekt</label><br>
+          <input class="conf-tempus" id="conf-tempus-perf" value="perfect" type="checkbox" />
+        </div>
+        <div class="check">
+          <label for="">Plusquamperfekt</label><br>
+          <input class="conf-tempus" id="conf-tempus-plup" value="plusquamperfect" type="checkbox" />
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend><small><i>Gewünschte Aktion</i></small></legend>
+      <button class="btn btn-blue" onclick="conjugation.shuffle()">Karten mischen</button>
+      <button class="btn btn-blue" onclick="conjugation.display('flashcard-container')">Neue Karten laden</button>
+      <button class="btn btn-blue" onclick="conjugation.flipAll()">Karten drehen</button>
+    </fieldset>
+
+  </div>
 
   <!-- <button
     onclick="mytest('flashcard-container', JSON.parse(decodeURIComponent('{{unitstest |jsonify |uri_escape}}')))">test</button> -->
   <p>{{questions | size}}</p>
-  <button onclick="addFlashCards('flashcard-container', 20)">Show Flashcards</button>
-  <div class="flashcard-container conjugate" id="flashcard-container">
 
+  <div class="flashcard-container conjugate" id="flashcard-container">
   </div>
 
 </body>

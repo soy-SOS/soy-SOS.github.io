@@ -55,7 +55,7 @@ class ConjugationTable {
     this.tenseSeparator = "<br>";
   }
 
-  displayTable() {
+  display() {
     const table = document.createElement("table");
     const thead = document.createElement("thead");
     const tbody = document.createElement("tbody");
@@ -91,69 +91,177 @@ class ConjugationTable {
   }
 }
 
-// class WordClass {
-//   constructor(id, name, displayName, stemFormations, wordFormations) {
-//     this.id = id;
-//     this.name = name;
-//     this.displayName = displayName;
-//     this.stemFormations = stemFormations;
-//     this.wordFormations = wordFormations;
-//   }
-// }
+function formConjugations(jsonData) {
+  if (jsonData == undefined) {
+    console.log("jsonData is undefined, returning.");
+    return;
+  }
+  const persons = jsonData["classes"]["persons"];
+  const tempora = jsonData["classes"]["tempori"];
+  const classes = jsonData["classes"]["classes"];
+  const words = Object.keys(jsonData)
+    .flatMap(key => key.startsWith("unit") ? jsonData[key] : []);
 
-// // class Word {
-// //   constructor(data, wordClass, roots) {
-// //     this.word = data["infinitive"];
-// //     this.metaData = {
-// //       unit: data["unit"],
-// //       meanings: data["meanings"],
-// //       excludedTempora: data["exlude_ts"]
-// //     };
-// //     this.wordClass = wordClass;
-// //     this.roots = roots;
-// //     this.forms = conjugate();
-// //   }
+  const conjugations = words
+    .map(word => ({ w: word, c: classes.find(c => c["subtype"] == word["subtype"]) }))
+    .map(it = ({ w, c }) => mapToTempora(w, c, tempora))
+    .flatMap(it = ({ w, c, ts }) => {
+      let result = {
+        unit: w["unit"],
+        class: c["name"],
+        infinitive: w["infinitive"],
+        meanings: w["meanings"]
+      };
+      if (w["class"] == "irregular") {
+        ts.forEach((t) => {
+          result = new Object({ ...result, [t["name"]]: w[t["name"]] });
+        });
+        return result;
+      }
+      for (t of ts) {
+        let conjs = [];
+        const root = w["root"][t["stem"]];
+        const formation = c["formation"][t["name"]];
+        const ends = t["base_endings"];
+        const tempusSign = c["tempus_sign"];
 
-// //   conjugate() {
-// //     if(this.wordClass.name == "irregular"){
+        const stem = c["stem"][t["stem"]].replace("[root]", root);
+        for (let i = 0; i < persons.length; ++i) {
+          const form = formation[i]
+            .replace("[root]", root)
+            .replace("[stem]", stem)
+            .replaceAll("-", "")
+            .replace("[temp]", `-${tempusSign}`)
+            .replace("[end]", `-${ends[i]}`);
+          conjs.push(form);
+        }
+        result = new Object({ ...result, [t["name"]]: conjs });
+      }
+      return result;
+    });
+  return conjugations;
+}
 
-// //     }
-// //   }
-// // }
+class Conjugations {
+  #_displayDivId = "";
+  #_conjugations;
+  #_allConjugations;
+  #_allTenses = ["present", "imperfect", "perfect", "plusquamperfect"];
+  #_allowedTenses;
 
-// class Tempus {
-//   constructor(name, displayName, stem, base_endings) {
-//     this.name = name;
-//     this.displayName = displayName;
-//     this.stem = stem;
-//     this.base_endings = base_endings;
-//   }
-// }
+  #_divIdMappings = {
+    "display-table": "conjugation-container-display-table",
+    "quiz-table": "conjugation-container-quiz-table",
+    "flashcards-s": "conjugation-container-flashcards-s"
+  };
 
-// class Conjugation {
-//   #classes;
-//   #persons;
-//   #tempora;
-//   #words;
+  constructor(jsonData) {
+    this.#_allConjugations = formConjugations(jsonData);
+    this.#_conjugations = formConjugations(jsonData);
+    this.#_displayDivId = this.#_divIdMappings["flashcards-s"];
+    this.#_allowedTenses = this.#_allTenses;
+  }
 
-//   constructor(classes, persons, tempora, words) {
-//     this.#persons = persons;
-//     this.#tempora = tempora
-//       .map(t => new Tempus(t["name"], t["display"], t["stem"], t["base_endings"]));
-//     this.#classes = classes.map(c => new WordClass(
-//       c["class"], c["subtype"], c["name"], c["stem"], c["formation"]
-//     ));
-//     this.#words = words;
-//   }
-//   #initWords(words, classes) {
-//     const bla = [];
-//     bla.map(word => word["subtype"]);
-//   }
-// }
+  divIdMappings() {
+    return this.#_divIdMappings;
+  }
 
-// function initData() {
+  #displayTable() {
 
-// }
+  }
+
+  #randInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+
+  #displayFlashcardsS(parentDiv) {
+    const maxItems = 30;
+    let inner = "";
+    for (let i = 0; i < maxItems; ++i) {
+      const randomWordIndex = this.#randInt(this.#_conjugations.length - 1);
+      let tempus = this.#_allowedTenses[this.#randInt(this.#_allowedTenses.length)];
+      let person = this.#randInt(5);
+      const randomWord = this.#_conjugations[randomWordIndex];
+      while (!Object.keys(randomWord).includes(tempus)) {
+        tempus = this.#_allowedTenses[this.#randInt(this.#_allowedTenses.length)];
+      }
+      while (randomWord[tempus].length < person + 1) {
+        person = this.#randInt(5);
+      }
+      const randomWordForm = randomWord[tempus][person];
+
+      const meaningStr = randomWord["meanings"].join(", ");
+      const loopIndex = i;
+      const infinitive = randomWord["infinitive"];
+      const cardTemplate =
+        `<div class="card conjugations" id="${loopIndex}" onclick="this.classList.toggle('flipped')">
+        <div class="card-inner">
+          <div class="card-front">
+            <p class="question-text">
+              <i>${infinitive}</i><br>${tempus} ${person}
+            </p> 
+          </div>
+          <div class="card-back">
+            <p style="font-size: small;font-weight:normal;"><i>${meaningStr}</i></p>
+            <p style="font-weight:normal;">
+              <b>${randomWordForm}</b>
+            </p>
+          </div>
+        </div>
+      </div>`;
+      inner += (cardTemplate);
+    }
+    let div = document.createElement("div");
+    div.id = this.#_displayDivId;
+    div.innerHTML = inner;
+
+    document.getElementById(parentDiv).appendChild(div);
+  }
+
+  #applyFilters() {
+    let tenses = [];
+    document.querySelectorAll(".conf-tempus").forEach(box => {
+      if (box.checked == true) {
+        tenses.push(box.getAttributeNode("value").value);
+      }
+    });
+    if (tenses.length == 0) {
+      this.#_allowedTenses = this.#_allTenses;
+    } else {
+      this.#_allowedTenses = tenses;
+    }
+    let unitMin = document.getElementById("conf-unit-min").value;
+    let unitMax = document.getElementById("conf-unit-max").value;
+    this.#_conjugations = this.#_allConjugations
+      .filter(i => i.unit >= unitMin && i.unit <= unitMax);
+  }
+
+  shuffle() {
+    let currentDisplay = document.getElementById(this.#_displayDivId);
+    if (currentDisplay == null || !currentDisplay.isConnected) {
+      return;
+    }
+    let cards = currentDisplay.children;
+    let frag = document.createDocumentFragment();
+    while (cards.length) {
+      frag.appendChild(cards[Math.floor(Math.random() * cards.length)]);
+    }
+    currentDisplay.appendChild(frag);
+  }
+
+  flipAll() {
+    document.querySelectorAll('.card.conjugations').forEach(e => e.classList.toggle('flipped'));
+  }
+
+  display(parentDiv) {
+    this.#applyFilters();
+    let currentDisplay = document.getElementById(this.#_displayDivId);
+    if (currentDisplay != null && currentDisplay.isConnected) {
+      currentDisplay.remove();
+    }
+    this.#displayFlashcardsS(parentDiv);
+  }
+}
 
 function mytest(containerId, jsonData) {
   if (jsonData == undefined) {
@@ -284,14 +392,4 @@ function saveToSession(jsonData, selecteUnits, selectedClasses) {
     sessionStorage.setItem(i, JSON.stringify(conjugations[i]));
   }
   return;
-}
-
-function addFlashCards(divName, num) {
-  let indices = [];
-  const maxIndex = sessionStorage.length - 1;
-  for (let i = 0; i < num; ++i) {
-    const index = Math.floor(Math.random() * maxIndex);
-
-    
-  }
 }

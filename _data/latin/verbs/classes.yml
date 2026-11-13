@@ -33,30 +33,38 @@ classes:
     imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
-    stem: { present: root-ā, perfect: root }
+    stem: { present: "[root]-ā", perfect: "[root]" }
     formation:
-      present: [root-end, stem-end, root-a-end, stem-end, stem-end, root-a-end]
+      present:
+        [
+          "[root]-[end]",
+          "[stem]-[end]",
+          "[root]-a-[end]",
+          "[stem]-[end]",
+          "[stem]-[end]",
+          "[root]-a-[end]",
+        ]
       imperfect: &imperfect_formations
-        - stem-temp-end
-        - stem-temp-end
-        - stem-temp-end
-        - stem-temp-end
-        - stem-temp-end
-        - stem-temp-end
+        - "[stem]-[temp]-[end]"
+        - "[stem]-[temp]-[end]"
+        - "[stem]-[temp]-[end]"
+        - "[stem]-[temp]-[end]"
+        - "[stem]-[temp]-[end]"
+        - "[stem]-[temp]-[end]"
       perfect: &perfect_formations
-        - root-end
-        - stem-end
-        - stem-end
-        - stem-end
-        - stem-end
-        - stem-end
+        - "[root]-[end]"
+        - "[stem]-[end]"
+        - "[stem]-[end]"
+        - "[stem]-[end]"
+        - "[stem]-[end]"
+        - "[stem]-[end]"
       plusquamperfect: &pqp_formations
-        - stem-end
-        - stem-end
-        - stem-end
-        - stem-end
-        - stem-end
-        - stem-end
+        - "[stem]-[end]"
+        - "[stem]-[end]"
+        - "[stem]-[end]"
+        - "[stem]-[end]"
+        - "[stem]-[end]"
+        - "[stem]-[end]"
   - class: 2
     name: ē
     subtype: ē
@@ -65,10 +73,17 @@ classes:
     imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
-    stem: { present: "root-ē", perfect: root }
+    stem: { present: "[root]-ē", perfect: "[root]" }
     formation:
       present:
-        [root-e-end, stem-end, root-e-end, stem-end, stem-end, root-e-end]
+        [
+          "[root]-e-[end]",
+          "[stem]-[end]",
+          "[root]-e-[end]",
+          "[stem]-[end]",
+          "[stem]-[end]",
+          "[root]-e-[end]",
+        ]
       imperfect: *imperfect_formations
       perfect: *perfect_formations
       plusquamperfect: *pqp_formations
@@ -80,10 +95,17 @@ classes:
     imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
-    stem: { present: root, perfect: root }
+    stem: { present: "[root]", perfect: "[root]" }
     formation:
       present:
-        [root-end, root-i-end, root-i-end, root-i-end, root-i-end, root-u-end]
+        [
+          "[root]-[end]",
+          "[root]-i-[end]",
+          "[root]-i-[end]",
+          "[root]-i-[end]",
+          "[root]-i-[end]",
+          "[root]-u-[end]",
+        ]
       imperfect: *imperfect_formations
       perfect: *perfect_formations
       plusquamperfect: *pqp_formations
@@ -95,9 +117,17 @@ classes:
     imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
-    stem: { present: root, perfect: root }
+    stem: { present: "[root]", perfect: "[root]" }
     formation:
-      present: [root-end, root-end, root-end, root-i-end, root-end, root-u-end]
+      present:
+        [
+          "[root]-[end]",
+          "[root]-[end]",
+          "[root]-[end]",
+          "[root]-i-[end]",
+          "[root]-[end]",
+          "[root]-u-[end]",
+        ]
       imperfect: *imperfect_formations
       perfect: *perfect_formations
       plusquamperfect: *pqp_formations
@@ -109,9 +139,17 @@ classes:
     imperfect: *present_end
     perfect: *imperfect_end
     plusquamperfect: *plusquamperfect_end
-    stem: { present: root-i, perfect: root }
+    stem: { present: "[root]-i", perfect: "[root]" }
     formation:
-      present: [stem-end, stem-end, stem-end, stem-end, stem-end, stem-u-end]
+      present:
+        [
+          "[stem]-[end]",
+          "[stem]-[end]",
+          "[stem]-[end]",
+          "[stem]-[end]",
+          "[stem]-[end]",
+          "[stem]-u-[end]",
+        ]
       imperfect: *imperfect_formations
       perfect: *perfect_formations
       plusquamperfect: *pqp_formations
@@ -123,9 +161,17 @@ classes:
     imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
-    stem: { present: root, perfect: root }
+    stem: { present: "[root]", perfect: "[root]" }
     formation:
-      present: [root-end, stem-end, stem-end, stem-end, stem-end, stem-end]
+      present:
+        [
+          "[root]-[end]",
+          "[stem]-[end]",
+          "[stem]-[end]",
+          "[stem]-[end]",
+          "[stem]-[end]",
+          "[stem]-[end]",
+        ]
       imperfect: *imperfect_formations
       perfect: *perfect_formations
       plusquamperfect: *pqp_formations
@@ -137,10 +183,17 @@ classes:
     imperfect: *imperfect_end
     perfect: *perfect_end
     plusquamperfect: *plusquamperfect_end
-    stem: { present: "root-i", perfect: root }
+    stem: { present: "[root]-i", perfect: "[root]" }
     formation:
       present:
-        [stem-end, root-ī-end, stem-end, root-ī-end, root-ī-end, stem-u-end]
+        [
+          "[stem]-[end]",
+          "[root]-ī-[end]",
+          "[stem]-[end]",
+          "[root]-ī-[end]",
+          "[root]-ī-[end]",
+          "[stem]-u-[end]",
+        ]
       imperfect: *imperfect_formations
       perfect: *perfect_formations
       plusquamperfect: *pqp_formations
