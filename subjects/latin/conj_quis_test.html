@@ -45,19 +45,19 @@ published: true
       </legend>
       <div class="checkboxes">
         <div class="check">
-          <label for="">Präsens</label><br>
+          <label for="conf-tempus-pres">Präsens</label><br>
           <input class="conf-tempus" id="conf-tempus-pres" value="present" type="checkbox" />
         </div>
         <div class="check">
-          <label for="">Imperfekt</label><br>
+          <label for="conf-tempus-imperf">Imperfekt</label><br>
           <input class="conf-tempus" id="conf-tempus-imperf" value="imperfect" type="checkbox" />
         </div>
         <div class="check">
-          <label for="">Perfekt</label><br>
+          <label for="conf-tempus-perf">Perfekt</label><br>
           <input class="conf-tempus" id="conf-tempus-perf" value="perfect" type="checkbox" />
         </div>
         <div class="check">
-          <label for="">Plusquamperfekt</label><br>
+          <label for="conf-tempus-plup">Plusquamperfekt</label><br>
           <input class="conf-tempus" id="conf-tempus-plup" value="plusquamperfect" type="checkbox" />
         </div>
       </div>
@@ -71,11 +71,6 @@ published: true
     </fieldset>
 
   </div>
-
-  <!-- <button
-    onclick="mytest('flashcard-container', JSON.parse(decodeURIComponent('{{unitstest |jsonify |uri_escape}}')))">test</button> -->
-  <p>{{questions | size}}</p>
-
   <div class="flashcard-container conjugate" id="flashcard-container">
   </div>
 

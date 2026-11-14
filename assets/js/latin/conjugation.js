@@ -99,6 +99,7 @@ function formConjugations(jsonData) {
   const persons = jsonData["classes"]["persons"];
   const tempora = jsonData["classes"]["tempori"];
   const classes = jsonData["classes"]["classes"];
+  console.log(classes);
   const words = Object.keys(jsonData)
     .flatMap(key => key.startsWith("unit") ? jsonData[key] : []);
 
@@ -142,13 +143,115 @@ function formConjugations(jsonData) {
   return conjugations;
 }
 
+class FilterOptions {
+  #_itemMax;
+  #_itemNum = 20;
+  #_allowedTenses;
+  #_allowedPersons;
+  #_unitMin;
+  #_unitMax;
+  #_allTenses;
+  // conf-cardmax
+  constructor(allTenses, itemNum, allowedTenses, allowedPersons, unitMin, unitMax) {
+    this.#_allTenses = allTenses;
+    this.#_itemMax = 100;
+    this.#_itemNum = itemNum;
+    this.#_allowedTenses = allowedTenses;
+    this.#_allowedPersons = allowedPersons;
+    this.#_unitMin = unitMin;
+    this.#_unitMax = unitMax;
+  }
+
+  allowedTenses() { return this.#_allowedTenses; }
+  setAllowedTenses(allowedTenses) {
+    if (!Array.isArray(allowedTenses)) {
+      return;
+    }
+    let tenses = Array.from(allowedTenses);
+    if (tenses.length == 0) {
+      tenses = this.#_allTenses;
+    }
+    this.#_allowedTenses = tenses;
+  }
+
+  itemNum() { return this.#_itemNum; }
+  setItemNum(itemNum) {
+    if (itemNum == undefined) {
+      // Do nothing if input invalid.
+      return;
+    }
+    const num = parseInt(itemNum);
+    if (num.toString() != itemNum) {
+      return;
+    }
+    if (num > this.#_itemMax || num <= 0) {
+      // Do nothing if `itemNum` is outside of cutoff range.
+      return;
+    }
+    this.#_itemNum = num;
+  }
+
+  unitMin() { return this.#_unitMin; }
+  setUnitMin(unitMin) {
+    if (unitMin == undefined) {
+      return;
+    }
+    const parsed = parseInt(unitMin);
+    if (parsed.toString() !== unitMin) {
+      // Do nothing if input invalid.
+      return;
+    }
+    if (parsed < 0 || parsed > 23) {
+      // Do nothing if `unitMax` is outside of cutoff range.
+      return;
+    }
+    this.#_unitMin = parsed;
+  }
+
+  unitMax() { return this.#_unitMax; }
+  setUnitMax(unitMax) {
+    if (unitMax == undefined) {
+      // Do nothing if input invalid.
+      return;
+    }
+    let parsed = parseInt(unitMax);
+    if (parsed.toString() !== unitMax) {
+      return;
+    }
+    if (parsed > 23 || parsed <= 0) {
+      // Do nothing if `unitMax` is outside of cutoff range.
+      return;
+    }
+    if (parsed < this.unitMin()) {
+      parsed = this.unitMin();
+    }
+    this.#_unitMax = parsed;
+  }
+
+  toString() {
+    const out = `
+    FilterOptions {
+      itemMax: ${this.#_itemMax}
+      itemNum: ${this.#_itemNum}
+      unitRange: [${this.#_unitMin} - ${this.#_unitMax}]
+
+      tenses: ${this.#_allowedTenses.join(", ")}
+      persons: ${this.#_allowedPersons.join(", ")}
+    }
+    `;
+    return out;
+  }
+}
+
 class Conjugations {
   #_displayDivId = "";
   #_conjugations;
   #_allConjugations;
-  #_allTenses = ["present", "imperfect", "perfect", "plusquamperfect"];
+  #_allTenses;
   #_allPersons = ["1 Sg.", "2 Sg.", "3 Sg.", "1 Pl.", "2 Pl.", "3 Pl."];
-  #_allowedTenses;
+  #_tenseInternalToExternal;
+  #_filters;
+
 
   #_divIdMappings = {
     "display-table": "conjugation-container-display-table",
@@ -156,76 +259,97 @@ class Conjugations {
     "flashcards-s": "conjugation-container-flashcards-s"
   };
 
-#_tenseToDisplay;
-
   constructor(jsonData) {
+    const tensesMappings = [
+      ["present", "Präsens"],
+      ["perfect", "Perfekt"],
+      ["imperfect", "Imperfekt"],
+      ["plusquamperfect", "Plusquamperfekt"]
+    ];
+    this.#_tenseInternalToExternal = new Map(tensesMappings);
+
+    this.#_allTenses = Array.from(this.#_tenseInternalToExternal.keys());
     this.#_allConjugations = formConjugations(jsonData);
     this.#_conjugations = formConjugations(jsonData);
     this.#_displayDivId = this.#_divIdMappings["flashcards-s"];
-    this.#_allowedTenses = this.#_allTenses;
+
+
+    this.#_filters = new FilterOptions(this.#_allTenses, 5, this.#_allTenses, this.#_allPersons, 1, 2);
   }
 
-  tenseStr(tense){
-    if(tense == "present"){
-      return "Präsens";
-    }
-    if(tense == "imperfect"){
-      return "Imperfekt";
-    }
-    if(tense == "perfect") {
-      return "Perfekt";
-    }
-    if(tense == "plusquamperfect"){
-      return "Plusquamperfekt";
-    }
-    return tense;
+  setFilters() {
+    let tenses = [];
+    document.querySelectorAll(".conf-tempus").forEach(box => {
+      if (box.checked == true) {
+        tenses.push(box.getAttributeNode("value").value);
+      }
+    });
+    this.#_filters.setAllowedTenses(tenses);
+    this.#_filters.setUnitMin(document.getElementById("conf-unit-min").value);
+    this.#_filters.setUnitMax(document.getElementById("conf-unit-max").value);
+    this.#_filters.setItemNum(document.getElementById("conf-cardmax").value);
+    this.#_conjugations = this.#_allConjugations
+      .filter(i => i.unit >= this.#_filters.unitMin() && i.unit <= this.#_filters.unitMax())
+      .filter(i => {
+        for (let tense of this.#_filters.allowedTenses()) {
+          if (Object.keys(i).includes(tense)) {
+            return true;
+          }
+        }
+        return false;
+      });
   }
 
   divIdMappings() {
     return this.#_divIdMappings;
   }
 
-  #displayTable() {
-
-  }
-
   #randInt(max) {
     return Math.floor(Math.random() * max);
   }
 
-  #displayFlashcardsS(parentDiv) {
-    const maxItems = 30;
-    let inner = "";
-    for (let i = 0; i < maxItems; ++i) {
-      const randomWordIndex = this.#randInt(this.#_conjugations.length - 1);
-      let tempus = this.#_allowedTenses[this.#randInt(this.#_allowedTenses.length)];
-      let person = this.#randInt(5);
-      const randomWord = this.#_conjugations[randomWordIndex];
-      while (!Object.keys(randomWord).includes(tempus)) {
-        tempus = this.#_allowedTenses[this.#randInt(this.#_allowedTenses.length)];
-      }
-      while (randomWord[tempus].length < person + 1) {
-        person = this.#randInt(5);
-      }
-      const randomWordForm = randomWord[tempus][person];
-      const tempusStr = this.tenseStr(tempus);
-      const personStr = this.#_allPersons[person];
+  #randomTempus(word) {
+    const tenses = this.#_filters.allowedTenses();
+    let tempus = tenses[this.#randInt(tenses.length)];
+    while (!Object.keys(word).includes(tempus)) {
+      tempus = tenses[this.#randInt(tenses.length)];
+    }
+    return tempus;
+  }
 
-      const meaningStr = randomWord["meanings"].join(", ");
-      const loopIndex = i;
-      const infinitive = randomWord["infinitive"];
+  #randomCardItem() {
+    const randomWordIndex = this.#randInt(this.#_conjugations.length - 1);
+    const randomWord = this.#_conjugations[randomWordIndex];
+    const tempus = this.#randomTempus(randomWord);
+    const person = this.#randInt(randomWord[tempus].length - 1);
+
+    return ({
+      form: randomWord[tempus][person].replaceAll("-", ""),
+      tempus: this.#_tenseInternalToExternal.get(tempus),
+      person: this.#_allPersons[person],
+      meaning: randomWord.meanings.join(", "),
+      infinitive: randomWord.infinitive
+    });
+  }
+
+  #displayFlashcardsS(parentDiv) {
+    const maxItems = this.#_filters.itemNum();
+    let inner = "";
+    console.log(this.#_conjugations);
+    for (let i = 0; i < maxItems; ++i) {
+      const item = this.#randomCardItem();
       const cardTemplate =
-        `<div class="card conjugations" id="${loopIndex}" onclick="this.classList.toggle('flipped')">
+        `<div class="card conjugations" id="${i}" onclick="this.classList.toggle('flipped')">
         <div class="card-inner">
           <div class="card-front">
             <p class="question-text">
-              <i>${infinitive}</i><br>${tempusStr} ${personStr}
+              <i>${item.infinitive}</i><br>${item.tempus} ${item.person}
             </p> 
           </div>
           <div class="card-back">
-            <p style="font-size: small;font-weight:normal;"><i>${meaningStr}</i></p>
+            <p style="font-size: small;font-weight:normal;"><i>${item.meaning}</i></p>
             <p style="font-weight:normal;">
-              <b>${randomWordForm}</b>
+              <b>${item.form}</b>
             </p>
           </div>
         </div>
@@ -237,24 +361,6 @@ class Conjugations {
     div.innerHTML = inner;
 
     document.getElementById(parentDiv).appendChild(div);
-  }
-
-  #applyFilters() {
-    let tenses = [];
-    document.querySelectorAll(".conf-tempus").forEach(box => {
-      if (box.checked == true) {
-        tenses.push(box.getAttributeNode("value").value);
-      }
-    });
-    if (tenses.length == 0) {
-      this.#_allowedTenses = this.#_allTenses;
-    } else {
-      this.#_allowedTenses = tenses;
-    }
-    let unitMin = document.getElementById("conf-unit-min").value;
-    let unitMax = document.getElementById("conf-unit-max").value;
-    this.#_conjugations = this.#_allConjugations
-      .filter(i => i.unit >= unitMin && i.unit <= unitMax);
   }
 
   shuffle() {
@@ -275,7 +381,8 @@ class Conjugations {
   }
 
   display(parentDiv) {
-    this.#applyFilters();
+    this.setFilters();
+    console.log(this.#_filters.toString());
     let currentDisplay = document.getElementById(this.#_displayDivId);
     if (currentDisplay != null && currentDisplay.isConnected) {
       currentDisplay.remove();
