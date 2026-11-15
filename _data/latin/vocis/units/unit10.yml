@@ -1,0 +1,142 @@
+- word: tangere
+  class: verb.3-konsonant
+  meanings: [berühren]
+  root: {r_pres: tang, r_perf: tetig}
+  exclude: []
+  unit: 10
+- word: claudere
+  class: verb.3-konsonant
+  meanings: [schliessen, verschliessen, einschliessen]
+  root: {r_pres: claud, r_perf: claus}
+  exclude: []
+  unit: 10
+- word: ignōrāre
+  class: verb.1-ā
+  meanings: [nicht wissen, nicht kennen]
+  root: {r_pres: ignōr, r_perf: ignōrāv}
+  exclude: []
+  unit: 10
+- word: (ad)monēre
+  class: verb.2-ē
+  meanings: [(er)mahnen]
+  root: {r_pres: (ad)mon, r_perf: (ad)monu}
+  exclude: []
+  unit: 10
+- word: incendere
+  class: verb.3-konsonant
+  meanings: [anzünden, entflammen]
+  root: {r_pres: incend, r_perf: incend}
+  exclude: []
+  unit: 10
+- word: dēserere
+  class: verb.3-konsonant
+  meanings: [versen, im Stich lassen]
+  root: {r_pres: dēser, r_perf: dēseru}
+  exclude: []
+  unit: 10
+- word: aspicere
+  class: verb.3-iō
+  meanings: [erblicken]
+  root: {r_pres: aspic, r_perf: aspex}
+  exclude: []
+  unit: 10
+- word: condere
+  class: verb.3-konsonant
+  meanings: [gründen, erbauen, verwahren, verstecken, begraben]
+  root: {r_pres: cond, r_perf: condid}
+  exclude: []
+  unit: 10
+- word: reddere
+  class: verb.3-konsonant
+  meanings: [zurückgeben]
+  root: {r_pres: redd, r_perf: reddid}
+  exclude: []
+  unit: 10
+- word: exilium
+  class: substantive.2-ō.n
+  root: {r: exili}
+  meanings: [das Exil]
+  unit: 10
+  overrides: []
+  exclude: []
+- word: caelum
+  class: substantive.2-ō.n
+  root: {r: cael}
+  meanings: [der Himmel]
+  unit: 10
+  overrides: []
+  exclude: []
+- word: via
+  class: substantive.1-ā.f
+  root: {r: vi}
+  meanings: [der Weg, die Strasse]
+  unit: 10
+  overrides: []
+  exclude: []
+- word: aura
+  class: substantive.1-ā.f
+  root: {r: aur}
+  meanings: [die Luft, der Luftzug]
+  unit: 10
+  overrides: []
+  exclude: []
+- word: opus
+  class: substantive.3-konsonant.n
+  root: {r: oper}
+  meanings: [das Werk, die Arbeit, die Mühe]
+  unit: 10
+  overrides: []
+  exclude: []
+- word: sōl
+  class: substantive.3-konsonant.m
+  root: {r: sōl}
+  meanings: [die Sonne]
+  unit: 10
+  overrides: []
+  exclude: []
+- word: dux
+  class: substantive.3-konsonant.m
+  root: {r: duc}
+  meanings: [der Anführer, der Führer]
+  unit: 10
+  overrides: []
+  exclude: []
+- word: sepulcrum
+  class: substantive.2-ō.n
+  root: {r: sepulcr}
+  meanings: [das Grab, das Grabmal]
+  unit: 10
+  overrides: []
+  exclude: []
+- word: fābula
+  class: substantive.1-ā.f
+  root: {r: fābul}
+  meanings: [die Erzählung, die Geschichte, das Theaterstück]
+  unit: 10
+  overrides: []
+  exclude: []
+- word: dea
+  class: substantive.irregular.f
+  root: {r: deārum}
+  meanings: [die Göttin]
+  unit: 10
+  overrides:
+  - id: substantive.irregular.f.declination
+    forms: [dea, deae, deae, deam, deā, deae, deārum, deābus, deās, deābus]
+  exclude: []
+- word: āēr
+  class: substantive.irregular.m
+  root: {r: āerum}
+  meanings: [die Luft]
+  unit: 10
+  overrides:
+  - id: substantive.irregular.m.declination
+    forms: [āēr, āeris, āerī, āera, āere, āerēs, āerum, āeribus, āerēs, āeribus]
+  exclude: []
+- word: cāsus
+  class: substantive.4-ū.m
+  root: {r: cās}
+  meanings: [der Fall, der Zufall, der Unfall, der Unglücksfall]
+  unit: 10
+  overrides: []
+  exclude: []

@@ -1,0 +1,215 @@
+- word: spectāre
+  class: verb.1-ā
+  meanings: [betrachten, anschauen]
+  root: {r_pres: spect, r_perf: spectāv}
+  exclude: []
+  unit: 4
+- word: currere
+  class: verb.3-konsonant
+  meanings: [laufen, eilen, rennen]
+  root: {r_pres: curr, r_perf: cucurr}
+  exclude: []
+  unit: 4
+- word: fugere
+  class: verb.3-iō
+  meanings: [vor jdm / etw fliehen, etw vermeiden]
+  root: {r_pres: fug, r_perf: fūg}
+  exclude: []
+  unit: 4
+- word: effugere
+  class: verb.3-iō
+  meanings: [entfliehen, entkommen]
+  root: {r_pres: effug, r_perf: effūg}
+  exclude: []
+  unit: 4
+- word: occĭdere
+  class: verb.3-konsonant
+  meanings: [umkommen / sterben, untergehen]
+  root: {r_pres: occid, r_perf: occid}
+  exclude: []
+  unit: 4
+- word: timēre
+  class: verb.2-ē
+  meanings: [jmd / etw fürchten, sich fürchten vor, Angst haben vor]
+  root: {r_pres: tim, r_perf: timu}
+  exclude: []
+  unit: 4
+- word: cadere
+  class: verb.3-konsonant
+  meanings: [fallen]
+  root: {r_pres: cad, r_perf: cecid}
+  exclude: []
+  unit: 3
+- word: movēre
+  class: verb.2-ē
+  meanings: [bewegen, beeindrucken]
+  root: {r_pres: mov, r_perf: mov}
+  exclude: []
+  unit: 4
+- word: tegere
+  class: verb.3-konsonant
+  meanings: [bedecken, verbergen, schützen]
+  root: {r_pres: teg, r_perf: tēx}
+  exclude: []
+  unit: 4
+- word: posse
+  class: verb.irregular
+  meanings: [können]
+  root: {r_pres: pot, r_perf: potu}
+  exclude: []
+  unit: 4
+  override:
+  - id: verb.irregular.indicative.active.present
+    forms: [possum, potes, potest, possumus, potestis, possunt]
+  - id: verb.irregular.indicative.active.imperfect
+    forms: [poteram, poterās, poterat, poterāmus, poterātis, poterant]
+  - id: verb.irregular.indicative.active.perfect
+    forms: [potuī, potuistī, potuit, potuimus, potuistis, potuērunt]
+  - id: verb.irregular.indicative.active.plusquamperfect
+    forms: [potueram, potuerās, potuerat, potuerāmus, potuerātis, potuerant]
+- word: pellere
+  class: verb.3-konsonant
+  meanings: [stossen / schlagen, vertreiben, zurückstossen]
+  root: {r_pres: pell, r_perf: pepul}
+  exclude: []
+  unit: 4
+- word: homō
+  class: substantive.3-gemischt.m
+  root: {r: hominum}
+  meanings: [der Mensch, der Mann]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: senex
+  class: substantive.3-konsonant.m
+  root: {r: sen}
+  meanings: [der alte Mann]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: iuvenis
+  class: substantive.3-i.m+f
+  root: {r: iuvenum}
+  meanings: [der junge Mann, die junge Frau]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: oculus
+  class: substantive.2-ō.m
+  root: {r: ocul}
+  meanings: [das Auge]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: vōx
+  class: substantive.3-konsonant.f
+  root: {r: vōc}
+  meanings: [die Stimme, der Laut, die Äusserung]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: populus
+  class: substantive.2-ō.m
+  root: {r: popul}
+  meanings: [das Volk]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: ferrum
+  class: substantive.2-ō.n
+  root: {r: ferr}
+  meanings: [das Eisen, die Waffe, das Schwert]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: vulnus
+  class: substantive.3-konsonant.n
+  root: {r: vulner}
+  meanings: [die Wunde]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: mors
+  class: substantive.3-gemischt.f
+  root: {r: mort}
+  meanings: [der Tod]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: pugna
+  class: substantive.1-ā.f
+  root: {r: pugn}
+  meanings: [der Kampf, die Schlacht]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: spectātor
+  class: substantive.3-konsonant.m
+  root: {r: spectātōr}
+  meanings: [der Zuschauer]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: nōmen
+  class: substantive.3-konsonant.n
+  root: {r: nōmin}
+  meanings: [der Name]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: victor
+  class: substantive.3-konsonant.m
+  root: {r: victōr}
+  meanings: [der Sieger]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: caedēs
+  class: substantive.3-gemischt.f
+  root: {r: caed}
+  meanings: [der Mord, das Blutbad]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: gladiātor
+  class: substantive.3-konsonant.m
+  root: {r: gladiātōr}
+  meanings: [der Gladiator]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: corpus
+  class: substantive.3-konsonant.n
+  root: {r: corpor}
+  meanings: [der Körper, der Leichnam]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: ars
+  class: substantive.3-konsonant.f
+  root: {r: arti}
+  meanings: [die Fertigkeit, das Können, das Handwerk, die Kunst]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: mora
+  class: substantive.1-ā.f
+  root: {r: mor}
+  meanings: [der Aufschub, die Verzögerung, der Aufenthalt]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: clēmentia
+  class: substantive.1-ā.f
+  root: {r: clēmenti}
+  meanings: [die Milde, die Gnade]
+  unit: 4
+  overrides: []
+  exclude: []
+- word: victōria
+  class: substantive.1-ā.f
+  root: {r: victōri}
+  meanings: [der Sieg]
+  unit: 4
+  overrides: []
+  exclude: []

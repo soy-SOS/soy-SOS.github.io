@@ -1,0 +1,132 @@
+- word: petere
+  class: verb.3-konsonant
+  meanings: [aufsuchen / sich begeben (nach), verlangen, (er)bitten, streben nach,
+    angreifen]
+  root: {r_pres: pet, r_perf: petīv}
+  exclude: []
+  unit: 2
+- word: audīre
+  class: verb.4-ī
+  meanings: [hören]
+  root: {r_pres: aud, r_perf: audīv}
+  exclude: []
+  unit: 2
+- word: labōrāre
+  class: verb.1-ā
+  meanings: [sich anstrengen / sich bemühen / arbeiten, in Schwierigeiten sein, leiden]
+  root: {r_pres: labōr, r_perf: labōrāv}
+  exclude: []
+  unit: 2
+- word: agere
+  class: verb.3-konsonant
+  meanings: [tun / handeln, verhandeln]
+  root: {r_pres: ag, r_perf: ēg}
+  exclude: []
+  unit: 2
+- word: putāre
+  class: verb.1-ā
+  meanings: [glauben / meinen, halten für]
+  root: {r_pres: put, r_perf: putāv}
+  exclude: []
+  unit: 2
+- word: lūdere
+  class: verb.3-konsonant
+  meanings: [spielen]
+  root: {r_pres: lūd, r_perf: lūs}
+  exclude: []
+  unit: 2
+- word: capere
+  class: verb.3-iō
+  meanings: [fassen / nehmen / ergreifen, erhalten, erobern]
+  root: {r_pres: cap, r_perf: cēp}
+  exclude: []
+  unit: 2
+- word: occīdere
+  class: verb.3-konsonant
+  meanings: [niederschlagen, töten]
+  root: {r_pres: occīd, r_perf: occīd}
+  exclude: []
+  unit: 2
+- word: possidēre
+  class: verb.2-ē
+  meanings: [besitzen]
+  root: {r_pres: possid, r_perf: possēd}
+  exclude: []
+  unit: 2
+- word: hōra
+  class: substantive.1-ā.f
+  root: {r: hōr}
+  meanings: [die Stunde, die Zeit]
+  unit: 2
+  overrides: []
+  exclude: []
+- word: servus
+  class: substantive.2-ō.m
+  root: {r: serv}
+  meanings: ['der Sklave,der Diener']
+  unit: 2
+  overrides: []
+  exclude: []
+- word: cūra
+  class: substantive.1-ā.f
+  root: {r: cūr}
+  meanings: [die (Für)Sorge, die Pflege]
+  unit: 2
+  overrides: []
+  exclude: []
+- word: vīta
+  class: substantive.1-ā.f
+  root: {r: cit}
+  meanings: [das Leben]
+  unit: 2
+  overrides: []
+  exclude: []
+- word: puer
+  class: substantive.2-ō.m
+  root: {r: puer}
+  meanings: [der Junge, der junge Sklave]
+  unit: 2
+  overrides: []
+  exclude: []
+- word: līberī
+  class: substantive.2-ō.m
+  root: {r: līber}
+  meanings: [die Kinder]
+  unit: 2
+  overrides: []
+  exclude: []
+- word: fortūna
+  class: substantive.1-ā.f
+  root: {r: fortūn}
+  meanings: [das Schicksal, das Glück]
+  unit: 2
+  overrides: []
+  exclude: []
+- word: gladius
+  class: substantive.2-ō.m
+  root: {r: gladi}
+  meanings: [das Schwert]
+  unit: 2
+  overrides: []
+  exclude: []
+- word: perīculum
+  class: substantive.2-ō.n
+  root: {r: perīcul}
+  meanings: [die Gefahr]
+  unit: 2
+  overrides: []
+  exclude: []
+- word: vēra
+  class: substantive.2-ō.n
+  root: {r: vēr}
+  meanings: [etw Wahres, die Wahrheit]
+  unit: 2
+  overrides: []
+  exclude: []
+- word: officium
+  class: substantive.2-ō.n
+  root: {r: offici}
+  meanings: [die Pflicht, der Dienst, das Pflichtgefühl, der Gehorsam, das Amt]
+  unit: 2
+  overrides: []
+  exclude: []

@@ -1,0 +1,203 @@
+- word: cognōscere
+  class: verb.3-konsonant
+  meanings: [kennenlernen / erkennen / erfahren, 'im Perfekt: kennen / wissen']
+  root: {r_pres: cognōsc, r_perf: cognōv}
+  exclude: []
+  unit: 5
+- word: mittere
+  class: verb.3-konsonant
+  meanings: [schicken, lassen / loslassen / freilassen]
+  root: {r_pres: mitt, r_perf: mīs}
+  exclude: []
+  unit: 5
+- word: pūgnāre
+  class: verb.1-ā
+  meanings: [kämpfen]
+  root: {r_pres: pūgn, r_perf: pūgnāv}
+  exclude: []
+  unit: 5
+- word: incitāre
+  class: verb.1-ā
+  meanings: [erregen, antreiben]
+  root: {r_pres: incit, r_perf: in-citāv}
+  exclude: []
+  unit: 5
+- word: terrēre
+  class: verb.2-ē
+  meanings: [erschrecken / in Schrecken versetzen, einschüchtern]
+  root: {r_pres: terr, r_perf: terru}
+  exclude: []
+  unit: 5
+- word: aperīre
+  class: verb.4-ī
+  meanings: [öffnen, offen darlegen, aufdecken]
+  root: {r_pres: aper, r_perf: aperu}
+  exclude: []
+  unit: 5
+- word: iubēre
+  class: verb.2-ē
+  meanings: [jdn auffordern, jdm befehlen]
+  root: {r_pres: iub, r_perf: iuss}
+  exclude: []
+  unit: 5
+- word: dubitāre
+  class: verb.1-ā
+  meanings: [bezweifeln, zögern]
+  root: {r_pres: dubit, r_perf: dubitāv}
+  exclude: []
+  unit: 5
+- word: ferre
+  class: verb.3-suppletive
+  meanings: [tragen, bringen]
+  root: {r_pres: fer, r_perf: tul}
+  exclude: []
+  unit: 5
+- word: vocāre
+  class: verb.1-ā
+  meanings: [rufen, nennen]
+  root: {r_pres: voc, r_perf: vocāv}
+  exclude: []
+  unit: 5
+- word: trādere
+  class: verb.3-konsonant
+  meanings: [übergeben, überliefern]
+  root: {r_pres: trād, r_perf: trādid}
+  exclude: []
+  unit: 5
+- word: incipere
+  class: verb.3-iō
+  meanings: [anfangen, beginnen]
+  root: {r_pres: incip, r_perf: coep}
+  exclude: []
+  unit: 5
+- word: surgere
+  class: verb.3-konsonant
+  meanings: [aufstehen, sich erheben]
+  root: {r_pres: surg, r_perf: surrēx}
+  exclude: []
+  unit: 5
+- word: fundere
+  class: verb.3-konsonant
+  meanings: [(aus)giessen, zerstreuen, vertreiben]
+  root: {r_pres: fund, r_perf: fūd}
+  exclude: []
+  unit: 5
+- word: cōnsilium
+  class: substantive.2-ō.n
+  root: {r: cōnsili}
+  meanings: [die Beratung, der Rat, der Plan, die Absicht, der Beschluss]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: cōpia
+  class: substantive.1-ā.f
+  root: {r: cōpi}
+  meanings: [die Menge, der Vorrat, die Möglichkeit, '(Pl: die Truppen)']
+  unit: 5
+  overrides: []
+  exclude: []
+- word: nostrī
+  class: substantive.2-ō.m
+  root: {r: nostr}
+  meanings: [die unsrigen]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: nāvis
+  class: substantive.3-i.f
+  root: {r: nāvēs}
+  meanings: [das Schiff]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: mīles
+  class: substantive.3-konsonant.m
+  root: {r: mīlit}
+  meanings: [der Soldat]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: arma
+  class: substantive.2-ō.n
+  root: {r: arm}
+  meanings: [die Waffen, das Gerät]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: flūctus
+  class: substantive.4-ū.m
+  root: {r: flūct}
+  meanings: [die Welle, die Flut, die Strömung]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: hostis
+  class: substantive.3-i.m+f
+  root: {r: hostium.hostibus}
+  meanings: [der Feind, die Feinding]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: tēlum
+  class: substantive.2-ō.n
+  root: {r: tēl}
+  meanings: [das Geschoss, der Wurfspiess]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: equus
+  class: substantive.2-ō.m
+  root: {r: equ}
+  meanings: [das Pferd]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: latus
+  class: substantive.3-gemischt.n
+  root: {r: laterum}
+  meanings: [die Seite, die Flanke]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: ūsus
+  class: substantive.4-ū.m
+  root: {r: ūs}
+  meanings: [der Gebrauch, die Benutzung, der Nutzen, die Erfahrung]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: mare
+  class: substantive.3-i.n
+  root: {r: mar}
+  meanings: [das Meer]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: deus
+  class: substantive.2-ō.m
+  root: {r: deōrum / deum}
+  meanings: [der Gott]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: auxilium
+  class: substantive.2-ō.n
+  root: {r: auxili}
+  meanings: [die Hilfe, '(Pl: Hilfstruppen)']
+  unit: 5
+  overrides: []
+  exclude: []
+- word: exercitus
+  class: substantive.4-ū.m
+  root: {r: exercit}
+  meanings: [das Heer]
+  unit: 5
+  overrides: []
+  exclude: []
+- word: portus
+  class: substantive.4-ū.m
+  root: {r: port}
+  meanings: [der Hafen]
+  unit: 5
+  overrides: []
+  exclude: []

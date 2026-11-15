@@ -1,0 +1,193 @@
+- word: auferre
+  class: verb.3-suppletive
+  meanings: [wegtragen, wegbringen, wegschleppen, rauben]
+  root: {r_pres: aufer, r_perf: abstul}
+  exclude: []
+  unit: 7
+- word: respondēre
+  class: verb.2-ē
+  meanings: [antworten]
+  root: {r_pres: respond, r_perf: respond}
+  exclude: []
+  unit: 7
+- word: prohibēre
+  class: verb.2-ē
+  meanings: [abhalten (von), hindern (an)]
+  root: {r_pres: prohib, r_perf: prohibu}
+  exclude: []
+  unit: 7
+- word: permittere
+  class: verb.3-konsonant
+  meanings: [überlassen, erlauben]
+  root: {r_pres: permitt, r_perf: permīs}
+  exclude: []
+  unit: 7
+- word: nārrāre
+  class: verb.1-ā
+  meanings: [erzählen]
+  root: {r_pres: nārr, r_perf: nārrāv}
+  exclude: []
+  unit: 7
+- word: relinquere
+  class: verb.3-konsonant
+  meanings: [verlassen, zurücklassen, unbeachtet lassen]
+  root: {r_pres: relinqu, r_perf: relīqu}
+  exclude: []
+  unit: 7
+- word: negāre
+  class: verb.1-ā
+  meanings: [verneinen, verweigern, sagen dass nicht..., sich weigern]
+  root: {r_pres: neg, r_perf: negāv}
+  exclude: []
+  unit: 7
+- word: sedēre
+  class: verb.2-ē
+  meanings: [sitzen]
+  root: {r_pres: sed, r_perf: sēd}
+  exclude: []
+  unit: 7
+- word: cōnstituere
+  class: verb.3-konsonant
+  meanings: [aufstellen, festsetzen, beschliessen]
+  root: {r_pres: cōnstitu, r_perf: cōnstitu}
+  exclude: []
+  unit: 7
+- word: vincīre
+  class: verb.4-ī
+  meanings: [binden, fesseln]
+  root: {r_pres: vinc, r_perf: vinx}
+  exclude: []
+  unit: 7
+- word: prōmittere
+  class: verb.3-konsonant
+  meanings: [versprechen]
+  root: {r_pres: prōmitt, r_perf: prōmīs}
+  exclude: []
+  unit: 7
+- word: abesse
+  class: verb.irregular
+  meanings: [abwesend sein, fehlen]
+  root: {r_pres: abe, r_perf: āfu}
+  exclude: []
+  unit: 7
+  override:
+  - id: verb.irregular.indicative.active.present
+    forms: [absum, abes, abest, absumus, abestis, absunt]
+  - id: verb.irregular.indicative.active.imperfect
+    forms: [aberam, aberās, aberat, aberāmus, aberātis, aberant]
+  - id: verb.irregular.indicative.active.perfect
+    forms: [āfuī, āfuistī, āfuit, āfuimus, āfuistis, āfuērunt]
+  - id: verb.irregular.indicative.active.plusquamperfect
+    forms: [āfueram, āfuerās, āfuerat, āfuerāmus, āfuerātis, āfuerant]
+- word: committere
+  class: verb.3-konsonant
+  meanings: [stattfinden lassen, beginnen, veranstalten]
+  root: {r_pres: committ, r_perf: commīs}
+  exclude: []
+  unit: 7
+- word: oppidum
+  class: substantive.2-ō.n
+  root: {r: oppid}
+  meanings: [die (befestigte) Siedlung, die Stadt]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: religiō
+  class: substantive.3-konsonant.f
+  root: {r: religiōn}
+  meanings: [Religion, die (relig.) Gewissenhaftigkeit, die (relig.) Ehrfurcht, die
+      (Götter-)Verehrung]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: senātus
+  class: substantive.4-ū.m
+  root: {r: senāt}
+  meanings: [der Senat, die Senatsversammlung]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: poena
+  class: substantive.1-ā.f
+  root: {r: poen}
+  meanings: [die Strafe]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: statua
+  class: substantive.1-ā.f
+  root: {r: statuīs}
+  meanings: [das Standbild, die Statue]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: līctor
+  class: substantive.3-konsonant.m
+  root: {r: līctōr}
+  meanings: [der Liktor]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: forum
+  class: substantive.2-ō.n
+  root: {r: for}
+  meanings: [das Forum, der Marktplatz]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: iūdex
+  class: substantive.3-gemischt.m
+  root: {r: iūdicum}
+  meanings: [der Richter]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: mēns
+  class: substantive.3-gemischt.f
+  root: {r: ment}
+  meanings: [der Verstand, der Geist, die Gesinnung]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: fīnis
+  class: substantive.3-i.m
+  root: {r: fīn}
+  meanings: [das Ende, die Grenze, '(Pl: die Grenzen', das Gebiet)]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: iniūria
+  class: substantive.1-ā.f
+  root: {r: iniūri}
+  meanings: [das Unrecht]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: crūdēlitās
+  class: substantive.3-konsonant.f
+  root: {r: crūdēlitāt}
+  meanings: [die Grausamkeit]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: clāmor
+  class: substantive.3-konsonant.m
+  root: {r: clāmōr}
+  meanings: [das Geschrei, der Lärm]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: crīmen
+  class: substantive.3-konsonant.n
+  root: {r: crīmin}
+  meanings: [der Vorwurf, die Beschuldigung, das Verbrechen]
+  unit: 7
+  overrides: []
+  exclude: []
+- word: templum
+  class: substantive.2-ō.n
+  root: {r: templ}
+  meanings: [der heilige Ort, der Tempel]
+  unit: 7
+  overrides: []
+  exclude: []
