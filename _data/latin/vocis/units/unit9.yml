@@ -111,7 +111,7 @@
   exclude: []
 - word: bōs
   class: substantive.irregular.m+f
-  root: { r: boum }
+  root: { r: bov }
   meanings: [das Rind]
   unit: 9
   override:

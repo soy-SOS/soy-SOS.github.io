@@ -232,7 +232,7 @@
 - word: semper
   unit: 1
   meanings: [immer]
-  class: "adverb.termporal"
+  class: "adverb.temporal"
   override: []
   exclude: ["*"]
 - word: apud

@@ -260,7 +260,7 @@
   override: []
   exclude: ["*"]
 - word: cum
-  class: comjunction.adversative
+  class: conjunction.adversative
   root: {}
   meanings: [(mit Konjunktiv), während dagegen]
   unit: 11

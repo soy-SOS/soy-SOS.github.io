@@ -30,7 +30,11 @@
   class: phrase
   root: {}
   meanings:
-    [(angeh. Fragepartikel), (entspricht Fragez.) ?, (im angeh. Fragesatz) ob]
+    [
+      (angeh. Fragepartikel),
+      (entspricht Fragezeichen.) ?,
+      (im angeh. Fragesatz) ob,
+    ]
   unit: 12
   override: []
   exclude: ["*"]
@@ -97,7 +101,7 @@
 - word: imperāre
   class: verb.1-ā
   root: { r_pres: imper, r_perf: imperāv }
-  meanings: [jdm befehlen, herrschen übern jdn]
+  meanings: [jdm befehlen, herrschen über jdn]
   unit: 12
   override: []
   exclude: []

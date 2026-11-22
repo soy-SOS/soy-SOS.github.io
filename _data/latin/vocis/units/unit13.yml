@@ -55,10 +55,10 @@
   root: { r: auctō }
   meanings:
     [
-      der Urheben/der Anstiften,
+      der Urheber/der Anstiften,
       der Anführer,
       der Gründer/der Verfasser,
-      der Ratgeben,
+      der Ratgeber,
     ]
   unit: 13
   override: []
@@ -123,7 +123,7 @@
   exclude:
     - id: verb.4-ī.indicative.passive
     - id: verb.4-ī.imperative.passive
-    - id: verb.4-ī.subjonctive.passive
+    - id: verb.4-ī.subjunctive.passive
 - word: flēre
   class: verb.2-ē
   root: { r_pres: fl, r_perf: flēv }
@@ -133,7 +133,7 @@
   exclude:
     - id: verb.2-ē.indicative.passive
     - id: verb.2-ē.imperative.passive
-    - id: verb.2-ē.subjonctive.passive
+    - id: verb.2-ē.subjunctive.passive
 - word: alere
   class: verb.3-konsonant
   root: { r_pres: al, r_perf: alu }
@@ -158,7 +158,7 @@
 - word: cupiditās
   class: substantive.3-konsonant.f
   root: { r: cupiditāt }
-  meanings: [die Begierge, der Trieb, die Leidenschaft]
+  meanings: [die Begierde, der Trieb, die Leidenschaft]
   unit: 13
   override: []
   exclude: []

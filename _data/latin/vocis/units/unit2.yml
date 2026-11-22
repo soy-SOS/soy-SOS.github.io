@@ -20,7 +20,7 @@
 - word: labōrāre
   class: verb.1-ā
   meanings:
-    [sich anstrengen / sich bemühen / arbeiten, in Schwierigeiten sein, leiden]
+    [sich anstrengen / sich bemühen / arbeiten, in Schwierigkeiten sein, leiden]
   root: { r_pres: labōr, r_perf: labōrāv }
   exclude: []
   unit: 2
@@ -211,7 +211,7 @@
   exclude: ["*"]
 - word: decimus
   class: "adjective.ā-ō"
-  meanings: [der zente]
+  meanings: [der zehnte]
   root: { root_p: decim }
   exclude:
     - id: "superlative"
