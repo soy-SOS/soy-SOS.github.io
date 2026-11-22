@@ -303,7 +303,7 @@
     - id: "verb.3-konsonant.imperative.active.present"
       stem: "[r_pres]"
       ends: ["", "ite"]
-      forms: ["[stem]", "[stem][end]"]
+      forms: ["[stem]e", "[stem][end]"]
     - id: "verb.3-konsonant.subjunctive.active.present"
       stem: "[r_pres]"
       ends: [m, s, t, mus, tis, nt]
@@ -376,7 +376,7 @@
     - id: "verb.3-suppletive.imperative.active.present"
       stem: "[r_pres]"
       ends: ["", "ite"]
-      forms: ["[stem]", "[stem][end]"]
+      forms: ["[stem]e", "[stem][end]"]
     - id: "verb.3-suppletive.subjunctive.active.present"
       stem: "[r_pres]"
       ends: [m, s, t, mus, tis, nt]
@@ -473,7 +473,7 @@
     - id: "verb.3-iō.imperative.active.present"
       stem: "[r_pres]"
       ends: ["", "ite"]
-      forms: ["[stem]", "[stem][end]"]
+      forms: ["[stem]e", "[stem][end]"]
     - id: "verb.3-iō.subjunctive.active.present"
       stem: "[r_pres]i"
       ends: [m, s, t, mus, tis, nt]

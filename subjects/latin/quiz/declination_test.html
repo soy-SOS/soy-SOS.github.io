@@ -1,0 +1,188 @@
+---
+layout: page
+title: WIP Deklination
+parent: Übung
+permalink: /latin/quiz/decls-wip
+published: true
+---
+{% assign units = site.data.latin.vocis.units %}
+{% assign rules = "" | split: "" %}
+
+{% for r in site.data.latin.vocis.rules %}
+{% assign items = r[1] | compact %}
+{% assign rules = rules | concat: items | compact %}
+{% endfor %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="{{site.baseurl}}/assets/js/latin/vocabulary.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+
+</head>
+
+<body>
+  <script>
+    const ruleJson = JSON.parse(decodeURIComponent('{{rules | jsonify | uri_escape}}'));
+    const unitsJson = JSON.parse(decodeURIComponent('{{units | jsonify | uri_escape}}'));
+
+    const vocab = new Vocabulary(unitsJson, ruleJson);
+  </script>
+  <div class="configure latin conjugation">
+    <fieldset>
+      <legend><small><i>Anz. Karten & Lektionen (für alle, einfach stehenlassen)</i></small></legend>
+      <p>
+        <label for="conf-cardmax">Anzahl Karten (min. 10, max. 100)</label>
+        <input id="conf-cardmax" value="20" min="10" max="100" size="3" type="number" />
+      </p>
+      <p>
+        <label for="conf-unit-min">Lektionen </label>
+        <input id="conf-unit-min" value="0" min="0" max="23" type="number" size="2" />
+        <label for="conf-unit-max"> - </label>
+        <input id="conf-unit-max" value="23" min="0" max="23" type="number" size="2" />
+      </p>
+    </fieldset>
+
+    <div class="half-fieldset-container">
+      <fieldset id="conf-tempora">
+        <legend>
+          <small><i>Tempora</i></small>
+        </legend>
+        <div class="checkboxes" id="tenses-boxes">
+          <div class="check">
+            <label for="conf-tempus-pres">
+              <input class="conf-tempus" id="conf-tempus-pres" value="present" type="checkbox" />
+              Präsens</label>
+          </div>
+          <div class="check">
+            <label for="conf-tempus-imperf"><input class="conf-tempus" id="conf-tempus-imperf" value="imperfect"
+                type="checkbox" /> Imperfekt</label>
+
+          </div>
+          <div class="check">
+            <label for="conf-tempus-perf"><input class="conf-tempus" id="conf-tempus-perf" value="perfect"
+                type="checkbox" /> Perfekt</label>
+
+          </div>
+          <div class="check">
+            <label for="conf-tempus-plup"><input class="conf-tempus" id="conf-tempus-plup" value="plusquamperfect"
+                type="checkbox" /> Plusquamperfekt</label>
+
+          </div>
+          <div class="check">
+            <label for="conf-tempus-futur1"><input class="conf-tempus" id="conf-tempus-futur1" value="futur1"
+                type="checkbox" /> Futur 1</label>
+
+          </div>
+          <div class="check">
+            <label for="conf-tempus-futur2"><input class="conf-tempus" id="conf-tempus-futur2" value="futur2"
+                type="checkbox" /> Futur 2</label>
+
+          </div>
+        </div>
+      </fieldset>
+      <fieldset id="conf-cardstyle">
+        <legend>
+          <small><i>Aufbau Karte</i></small>
+        </legend>
+        <label><select name="form-card-placement" id="form-card-placement">
+            <option selected="selected" value="front">vorne</option>
+            <!-- <option value="back">hinten</option> -->
+            <option value="none">nicht anzeigen</option>
+          </select> Konj. Form</label><br>
+        <label><select name="id-card-placement" id="id-card-placement">
+            <option selected="selected" value="front">vorne</option>
+            <!-- <option value="back">hinten</option> -->
+            <option value="none">nicht anzeigen</option>
+          </select> Konj.-klasse</label><br>
+        <label><select name="unit-card-placement" id="unit-card-placement">
+            <option selected="selected" value="front">vorne</option>
+            <!-- <option value="back">hinten</option> -->
+            <option value="none">nicht anzeigen</option>
+          </select> Lektion</label><br>
+        <label><select name="meanings-card-placement" id="meanings-card-placement">
+            <!-- <option value="front">vorne</option> -->
+            <option selected="selected" value="back">hinten</option>
+            <option value="none">nicht anzeigen</option>
+          </select> Übersetzung</label><br>
+        <label><select name="word-card-placement" id="word-card-placement">
+            <!-- <option value="front">vorne</option> -->
+            <option selected="selected" value="back">hinten</option>
+            <option value="none">nicht anzeigen</option>
+          </select> Inf. Präs.</label><br>
+        <label><select name="tempus-card-placement" id="tempus-card-placement">
+            <!-- <option value="front">vorne</option> -->
+            <option selected="selected" value="back">hinten</option>
+            <option value="none">nicht anzeigen</option>
+          </select> Tempus</label><br>
+        <label><select name="modus-card-placement" id="modus-card-placement">
+            <!-- <option value="front">vorne</option> -->
+            <option selected="selected" value="back">hinten</option>
+            <option value="none">nicht anzeigen</option>
+          </select> Modus</label><br>
+        <label><select name="voice-card-placement" id="voice-card-placement">
+            <!-- <option value="front">vorne</option> -->
+            <option selected="selected" value="back">hinten</option>
+            <option value="none">nicht anzeigen</option>
+          </select> Diathese</label>
+      </fieldset>
+    </div>
+    <div class="half-fieldset-container">
+      <fieldset id="conf-modi">
+        <legend>
+          <small><i>Modi</i></small>
+        </legend>
+        <div class="checkboxes">
+          <div class="check">
+            <label for="conf-modus-indicative">Indi.</label><br>
+            <input class="conf-modus" id="conf-modus-pres" value="indicative" type="checkbox" />
+          </div>
+          <div class="check">
+            <label for="conf-modus-subjunctive">Konj.</label><br>
+            <input class="conf-modus" id="conf-modus-imperf" value="subjunctive" type="checkbox" />
+          </div>
+          <div class="check">
+            <label for="conf-modus-imperative">Impe.</label><br>
+            <input class="conf-modus" id="conf-modus-perf" value="imperative" type="checkbox" />
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset id="conf-voice">
+        <legend>
+          <small><i>Genera Verbi / Diathesen</i></small>
+        </legend>
+        <div class="checkboxes">
+          <div class="check">
+            <label for="conf-voice-active">Aktiv</label><br>
+            <input class="conf-voice" id="conf-voice-active" value="active" type="checkbox" />
+          </div>
+          <div class="check">
+            <label for="conf-voice-passive">Passiv</label><br>
+            <input class="conf-voice" id="conf-voice-passive" value="passive" type="checkbox" />
+          </div>
+        </div>
+      </fieldset>
+
+    </div>
+
+
+    <fieldset>
+      <legend><small><i>Gewünschte Aktion</i></small></legend>
+      <button class="btn btn-blue" onclick="shuffle('conjugation-container-flashcards-s')">Mischen</button>
+      <button class="btn btn-blue" onclick="displayVerbs(vocab.getVerbs(), 'flashcard-container')">Neue Karten
+        laden</button>
+      <button class="btn btn-blue" onclick="flipAll()">Drehen</button>
+    </fieldset>
+
+  </div>
+  <h3>Disclaimer: WIP, einige Formen, besonders bei unregelmässigen Verben noch nicht korrekt für Passiv, Konjunktiv
+    und Imperativ.</h3>
+  <div class="flashcard-container conjugate" id="flashcard-container">
+  </div>
+</body>
+
+</html>

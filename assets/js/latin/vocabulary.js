@@ -242,32 +242,15 @@ class Vocabulary {
   getVerbs() {
     return this.#words.filter(w => w.id().startsWith('verb'));
   }
+  getSubstantiva() {
+    return this.#words.filter(w => w.id().startsWith('substantive'));
+  }
   groupByClassAndUnit(words) {
     return new Map([...this.#groupByUnit(words)].map(
       it => [it[0], (this.#groupByWordClass(it[1]))]
     ));
   }
 
-  declCurrentJoinedForms() {
-    return this.#words
-      .filter(it => it.id().startsWith('substantive'))
-      .map(it => ({ word: it.word(), forms: Array.from(it.forms())[0][1] }))
-      .map(it => `${it.word}: [${it.forms.join(", ")}]`).join("\n");
-  }
-  verbCurrentJoinedForms(wordKind) {
-    let words = this.#words.filter(it => it.id().startsWith(wordKind));
-    let forms = [];
-    for (let word of words) {
-      let res = `${word.word()}:\n  forms:\n`;
-      for (let form of word.forms()) {
-        const adjustedForms = form[1].map(f => f == "" ? `""` : f);
-        res += `    - id: ${form[0]}\n`;
-        res += `      forms: [${adjustedForms.toString()}]\n`;
-      }
-      forms.push(res);
-    }
-    return forms.join("\n");
-  }
   #groupByUnit(words) {
     const units = Map.groupBy(words, word => word.unit());
     return new Map([...units.entries()].sort((a, b) => a[0] - b[0]));
@@ -286,19 +269,23 @@ const ui_voices = new Map(Object.entries({ active: "Aktiv", passive: "Passiv" })
 const ui_persons = ["1. Sg", "2. Sg", "3. Sg", "1. Pl", "2. Pl", "3. Pl"];
 
 function randomCardItem(verbs, allowedModifiers) {
-  const randomWordIndex = randInt(verbs.length - 1);
+  const randomWordIndex = randInt(verbs.length);
   const randomWord = verbs[randomWordIndex];
   const availableForms = randomWord.filterForms(allowedModifiers);
-  const form = availableForms[randInt(availableForms.length - 1)];
+  const form = availableForms[randInt(availableForms.length)];
   const idParts = form.id.split(".");
   const tempus = idParts[idParts.length - 1];
   const voice = idParts[idParts.length - 2];
   const modus = idParts[idParts.length - 3];
-  const person = randInt(form.forms.length - 1);
+  const person = randInt(form.forms.length);
 
   const displayItems = [
     "form", "id", "unit", "meanings", "word", "tempus", "modus", "voice"
   ];
+  let mode_map_person = person;
+  if (modus == "imperative") {
+    mode_map_person = person == 0 ? 1 : 4;
+  }
   let card = {
     form: form.forms[person],
     tempus: ` ${ui_tempora.get(tempus)}`,
@@ -306,7 +293,7 @@ function randomCardItem(verbs, allowedModifiers) {
     voice: ` ${ui_voices.get(voice)}`,
     unit: randomWord.unit(),
     modus: ui_modi.get(modus),
-    person: `<br>${ui_persons[person]}`,
+    person: `<br>${ui_persons[mode_map_person]}`,
     meanings: `<i><small>${randomWord.meanings().join(", ")}</small></i><br>`,
     word: `<b>${randomWord.word()}</b><br>`
   };
