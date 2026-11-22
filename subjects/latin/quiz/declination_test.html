@@ -1,6 +1,6 @@
 ---
 layout: page
-title: WIP Verben
+title: wip Verben
 parent: Übung
 permalink: /latin/quiz/verbs-wip
 published: true
@@ -51,115 +51,90 @@ published: true
       </p>
     </fieldset>
 
-    <fieldset>
-      <legend>
-        <small><i>Tempora</i></small>
-      </legend>
-      <div class="checkboxes">
-        <div class="check">
-          <label for="conf-tempus-pres">Präsens</label><br>
-          <input class="conf-tempus" id="conf-tempus-pres" value="present" type="checkbox" checked="checked" />
-        </div>
-        <div class="check">
-          <label for="conf-tempus-imperf">Imperfekt</label><br>
-          <input class="conf-tempus" id="conf-tempus-imperf" value="imperfect" type="checkbox" checked="checked" />
-        </div>
-        <div class="check">
-          <label for="conf-tempus-perf">Perfekt</label><br>
-          <input class="conf-tempus" id="conf-tempus-perf" value="perfect" type="checkbox" checked="checked" />
-        </div>
-        <div class="check">
-          <label for="conf-tempus-plup">Plusquamperfekt</label><br>
-          <input class="conf-tempus" id="conf-tempus-plup" value="plusquamperfect" type="checkbox" checked="checked" />
-        </div>
-      </div>
-    </fieldset>
-    <!-- 
-    <fieldset>
-      <legend><small><i>Welche Informationen sollen angezeigt werden?</i></small></legend> -->
+    <div class="half-fieldset-container">
+      <fieldset id="conf-tempora">
+        <legend>
+          <small><i>Tempora</i></small>
+        </legend>
+        <div class="checkboxes" id="tenses-boxes">
+          <div class="check">
+            <label for="conf-tempus-pres">
+              <input class="conf-tempus" id="conf-tempus-pres" value="present" type="checkbox" />
+              Präsens</label>
+          </div>
+          <div class="check">
+            <label for="conf-tempus-imperf"><input class="conf-tempus" id="conf-tempus-imperf" value="imperfect"
+                type="checkbox" /> Imperfekt</label>
 
-    <!-- <table class="fieldset-table">
-        <tr>
-          <th></th>
-          <th>Vorderseite</th>
-          <th>Rückseite</th>
-          <th>nicht anzeigen</th>
-        </tr>
-        <tr>
-          <td>Konjugierte Form</td>
-          <td class="td-button"><input id="conf-form-cfront" name="form_card_placement" type="radio" value="front"
-              checked /></td>
-          <td class="td-button"><input id="conf-form-cback" name="form_card_placement" type="radio" value="back" /></td>
-          <td class="td-button"><input id="conf-form-none" name="form_card_placement" type="radio" value="none" /></td>
-        </tr>
-        <tr>
-          <td>Lektion</td>
-          <td class="td-button"><input id="conf-unit-cfront" name="unit_card_placement" type="radio" value="front"
-              checked />
-          </td>
-          <td class="td-button"><input id="conf-unit-cback" name="unit_card_placement" type="radio" value="back" /></td>
-          <td class="td-button"><input id="conf-unit-none" name="unit_card_placement" type="radio" value="none" /></td>
-        </tr>
-        <tr>
-          <td>Übersetzung</td>
-          <td class="td-button"><input id="conf-meanings-cfront" name="meanings_card_placement" type="radio"
-              value="front" /></td>
-          <td class="td-button"><input id="conf-meanings-cback" name="meanings_card_placement" type="radio" value="back"
-              checked /></td>
-          <td class="td-button"><input id="conf-meanings-none" name="meanings_card_placement" type="radio"
-              value="none" /></td>
-        </tr>
-        <tr>
-          <td>Infinitiv Präsens</td>
-          <td class="td-button"><input id="conf-infinitive-cfront" name="infinitive_card_placement" type="radio"
-              value="front" /></td>
-          <td class="td-button"><input id="conf-infinitive-cback" name="infinitive_card_placement" type="radio"
-              value="back" checked /></td>
-          <td class="td-button"><input id="conf-infinitive-none" name="infinitive_card_placement" type="radio"
-              value="none" /></td>
-        </tr>
-        <tr>
-          <td>Tempus</td>
-          <td class="td-button"><input id="conf-tempus-cfront" name="tempus_card_placement" type="radio"
-              value="front" /></td>
-          <td class="td-button"><input id="conf-tempus-cback" name="tempus_card_placement" type="radio" value="back"
-              checked />
-          </td>
-          <td class="td-button"><input id="conf-tempus-none" name="tempus_card_placement" type="radio" value="none" />
-          </td>
-        </tr>
-        <tr>
-          <td>Modus</td>
-          <td class="td-button"><input id="conf-mode-cfront" name="mode_card_placement" type="radio" value="front" />
-          </td>
-          <td class="td-button"><input id="conf-mode-cback" name="mode_card_placement" type="radio" value="back"
-              checked /></td>
-          <td class="td-button"><input id="conf-mode-none" name="mode_card_placement" type="radio" value="none" /></td>
-        </tr>
-        <tr>
-          <td>Person & Numerus</td>
-          <td class="td-button"><input id="conf-person-cfront" name="person_card_placement" type="radio"
-              value="front" /></td>
-          <td class="td-button"><input id="conf-person-cback" name="person_card_placement" type="radio" value="back"
-              checked />
-          </td>
-          <td class="td-button"><input id="conf-person-none" name="person_card_placement" type="radio" value="none" />
-          </td>
-        </tr>
-        <tr>
-          <td>Diathese</td>
-          <td class="td-button"><input id="conf-voice-cfront" name="voice_card_placement" type="radio" value="front" />
-          </td>
-          <td class="td-button"><input id="conf-voice-cback" name="voice_card_placement" type="radio" value="back"
-              checked />
-          </td>
-          <td class="td-button"><input id="conf-voice-none" name="voice_card_placement" type="radio" value="none" />
-          </td>
-        </tr>
-      </table>
-    </fieldset> -->
+          </div>
+          <div class="check">
+            <label for="conf-tempus-perf"><input class="conf-tempus" id="conf-tempus-perf" value="perfect"
+                type="checkbox" /> Perfekt</label>
 
+          </div>
+          <div class="check">
+            <label for="conf-tempus-plup"><input class="conf-tempus" id="conf-tempus-plup" value="plusquamperfect"
+                type="checkbox" /> Plusquamperfekt</label>
 
+          </div>
+          <div class="check">
+            <label for="conf-tempus-futur1"><input class="conf-tempus" id="conf-tempus-futur1" value="futur1"
+                type="checkbox" /> Futur 1</label>
+
+          </div>
+          <div class="check">
+            <label for="conf-tempus-futur2"><input class="conf-tempus" id="conf-tempus-futur2" value="futur2"
+                type="checkbox" /> Futur 2</label>
+
+          </div>
+        </div>
+      </fieldset>
+      <fieldset id="conf-cardstyle">
+        <legend>
+          <small><i>Aufbau Karte</i></small>
+        </legend>
+        <label><select name="form-card-placement" id="form-card-placement">
+            <option selected="selected" value="front">vorne</option>
+            <!-- <option value="back">hinten</option> -->
+            <option value="none">nicht anzeigen</option>
+          </select> Konj. Form</label><br>
+        <label><select name="id-card-placement" id="id-card-placement">
+            <option selected="selected" value="front">vorne</option>
+            <!-- <option value="back">hinten</option> -->
+            <option value="none">nicht anzeigen</option>
+          </select> Konj.-klasse</label><br>
+        <label><select name="unit-card-placement" id="unit-card-placement">
+            <option selected="selected" value="front">vorne</option>
+            <!-- <option value="back">hinten</option> -->
+            <option value="none">nicht anzeigen</option>
+          </select> Lektion</label><br>
+        <label><select name="meanings-card-placement" id="meanings-card-placement">
+            <!-- <option value="front">vorne</option> -->
+            <option selected="selected" value="back">hinten</option>
+            <option value="none">nicht anzeigen</option>
+          </select> Übersetzung</label><br>
+        <label><select name="word-card-placement" id="word-card-placement">
+            <!-- <option value="front">vorne</option> -->
+            <option selected="selected" value="back">hinten</option>
+            <option value="none">nicht anzeigen</option>
+          </select> Inf. Präs.</label><br>
+        <label><select name="tempus-card-placement" id="tempus-card-placement">
+            <!-- <option value="front">vorne</option> -->
+            <option selected="selected" value="back">hinten</option>
+            <option value="none">nicht anzeigen</option>
+          </select> Tempus</label><br>
+        <label><select name="modus-card-placement" id="modus-card-placement">
+            <!-- <option value="front">vorne</option> -->
+            <option selected="selected" value="back">hinten</option>
+            <option value="none">nicht anzeigen</option>
+          </select> Modus</label><br>
+        <label><select name="voice-card-placement" id="voice-card-placement">
+            <!-- <option value="front">vorne</option> -->
+            <option selected="selected" value="back">hinten</option>
+            <option value="none">nicht anzeigen</option>
+          </select> Diathese</label>
+      </fieldset>
+    </div>
     <div class="half-fieldset-container">
       <fieldset id="conf-modi">
         <legend>
@@ -168,15 +143,15 @@ published: true
         <div class="checkboxes">
           <div class="check">
             <label for="conf-modus-indicative">Indi.</label><br>
-            <input class="conf-modus" id="conf-modus-pres" value="indicative" type="checkbox" checked="checked" />
+            <input class="conf-modus" id="conf-modus-pres" value="indicative" type="checkbox" />
           </div>
           <div class="check">
             <label for="conf-modus-subjunctive">Konj.</label><br>
-            <input class="conf-modus" id="conf-modus-imperf" value="subjunctive" type="checkbox" checked />
+            <input class="conf-modus" id="conf-modus-imperf" value="subjunctive" type="checkbox" />
           </div>
           <div class="check">
             <label for="conf-modus-imperative">Impe.</label><br>
-            <input class="conf-modus" id="conf-modus-perf" value="imperative" type="checkbox" checked />
+            <input class="conf-modus" id="conf-modus-perf" value="imperative" type="checkbox" />
           </div>
         </div>
       </fieldset>
@@ -188,11 +163,11 @@ published: true
         <div class="checkboxes">
           <div class="check">
             <label for="conf-voice-active">Aktiv</label><br>
-            <input class="conf-voice" id="conf-voice-active" value="active" type="checkbox" checked="checked" />
+            <input class="conf-voice" id="conf-voice-active" value="active" type="checkbox" />
           </div>
           <div class="check">
             <label for="conf-voice-passive">Passiv</label><br>
-            <input class="conf-voice" id="conf-voice-passive" value="passive" type="checkbox" checked="checked" />
+            <input class="conf-voice" id="conf-voice-passive" value="passive" type="checkbox" />
           </div>
         </div>
       </fieldset>

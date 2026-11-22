@@ -56,7 +56,6 @@
   class: verb.irregular
   meanings: [können]
   root: { r_pres: pot, r_perf: potu }
-  exclude: []
   unit: 4
   override:
     - id: verb.irregular.indicative.active.present
@@ -67,6 +66,28 @@
       forms: [potuī, potuistī, potuit, potuimus, potuistis, potuērunt]
     - id: verb.irregular.indicative.active.plusquamperfect
       forms: [potueram, potuerās, potuerat, potuerāmus, potuerātis, potuerant]
+    - id: verb.irregular.indicative.active.futur1
+      forms: [poterō, poteris, poterit, poterimus, poteritis, poterunt]
+    - id: verb.irregular.indicative.active.futur2
+      forms: [potuerō, potueris, potuerit, potuerimus, potueritis, potuerint]
+    - id: verb.irregular.subjunctive.active.present
+      forms: [possim, possīs, possit, possīmus, possītis, possint]
+    - id: verb.irregular.subjunctive.active.imperfect
+      forms: [possem, possēs, posset, possēmus, possētis, possent]
+    - id: verb.irregular.subjunctive.active.perfect
+      forms: [potuerim, potueris, potuerit, potuerimus, potueritis, potuerint]
+    - id: verb.irregular.subjunctive.active.plusquamperfect
+      forms:
+        [potuissem, potuissēs, potuisset, potuissēmus, potuissētis, potuissent]
+    - id: verb.irregular.infinitive.active.present
+      forms: [posse]
+    - id: verb.irregular.infinitive.active.perfect
+      forms: [potuisse]
+  exclude:
+    - id: verb.irregular.infinitive.passive.*
+    - id: verb.irregular.indicative.passive.*
+    - id: verb.irregular.imperative.passive.*
+    - id: verb.irregular.subjunctive.passive.*
 - word: pellere
   class: verb.3-konsonant
   meanings: [stossen / schlagen, vertreiben, zurückstossen]

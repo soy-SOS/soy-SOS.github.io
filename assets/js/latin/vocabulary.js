@@ -292,9 +292,9 @@ function randomCardItem(verbs, allowedModifiers) {
   const modus = idParts[idParts.length - 3];
   const person = randInt(form.forms.length - 1);
 
-  const modi = new Map(Object.entries({ subjunctive: "Konj.", indicative: "Ind.", imperative: "Imp." }));
-  const tempora = new Map(Object.entries({ present: "Präs.", imperfect: "Imperf.", perfect: "Perf.", plusquamperfect: "Plusquamp." }));
-  const voices = new Map(Object.entries({ active: "Akt.", passive: "Pass." }));
+  const modi = new Map(Object.entries({ subjunctive: "Konjunktiv", indicative: "Indikativ", imperative: "Imperativ" }));
+  const tempora = new Map(Object.entries({ present: "Präsens", imperfect: "Imperfekt", perfect: "Perfekt", plusquamperfect: "Plusquamp.", futur1: "Futur 1", futur2: "Futur 2" }));
+  const voices = new Map(Object.entries({ active: "Aktiv", passive: "Passiv" }));
   const persons = ["1. Sg", "2. Sg", "3. Sg", "1. Pl", "2. Pl", "3. Pl"];
 
   return ({

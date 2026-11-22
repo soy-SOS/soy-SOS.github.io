@@ -66,7 +66,6 @@
   class: verb.irregular
   meanings: [herangehen, besuchen, bitten]
   root: { r_pres: adī, r_perf: adi }
-  exclude: []
   unit: 9
   override:
     - id: verb.irregular.indicative.active.present
@@ -76,7 +75,33 @@
     - id: verb.irregular.indicative.active.perfect
       forms: [adiī, adīstī, adiit, adiimus, adīstis, adiērunt]
     - id: verb.irregular.indicative.active.plusquamperfect
-      forms: [adieram, adierās, adierat, adierāmus, adierātis, abierant]
+      forms: [adieram, adierās, adierat, adierāmus, adierātis, adierant]
+    - id: verb.irregular.indicative.active.futur1
+      forms: [adībō, adībis, adībit, adībimus, adībitis, adībunt]
+    - id: verb.irregular.indicative.active.futur2
+      forms: [adierō, adieris, adierit, adierimus, adieritis, adierint]
+
+    - id: verb.irregular.subjunctive.active.present
+      forms: [adeam, adeās, adeat, adeāmus, adeātis, adeant]
+    - id: verb.irregular.subjunctive.active.imperfect
+      forms: [adīrem, adīrēs, adīret, adīrēmus, adīrētis, adīrent]
+    - id: verb.irregular.subjunctive.active.perfect
+      forms: [adierim, adieris, adierit, adierimus, adieritis, adierint]
+    - id: verb.irregular.subjunctive.active.plusquamperfect
+      forms: [adīssem, adīssēs, adīsset, adīssēmus, adīssētis, adīssent]
+
+    - id: verb.irregular.infinitive.active.present
+      forms: [adīre]
+    - id: verb.irregular.infinitive.active.perfect
+      forms: [adisse]
+
+    - id: verb.irregular.imperative.active.present
+      forms: [adī, adīte]
+  exclude:
+    - id: verb.irregular.infinitive.passive.*
+    - id: verb.irregular.indicative.passive.*
+    - id: verb.irregular.imperative.passive.*
+    - id: verb.irregular.subjunctive.passive.*
 - word: terra
   class: substantive.1-ā.f
   root: { r: terr }

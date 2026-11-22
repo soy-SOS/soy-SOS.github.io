@@ -32,7 +32,6 @@
   class: verb.irregular
   meanings: [fehlen, nicht da sein, jdn im Stich lassen]
   root: { r_pres: dēe, r_perf: dēfu }
-  exclude: []
   unit: 6
   override:
     - id: verb.irregular.indicative.active.present
@@ -43,6 +42,32 @@
       forms: [dēfuī, dēfuistī, dēfuit, dēfuimus, dēfuistis, dēfuērunt]
     - id: verb.irregular.indicative.active.plusquamperfect
       forms: [dēfueram, dēfuerās, dēfuerat, dēfuerāmus, dēfuerātis, dēfuerant]
+    - id: verb.irregular.indicative.active.futur1
+      forms: [dēerō,dēeris,dēerit,dēerimus,dēeritis,dēerunt]
+    - id: verb.irregular.indicative.active.futur2
+      forms: [dēfuerō,dēfueris,dēfuerit,dēfuerimus,dēfueritis,dēfuerint]
+
+    - id: verb.irregular.subjunctive.active.present
+      forms: [dēsim,dēsīs,dēsit,dēsīmus,dēsītis,dēsint]
+    - id: verb.irregular.subjunctive.active.imperfect
+      forms: [dēessem,dēessēs,dēesset,dēessēmus,dēessētis,dēessent]
+    - id: verb.irregular.subjunctive.active.perfect
+      forms: [dēfuerim,dēfueris,dēfuerit,dēfuerimus,dēfueritis,dēfuerint]
+    - id: verb.irregular.subjunctive.active.plusquamperfect
+      forms: [dēfuissem,dēfuissēs,dēfuisset,dēfuissēmus,dēfuissētis,dēfuissent]
+    
+    - id: verb.irregular.infinitive.active.present
+      forms: [dēesse]
+    - id: verb.irregular.infinitive.active.perfect
+      forms: [dēfuisse]
+
+    - id: verb.irregular.imperative.active.present
+      forms: [dēes, dēeste]
+  exclude:
+    - id: verb.irregular.infinitive.passive.*
+    - id: verb.irregular.indicative.passive.*
+    - id: verb.irregular.imperative.passive.*
+    - id: verb.irregular.subjunctive.passive.*
 - word: vincere
   class: verb.3-konsonant
   meanings: [siegen, besiegen, übertreffen]

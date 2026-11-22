@@ -640,7 +640,7 @@
       stem: "[r_perf]"
       ends: ["", "", "", "", "", ""]
       forms: ["", "", "", "", "", ""]
-    - id: "verb.2-ē.indicative.active.futur2"
+    - id: "verb.irregular.indicative.active.futur2"
       stem: "[r_perf]"
       ends: ["", "", "", "", "", ""]
       forms: ["", "", "", "", "", ""]

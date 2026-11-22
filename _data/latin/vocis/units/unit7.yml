@@ -68,7 +68,6 @@
   class: verb.irregular
   meanings: [abwesend sein, fehlen]
   root: { r_pres: abe, r_perf: āfu }
-  exclude: []
   unit: 7
   override:
     - id: verb.irregular.indicative.active.present
@@ -79,6 +78,33 @@
       forms: [āfuī, āfuistī, āfuit, āfuimus, āfuistis, āfuērunt]
     - id: verb.irregular.indicative.active.plusquamperfect
       forms: [āfueram, āfuerās, āfuerat, āfuerāmus, āfuerātis, āfuerant]
+
+    - id: verb.irregular.indicative.active.futur1
+      forms: [aberō, aberis, aberit, aberimus, aberitis, aberunt]
+    - id: verb.irregular.indicative.active.futur2
+      forms: [āfuerō, āfueris, āfuerit, āfuerimus, āfueritis, āfuerint]
+
+    - id: verb.irregular.subjunctive.active.present
+      forms: [absim / abfuam, absīs, absit, absīmus, absītis, absint]
+    - id: verb.irregular.subjunctive.active.imperfect
+      forms: [abessem, abessēs, abesset, abessēmus, abessētis, abessent]
+    - id: verb.irregular.subjunctive.active.perfect
+      forms: [āfuerim,āfueris,āfuerit,āfuerimus,āfueritis,āfuerint]
+    - id: verb.irregular.subjunctive.active.plusquamperfect
+      forms: [āfuissem,āfuissēs,āfuisset,āfuissēmus,āfuissētis,āfuissent]
+
+    - id: verb.irregular.infinitive.active.present
+      forms: [abesse]
+    - id: verb.irregular.infinitive.active.perfect
+      forms: [āfuisse]
+
+    - id: verb.irregular.imperative.active.present
+      forms: [abes, abeste]
+  exclude:
+    - id: verb.irregular.infinitive.passive.*
+    - id: verb.irregular.indicative.passive.*
+    - id: verb.irregular.imperative.passive.*
+    - id: verb.irregular.subjunctive.passive.*
 - word: committere
   class: verb.3-konsonant
   meanings: [stattfinden lassen, beginnen, veranstalten]

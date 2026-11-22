@@ -6,6 +6,12 @@
   align-content: flex-start;
 }
 
+#tenses-boxes {
+  justify-content: space-around;
+  align-content: center;
+  display: inline-grid;
+}
+
 .configure .checkboxes {
   justify-content: space-around;
   align-content: center;
@@ -17,14 +23,6 @@
   box-shadow: none;
 }
 
-.fieldset-table th,
-td {
-  background-color: transparent;
-}
-
-.td-button {
-  text-align: center;
-}
 
 .configure .check {
   display: inline-grid;
@@ -41,6 +39,18 @@ td {
 
 #conf-modi {
   flex-grow: 1;
+}
+
+#conf-tempora {
+  flex-grow: 1;
+}
+
+#conf-cardstyle {
+  flex-grow: 1;
+}
+
+#conf-cardstyle select {
+  width: 80px;
 }
 
 /* 

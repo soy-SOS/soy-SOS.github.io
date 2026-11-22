@@ -1,174 +1,257 @@
 - word: vīvere
   class: verb.3-konsonant
   meanings: [leben]
-  root: {r_pres: vīv, r_perf: vīx}
+  root: { r_pres: vīv, r_perf: vīx }
   exclude: []
   unit: 8
 - word: revīvere
   class: verb.3-konsonant
   meanings: [qieder aufleben]
-  root: {r_pres: revīv, r_perf: revīx}
+  root: { r_pres: revīv, r_perf: revīx }
   exclude: []
   unit: 8
 - word: īre
   class: verb.irregular
   meanings: [gehen]
-  root: {r_pres: ī, r_perf: i}
-  exclude: []
+  root: { r_pres: ī, r_perf: i }
   unit: 8
   override:
-  - id: verb.irregular.indicative.active.present
-    forms: [eō, īs, it, īmus, ītis, eunt]
-  - id: verb.irregular.indicative.active.imperfect
-    forms: [ībam, ībās, ībat, ībāmus, ībātis, ībant]
-  - id: verb.irregular.indicative.active.perfect
-    forms: [ībō, ībis, ībit, ībimus, ībitis, ībunt]
-  - id: verb.irregular.indicative.active.plusquamperfect
-    forms: [iī, īstī, iit, iimus, īstis, iērunt]
+    - id: verb.irregular.indicative.active.present
+      forms: [eō,īs,it,īmus,ītis,eunt]
+    - id: verb.irregular.indicative.active.imperfect
+      forms: [ībam,ībās,ībat,ībāmus,ībātis,ībant]
+    - id: verb.irregular.indicative.active.perfect
+      forms: [iī, īstī, iit, iimus, īstis, iērunt]
+    - id: verb.irregular.indicative.active.plusquamperfect
+      forms: [ieram,ierās,ierat,ierāmus,ierātis,ierant]
+    - id: verb.irregular.indicative.active.futur1
+      forms: [ībō,ībis,ībit,ībimus,ībitis,ībunt]
+    - id: verb.irregular.indicative.active.futur2
+      forms: [ierō,ieris,ierit,ierimus,ieritis,ierint]
+
+    - id: verb.irregular.subjunctive.active.present
+      forms: [eam,eās,eat,eāmus,eātis,eant]
+    - id: verb.irregular.subjunctive.active.imperfect
+      forms: [īrem,īrēs,īret,īrēmus,īrētis,īrent]
+    - id: verb.irregular.subjunctive.active.perfect
+      forms: [ierim,ieris,ierit,ierimus,ieritis,ierint]
+    - id: verb.irregular.subjunctive.active.plusquamperfect
+      forms: [īssem,īssēs,īsset,īssēmus,īssētis,īssent]
+    
+    - id: verb.irregular.infinitive.active.present
+      forms: [īre]
+    - id: verb.irregular.infinitive.active.perfect
+      forms: [isse]
+
+    - id: verb.irregular.imperative.active.present
+      forms: [ī, īte]
+  exclude:
+    - id: verb.irregular.infinitive.passive.*
+    - id: verb.irregular.indicative.passive.*
+    - id: verb.irregular.imperative.passive.*
+    - id: verb.irregular.subjunctive.passive.*
 - word: inīre
   class: verb.irregular
   meanings: [hineingehen, betreten]
-  root: {r_pres: inī, r_perf: ini}
-  exclude: []
+  root: { r_pres: inī, r_perf: ini }
   unit: 8
   override:
-  - id: verb.irregular.indicative.active.present
-    forms: [ineō, inīs, init, inīmus, inītis, ineunt]
-  - id: verb.irregular.indicative.active.imperfect
-    forms: [inībam, inībās, inībat, inībāmus, inībātis, inībant]
-  - id: verb.irregular.indicative.active.perfect
-    forms: [iniī, inīstī, iniit, iniimus, inīstis, iniērunt]
-  - id: verb.irregular.indicative.active.plusquamperfect
-    forms: [inieram, inierās, inierat, inierāmus, inierātis, inierant]
+    - id: verb.irregular.indicative.active.present
+      forms: [ineō,inīs,init,inīmus,inītis,ineunt]
+    - id: verb.irregular.indicative.active.imperfect
+      forms: [inībam,inībās,inībat,inībāmus,inībātis,inībant]
+    - id: verb.irregular.indicative.active.perfect
+      forms: [iniī,inīstī,iniit,iniimus,inīstis,iniērunt]
+    - id: verb.irregular.indicative.active.plusquamperfect
+      forms: [inieram,inierās,inierat,inierāmus,inierātis,inierant]
+    - id: verb.irregular.indicative.active.futur1
+      forms: [inībō,inībis,inībit,inībimus,inībitis,inībunt]
+    - id: verb.irregular.indicative.active.futur2
+      forms: [inierō,inieris,inierit,inierimus,inieritis,inierint]
+
+    - id: verb.irregular.subjunctive.active.present
+      forms: [ineam,ineās,ineat,ineāmus,ineātis,ineant]
+    - id: verb.irregular.subjunctive.active.imperfect
+      forms: [inīrem,inīrēs,inīret,inīrēmus,inīrētis,inīrent]
+    - id: verb.irregular.subjunctive.active.perfect
+      forms: [inierim,inieris,inierit,inierimus,inieritis,inierint]
+    - id: verb.irregular.subjunctive.active.plusquamperfect
+      forms: [inīssem,inīssēs,inīsset,inīssēmus,inīssētis,inīssent]
+    
+    - id: verb.irregular.infinitive.active.present
+      forms: [inīre]
+    - id: verb.irregular.infinitive.active.perfect
+      forms: [inisse]
+
+    - id: verb.irregular.imperative.active.present
+      forms: [inī,inīte]
+  exclude:
+    - id: verb.irregular.infinitive.passive.*
+    - id: verb.irregular.indicative.passive.*
+    - id: verb.irregular.imperative.passive.*
+    - id: verb.irregular.subjunctive.passive.*
+
 - word: abīre
   class: verb.irregular
   meanings: [weggehen, fortgehen]
-  root: {r_pres: abī, r_perf: abi}
-  exclude: []
+  root: { r_pres: abī, r_perf: abi }
   unit: 8
   override:
-  - id: verb.irregular.indicative.active.present
-    forms: [abeō, abīs, abit, abīmus, abītis, abeunt]
-  - id: verb.irregular.indicative.active.imperfect
-    forms: [abībam, abībās, abībat, abībāmus, abībātis, abībant]
-  - id: verb.irregular.indicative.active.perfect
-    forms: [abiī, abīstī, abiit, abiimus, abīstis, abiērunt]
-  - id: verb.irregular.indicative.active.plusquamperfect
-    forms: [abieram, abierās, abierat, abierāmus, abierātis, abierant]
+    - id: verb.irregular.indicative.active.present
+      forms: [abeō,abīs,abit,abīmus,abītis,abeunt]
+    - id: verb.irregular.indicative.active.imperfect
+      forms: [abībam,abībās,abībat,abībāmus,abībātis,abībant]
+    - id: verb.irregular.indicative.active.perfect
+      forms: [abiī,abīstī,abiit,abiimus,abīstis,abiērunt]
+    - id: verb.irregular.indicative.active.plusquamperfect
+      forms: [abieram,abierās,abierat,abierāmus,abierātis,abierant]
+    - id: verb.irregular.indicative.active.futur1
+      forms: [abībō,abībis,abībit,abībimus,abībitis,abībunt]
+    - id: verb.irregular.indicative.active.futur2
+      forms: [abierō,abieris,abierit,abierimus,abieritis,abierint]
+
+    - id: verb.irregular.subjunctive.active.present
+      forms: [abeam,abeās,abeat,abeāmus,abeātis,abeant]
+    - id: verb.irregular.subjunctive.active.imperfect
+      forms: [abīrem,abīrēs,abīret,abīrēmus,abīrētis,abīrent]
+    - id: verb.irregular.subjunctive.active.perfect
+      forms: [abierim,abieris,abierit,abierimus,abieritis,abierint]
+    - id: verb.irregular.subjunctive.active.plusquamperfect
+      forms: [abīssem,abīssēs,abīsset,abīssēmus,abīssētis,abīssent]
+    
+    - id: verb.irregular.infinitive.active.present
+      forms: [abīre]
+    - id: verb.irregular.infinitive.active.perfect
+      forms: [abisse]
+
+    - id: verb.irregular.imperative.active.present
+      forms: [abī,abīte]
+  exclude:
+    - id: verb.irregular.infinitive.passive.*
+    - id: verb.irregular.indicative.passive.*
+    - id: verb.irregular.imperative.passive.*
+    - id: verb.irregular.subjunctive.passive.*
 - word: trahere
   class: verb.3-konsonant
   meanings: [ziehen, schleppen]
-  root: {r_pres: trah, r_perf: trāx}
+  root: { r_pres: trah, r_perf: trāx }
   exclude: []
   unit: 8
 - word: retrahere
   class: verb.3-konsonant
   meanings: [zurückziehen]
-  root: {r_pres: retrah, r_perf: retrāx}
+  root: { r_pres: retrah, r_perf: retrāx }
   exclude: []
   unit: 8
 - word: dūcere
   class: verb.3-konsonant
   meanings: [führen / ziehen, (mit dopp. Akk) halten für]
-  root: {r_pres: dūc, r_perf: dūx}
+  root: { r_pres: dūc, r_perf: dūx }
   exclude: []
   unit: 8
 - word: referre
   class: verb.3-suppletive
   meanings: [zurückbringen, berichten]
-  root: {r_pres: refer, r_perf: rettul}
+  root: { r_pres: refer, r_perf: rettul }
   exclude: []
   unit: 8
 - word: laudāre
   class: verb.1-ā
   meanings: [loben]
-  root: {r_pres: laud, r_perf: laudāv}
+  root: { r_pres: laud, r_perf: laudāv }
   exclude: []
   unit: 8
 - word: ārdēre
   class: verb.2-ē
   meanings: [brennen, glühen]
-  root: {r_pres: ārd, r_perf: ārs}
+  root: { r_pres: ārd, r_perf: ārs }
   exclude: []
   unit: 8
 - word: caedere
   class: verb.3-konsonant
   meanings: [fällen, (ab)schlagen, töten / totschlagen]
-  root: {r_pres: caed, r_perf: cecīd}
+  root: { r_pres: caed, r_perf: cecīd }
   exclude: []
   unit: 8
 - word: vexāre
   class: verb.1-ā
   meanings: [quälen, plagen]
-  root: {r_pres: vex, r_perf: vexāv}
+  root: { r_pres: vex, r_perf: vexāv }
   exclude: []
   unit: 8
 - word: dolēre
   class: verb.2-ē
   meanings: [scherzen, wehtun, bedauern, Schmerz empfinden]
-  root: {r_pres: dol, r_perf: dolu}
+  root: { r_pres: dol, r_perf: dolu }
   exclude: []
   unit: 8
 - word: lūx
   class: substantive.3-konsonant.f
-  root: {r: lūc}
+  root: { r: lūc }
   meanings: [das Licht]
   unit: 8
   override: []
   exclude: []
 - word: lībertās
   class: substantive.3-konsonant.f
-  root: {r: lībertāt}
+  root: { r: lībertāt }
   meanings: [die Freiheit]
   unit: 8
   override: []
   exclude: []
 - word: iter
   class: substantive.3-konsonant.n
-  root: {r: itiner}
+  root: { r: itiner }
   meanings: [der Weg, der Marsch, die Reise]
   unit: 8
   override: []
   exclude: []
 - word: facinus
   class: substantive.3-konsonant.n
-  root: {r: facinor}
+  root: { r: facinor }
   meanings: [die Tat, die Untat, das Verbrechen]
   unit: 8
   override: []
   exclude: []
 - word: magistrātus
   class: substantive.4-ū.m
-  root: {r: magistrāt}
+  root: { r: magistrāt }
   meanings: [der (hohe) Beamte, die Behörde]
   unit: 8
   override: []
   exclude: []
 - word: cīvis
   class: substantive.3-i.m+f
-  root: {r: cīv}
+  root: { r: cīv }
   meanings: [der Bürger, die Bürgerin]
   unit: 8
   override: []
   exclude: []
 - word: grātia
   class: substantive.1-ā.f
-  root: {r: grāti}
-  meanings: [die Ausstrahlung, der Charme, die Beliebtheit, die Sympathie, die Gefälligkeit,
-    der Dank]
+  root: { r: grāti }
+  meanings:
+    [
+      die Ausstrahlung,
+      der Charme,
+      die Beliebtheit,
+      die Sympathie,
+      die Gefälligkeit,
+      der Dank,
+    ]
   unit: 8
   override: []
   exclude: []
 - word: dīligentia
   class: substantive.1-ā.f
-  root: {r: dīligenti}
+  root: { r: dīligenti }
   meanings: [die Sorgfalt]
   unit: 8
   override: []
   exclude: []
 - word: incola
   class: substantive.1-ā.m+f
-  root: {r: incol}
+  root: { r: incol }
   meanings: [der Einwohner, die Einwohnerin]
   unit: 8
   override: []

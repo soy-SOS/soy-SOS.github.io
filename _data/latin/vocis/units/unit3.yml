@@ -53,6 +53,16 @@
       forms: [dabam, dabās, dabat, dabāmus, dabātis, dabant]
     - id: verb.irregular.indicative.active.perfect
       forms: [dedī, dedistī, dedit, dedimus, dedistis, dedērunt]
+    - id: verb.irregular.indicative.active.plusquamperfect
+      forms: [dederam, dederās, dederat, dederāmus, dederātis, dederant]
+    - id: verb.irregular.indicative.active.futur1
+      forms: [dabō, dabis, dabit, dabimus, dabitis, dabunt]
+    - id: verb.irregular.indicative.active.futur2
+      forms: [dederō, dederis, dederit, dederimus, dederitis, dederint]
+    - id: verb.irregular.infinitive.active.present
+      forms: [dare]
+    - id: verb.irregular.infinitive.active.perfect
+      forms: [dedisse]
     - id: verb.irregular.imperative.active.present
       forms: [dā, date]
     - id: verb.irregular.subjunctive.present
@@ -63,6 +73,12 @@
       forms: [dederim, dederīs, dederit, dederīmus, dederītis, dederint]
     - id: verb.irregular.subjunctive.plusquamperfect
       forms: [dedissem, dedissēs, dedisset, dedissēmus, dedissētis, dedissent]
+    - id: verb.irregular.indicative.passive.present
+      forms: [dor, daris, datur, damur, daminī, dantur]
+    - id: verb.irregular.indicative.passive.imperfect
+      forms: [dabar, dabāris / dabāre, dabātur, dabāmur, dabāminī, dabantur]
+    - id: verb.irregular.indicative.passive.futur1
+      forms: [dabor, daberis / abere, dabitur, dabimur, dabiminī, dabuntur]
 - word: tenēre
   class: verb.2-ē
   meanings: [haben / besitzen, halten / fest- /zurückhalten]
