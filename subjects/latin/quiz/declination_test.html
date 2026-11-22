@@ -6,7 +6,6 @@ permalink: /latin/quiz/verbs-wip
 published: true
 ---
 {% assign units = site.data.latin.vocis.units %}
-{% assign unitstest = site.data.latin.verbs %}
 {% assign rules = "" | split: "" %}
 
 {% for r in site.data.latin.vocis.rules %}
@@ -29,12 +28,8 @@ published: true
   <script>
     const ruleJson = JSON.parse(decodeURIComponent('{{rules | jsonify | uri_escape}}'));
     const unitsJson = JSON.parse(decodeURIComponent('{{units | jsonify | uri_escape}}'));
-    const altVociJson = JSON.parse(decodeURIComponent('{{unitstest | jsonify | uri_escape}}'));
 
     const vocab = new Vocabulary(unitsJson, ruleJson);
-
-
-    const vocabDecs = vocab.declCurrentJoinedForms();
   </script>
   <div class="configure latin conjugation">
     <fieldset>
@@ -184,7 +179,7 @@ published: true
     </fieldset>
 
   </div>
-  <h3>Disclaimer: WIP, einige Formen, besonders bei unregelmässigen Verben noch nicht korrekt für Passic, Konjunktiv
+  <h3>Disclaimer: WIP, einige Formen, besonders bei unregelmässigen Verben noch nicht korrekt für Passiv, Konjunktiv
     und Imperativ.</h3>
   <div class="flashcard-container conjugate" id="flashcard-container">
   </div>
