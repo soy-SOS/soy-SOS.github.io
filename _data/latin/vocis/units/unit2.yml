@@ -154,3 +154,197 @@
   unit: 2
   override: []
   exclude: []
+
+- word: etiam
+  class: "conjunction"
+  meanings: [auch, sogar, noch]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: multus
+  class: "adjective.ā-ō"
+  meanings: [viele]
+  unit: 2
+  root: { root_p: mult, root_c: plūr, root_s: plūrim }
+  super_sign: ""
+  exclude:
+    - id: "adjective.ā-ō.comparison.comparative.adverb"
+  override:
+    - id: "adjective.ā-ō.comparison.positive.adverb"
+      forms: [multō]
+    - id: "adjective.ā-ō.comparison.comparative.m"
+      forms:
+        &multus_comp_mf [
+          "",
+          "",
+          "",
+          "",
+          "",
+          plūrēs,
+          plūrium,
+          plūribus,
+          plūrēs,
+          plūribus,
+        ]
+    - id: "adjective.ā-ō.comparison.comparative.f"
+      forms: *multus_comp_mf
+    - id: "adjective.ā-ō.comparison.comparative.n"
+      forms:
+        ["", "", "", "", "", plūr(i)a, plūrium, plūribus, plūr(i)a, plūribus]
+- word: nam
+  class: "conjunction"
+  meanings: [denn, nämlich]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: cum
+  class: "preposition"
+  meanings: [mit, zusammen mit]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: cum
+  class: "conjunction"
+  meanings: [als, wenn / sobald]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: decimus
+  class: "adjective.ā-ō"
+  meanings: [der zente]
+  root: { root_p: decim }
+  exclude:
+    - id: "superlative"
+    - id: "comparative"
+    - id: "adverb"
+  unit: 2
+  override: []
+- word: in
+  class: "preposition.lative"
+  meanings: ["in ... hinein", "nach ... hin", "gegen"]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: in
+  class: "preposition.locative"
+  meanings: ["in", "an", "auf", "bei"]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: interdum
+  class: "adverb"
+  meanings: [manchmal]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: tuus
+  class: "pronoun.possessive.ā-ō"
+  meanings: [dein, deine, dein]
+  root: { root: tu }
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: sine
+  class: "preposition.separative"
+  meanings: [ohne]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: dē
+  class: "preposition.separative"
+  meanings: ["von ... herab", "von ... weg"]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: malus
+  class: "adjective.ā-ō"
+  meanings: [schlecht, übel, schlimm]
+  root: { root_p: malus, root_c: pē, root_s: pessim }
+  comp_sign: "iōr"
+  super_sign: ""
+  unit: 2
+  override: []
+  exclude: []
+- word: bonus
+  class: "adjective.ā-ō"
+  meanings: [gut]
+  root: { root_p: bonus, root_c: mel, root_s: optim }
+  comp_sign: "iōr"
+  super_sign: ""
+  exclude: []
+  override:
+    - id: "adjective.ā-ō.comparison.positive.adverb"
+      forms: [bene]
+    - id: "adjective.ā-ō.comparison.comparative.adverb"
+      forms: [melius]
+  unit: 2
+- word: minimē
+  class: "adverb"
+  meanings: [keineswegs, gar nicht]
+  exclude: ["*"]
+  unit: 2
+  override: []
+- word: sōlum
+  class: "adverb"
+  meanings: [allein, nur]
+  exclude: ["*"]
+  override: []
+  unit: 2
+- word: "nōn sōlum ... sed (etiam)"
+  class: "phrase"
+  meanings: ["nicht nur ..., sondern (auch) ..."]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: "ab (= ā vor Konsonant)"
+  class: "preposition.separative"
+  meanings: ["von ... weg"]
+  unit: 2
+  override: []
+  exclude: ["*"]
+- word: itaque
+  class: "adverb"
+  meanings: [daher, deshalb]
+  exclude: ["*"]
+  unit: 2
+  override: []
+- word: parvus
+  class: "adjective.ā-ō"
+  meanings: [klein, gering]
+  root: { root_p: parv, root_c: min, root_s: minim }
+  override:
+    - id: "adjective.ā-ō.comparison.comparative.adverb"
+      forms: [minus]
+    - id: "adjective.ā-ō.comparison.comparative.m"
+      forms:
+        &parvus_comp [
+          minor,
+          minōris,
+          minōrī,
+          minōrem,
+          minōre,
+          minōres,
+          minōrum,
+          minōribus,
+          minōrēs,
+          minōribus,
+        ]
+    - id: "adjective.ā-ō.comparison.comparative.f"
+      forms: *parvus_comp
+    - id: "adjective.ā-ō.comparison.comparative.n"
+      forms:
+        [
+          minus,
+          minōris,
+          minōrī,
+          minus,
+          minōre,
+          minōra,
+          minōrum,
+          minōribus,
+          minōra,
+          minōribus,
+        ]
+  super_sign: ""
+  unit: 2
+  exclude: []
