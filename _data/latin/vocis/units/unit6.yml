@@ -1,140 +1,140 @@
 - word: servāre
   class: verb.1-ā
   meanings: [bewahren, retten, beobachten]
-  root: {r_pres: serv, r_perf: servāv}
+  root: { r_pres: serv, r_perf: servāv }
   exclude: []
   unit: 6
 - word: cōnspicere
   class: verb.3-iō
   meanings: [erblicken]
-  root: {r_pres: cōnspic, r_perf: cōnspex}
+  root: { r_pres: cōnspic, r_perf: cōnspex }
   exclude: []
   unit: 6
 - word: iactāre
   class: verb.1-ā
   meanings: [werfen, schleudern]
-  root: {r_pres: iact, r_perf: iactāv}
+  root: { r_pres: iact, r_perf: iactāv }
   exclude: []
   unit: 6
 - word: complēre
   class: verb.2-ē
   meanings: [anfüllen, erfüllen]
-  root: {r_pres: compl, r_perf: complēv}
+  root: { r_pres: compl, r_perf: complēv }
   exclude: []
   unit: 6
 - word: cōnsistere
   class: verb.3-konsonant
   meanings: [sich aufstellen, stehen bleiben, Halt machen]
-  root: {r_pres: cōnsist, r_perf: cōnstit}
+  root: { r_pres: cōnsist, r_perf: cōnstit }
   exclude: []
   unit: 6
 - word: dēesse
   class: verb.irregular
-  meanings: [fehlen, nicht da sein, jdn im Stick lassen]
-  root: {r_pres: dēe, r_perf: dēfu}
+  meanings: [fehlen, nicht da sein, jdn im Stich lassen]
+  root: { r_pres: dēe, r_perf: dēfu }
   exclude: []
   unit: 6
   override:
-  - id: verb.irregular.indicative.active.present
-    forms: [dēsum, dēes, dēest, dēsumus, dēestis, dēsunt]
-  - id: verb.irregular.indicative.active.imperfect
-    forms: [dēeram, dēerās, dēerat, dēerāmus, dēerātis, dēerant]
-  - id: verb.irregular.indicative.active.perfect
-    forms: [dēfuī, dēfuistī, dēfuit, dēfuimus, dēfuistis, dēfuērunt]
-  - id: verb.irregular.indicative.active.plusquamperfect
-    forms: [dēfueram, dēfuerās, dēfuerat, dēfuerāmus, dēfuerātis, dēfuerant]
+    - id: verb.irregular.indicative.active.present
+      forms: [dēsum, dēes, dēest, dēsumus, dēestis, dēsunt]
+    - id: verb.irregular.indicative.active.imperfect
+      forms: [dēeram, dēerās, dēerat, dēerāmus, dēerātis, dēerant]
+    - id: verb.irregular.indicative.active.perfect
+      forms: [dēfuī, dēfuistī, dēfuit, dēfuimus, dēfuistis, dēfuērunt]
+    - id: verb.irregular.indicative.active.plusquamperfect
+      forms: [dēfueram, dēfuerās, dēfuerat, dēfuerāmus, dēfuerātis, dēfuerant]
 - word: vincere
   class: verb.3-konsonant
   meanings: [siegen, besiegen, übertreffen]
-  root: {r_pres: vinc, r_perf: vic}
+  root: { r_pres: vinc, r_perf: vic }
   exclude: []
   unit: 6
 - word: sē recipere
   class: verb.3-iō
   meanings: [sich zurückziehen]
-  root: {r_pres: recip, r_perf: recēp}
+  root: { r_pres: recip, r_perf: recēp }
   exclude: []
   unit: 6
 - word: administrāre
   class: verb.1-ā
   meanings: [verwalten, verrichten]
-  root: {r_pres: administr, r_perf: administrāv}
+  root: { r_pres: administr, r_perf: administrāv }
   exclude: []
   unit: 6
 - word: ōrdō
-  class: substantive.3-gemischt.m
-  root: {r: ōrdinum}
+  class: substantive.3-konsonant.m
+  root: { r: ōrdin }
   meanings: [die Reihe, die Ordnung, der Rang, der (soziale) Stand]
   unit: 6
-  overrides: []
+  override: []
   exclude: []
 - word: signum
   class: substantive.2-ō.n
-  root: {r: sign}
+  root: { r: sign }
   meanings: [das Zeichen, das Merkmal, das Feldzeichen, die Statue]
   unit: 6
-  overrides: []
+  override: []
   exclude: []
 - word: lītus
   class: substantive.3-konsonant.n
-  root: {r: lītor}
+  root: { r: lītor }
   meanings: [die Küste, der Strand]
   unit: 6
-  overrides: []
+  override: []
   exclude: []
 - word: impetus
   class: substantive.4-ū.m
-  root: {r: impet}
+  root: { r: impet }
   meanings: [der Angriff, der Ansturm, der Schwung]
   unit: 6
-  overrides: []
+  override: []
   exclude: []
 - word: fuga
   class: substantive.1-ā.f
-  root: {r: fug}
+  root: { r: fug }
   meanings: [die Flucht]
   unit: 6
-  overrides: []
+  override: []
   exclude: []
 - word: eques
   class: substantive.3-konsonant.m
-  root: {r: equit}
+  root: { r: equit }
   meanings: [der Reiter]
   unit: 6
-  overrides: []
+  override: []
   exclude: []
 - word: cursus
   class: substantive.4-ū.m
-  root: {r: curs}
+  root: { r: curs }
   meanings: [der Lauf, die bahn, der Kurs]
   unit: 6
-  overrides: []
+  override: []
   exclude: []
 - word: īnsula
   class: substantive.1-ā.f
-  root: {r: īnsul}
+  root: { r: īnsul }
   meanings: [die Insel, der Wohnblock]
   unit: 6
-  overrides: []
+  override: []
   exclude: []
 - word: proelium
   class: substantive.2-ō.n
-  root: {r: proeli}
+  root: { r: proeli }
   meanings: [die Schlacht, der Kampf]
   unit: 6
-  overrides: []
+  override: []
   exclude: []
 - word: lēgātus
   class: substantive.2-ō.m
-  root: {r: lēgāt}
+  root: { r: lēgāt }
   meanings: [der Gesandte, der Offizier]
   unit: 6
-  overrides: []
+  override: []
   exclude: []
 - word: pāx
   class: substantive.3-konsonant.f
-  root: {r: pāc}
+  root: { r: pāc }
   meanings: [der Frieden]
   unit: 6
-  overrides: []
+  override: []
   exclude: []

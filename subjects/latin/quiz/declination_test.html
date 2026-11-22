@@ -1,0 +1,218 @@
+---
+layout: page
+title: [WIP] Verben
+parent: Übung
+permalink: /latin/quiz/verbs-wip
+published: true
+---
+{% assign units = site.data.latin.vocis.units %}
+{% assign unitstest = site.data.latin.verbs %}
+{% assign rules = "" | split: "" %}
+
+{% for r in site.data.latin.vocis.rules %}
+{% assign items = r[1] | compact %}
+{% assign rules = rules | concat: items | compact %}
+{% endfor %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <script src="{{site.baseurl}}/assets/js/latin/vocabulary.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+
+</head>
+
+<body>
+  <script>
+    const ruleJson = JSON.parse(decodeURIComponent('{{rules | jsonify | uri_escape}}'));
+    const unitsJson = JSON.parse(decodeURIComponent('{{units | jsonify | uri_escape}}'));
+    const altVociJson = JSON.parse(decodeURIComponent('{{unitstest | jsonify | uri_escape}}'));
+
+    const vocab = new Vocabulary(unitsJson, ruleJson);
+
+
+    const vocabDecs = vocab.declCurrentJoinedForms();
+  </script>
+  <div class="configure latin conjugation">
+    <fieldset>
+      <legend><small><i>Anz. Karten & Lektionen (für alle, einfach stehenlassen)</i></small></legend>
+      <p>
+        <label for="conf-cardmax">Anzahl Karten (min. 10, max. 100)</label>
+        <input id="conf-cardmax" value="20" min="10" max="100" size="3" type="number" />
+      </p>
+      <p>
+        <label for="conf-unit-min">Lektionen </label>
+        <input id="conf-unit-min" value="0" min="0" max="23" type="number" size="2" />
+        <label for="conf-unit-max"> - </label>
+        <input id="conf-unit-max" value="23" min="0" max="23" type="number" size="2" />
+      </p>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+        <small><i>Tempora</i></small>
+      </legend>
+      <div class="checkboxes">
+        <div class="check">
+          <label for="conf-tempus-pres">Präsens</label><br>
+          <input class="conf-tempus" id="conf-tempus-pres" value="present" type="checkbox" checked="checked" />
+        </div>
+        <div class="check">
+          <label for="conf-tempus-imperf">Imperfekt</label><br>
+          <input class="conf-tempus" id="conf-tempus-imperf" value="imperfect" type="checkbox" checked="checked" />
+        </div>
+        <div class="check">
+          <label for="conf-tempus-perf">Perfekt</label><br>
+          <input class="conf-tempus" id="conf-tempus-perf" value="perfect" type="checkbox" checked="checked" />
+        </div>
+        <div class="check">
+          <label for="conf-tempus-plup">Plusquamperfekt</label><br>
+          <input class="conf-tempus" id="conf-tempus-plup" value="plusquamperfect" type="checkbox" checked="checked" />
+        </div>
+      </div>
+    </fieldset>
+    <!-- 
+    <fieldset>
+      <legend><small><i>Welche Informationen sollen angezeigt werden?</i></small></legend> -->
+
+    <!-- <table class="fieldset-table">
+        <tr>
+          <th></th>
+          <th>Vorderseite</th>
+          <th>Rückseite</th>
+          <th>nicht anzeigen</th>
+        </tr>
+        <tr>
+          <td>Konjugierte Form</td>
+          <td class="td-button"><input id="conf-form-cfront" name="form_card_placement" type="radio" value="front"
+              checked /></td>
+          <td class="td-button"><input id="conf-form-cback" name="form_card_placement" type="radio" value="back" /></td>
+          <td class="td-button"><input id="conf-form-none" name="form_card_placement" type="radio" value="none" /></td>
+        </tr>
+        <tr>
+          <td>Lektion</td>
+          <td class="td-button"><input id="conf-unit-cfront" name="unit_card_placement" type="radio" value="front"
+              checked />
+          </td>
+          <td class="td-button"><input id="conf-unit-cback" name="unit_card_placement" type="radio" value="back" /></td>
+          <td class="td-button"><input id="conf-unit-none" name="unit_card_placement" type="radio" value="none" /></td>
+        </tr>
+        <tr>
+          <td>Übersetzung</td>
+          <td class="td-button"><input id="conf-meanings-cfront" name="meanings_card_placement" type="radio"
+              value="front" /></td>
+          <td class="td-button"><input id="conf-meanings-cback" name="meanings_card_placement" type="radio" value="back"
+              checked /></td>
+          <td class="td-button"><input id="conf-meanings-none" name="meanings_card_placement" type="radio"
+              value="none" /></td>
+        </tr>
+        <tr>
+          <td>Infinitiv Präsens</td>
+          <td class="td-button"><input id="conf-infinitive-cfront" name="infinitive_card_placement" type="radio"
+              value="front" /></td>
+          <td class="td-button"><input id="conf-infinitive-cback" name="infinitive_card_placement" type="radio"
+              value="back" checked /></td>
+          <td class="td-button"><input id="conf-infinitive-none" name="infinitive_card_placement" type="radio"
+              value="none" /></td>
+        </tr>
+        <tr>
+          <td>Tempus</td>
+          <td class="td-button"><input id="conf-tempus-cfront" name="tempus_card_placement" type="radio"
+              value="front" /></td>
+          <td class="td-button"><input id="conf-tempus-cback" name="tempus_card_placement" type="radio" value="back"
+              checked />
+          </td>
+          <td class="td-button"><input id="conf-tempus-none" name="tempus_card_placement" type="radio" value="none" />
+          </td>
+        </tr>
+        <tr>
+          <td>Modus</td>
+          <td class="td-button"><input id="conf-mode-cfront" name="mode_card_placement" type="radio" value="front" />
+          </td>
+          <td class="td-button"><input id="conf-mode-cback" name="mode_card_placement" type="radio" value="back"
+              checked /></td>
+          <td class="td-button"><input id="conf-mode-none" name="mode_card_placement" type="radio" value="none" /></td>
+        </tr>
+        <tr>
+          <td>Person & Numerus</td>
+          <td class="td-button"><input id="conf-person-cfront" name="person_card_placement" type="radio"
+              value="front" /></td>
+          <td class="td-button"><input id="conf-person-cback" name="person_card_placement" type="radio" value="back"
+              checked />
+          </td>
+          <td class="td-button"><input id="conf-person-none" name="person_card_placement" type="radio" value="none" />
+          </td>
+        </tr>
+        <tr>
+          <td>Diathese</td>
+          <td class="td-button"><input id="conf-voice-cfront" name="voice_card_placement" type="radio" value="front" />
+          </td>
+          <td class="td-button"><input id="conf-voice-cback" name="voice_card_placement" type="radio" value="back"
+              checked />
+          </td>
+          <td class="td-button"><input id="conf-voice-none" name="voice_card_placement" type="radio" value="none" />
+          </td>
+        </tr>
+      </table>
+    </fieldset> -->
+
+
+    <div class="half-fieldset-container">
+      <fieldset id="conf-modi">
+        <legend>
+          <small><i>Modi</i></small>
+        </legend>
+        <div class="checkboxes">
+          <div class="check">
+            <label for="conf-modus-indicative">Indi.</label><br>
+            <input class="conf-modus" id="conf-modus-pres" value="indicative" type="checkbox" checked="checked" />
+          </div>
+          <div class="check">
+            <label for="conf-modus-subjunctive">Konj.</label><br>
+            <input class="conf-modus" id="conf-modus-imperf" value="subjunctive" type="checkbox" checked />
+          </div>
+          <div class="check">
+            <label for="conf-modus-imperative">Impe.</label><br>
+            <input class="conf-modus" id="conf-modus-perf" value="imperative" type="checkbox" checked />
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset id="conf-voice">
+        <legend>
+          <small><i>Genera Verbi / Diathesen</i></small>
+        </legend>
+        <div class="checkboxes">
+          <div class="check">
+            <label for="conf-voice-active">Aktiv</label><br>
+            <input class="conf-voice" id="conf-voice-active" value="active" type="checkbox" checked="checked" />
+          </div>
+          <div class="check">
+            <label for="conf-voice-passive">Passiv</label><br>
+            <input class="conf-voice" id="conf-voice-passive" value="passive" type="checkbox" checked="checked" />
+          </div>
+        </div>
+      </fieldset>
+
+    </div>
+
+
+    <fieldset>
+      <legend><small><i>Gewünschte Aktion</i></small></legend>
+      <button class="btn btn-blue" onclick="shuffle('conjugation-container-flashcards-s')">Mischen</button>
+      <button class="btn btn-blue" onclick="displayVerbs(vocab.getVerbs(), 'flashcard-container')">Neue Karten
+        laden</button>
+      <button class="btn btn-blue" onclick="flipAll()">Drehen</button>
+    </fieldset>
+
+  </div>
+  <h3>Disclaimer: WIP, einige Formen, besonders bei unregelmässigen Verben noch nicht korrekt für Passic, Konjunktiv
+    und Imperativ.</h3>
+  <div class="flashcard-container conjugate" id="flashcard-container">
+  </div>
+</body>
+
+</html>

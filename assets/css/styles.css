@@ -12,8 +12,35 @@
   display: flex;
 }
 
+.table-wrapper {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.fieldset-table th,
+td {
+  background-color: transparent;
+}
+
+.td-button {
+  text-align: center;
+}
+
 .configure .check {
   display: inline-grid;
+}
+
+
+.half-fieldset-container {
+  display: flex;
+}
+
+#conf-voice {
+  flex-grow: 1;
+}
+
+#conf-modi {
+  flex-grow: 1;
 }
 
 /* 
@@ -34,6 +61,7 @@ Flashcard Styles
 
 .card {
   margin-top: 0;
+  padding-top: 0%;
 
   width: 45%;
   height: 100px;
@@ -78,6 +106,11 @@ Flashcard Styles
   padding: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+
+}
+
+.card-front {
+  /* background-color: #27262b; */
   background-color: #27262b;
 }
 
@@ -86,11 +119,11 @@ Flashcard Styles
 }
 
 .card-back {
+  padding: 0%;
   backface-visibility: hidden;
   justify-content: center;
   transform: rotateY(180deg);
-  font-size: large;
-  font-weight: bold;
+  background-color: #292b3a;
 }
 
 .hint {

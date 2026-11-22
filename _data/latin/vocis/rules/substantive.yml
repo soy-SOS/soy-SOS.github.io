@@ -1,0 +1,169 @@
+- id: "substantive.1-ā"
+  inflections:
+    - id: "substantive.1-ā.f.declination"
+      stem: "[r]"
+      ends: &e_sub1af [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+      forms: &f_stemend
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "substantive.1-ā.m+f.declination"
+      stem: "[r]"
+      ends: *e_sub1af
+      forms: *f_stemend
+    - id: "substantive.1-ā.n.declination"
+      stem: "[r]"
+      ends: *e_sub1af
+      forms: *f_stemend
+- id: "substantive.2-ō"
+  inflections:
+    - id: "substantive.2-ō.m.declination"
+      stem: "[r]"
+      ends: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
+      forms:
+        - "[word]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "substantive.2-ō.n.declination"
+      stem: "[r]"
+      ends: [um, ī, ō, um, ō, a, ōrum, īs, a, īs]
+      forms: *f_stemend
+- id: "substantive.3-konsonant"
+  inflections:
+    - id: "substantive.3-konsonant.m+f.declination"
+      stem: "[r]"
+      ends: &e_sub3kmf ["", is, ī, em, e, ēs, um, ibus, ēs, ibus]
+      forms: &f_sub3kmf
+        - "[word][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "substantive.3-konsonant.f.declination"
+      stem: "[r]"
+      ends: *e_sub3kmf
+      forms: *f_sub3kmf
+    - id: "substantive.3-konsonant.n.declination"
+      stem: "[r]"
+      ends: ["", is, ī, "", e, a, um, ibus, a, ibus]
+      forms:
+        - "[word][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[word][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+- id: "substantive.3-gemischt"
+  inflections:
+    - id: "substantive.3-gemischt.m.declination"
+      stem: "[r]"
+      ends: &e_sub3gmfn [is, is, ī, em, e, ēs, ium, ibus, ēs, ibus]
+      forms:
+        - "[word]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "substantive.3-gemischt.f.declination"
+      stem: "[r]"
+      ends: *e_sub3gmfn
+      forms:
+        - "[word]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "substantive.3-gemischt.n.declination"
+      stem: "[r]"
+      ends: *e_sub3gmfn
+      forms: *f_stemend
+
+- id: "substantive.3-i"
+  inflections:
+    - id: "substantive.3-i.m+f.declination"
+      stem: "[r]"
+      ends: *e_sub3gmfn
+      forms: *f_stemend
+    - id: "substantive.3-i.f.declination"
+      stem: "[r]"
+      ends: [is, is, ī, im, ī, ēs, ium, ibus, ēs, ibus]
+      forms: *f_stemend
+    - id: "substantive.3-i.n.declination"
+      stem: "[r]"
+      ends: [e, is, ī, e, ī, ia, ium, ibus, ia, ibus]
+      forms: *f_stemend
+- id: "substantive.4-ū"
+  inflections:
+    - id: "substantive.4-ū.m.declination"
+      stem: "[r]"
+      ends: &e_sub4umf [us, ūs, uī, um, ū, ūs, uum, ibus, ūs, ibus]
+      forms: *f_stemend
+    - id: "substantive.4-ū.f.declination"
+      stem: "[r]"
+      ends: *e_sub4umf
+      forms: *f_stemend
+    - id: "substantive.4-ū.n.declination"
+      stem: "[r]"
+      ends: [ū, ūs, ū, ū, ū, ua, uum, ibus, ua, ibus]
+      forms: *f_stemend
+- id: "substantive.5-ē"
+  inflections:
+    - id: "substantive.5-ē.m.declination"
+      stem: "[r]"
+      ends: &e_sub5emfn [ēs, eī, eī, em, ē, ēs, ērum, ēbus, ēs, ēbus]
+      forms: *f_stemend
+    - id: "substantive.5-ē.f.declination"
+      stem: "[r]"
+      ends: *e_sub5emfn
+      forms: *f_stemend
+    - id: "substantive.5-ē.n.declination"
+      stem: "[r]"
+      ends: *e_sub5emfn
+      forms: *f_stemend
+- id: "substantive.irregular"
+  inflections:
+    - id: "substantive.irregular.m+f.declination"
+      stem: "[r]"
+      ends: []
+      forms: []
+    - id: "substantive.irregular.f.declination"
+      stem: "[r]"
+      ends: []
+      forms: []
+    - id: "substantive.irregular.n.declination"
+      stem: "[r]"
+      ends: []
+      forms: []

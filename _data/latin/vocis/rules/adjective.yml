@@ -1,0 +1,270 @@
+- id: "adjective.ā-ō"
+  inflections:
+    - id: "adjective.ā-ō.comparison.positive.m"
+      stem: "[r_p]"
+      ends: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
+      forms: &f_stemend
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "adjective.ā-ō.comparison.positive.f"
+      stem: "[r_p]"
+      ends: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+      forms: *f_stemend
+    - id: "adjective.ā-ō.comparison.positive.n"
+      stem: "[r_p]"
+      ends: [um, ī, ō, um, ō, a, ōrum, īs, a, īs]
+      forms: *f_stemend
+    - id: "adjective.ā-ō.comparison.comparative.m"
+      stem: "[r_c]"
+      ends: [ior, is, ī, em, e, ēs, um, ibus, ēs, ibus]
+      forms: &f_adjcomp
+        - "[stem][end]"
+        - "[stem][comp_sign][end]"
+        - "[stem][comp_sign][end]"
+        - "[stem][comp_sign][end]"
+        - "[stem][comp_sign][end]"
+        - "[stem][comp_sign][end]"
+        - "[stem][comp_sign][end]"
+        - "[stem][comp_sign][end]"
+        - "[stem][comp_sign][end]"
+        - "[stem][comp_sign][end]"
+    - id: "adjective.ā-ō.comparison.comparative.f"
+      stem: "[r_c]"
+      ends: [ior, is, ī, em, e, ēs, um, ibus, ēs, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.ā-ō.comparison.comparative.n"
+      stem: "[r_c]"
+      ends: [ius, is, ī, ius, e, a, um, ibus, a, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.ā-ō.comparison.superlative.m"
+      stem: "[r_s]"
+      ends: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
+      forms: &f_adjsuper
+        - "[stem][super_sign][end]"
+        - "[stem][super_sign][end]"
+        - "[stem][super_sign][end]"
+        - "[stem][super_sign][end]"
+        - "[stem][super_sign][end]"
+        - "[stem][super_sign][end]"
+        - "[stem][super_sign][end]"
+        - "[stem][super_sign][end]"
+        - "[stem][super_sign][end]"
+        - "[stem][super_sign][end]"
+    - id: "adjective.ā-ō.comparison.superlative.f"
+      stem: "[r_s]"
+      ends: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+      forms: *f_adjsuper
+    - id: "adjective.ā-ō.comparison.superlative.n"
+      stem: "[r_s]"
+      ends: [um, ī, ō, um, ō, a, ōrum, īs, a, īs]
+      forms: *f_adjsuper
+    - id: "adjective.ā-ō.adverb.positive"
+      stem: "[r_p]"
+      ends: [ē]
+      forms: ["[stem][end]"]
+    - id: "adjective.ā-ō.adverb.comparative"
+      stem: "[r_c]"
+      ends: [ius]
+      forms: ["[stem][end]"]
+    - id: "adjective.ā-ō.adverb.superlative"
+      stem: "[r_s]"
+      ends: [ē]
+      forms: ["[stem][super_sign][end]"]
+- id: "adjective.3-1"
+  inflections:
+    - id: "adjective.3-1.comparison.positive.m"
+      stem: "[r_p]"
+      ends: ["", is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+      forms:
+        - "[word][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "adjective.3-1.comparison.positive.f"
+      stem: "[r_p]"
+      ends: ["", is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+      forms:
+        - "[word][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "adjective.3-1.comparison.positive.n"
+      stem: "[r_p]"
+      ends: ["", is, ī, "", e, a, um, ibus, a, ibus]
+      forms:
+        - "[word][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[word][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "adjective.3-1.comparison.comparative.m"
+      stem: "[r_c]"
+      ends: [ior, is, ī, em, e, ēs, um, ibus, ēs, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.3-1.comparison.comparative.f"
+      stem: "[r_c]"
+      ends: [ior, is, ī, em, e, ēs, um, ibus, ēs, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.3-1.comparison.comparative.n"
+      stem: "[r_c]"
+      ends: [ius, is, ī, ius, e, a, um, ibus, a, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.3-1.comparison.superlative.m"
+      stem: "[r_s]"
+      ends: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
+      forms: *f_adjsuper
+    - id: "adjective.3-1.comparison.superlative.f"
+      stem: "[r_s]"
+      ends: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+      forms: *f_adjsuper
+    - id: "adjective.3-1.comparison.superlative.n"
+      stem: "[r_s]"
+      ends: [um, ī, ō, um, ō, a, ōrum, īs, a, īs]
+      forms: *f_adjsuper
+    - id: "adjective.3-1.adverb.positive"
+      stem: "[r_p]"
+      ends: [iter]
+      forms: ["[stem][end]"]
+    - id: "adjective.3-1.adverb.comparative"
+      stem: "[r_c]"
+      ends: [ius]
+      forms: ["[stem][end]"]
+    - id: "adjective.3-1.adverb.superlative"
+      stem: "[r_s]"
+      ends: [ē]
+      forms: ["[stem][super_sign][end]"]
+- id: "adjective.3-2"
+  inflections:
+    - id: "adjective.3-2.comparison.positive.m"
+      stem: "[r_p]"
+      ends: [is, is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+      forms: *f_stemend
+    - id: "adjective.3-2.comparison.positive.f"
+      stem: "[r_p]"
+      ends: [is, is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+      forms: *f_stemend
+    - id: "adjective.3-2.comparison.positive.n"
+      stem: "[r_p]"
+      ends: [e, is, ī, e, ī, ia, ium, ibus, ia, ibus]
+      forms: *f_stemend
+    - id: "adjective.3-2.comparison.comparative.m"
+      stem: "[r_c]"
+      ends: [ior, is, ī, em, e, ēs, um, ibus, ēs, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.3-2.comparison.comparative.f"
+      stem: "[r_c]"
+      ends: [ior, is, ī, em, e, ēs, um, ibus, ēs, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.3-2.comparison.comparative.n"
+      stem: "[r_c]"
+      ends: [ius, is, ī, ius, e, a, um, ibus, a, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.3-2.comparison.superlative.m"
+      stem: "[r_s]"
+      ends: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
+      forms: *f_adjsuper
+    - id: "adjective.3-2.comparison.superlative.f"
+      stem: "[r_s]"
+      ends: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+      forms: *f_adjsuper
+    - id: "adjective.3-2.comparison.superlative.n"
+      stem: "[r_s]"
+      ends: [um, ī, ō, um, ō, a, ōrum, īs, a, īs]
+      forms: *f_adjsuper
+    - id: "adjective.3-2.adverb.positive"
+      stem: "[r_p]"
+      ends: [iter]
+      forms: ["[stem][end]"]
+    - id: "adjective.3-2.adverb.comparative"
+      stem: "[r_c]"
+      ends: [ius]
+      forms: ["[stem][end]"]
+    - id: "adjective.3-2.adverb.superlative"
+      stem: "[r_s]"
+      ends: [ē]
+      forms: ["[stem][super_sign][end]"]
+- id: "adjective.3-3"
+  inflections:
+    - id: "adjective.3-3.comparison.positive.m"
+      stem: "[r_p]"
+      ends: ["", is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+      forms:
+        - "[word][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "adjective.3-3.comparison.positive.f"
+      stem: "[r_p]"
+      ends: [is, is, ī, em, ī, ēs, ium, ibus, ēs, ibus]
+      forms: *f_stemend
+    - id: "adjective.3-3.comparison.positive.n"
+      stem: "[r_p]"
+      ends: [e, is, ī, e, ī, ia, ium, ibus, ia, ibus]
+      forms: *f_stemend
+    - id: "adjective.3-3.comparison.comparative.m"
+      stem: "[r_c]"
+      ends: [ior, is, ī, em, e, ēs, um, ibus, ēs, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.3-3.comparison.comparative.f"
+      stem: "[r_c]"
+      ends: [ior, is, ī, em, e, ēs, um, ibus, ēs, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.3-3.comparison.comparative.n"
+      stem: "[r_c]"
+      ends: [ius, is, ī, ius, e, a, um, ibus, a, ibus]
+      forms: *f_adjcomp
+    - id: "adjective.3-3.comparison.superlative.m"
+      stem: "[r_s]"
+      ends: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
+      forms: *f_adjsuper
+    - id: "adjective.3-3.comparison.superlative.f"
+      stem: "[r_s]"
+      ends: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+      forms: *f_adjsuper
+    - id: "adjective.3-3.comparison.superlative.n"
+      stem: "[r_s]"
+      ends: [um, ī, ō, um, ō, a, ōrum, īs, a, īs]
+      forms: *f_adjsuper
+    - id: "adjective.3-3.adverb.positive"
+      stem: "[r_p]"
+      ends: [iter]
+      forms: ["[stem][end]"]
+    - id: "adjective.3-3.adverb.comparative"
+      stem: "[r_c]"
+      ends: [ius]
+      forms: ["[stem][end]"]
+    - id: "adjective.3-3.adverb.superlative"
+      stem: "[r_s]"
+      ends: [ē]
+      forms: ["[stem][super_sign][end]"]

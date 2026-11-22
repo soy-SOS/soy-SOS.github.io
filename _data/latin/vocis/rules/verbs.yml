@@ -1,0 +1,692 @@
+- id: "verb.1-ā"
+  type: verb
+  tempus_sign: ba
+  inflections:
+    - id: "verb.1-ā.indicative.active.present"
+      stem: "[r_pres]ā"
+      ends: [ō, s, t, mus, tis, nt]
+      forms:
+        - "[r_pres][end]"
+        - "[stem][end]"
+        - "[r_pres]a[end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[r_pres]a[end]"
+    - id: "verb.1-ā.indicative.active.imperfect"
+      stem: "[r_pres]ā"
+      ends: [m, s, t, mus, tis, nt]
+      forms: &f_verb_stem_ba_end_active
+        - "[stem]ba[end]"
+        - "[stem]bā[end]"
+        - "[stem]ba[end]"
+        - "[stem]bā[end]"
+        - "[stem]bā[end]"
+        - "[stem]ba[end]"
+    - id: "verb.1-ā.indicative.active.futur1"
+      stem: "[r_pres]ā"
+      ends: [ō, s, t, mus, tis, nt]
+      forms:
+        - "[stem]b[end]"
+        - "[stem]bi[end]"
+        - "[stem]bi[end]"
+        - "[stem]bi[end]"
+        - "[stem]bi[end]"
+        - "[stem]bu[end]"
+    - id: "verb.1-ā.indicative.active.perfect"
+      stem: "[r_perf]"
+      ends: [ī, istī, it, imus, istis, ērunt]
+      forms: &f_verb_stem_end
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "verb.1-ā.indicative.active.plusquamperfect"
+      stem: "[r_perf]"
+      ends: [eram, erās, erat, erāmus, erātis, erant]
+      forms: *f_verb_stem_end
+    - id: "verb.1-ā.indicative.active.futur2"
+      stem: "[r_perf]"
+      ends: [ō, s, t, mus, tis, nt]
+      forms: &f_verb_futur2
+        - "[stem]er[end]"
+        - "[stem]eri[end]"
+        - "[stem]eri[end]"
+        - "[stem]eri[end]"
+        - "[stem]eri[end]"
+        - "[stem]eri[end]"
+    - id: "verb.1-ā.indicative.passive.present"
+      stem: "[r_pres]ā"
+      ends: [or, ris, tur, mur, mini, ntur]
+      forms:
+        - "[r_pres][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[r_pres]a[end]"
+    - id: "verb.1-ā.indicative.passive.imperfect"
+      stem: "[r_pres]ā"
+      ends: [r, ris, tur, mur, mini, ntur]
+      forms: &f_verb_stem_ba_end_passive
+        - "[stem]ba[end]"
+        - "[stem]bā[end]"
+        - "[stem]bā[end]"
+        - "[stem]bā[end]"
+        - "[stem]bā[end]"
+        - "[stem]ba[end]"
+    - id: "verb.1-ā.indicative.passive.futur1"
+      stem: "[r_pres]ā"
+      ends: [or, ris, tur, mur, mini, ntur]
+      forms:
+        - "[stem]b[end]"
+        - "[stem]be[end]"
+        - "[stem]bi[end]"
+        - "[stem]bi[end]"
+        - "[stem]bi[end]"
+        - "[stem]bu[end]"
+    - id: "verb.1-ā.infinitive.active.present"
+      stem: "[word]"
+      ends: [""]
+      forms: ["[stem]"]
+    - id: "verb.1-ā.infinitive.active.perfect"
+      stem: "[r_perf]"
+      ends: ["isse"]
+      forms: ["[stem][end]"]
+    - id: "verb.1-ā.imperative.active.present"
+      stem: "[r_pres]ā"
+      ends: ["", "te"]
+      forms: ["[stem]", "[stem][end]"]
+    - id: "verb.1-ā.subjunctive.active.present"
+      stem: "[r_pres]"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]e[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+    - id: "verb.1-ā.subjunctive.active.imperfect"
+      stem: "[word]"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.1-ā.subjunctive.active.perfect"
+      stem: "[r_perf]eri"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.1-ā.subjunctive.active.plusquamperfect"
+      stem: "[r_perf]isse"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+- id: "verb.2-ē"
+  tempus_sign: ba
+  inflections:
+    - id: "verb.2-ē.indicative.active.present"
+      stem: "[r_pres]ē"
+      ends: [ō, s, t, mus, tis, nt]
+      forms:
+        - "[r_pres]e[end]"
+        - "[stem][end]"
+        - "[r_pres]e[end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[r_pres]e[end]"
+    - id: "verb.2-ē.indicative.active.imperfect"
+      stem: "[r_pres]ē"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_ba_end_active
+    - id: "verb.2-ē.indicative.active.futur1"
+      stem: "[r_pres]ē"
+      ends: [ō, s, t, mus, tis, nt]
+      forms:
+        - "[stem]b[end]"
+        - "[stem]bi[end]"
+        - "[stem]bi[end]"
+        - "[stem]bi[end]"
+        - "[stem]bi[end]"
+        - "[stem]bu[end]"
+    - id: "verb.2-ē.indicative.active.perfect"
+      stem: "[r_perf]"
+      ends: [ī, istī, it, imus, istis, ērunt]
+      forms: *f_verb_stem_end
+    - id: "verb.2-ē.indicative.active.plusquamperfect"
+      stem: "[r_perf]"
+      ends: [eram, erās, erat, erāmus, erātis, erant]
+      forms: *f_verb_stem_end
+    - id: "verb.2-ē.indicative.active.futur2"
+      stem: "[r_perf]"
+      ends: [ō, s, t, mus, tis, nt]
+      forms: *f_verb_futur2
+    - id: "verb.2-ē.indicative.passive.present"
+      stem: "[r_pres]ē"
+      ends: [or, ris, tur, mur, mini, ntur]
+      forms:
+        - "[r_pres][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[r_pres]e[end]"
+    - id: "verb.2-ē.indicative.passive.imperfect"
+      stem: "[r_pres]ē"
+      ends: [r, ris, tur, mur, mini, ntur]
+      forms: *f_verb_stem_ba_end_passive
+    - id: "verb.2-ē.indicative.passive.futur1"
+      stem: "[r_pres]ē"
+      ends: [or, ris, tur, mur, mini, ntur]
+      forms:
+        - "[stem]b[end]"
+        - "[stem]be[end]"
+        - "[stem]bi[end]"
+        - "[stem]bi[end]"
+        - "[stem]bi[end]"
+        - "[stem]bu[end]"
+    - id: "verb.2-ē.infinitive.active.present"
+      stem: "[word]"
+      ends: [""]
+      forms: ["[stem]"]
+    - id: "verb.2-ē.infinitive.active.perfect"
+      stem: "[r_perf]"
+      ends: ["isse"]
+      forms: ["[stem][end]"]
+    - id: "verb.2-ē.imperative.active.present"
+      stem: "[r_pres]ē"
+      ends: ["", "te"]
+      forms: ["[stem]", "[stem][end]"]
+    - id: "verb.2-ē.subjunctive.active.present"
+      stem: "[r_pres]e"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+    - id: "verb.2-ē.subjunctive.active.imperfect"
+      stem: "[word]"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.2-ē.subjunctive.active.perfect"
+      stem: "[r_perf]eri"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.2-ē.subjunctive.active.plusquamperfect"
+      stem: "[r_perf]isse"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+- id: "verb.3-konsonant"
+  tempus_sign: ēba
+  inflections:
+    - id: "verb.3-konsonant.indicative.active.present"
+      stem: "[r_pres]"
+      ends: [ō, s, t, mus, tis, nt]
+      forms:
+        - "[stem][end]"
+        - "[stem]i[end]"
+        - "[stem]i[end]"
+        - "[stem]i[end]"
+        - "[stem]i[end]"
+        - "[stem]u[end]"
+    - id: "verb.3-konsonant.indicative.active.imperfect"
+      stem: "[r_pres]"
+      ends: [m, s, t, mus, tis, nt]
+      forms: &f_verb_stem_eba_end_active
+        - "[stem]ēba[end]"
+        - "[stem]ēbā[end]"
+        - "[stem]ēba[end]"
+        - "[stem]ēbā[end]"
+        - "[stem]ēbā[end]"
+        - "[stem]ēba[end]"
+    - id: "verb.3-konsonant.indicative.active.futur1"
+      stem: "[r_pres]"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+    - id: "verb.3-konsonant.indicative.active.perfect"
+      stem: "[r_perf]"
+      ends: [ī, istī, it, imus, istis, ērunt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-konsonant.indicative.active.plusquamperfect"
+      stem: "[r_perf]"
+      ends: [eram, erās, erat, erāmus, erātis, erant]
+      forms: *f_verb_stem_end
+    - id: "verb.3-konsonant.indicative.active.futur2"
+      stem: "[r_perf]"
+      ends: [ō, s, t, mus, tis, nt]
+      forms: *f_verb_futur2
+    - id: "verb.3-konsonant.indicative.passive.present"
+      stem: "[r_pres]"
+      ends: [or, ris, tur, mur, mini, ntur]
+      forms:
+        - "[stem][end]"
+        - "[stem]e[end]"
+        - "[stem]i[end]"
+        - "[stem]i[end]"
+        - "[stem]i[end]"
+        - "[stem]u[end]"
+    - id: "verb.3-konsonant.indicative.passive.imperfect"
+      stem: "[r_pres]"
+      ends: [r, ris, tur, mur, mini, ntur]
+      forms: &f_verb_stem_eba_end_passive
+        - "[stem]ēba[end]"
+        - "[stem]ēbā[end]"
+        - "[stem]ēbā[end]"
+        - "[stem]ēbā[end]"
+        - "[stem]ēbā[end]"
+        - "[stem]ēba[end]"
+    - id: "verb.3-konsonant.indicative.passive.futur1"
+      stem: "[r_pres]"
+      ends: [r, ris, tur, mur, mini, ntur]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+    - id: "verb.3-konsonant.infinitive.active.present"
+      stem: "[word]"
+      ends: [""]
+      forms: ["[stem]"]
+    - id: "verb.3-konsonant.infinitive.active.perfect"
+      stem: "[r_perf]"
+      ends: ["isse"]
+      forms: ["[stem][end]"]
+    - id: "verb.3-konsonant.imperative.active.present"
+      stem: "[r_pres]"
+      ends: ["", "ite"]
+      forms: ["[stem]", "[stem][end]"]
+    - id: "verb.3-konsonant.subjunctive.active.present"
+      stem: "[r_pres]"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+    - id: "verb.3-konsonant.subjunctive.active.imperfect"
+      stem: "[word]"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-konsonant.subjunctive.active.perfect"
+      stem: "[r_perf]eri"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-konsonant.subjunctive.active.plusquamperfect"
+      stem: "[r_perf]isse"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+- id: "verb.3-suppletive"
+  tempus_sign: ēba
+  inflections:
+    - id: "verb.3-suppletive.indicative.active.present"
+      stem: "[r_pres]"
+      ends: [ō, s, t, mus, tis, nt]
+      forms:
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem]i[end]"
+        - "[stem][end]"
+        - "[stem]u[end]"
+    - id: "verb.3-suppletive.indicative.active.imperfect"
+      stem: "[r_pres]"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_eba_end_active
+    - id: "verb.3-suppletive.indicative.active.futur1"
+      stem: "[r_pres]"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+    - id: "verb.3-suppletive.indicative.active.perfect"
+      stem: "[r_perf]"
+      ends: [ī, istī, it, imus, istis, ērunt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-suppletive.indicative.active.plusquamperfect"
+      stem: "[r_perf]"
+      ends: [eram, erās, erat, erāmus, erātis, erant]
+      forms: *f_verb_stem_end
+    - id: "verb.3-suppletive.indicative.active.futur2"
+      stem: "[r_perf]"
+      ends: [ō, s, t, mus, tis, nt]
+      forms: *f_verb_futur2
+    - id: "verb.3-suppletive.infinitive.active.present"
+      stem: "[word]"
+      ends: [""]
+      forms: ["[stem]"]
+    - id: "verb.3-suppletive.infinitive.active.perfect"
+      stem: "[r_perf]"
+      ends: ["isse"]
+      forms: ["[stem][end]"]
+    - id: "verb.3-suppletive.imperative.active.present"
+      stem: "[r_pres]"
+      ends: ["", "ite"]
+      forms: ["[stem]", "[stem][end]"]
+    - id: "verb.3-suppletive.subjunctive.active.present"
+      stem: "[r_pres]"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+    - id: "verb.3-suppletive.subjunctive.active.imperfect"
+      stem: "[word]"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-suppletive.subjunctive.active.perfect"
+      stem: "[r_perf]eri"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-suppletive.subjunctive.active.plusquamperfect"
+      stem: "[r_perf]isse"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-suppletive.indicative.passive.present"
+      stem: "[r_pres]i"
+      ends: [or, ris, tur, mur, mini, ntur]
+      forms:
+        - "[stem][end]"
+        - "[r_pres]e[end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem]u[end]"
+    - id: "verb.3-suppletive.indicative.passive.imperfect"
+      stem: "[r_pres]i"
+      ends: [r, ris, tur, mur, mini, ntur]
+      forms: *f_verb_stem_eba_end_passive
+    - id: "verb.3-suppletive.indicative.passive.futur1"
+      stem: "[r_pres]i"
+      ends: [r, ris, tur, mur, mini, ntur]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+- id: "verb.3-iō"
+  tempus_sign: ēba
+  inflections:
+    - id: "verb.3-iō.indicative.active.present"
+      stem: "[r_pres]i"
+      ends: [ō, s, t, mus, tis, nt]
+      forms:
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem]u[end]"
+    - id: "verb.3-iō.indicative.active.imperfect"
+      stem: "[r_pres]i"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_eba_end_active
+    - id: "verb.3-iō.indicative.active.futur1"
+      stem: "[r_pres]i"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+    - id: "verb.3-iō.indicative.active.perfect"
+      stem: "[r_perf]"
+      ends: [ī, istī, it, imus, istis, ērunt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-iō.indicative.active.plusquamperfect"
+      stem: "[r_perf]"
+      ends: [eram, erās, erat, erāmus, erātis, erant]
+      forms: *f_verb_stem_end
+    - id: "verb.3-iō.indicative.active.futur2"
+      stem: "[r_perf]"
+      ends: [ō, s, t, mus, tis, nt]
+      forms: *f_verb_futur2
+    - id: "verb.3-iō.infinitive.active.present"
+      stem: "[word]"
+      ends: [""]
+      forms: ["[stem]"]
+    - id: "verb.3-iō.infinitive.active.perfect"
+      stem: "[r_perf]"
+      ends: ["isse"]
+      forms: ["[stem][end]"]
+    - id: "verb.3-iō.imperative.active.present"
+      stem: "[r_pres]"
+      ends: ["", "ite"]
+      forms: ["[stem]", "[stem][end]"]
+    - id: "verb.3-iō.subjunctive.active.present"
+      stem: "[r_pres]i"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+    - id: "verb.3-iō.subjunctive.active.imperfect"
+      stem: "[word]"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-iō.subjunctive.active.perfect"
+      stem: "[r_perf]eri"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-iō.subjunctive.active.plusquamperfect"
+      stem: "[r_perf]isse"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-iō.indicative.passive.present"
+      stem: "[r_pres]i"
+      ends: [or, ris, tur, mur, mini, ntur]
+      forms:
+        - "[stem][end]"
+        - "[r_pres]e[end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem]u[end]"
+    - id: "verb.3-iō.indicative.passive.imperfect"
+      stem: "[r_pres]i"
+      ends: [r, ris, tur, mur, mini, ntur]
+      forms: *f_verb_stem_eba_end_passive
+    - id: "verb.3-iō.indicative.passive.futur1"
+      stem: "[r_pres]i"
+      ends: [r, ris, tur, mur, mini, ntur]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+- id: "verb.4-ī"
+  tempus_sign: ēba
+  inflections:
+    - id: "verb.4-ī.indicative.active.present"
+      stem: "[r_pres]i"
+      ends: [ō, s, t, mus, tis, nt]
+      forms:
+        - "[stem][end]"
+        - "[r_pres]ī[end]"
+        - "[stem][end]"
+        - "[r_pres]ī[end]"
+        - "[r_pres]ī[end]"
+        - "[stem]u[end]"
+    - id: "verb.4-ī.indicative.active.imperfect"
+      stem: "[r_pres]i"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_eba_end_active
+    - id: "verb.4-ī.indicative.active.futur1"
+      stem: "[r_pres]i"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+    - id: "verb.4-ī.indicative.active.perfect"
+      stem: "[r_perf]"
+      ends: [ī, istī, it, imus, istis, ērunt]
+      forms: *f_verb_stem_end
+    - id: "verb.4-ī.indicative.active.plusquamperfect"
+      stem: "[r_perf]"
+      ends: [eram, erās, erat, erāmus, erātis, erant]
+      forms: *f_verb_stem_end
+    - id: "verb.4-ī.indicative.active.futur2"
+      stem: "[r_perf]"
+      ends: [ō, s, t, mus, tis, nt]
+      forms: *f_verb_futur2
+    - id: "verb.4-ī.infinitive.active.present"
+      stem: "[word]"
+      ends: [""]
+      forms: ["[stem]"]
+    - id: "verb.4-ī.infinitive.active.perfect"
+      stem: "[r_perf]"
+      ends: ["isse"]
+      forms: ["[stem][end]"]
+    - id: "verb.4-ī.imperative.active.present"
+      stem: "[r_pres]ī"
+      ends: ["", "te"]
+      forms: ["[stem]", "[stem][end]"]
+    - id: "verb.4-ī.subjunctive.active.present"
+      stem: "[r_pres]i"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+    - id: "verb.4-ī.subjunctive.active.imperfect"
+      stem: "[word]"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-konsonant.subjunctive.active.perfect"
+      stem: "[r_perf]eri"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.4-ī.subjunctive.active.plusquamperfect"
+      stem: "[r_perf]isse"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.4-ī.indicative.passive.present"
+      stem: "[r_pres]i"
+      ends: [or, ris, tur, mur, mini, ntur]
+      forms:
+        - "[stem][end]"
+        - "[r_pres]ī[end]"
+        - "[r_pres]ī[end]"
+        - "[r_pres]ī[end]"
+        - "[r_pres]ī[end]"
+        - "[stem]u[end]"
+    - id: "verb.4-i-.indicative.passive.imperfect"
+      stem: "[r_pres]i"
+      ends: [r, ris, tur, mur, mini, ntur]
+      forms: *f_verb_stem_eba_end_passive
+    - id: "verb.4-ī.indicative.passive.futur1"
+      stem: "[r_pres]i"
+      ends: [r, ris, tur, mur, mini, ntur]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]ē[end]"
+        - "[stem]e[end]"
+- id: "verb.irregular"
+  tempus_sign: NA
+  inflections:
+    - id: "verb.irregular.indicative.active.present"
+      stem: "[r_pres]"
+      ends: ["", "", "", "", "", ""]
+      forms: ["", "", "", "", "", ""]
+    - id: "verb.irregular.indicative.active.imperfect"
+      stem: "[r_pres]"
+      ends: ["", "", "", "", "", ""]
+      forms: ["", "", "", "", "", ""]
+    - id: "verb.irregular.indicative.active.futur1"
+      stem: "[r_pres]"
+      ends: ["", "", "", "", "", ""]
+      forms: ["", "", "", "", "", ""]
+    - id: "verb.irregular.indicative.active.perfect"
+      stem: "[r_perf]"
+      ends: ["", "", "", "", "", ""]
+      forms: ["", "", "", "", "", ""]
+    - id: "verb.irregular.indicative.active.plusquamperfect"
+      stem: "[r_perf]"
+      ends: ["", "", "", "", "", ""]
+      forms: ["", "", "", "", "", ""]
+    - id: "verb.2-ē.indicative.active.futur2"
+      stem: "[r_perf]"
+      ends: ["", "", "", "", "", ""]
+      forms: ["", "", "", "", "", ""]
+    - id: "verb.irregular.infinitive.active.present"
+      stem: "[word]"
+      ends: [""]
+      forms: ["[stem]"]
+    - id: "verb.irregular.infinitive.active.perfect"
+      stem: "[r_perf]"
+      ends: ["isse"]
+      forms: ["[stem][end]"]
+    - id: "verb.irregular.imperative.active.present"
+      stem: "[r_pres]"
+      ends: ["", "ite"]
+      forms: ["[stem]", "[stem][end]"]
+    - id: "verb.irregular.subjunctive.active.present"
+      stem: "[r_pres]"
+      ends: [m, s, t, mus, tis, nt]
+      forms:
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+        - "[stem]ā[end]"
+        - "[stem]ā[end]"
+        - "[stem]a[end]"
+    - id: "verb.irregular.subjunctive.active.imperfect"
+      stem: "[word]"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.3-konsonant.subjunctive.active.perfect"
+      stem: "[r_perf]eri"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.irregular.subjunctive.active.plusquamperfect"
+      stem: "[r_perf]isse"
+      ends: [m, s, t, mus, tis, nt]
+      forms: *f_verb_stem_end
+    - id: "verb.irregular.indicative.passive.present"
+      stem: "[r_pres]i"
+      ends: ["", "", "", "", "", ""]
+      forms: ["", "", "", "", "", ""]
+    - id: "verb.irregular.indicative.passive.imperfect"
+      stem: "[r_pres]i"
+      ends: ["", "", "", "", "", ""]
+      forms: ["", "", "", "", "", ""]
+    - id: "verb.irregular.indicative.passive.futur1"
+      stem: "[r_pres]i"
+      ends: ["", "", "", "", "", ""]
+      forms: ["", "", "", "", "", ""]

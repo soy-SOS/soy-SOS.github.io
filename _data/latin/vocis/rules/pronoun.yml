@@ -1,0 +1,177 @@
+- id: "pronoun.personal"
+  inflections:
+    - id: "pronoun.personal.person-1.declination.*"
+      stem: ""
+      ends: []
+      forms: [ego, meī, mihī, mē, mē, nōs, nostrī, nostrum, nōbīs, nōs, nōbīs]
+    - id: "pronoun.personal.person-2.declination.*"
+      stem: ""
+      ends: []
+      forms: [tū, tuī, tibī, tē, tē, vōs, vestrī, vestrum, vōbīs, vōs, vōbīs]
+    - id: "pronoun.personal.person-3.declination.m"
+      stem: ""
+      ends: []
+      forms: [is, eius, eī, eum, eō, eī / ii, eōrum, eīs / iis, eōs, eīs / iis]
+    - id: "pronoun.personal.person-3.declination.f"
+      stem: ""
+      ends: []
+      forms: [ea, eius, eī, eam, eā, eae, eārum, eīs / iis, eās, eīs / iis]
+    - id: "pronoun.personal.person-3.declination.n"
+      stem: ""
+      ends: []
+      forms: [id, eius, eī, id, eō, ea, eōrum, eīs / iis, ea, eīs / iis]
+
+- id: "pronoun.demonstrative"
+  inflections:
+    - id: "pronoun.demonstrative.person-1.declination.m"
+      stem: ""
+      ends: []
+      forms: [hic, huius, huic, hunc, hōc, hī, hōrum, hīs, hōs, hīs]
+    - id: "pronoun.demonstrative.person-1.declination.f"
+      stem: ""
+      ends: []
+      forms: [haec, huius, huic, hanc, hāc, hae, hārum, hīs, hās, hīs]
+    - id: "pronoun.demonstrative.person-1.declination.n"
+      stem: ""
+      ends: []
+      forms: [hoc, huius, huic, hoc, hōc, haec, hōrum, hīs, haec, hīs]
+    - id: "pronoun.demonstrative.person-2.declination.m"
+      stem: "ist"
+      ends: [e, īus, ī, um, ō, ī, ōrum, īs, ōs, īs]
+      forms: &stem_end
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "pronoun.demonstrative.person-2.declination.f"
+      stem: "ist"
+      ends: [a, īus, ī, am, ā, ae, ārum, īs, ās, īs]
+      forms: *stem_end
+    - id: "pronoun.demonstrative.person-2.declination.n"
+      stem: "ist"
+      ends: [ud, īus, ī, ud, ō, a, ōrum, īs, a, īs]
+      forms: *stem_end
+    - id: "pronoun.demonstrative.person-3.ille.declination.m"
+      stem: "ill"
+      ends: [e, īus, ī, um, ō, ī, ōrum, īs, ōs, īs]
+      forms: *stem_end
+    - id: "pronoun.demonstrative.person-3.ille.declination.f"
+      stem: "ill"
+      ends: [a, īus, ī, am, ā, ae, ārum, īs, ās, īs]
+      forms: *stem_end
+    - id: "pronoun.demonstrative.person-3.ille.declination.n"
+      stem: "ill"
+      ends: [ud, īus, ī, ud, ō, a, ōrum, īs, a, īs]
+      forms: *stem_end
+    - id: "pronoun.demonstrative.person-3.is.declination.m"
+      stem: ""
+      ends: []
+      forms: [is, eius, eī, eum, eō, eī / ii, eōrum, eīs / iis, eōs, eīs / iis]
+    - id: "pronoun.demonstrative.person-3.is.declination.f"
+      stem: ""
+      ends: []
+      forms: [ea, eius, eī, eam, eā, eae, eārum, eīs / iis, eās, eīs / iis]
+    - id: "pronoun.demonstrative.person-3.is.declination.n"
+      stem: ""
+      ends: []
+      forms: [id, eius, eī, id, eō, ea, eōrum, eīs / iis, ea, eīs / iis]
+    - id: "pronoun.demonstrative.person-3.idem.declination.m"
+      stem: ""
+      ends: []
+      forms:
+        - īdem
+        - eiusdem
+        - eīdem
+        - eundem
+        - eōdem
+        - iīdem
+        - eōrundem
+        - eīsdem
+        - eōsdem
+        - eīsdem
+    - id: "pronoun.demonstrative.person-3.idem.declination.f"
+      stem: ""
+      ends: []
+      forms:
+        - eadem
+        - eiusdem
+        - eīdem
+        - eandem
+        - eādem
+        - eaedem
+        - eārundem
+        - eīsdem
+        - eāsdem
+        - eīsdem
+    - id: "pronoun.demonstrative.person-3.idem.declination.n"
+      stem: ""
+      ends: []
+      forms:
+        - idem
+        - eiusdem
+        - eīdem
+        - idem
+        - eōdem
+        - eadem
+        - eōrundem
+        - eīsdem
+        - eadem
+        - eīsdem
+    - id: "pronoun.demonstrative.person-3.ipse.declination.m"
+      stem: "ips"
+      ends: [e, īus, ī, um, ō, ī, ōrum, īs, ōs, īs]
+      forms: *stem_end
+    - id: "pronoun.demonstrative.person-3.ipse.declination.f"
+      stem: "ips"
+      ends: [a, īus, ī, am, ā, ae, ārum, īs, ās, īs]
+      forms: *stem_end
+    - id: "pronoun.demonstrative.person-3.ipse.declination.n"
+      stem: "ips"
+      ends: [ud, īus, ī, um, ō, a, ōrum, īs, a, īs]
+      forms: *stem_end
+
+- id: "pronoun.relative"
+  inflections:
+    - id: "pronoun.relative.declination.m"
+      stem: "qu"
+      ends: [ī, ius, ui, em, ō, ī, ōrum, ibus, ōs, ibus]
+      forms: &qui_quae_quod_form
+        - "[stem][end]"
+        - "cu[end]"
+        - "cu[end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+        - "[stem][end]"
+    - id: "pronoun.relative.declination.f"
+      stem: "qu"
+      ends: [ae, ius, ui, am, ā, ae, ārum, ibus, ās, ibus]
+      forms: *qui_quae_quod_form
+    - id: "pronoun.relative.declination.n"
+      stem: "qu"
+      ends: [od, ius, ui, od, ō, ae, ōrum, ibus, ae, ibus]
+      forms: *qui_quae_quod_form
+
+- id: "pronoun.interrogative"
+  inflections:
+    - id: "pronoun.interrogative.adjektivisch.declination.m"
+      stem: "qu"
+      ends: [ī, ius, ui, em, ō, ī, ōrum, ibus, ōs, ibus]
+      forms: *qui_quae_quod_form
+    - id: "pronoun.interrogative.adjektivisch.declination.f"
+      stem: "qu"
+      ends: [ae, ius, ui, am, ā, ae, ārum, ibus, ās, ibus]
+      forms: *qui_quae_quod_form
+    - id: "pronoun.interrogative.adjektivisch.declination.n"
+      stem: "qu"
+      ends: [od, ius, ui, od, ō, ae, ōrum, ibus, ae, ibus]
+      forms: *qui_quae_quod_form

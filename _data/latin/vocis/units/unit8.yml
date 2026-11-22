@@ -114,42 +114,42 @@
   root: {r: lūc}
   meanings: [das Licht]
   unit: 8
-  overrides: []
+  override: []
   exclude: []
 - word: lībertās
   class: substantive.3-konsonant.f
   root: {r: lībertāt}
   meanings: [die Freiheit]
   unit: 8
-  overrides: []
+  override: []
   exclude: []
 - word: iter
   class: substantive.3-konsonant.n
   root: {r: itiner}
   meanings: [der Weg, der Marsch, die Reise]
   unit: 8
-  overrides: []
+  override: []
   exclude: []
 - word: facinus
   class: substantive.3-konsonant.n
   root: {r: facinor}
   meanings: [die Tat, die Untat, das Verbrechen]
   unit: 8
-  overrides: []
+  override: []
   exclude: []
 - word: magistrātus
   class: substantive.4-ū.m
   root: {r: magistrāt}
   meanings: [der (hohe) Beamte, die Behörde]
   unit: 8
-  overrides: []
+  override: []
   exclude: []
 - word: cīvis
   class: substantive.3-i.m+f
   root: {r: cīv}
   meanings: [der Bürger, die Bürgerin]
   unit: 8
-  overrides: []
+  override: []
   exclude: []
 - word: grātia
   class: substantive.1-ā.f
@@ -157,19 +157,19 @@
   meanings: [die Ausstrahlung, der Charme, die Beliebtheit, die Sympathie, die Gefälligkeit,
     der Dank]
   unit: 8
-  overrides: []
+  override: []
   exclude: []
 - word: dīligentia
   class: substantive.1-ā.f
   root: {r: dīligenti}
   meanings: [die Sorgfalt]
   unit: 8
-  overrides: []
+  override: []
   exclude: []
 - word: incola
   class: substantive.1-ā.m+f
   root: {r: incol}
   meanings: [der Einwohner, die Einwohnerin]
   unit: 8
-  overrides: []
+  override: []
   exclude: []

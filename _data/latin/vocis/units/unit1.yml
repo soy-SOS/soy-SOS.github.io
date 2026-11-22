@@ -1,115 +1,309 @@
 - word: invītāre
   class: verb.1-ā
   meanings: [einladen]
-  root: {r_pres: invīt, r_perf: invītāv}
+  root: { r_pres: invīt, r_perf: invītāv }
   exclude: []
   unit: 1
 - word: exspectāre
   class: verb.1-ā
   meanings: [(er)warten]
-  root: {r_pres: exspect, r_perf: exspectāv}
+  root: { r_pres: exspect, r_perf: exspectāv }
   exclude: []
   unit: 1
 - word: parāre
   class: verb.1-ā
   meanings: [(vor)bereiten, zubereiten, vorhaben, erwerben]
-  root: {r_pres: par, r_perf: parāv}
+  root: { r_pres: par, r_perf: parāv }
   exclude: []
   unit: 1
 - word: dīcere
   class: verb.3-konsonant
   meanings: [sagen, sprechen, (be)nennen]
-  root: {r_pres: dīc, r_perf: dīx}
+  root: { r_pres: dīc, r_perf: dīx }
   exclude: []
   unit: 1
 - word: venīre
   class: verb.4-ī
   meanings: [kommen]
-  root: {r_pres: ven, r_perf: ven}
+  root: { r_pres: ven, r_perf: ven }
   exclude: []
   unit: 1
 - word: habēre
   class: verb.2-ē
   meanings: [haben, halten]
-  root: {r_pres: hab, r_perf: habu}
+  root: { r_pres: hab, r_perf: habu }
   exclude: []
   unit: 1
 - word: cēnāre
   class: verb.1-ā
   meanings: [zu Abend essen]
-  root: {r_pres: cēn, r_perf: cēnāv}
+  root: { r_pres: cēn, r_perf: cēnāv }
   exclude: []
   unit: 1
 - word: facere
   class: verb.3-iō
   meanings: [machen, tun, handeln]
-  root: {r_pres: fac, r_perf: fēc}
+  root: { r_pres: fac, r_perf: fēc }
   exclude: []
   unit: 1
 - word: dēbēre
   class: verb.2-ē
   meanings: [müssen, schulden]
-  root: {r_pres: dēb, r_perf: dēbu}
+  root: { r_pres: dēb, r_perf: dēbu }
   exclude: []
   unit: 1
 - word: valēre
   class: verb.2-ē
   meanings: [gesund / stark sein, Einfluss haben, gelten]
-  root: {r_pres: val, r_perf: valu}
+  root: { r_pres: val, r_perf: valu }
   exclude: []
   unit: 1
 - word: apportāre
   class: verb.1-ā
   meanings: [(herbei)bringen]
-  root: {r_pres: apport, r_perf: apportāv}
+  root: { r_pres: apport, r_perf: apportāv }
   exclude: []
   unit: 1
-- word: amicus
+- word: amīcus
   class: substantive.2-ō.m
-  root: {r: amīc}
+  root: { r: amīc }
   meanings: [der Freund]
   unit: 1
-  overrides: []
+  override: []
   exclude: []
 - word: cēna
   class: substantive.1-ā.f
-  root: {r: cēn}
+  root: { r: cēn }
   meanings: [das Essen, die Mahlzeit]
   unit: 1
-  overrides: []
+  override: []
   exclude: []
 - word: vīnum
   class: substantive.2-ō.n
-  root: {r: vīn}
+  root: { r: vīn }
   meanings: [der Wein]
   unit: 1
-  overrides: []
+  override: []
   exclude: []
 - word: familia
   class: substantive.1-ā.f
-  root: {r: famili}
+  root: { r: famili }
   meanings: [die Familie]
   unit: 1
-  overrides: []
+  override: []
   exclude: []
 - word: dominus
   class: substantive.2-ō.m
-  root: {r: domin}
+  root: { r: domin }
   meanings: [der (Haus-)Herr]
   unit: 1
-  overrides: []
+  override: []
   exclude: []
 - word: ancilla
   class: substantive.1-ā.f
-  root: {r: ancill}
+  root: { r: ancill }
   meanings: [die Sklavin]
   unit: 1
-  overrides: []
+  override: []
   exclude: []
-- word: villa
+- word: vīlla
   class: substantive.1-ā.f
-  root: {r: vīll}
+  root: { r: vīll }
   meanings: [das Landhaus]
   unit: 1
-  overrides: []
+  override: []
   exclude: []
+- word: nunc
+  unit: 1
+  meanings: [nun, jetzt]
+  class: "adverb.temporal"
+  override: []
+  exclude: ["*"]
+- word: ubī?
+  unit: 1
+  meanings: [wo?]
+  class: "adverb.relative"
+  override: []
+  exclude: ["*"]
+- word: saepe
+  unit: 1
+  meanings: [oft]
+  class: "adverb.temporal"
+  override: []
+  exclude: ["*"]
+- word: ad
+  unit: 1
+  meanings: ["zu, nach ...", "bei, an"]
+  class: "preposition.lative"
+  override: []
+  exclude: ["*"]
+- word: hodiē
+  unit: 1
+  meanings: [heute]
+  class: "adverb.temporal"
+  override: []
+  exclude: ["*"]
+- word: iam
+  unit: 1
+  meanings: [schon, nun, jetzt gleich]
+  class: "adverb.temporal"
+  override: []
+  exclude: ["*"]
+- word: cūnctus
+  unit: 1
+  meanings: [ganz, (im Pl) alle]
+  class: "adjective.ā-ō"
+  root: { root: cūnct, r_p: cūnct }
+  override: []
+  exclude:
+    - id: "adjective.ā-ō.comparison.comparative"
+    - id: "adjective.ā-ō.comparison.superlative"
+    - id: "adjective.ā-ō.adverb.comparative"
+    - id: "adjective.ā-ō.adverb.superlative"
+- word: parātus
+  unit: 1
+  meanings: [vorbereitet, bereit]
+  class: "adjective.ā-ō"
+  root: { root: parāt, r_c: parāt, r_p: parāt, r_s: parāt }
+  super_sign: issim
+  comp_sign: iōr
+  override: []
+  exclude: []
+- word: et
+  unit: 1
+  meanings: [und, auch, sogar]
+  class: "conjunction"
+  override: []
+  exclude: ["*"]
+- word: diū
+  unit: 1
+  meanings: [lange, lange Zeit]
+  class: "adverb.temporal"
+  override: []
+  exclude: ["*"]
+- word: quis?
+  unit: 1
+  meanings: [wer?]
+  class: "pronoun.interrogative"
+  override: []
+  exclude: []
+- word: quid?
+  unit: 1
+  meanings: [was?]
+  class: "pronoun.interrogative"
+  override: []
+  exclude: []
+- word: sed
+  unit: 1
+  meanings: [aber, (nach Verneinung) sondern]
+  class: "preposition"
+  override: []
+  exclude: ["*"]
+- word: nōn
+  unit: 1
+  meanings: [nicht]
+  class: "conjunction"
+  override: []
+  exclude: ["*"]
+- word: tū
+  unit: 1
+  meanings: [du]
+  class: "pronoun.personal"
+  override: []
+  exclude: []
+- word: neque / nec
+  unit: 1
+  meanings: [und nicht, auch nicht, aber nicht]
+  class: "conjunction"
+  override: []
+  exclude: ["*"]
+- word: neque ... neque / nec ... nec
+  unit: 1
+  meanings: ["weder ... noch ..."]
+  class: "phrase"
+  override: []
+  exclude: ["*"]
+- word: ut
+  unit: 1
+  meanings: [wie, sobals, als]
+  class: "conjunction"
+  override: []
+  exclude: ["*"]
+- word: semper
+  unit: 1
+  meanings: [immer]
+  class: "adverb.termporal"
+  override: []
+  exclude: ["*"]
+- word: apud
+  unit: 1
+  meanings: [bei, nahe bei]
+  class: "preposition.lative"
+  override: []
+  exclude: ["*"]
+- word: alius
+  unit: 1
+  meanings: [ein anderer, eine andere, ein anderes]
+  class: "adjective.ā-ō"
+  root: { root: ali }
+  override:
+    - id: "adjective.ā-ō.comparison.positive.m"
+      forms: [alius, alīus, aliī, aliō, aliī, aliōrum, aliōs, aliī]
+    - id: "adjective.ā-ō.comparison.positive.f"
+      forms: [alia, alīus, aliī, aliī, aliō, alie, aliī, aliōrum, aliōs, aliī]
+    - id: "adjective.ā-ō.comparison.positive.n"
+      forms: [alius, alīus, aliī, aliī, aliō, alie, aliī, aliōrum, aliōs, aliī]
+  exclude:
+    - id: "adjective.ā-ō.comparison.comparative"
+    - id: "adjective.ā-ō.comparison.superlative"
+    - id: "adjective.ā-ō.adverb.positive"
+    - id: "adjective.ā-ō.adverb.comparative"
+    - id: "adjective.ā-ō.adverb.superlative"
+- word: fortasse
+  unit: 1
+  meanings: [vielleicht]
+  class: "adverb"
+  override: []
+  exclude: ["*"]
+- word: vōs
+  unit: 1
+  meanings: [ihr]
+  class: "pronoun.personal"
+  override: []
+  exclude: []
+- word: nōs
+  unit: 1
+  meanings: [wir]
+  class: "pronoun.personal"
+  override: []
+  exclude: []
+- word: dum
+  unit: 1
+  meanings: [(mit Ind Präs) während, solange als / solange bis]
+  class: "conjunction"
+  override: []
+  exclude: ["*"]
+- word: egō
+  unit: 1
+  meanings: [ich]
+  class: "pronoun.personal"
+  override: []
+  exclude: []
+- word: sī
+  unit: 1
+  meanings: [wenn, falls]
+  class: "conjunction"
+  override: []
+  exclude: ["*"]
+- word: aut
+  unit: 1
+  meanings: [oder]
+  class: "conjunction"
+  override: []
+  exclude: ["*"]
+- word: aut ... aut
+  unit: 1
+  meanings: [entweder ... oder ...]
+  class: "phrase"
+  override: []
+  exclude: ["*"]

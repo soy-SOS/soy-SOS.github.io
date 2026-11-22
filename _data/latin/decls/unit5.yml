@@ -26,7 +26,7 @@
   unit: 5
   translations: [das Schiff]
   genus: f
-  forms: [nāvis, nāvis, nāvī, nāvem, nāvī, nāvēs, nāvēs, nāvium, nāvibus, nāvīs]
+  forms: [nāvis, nāvis, nāvī, nāvem, nāvī, nāvēs,  nāvium, nāvibus, nāvēs, nāvīs]
   decl_class: 3-i
 - word: mīles
   type: substantive
@@ -56,8 +56,7 @@
   unit: 5
   translations: [der Feind, die Feinding]
   genus: m+f
-  forms: [hostis, hostis, hostī, hostem, hoste, hostēs, hostium.hostibus, hostēs,
-    hostibus, null]
+  forms: [hostis, hostis, hostī, hostem, hoste, hostēs, hostium, hostibus, hostēs, hostibus]
   decl_class: 3-i
 - word: tēlum
   type: substantive

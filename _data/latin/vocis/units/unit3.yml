@@ -1,141 +1,152 @@
 - word: placēre
   class: verb.2-ē
   meanings: [gefallen]
-  root: {r_pres: plac, r_perf: placu}
+  root: { r_pres: plac, r_perf: placu }
   exclude: []
   unit: 3
 - word: exercēre
   class: verb.2-ē
   meanings: [sich üben / trainieren, sich quälen]
-  root: {r_pres: exerc, r_perf: exercu}
+  root: { r_pres: exerc, r_perf: exercu }
   exclude: []
   unit: 3
 - word: salīre
   class: verb.4-ī
   meanings: [springen]
-  root: {r_pres: sal, r_perf: sali}
+  root: { r_pres: sal, r_perf: sali }
   exclude: []
   unit: 3
 - word: tacēre
   class: verb.2-ē
   meanings: [schweigen]
-  root: {r_pres: tac, r_perf: tacu}
+  root: { r_pres: tac, r_perf: tacu }
   exclude: []
   unit: 3
 - word: clāmāre
   class: verb.1-ā
   meanings: [rufen, schreien]
-  root: {r_pres: clām, r_perf: clāmāv}
+  root: { r_pres: clām, r_perf: clāmāv }
   exclude: []
   unit: 3
 - word: cōgere
   class: verb.3-konsonant
   meanings: [zusammentreiben, versammeln, zwingen]
-  root: {r_pres: cōg, r_perf: cōēg}
+  root: { r_pres: cōg, r_perf: cōēg }
   exclude: []
   unit: 3
 - word: emere
   class: verb.3-konsonant
   meanings: [kaufen]
-  root: {r_pres: em, r_perf: ēm}
+  root: { r_pres: em, r_perf: ēm }
   exclude: []
   unit: 3
 - word: dare
   class: verb.irregular
   meanings: [geben]
-  root: {r_pres: da, r_perf: de}
+  root: { r_pres: da, r_perf: de }
   exclude: []
   unit: 3
   override:
-  - id: verb.irregular.indicative.active.present
-    forms: [dō, dās, dat, damus, datis, dant]
-  - id: verb.irregular.indicative.active.imperfect
-    forms: [dabam, dabās, dabat, dabāmus, dabātis, dabant]
-  - id: verb.irregular.indicative.active.perfect
-    forms: [dedī, dedistī, dedit, dedimus, dedistis, dedērunt]
-  - id: verb.irregular.indicative.active.plusquamperfect
-    forms: [dederam, dederās, dederat, dederāmus, dederātis, dederant]
+    - id: verb.irregular.indicative.active.present
+      forms: [dō, dās, dat, damus, datis, dant]
+    - id: verb.irregular.indicative.active.imperfect
+      forms: [dabam, dabās, dabat, dabāmus, dabātis, dabant]
+    - id: verb.irregular.indicative.active.perfect
+      forms: [dedī, dedistī, dedit, dedimus, dedistis, dedērunt]
+    - id: verb.irregular.imperative.active.present
+      forms: [dā, date]
+    - id: verb.irregular.subjunctive.present
+      forms: [dem, dēs, det, dēmus, dētis, dent]
+    - id: verb.irregular.subjunctive.imperfect
+      forms: [darem, darēs, daret, darēmus, darētis, darent]
+    - id: verb.irregular.subjunctive.perfect
+      forms: [dederim, dederīs, dederit, dederīmus, dederītis, dederint]
+    - id: verb.irregular.subjunctive.plusquamperfect
+      forms: [dedissem, dedissēs, dedisset, dedissēmus, dedissētis, dedissent]
 - word: tenēre
   class: verb.2-ē
   meanings: [haben / besitzen, halten / fest- /zurückhalten]
-  root: {r_pres: ten, r_perf: tenu}
+  root: { r_pres: ten, r_perf: tenu }
   exclude: []
   unit: 3
 - word: vir
   class: substantive.2-ō.m
-  root: {r: vir}
+  root: { r: vir }
   meanings: [der Mann]
   unit: 3
-  overrides: []
+  override: []
   exclude: []
 - word: fēmina
   class: substantive.1-ā.f
-  root: {r: fēmin}
+  root: { r: fēmin }
   meanings: [die Frau]
   unit: 3
-  overrides: []
+  override: []
   exclude: []
 - word: aqua
   class: substantive.1-ā.f
-  root: {r: aqu}
+  root: { r: aqu }
   meanings: [das Wasser]
   unit: 3
-  overrides: []
+  override: []
   exclude: []
 - word: fīlius
   class: substantive.2-ō.m
-  root: {r: fīli}
+  root: { r: fīli }
   meanings: [der Sohn]
   unit: 3
-  overrides: []
+  override: []
   exclude: []
 - word: fīlia
   class: substantive.1-ā.f
-  root: {r: Īli}
+  root: { r: fīli }
   meanings: [die Tochter]
   unit: 3
-  overrides: []
+  override: []
   exclude: []
 - word: toga
   class: substantive.1-ā.f
-  root: {r: tog}
+  root: { r: tog }
   meanings: [die Toga]
   unit: 3
-  overrides: []
+  override: []
   exclude: []
 - word: animus
   class: substantive.2-ō.m
-  root: {r: anim}
+  root: { r: anim }
   meanings: [der Geist, der Sinn, die Gesinnung, das Herz, der Mut]
   unit: 3
-  overrides: []
+  override: []
   exclude: []
 - word: studium
   class: substantive.2-ō.n
-  root: {r: studi}
+  root: { r: studi }
   meanings: [der Eifer, die Bemühung, die Beschäftigung, das Interesse]
   unit: 3
-  overrides: []
+  override: []
   exclude: []
 - word: philosophus
   class: substantive.2-ō.m
-  root: {r: philosoph}
+  root: { r: philosoph }
   meanings: [der Philosoph]
   unit: 3
-  overrides: []
+  override: []
   exclude: []
 - word: silentium
   class: substantive.2-ō.n
-  root: {r: silenti}
+  root: { r: silenti }
   meanings: [die Stille, das Schweigen, die Ruhe]
   unit: 3
-  overrides: []
+  override: []
   exclude: []
 - word: littera
   class: substantive.1-ā.f
-  root: {r: litter}
-  meanings: [der Buchstabe, '(Plural: alles Geschrieben: der Brief / die Literatur
-      / die Wissenschaft(en))']
+  root: { r: litter }
+  meanings:
+    [
+      der Buchstabe,
+      "(Plural: alles Geschrieben: der Brief / die Literatur / die Wissenschaft(en))",
+    ]
   unit: 3
-  overrides: []
+  override: []
   exclude: []

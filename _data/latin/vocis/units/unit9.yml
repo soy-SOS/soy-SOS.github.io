@@ -1,207 +1,207 @@
 - word: convenīre
   class: verb.4-ī
   meanings: [(zusammenkommen), jdn treffen, sich einigen]
-  root: {r_pres: conven, r_perf: convēn}
+  root: { r_pres: conven, r_perf: convēn }
   exclude: []
   unit: 9
 - word: pōnere
   class: verb.3-konsonant
   meanings: [setzen, stellen, legen]
-  root: {r_pres: pōn, r_perf: pōsu}
+  root: { r_pres: pōn, r_perf: pōsu }
   exclude: []
   unit: 9
 - word: dēpōnere
   class: verb.3-konsonant
   meanings: [ablegen, weglegen, aufgeben]
-  root: {r_pres: dēpōn, r_perf: dēpōsu}
+  root: { r_pres: dēpōn, r_perf: dēpōsu }
   exclude: []
   unit: 9
 - word: miscēre
   class: verb.2-ē
   meanings: [mischen, verwirren]
-  root: {r_pres: misc, r_perf: miscu}
+  root: { r_pres: misc, r_perf: miscu }
   exclude: []
   unit: 9
 - word: gaudēre
   class: verb.2-ē
   meanings: [sich freuen (über / an)]
-  root: {r_pres: gaud, r_perf: gaudu}
+  root: { r_pres: gaud, r_perf: gaudu }
   exclude:
-  - {id: verb.2-ē.indicative.active.perfect}
-  - {id: verb.2-ē.indicative.active.plusquamperfect}
+    - { id: verb.2-ē.indicative.active.perfect }
+    - { id: verb.2-ē.indicative.active.plusquamperfect }
   unit: 9
 - word: stāre
   class: verb.1-ā
   meanings: [stehen]
-  root: {r_pres: st, r_perf: stet}
+  root: { r_pres: st, r_perf: stet }
   exclude: []
   unit: 9
 - word: audēre
   class: verb.2-ē
   meanings: [wagen]
-  root: {r_pres: aud, r_perf: aus}
+  root: { r_pres: aud, r_perf: aus }
   exclude:
-  - {id: verb.2-ē.indicative.active.perfect}
-  - {id: verb.2-ē.indicative.active.plusquamperfect}
+    - { id: verb.2-ē.indicative.active.perfect }
+    - { id: verb.2-ē.indicative.active.plusquamperfect }
   unit: 9
 - word: cōnsīdere
   class: verb.3-konsonant
   meanings: [sich setzen, sich niederlassen]
-  root: {r_pres: cōnsīd, r_perf: cōnsēd}
+  root: { r_pres: cōnsīd, r_perf: cōnsēd }
   exclude: []
   unit: 9
 - word: parēre
   class: verb.2-ē
   meanings: [gehorchen]
-  root: {r_pres: par, r_perf: paru}
+  root: { r_pres: par, r_perf: paru }
   exclude: []
   unit: 9
 - word: lavāre
   class: verb.1-ā
   meanings: [waschen]
-  root: {r_pres: lav, r_perf: lāv}
+  root: { r_pres: lav, r_perf: lāv }
   exclude: []
   unit: 9
 - word: adīre
   class: verb.irregular
   meanings: [herangehen, besuchen, bitten]
-  root: {r_pres: adī, r_perf: adi}
+  root: { r_pres: adī, r_perf: adi }
   exclude: []
   unit: 9
   override:
-  - id: verb.irregular.indicative.active.present
-    forms: [adeō, adīs, adit, adīmus, adītis, adeunt]
-  - id: verb.irregular.indicative.active.imperfect
-    forms: [adībam, adībās, adībat, adībāmus, adībātis, adībant]
-  - id: verb.irregular.indicative.active.perfect
-    forms: [adiī, adīstī, adiit, adiimus, adīstis, adiērunt]
-  - id: verb.irregular.indicative.active.plusquamperfect
-    forms: [adieram, adierās, adierat, adierāmus, adierātis, abierant]
+    - id: verb.irregular.indicative.active.present
+      forms: [adeō, adīs, adit, adīmus, adītis, adeunt]
+    - id: verb.irregular.indicative.active.imperfect
+      forms: [adībam, adībās, adībat, adībāmus, adībātis, adībant]
+    - id: verb.irregular.indicative.active.perfect
+      forms: [adiī, adīstī, adiit, adiimus, adīstis, adiērunt]
+    - id: verb.irregular.indicative.active.plusquamperfect
+      forms: [adieram, adierās, adierat, adierāmus, adierātis, abierant]
 - word: terra
   class: substantive.1-ā.f
-  root: {r: terr}
+  root: { r: terr }
   meanings: [das Land, die Erde]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: bōs
   class: substantive.irregular.m+f
-  root: {r: boum}
+  root: { r: boum }
   meanings: [das Rind]
   unit: 9
-  overrides:
-  - id: substantive.irregular.m+f.declination
-    forms: [bōs, bovis, bovī, bovem, bove, bovēs, boum, bōbus, bovēs, bōbus]
+  override:
+    - id: substantive.irregular.m+f.declination
+      forms: [bōs, bovis, bovī, bovem, bove, bovēs, boum, bōbus, bovēs, bōbus]
   exclude: []
 - word: rēx
   class: substantive.3-konsonant.m
-  root: {r: rēgi}
+  root: { r: rēg }
   meanings: [der König]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: pater
   class: substantive.3-konsonant.m
-  root: {r: patr}
+  root: { r: patr }
   meanings: [der Vater]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: mōns
   class: substantive.3-gemischt.m
-  root: {r: mont}
+  root: { r: mont }
   meanings: [der Berg]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: virgō
   class: substantive.3-konsonant.f
-  root: {r: virgin}
+  root: { r: virgin }
   meanings: [das Mädchen (unverheiratet)]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: amor
   class: substantive.3-konsonant.m
-  root: {r: amōr}
+  root: { r: amōr }
   meanings: [die Liebe]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: orbis
   class: substantive.3-i.m
-  root: {r: orb}
+  root: { r: orb }
   meanings: [der Kreis(lauf)]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: dextra
   class: substantive.1-ā.f
-  root: {r: dextr}
+  root: { r: dextr }
   meanings: [die rechte Hand]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: herba
   class: substantive.1-ā.f
-  root: {r: herb}
+  root: { r: herb }
   meanings: [das Gras]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: color
   class: substantive.3-konsonant.m
-  root: {r: colōr}
+  root: { r: colōr }
   meanings: [die Farbe]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: cornū
   class: substantive.4-ū.n
-  root: {r: corn}
+  root: { r: corn }
   meanings: [das Horn, die Flügel (des Heeres)]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: puella
   class: substantive.1-ā.f
-  root: {r: puell}
+  root: { r: puell }
   meanings: [das Mädchen]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: manus
   class: substantive.4-ū.f
-  root: {r: man}
+  root: { r: man }
   meanings: [die Hand, die Handvoll, die Schar, die Gruppe]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: pēs
   class: substantive.3-konsonant.m
-  root: {r: pedi}
+  root: { r: ped }
   meanings: [der Fuss]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: unda
   class: substantive.1-ā.f
-  root: {r: und}
+  root: { r: und }
   meanings: [die Welle, das Gewässer]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: sōlitūdō
   class: substantive.3-konsonant.f
-  root: {r: sōlitūdin}
+  root: { r: sōlitūdin }
   meanings: [die Einsamkeit, die Einöde]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
 - word: āra
   class: substantive.1-ā.f
-  root: {r: ār}
+  root: { r: ār }
   meanings: [der Altar]
   unit: 9
-  overrides: []
+  override: []
   exclude: []
