@@ -280,6 +280,10 @@ function randInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+const ui_modi = new Map(Object.entries({ subjunctive: "Konjunktiv", indicative: "Indikativ", imperative: "Imperativ" }));
+const ui_tempora = new Map(Object.entries({ present: "Präsens", imperfect: "Imperfekt", perfect: "Perfekt", plusquamperfect: "Plusquamp.", futur1: "Futur 1", futur2: "Futur 2" }));
+const ui_voices = new Map(Object.entries({ active: "Aktiv", passive: "Passiv" }));
+const ui_persons = ["1. Sg", "2. Sg", "3. Sg", "1. Pl", "2. Pl", "3. Pl"];
 
 function randomCardItem(verbs, allowedModifiers) {
   const randomWordIndex = randInt(verbs.length - 1);
@@ -292,22 +296,29 @@ function randomCardItem(verbs, allowedModifiers) {
   const modus = idParts[idParts.length - 3];
   const person = randInt(form.forms.length - 1);
 
-  const modi = new Map(Object.entries({ subjunctive: "Konjunktiv", indicative: "Indikativ", imperative: "Imperativ" }));
-  const tempora = new Map(Object.entries({ present: "Präsens", imperfect: "Imperfekt", perfect: "Perfekt", plusquamperfect: "Plusquamp.", futur1: "Futur 1", futur2: "Futur 2" }));
-  const voices = new Map(Object.entries({ active: "Aktiv", passive: "Passiv" }));
-  const persons = ["1. Sg", "2. Sg", "3. Sg", "1. Pl", "2. Pl", "3. Pl"];
-
-  return ({
+  const displayItems = [
+    "form", "id", "unit", "meanings", "word", "tempus", "modus", "voice"
+  ];
+  let card = {
     form: form.forms[person],
-    tempus: tempora.get(tempus),
-    class: idParts[1],
-    voice: voices.get(voice),
+    tempus: ` ${ui_tempora.get(tempus)}`,
+    id: idParts[1],
+    voice: ` ${ui_voices.get(voice)}`,
     unit: randomWord.unit(),
-    modus: modi.get(modus),
-    person: persons[person],
-    meaning: randomWord.meanings().join(", "),
-    infinitive: randomWord.word()
-  });
+    modus: ui_modi.get(modus),
+    person: `<br>${ui_persons[person]}`,
+    meanings: `<i><small>${randomWord.meanings().join(", ")}</small></i><br>`,
+    word: `<b>${randomWord.word()}</b><br>`
+  };
+  for (let i of displayItems) {
+    const option = document.getElementById(i + "-card-placement").value;
+    if (option == "none") {
+      card[i] = "";
+    }
+  }
+  document.getElementsByName;
+
+  return card;
 }
 
 function getVerbFilterValue(ids) {
@@ -349,17 +360,15 @@ function displayVerbs(verbs, divContainedId) {
       `<div class="card conjugations" id="${i}" onclick="this.classList.toggle('flipped')">
         <div class="card-inner">
           <div class="card-front">
-          <p style="font-size:80%;">${item.class}</p>
+          <p style="font-size:80%;">${item.id}</p>
             <p class="question-text" style="font-size: 125%;">
               ${item.form}
             </p>
             ${item.unit}
           </div>
           <div class="card-back">
-            <p style="font-size: small;font-weight:normal;"><i>${item.meaning}</i></p>
             <p>
-              <b>${item.infinitive}</b><br>
-              ${item.modus} ${item.voice} ${item.tempus} ${item.person}
+              ${item.meanings}${item.word}${item.modus}${item.voice}${item.tempus} ${item.person}
             </p>
           </div>
         </div>
