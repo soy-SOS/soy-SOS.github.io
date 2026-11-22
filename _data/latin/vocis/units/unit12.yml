@@ -1,0 +1,266 @@
+- word: fallere
+  class: verb.3-konsonant
+  root: { r_pres: fall, r_perf: fefell }
+  meanings: [täuschen, betrügen]
+  unit: 12
+  override: []
+  exclude: []
+- word: sentīre
+  class: verb.4-ī
+  root: { r_pres: sent, sēns }
+  meanings: [fühlen/merken/wahrnehmen, meinen]
+  unit: 12
+  override: []
+  exclude: []
+- word: īra
+  class: substantive.1-ā.f
+  root: { r: īr }
+  meanings: [der Zorn]
+  unit: 12
+  override: []
+  exclude: []
+- word: tandem
+  class: adverb.causal
+  root: {}
+  meanings: [endlich]
+  unit: 12
+  override: []
+  exclude: ["*"]
+- word: -ne
+  class: phrase
+  root: {}
+  meanings:
+    [(angeh. Fragepartikel), (entspricht Fragez.) ?, (im angeh. Fragesatz) ob]
+  unit: 12
+  override: []
+  exclude: ["*"]
+- word: temptāre
+  class: verb.1-ā
+  root: { r_pres: tempt, r_perf: temptāv }
+  meanings: [betasten; versuchen, angreifen]
+  unit: 12
+  override: []
+  exclude: []
+- word: scelus
+  class: substantive.3-konsonant.n
+  root: { r: scel }
+  meanings: [das Verbrechen]
+  unit: 12
+  override: []
+  exclude: []
+- word: (dē)cēdere
+  class: verb.3-konsonant
+  root: { r_pres: (dē)cēd, r_perf: (dē)cess }
+  meanings: [(weg-)gehen, weichen/nachgeben]
+  unit: 12
+  override: []
+  exclude: []
+- word: lacrima
+  class: substantive.1-ā.f
+  root: { r: lacrim }
+  meanings: [die Träne]
+  unit: 12
+  override: []
+  exclude: []
+- word: umquam
+  class: adverb.temporal
+  root: {}
+  meanings: [je, jemals]
+  unit: 12
+  override: []
+  exclude: ["*"]
+- word: amāre
+  class: verb.1-ā
+  root: { r_pres: am, r_perf: amāv }
+  meanings: [lieben, gern haben]
+  unit: 12
+  override: []
+  exclude: []
+- word: rogāre
+  class: verb.1-ā
+  root: { r_pres: rog, r_perf: rogāv }
+  meanings: [fragen, bitten]
+  unit: 12
+  override: []
+  exclude: []
+- word: manēre
+  class: verb.2-ē
+  root: { r_pres: man, r_perf: māns }
+  meanings: [bleiben/warten, (mit Akk) warten auf jdn / jdn erwarten]
+  unit: 12
+  override: []
+  exclude:
+    - id: verb.2-ē.indicative.passive
+    - id: verb.2-ē.imperative.passive
+    - id: verb.2-ē.subjunctive.passive
+    - id: verb.2-ē.indicative.passive
+- word: imperāre
+  class: verb.1-ā
+  root: { r_pres: imper, r_perf: imperāv }
+  meanings: [jdm befehlen, herrschen übern jdn]
+  unit: 12
+  override: []
+  exclude: []
+- word: propter
+  class: preposition
+  root: {}
+  meanings: [wegen]
+  unit: 12
+  override: []
+  exclude: ["*"]
+- word: pudor
+  class: substantive.3-konsonant.m
+  root: { r: pudōr }
+  meanings: [die Scham/das Schamgefühl, das Ehrgefühl/der Anstand]
+  unit: 12
+  override: []
+  exclude: []
+- word: āmittere
+  class: verb.3-konsonant
+  root: { r_pres: āmitt, r_perf: āmīs }
+  meanings: [loslassen; verlieren, aufgeben]
+  unit: 12
+  override: []
+  exclude: []
+- word: ōdisse
+  class: verb.4-ī
+  root: { r_perf: ōd }
+  meanings: [hassen (Perfekt hat Präsensbedeutung)]
+  unit: 12
+  override: []
+  exclude:
+    - id: verb.4-ī.indicative.active.present
+    - id: verb.4-ī.indicative.active.imperfect
+    - id: verb.4-ī.indicative.active.futur1
+    - id: verb.4-ī.subjunctive.active.present
+    - id: verb.4-ī.subjunctive.active.imperfect
+    - id: verb.4-ī.infinitive.active.present
+    - id: verb.4-ī.imperative.active.present
+    - id: verb.4-ī.subjunctive.active.futur1
+    - id: verb.4-ī.indicative.passive
+    - id: verb.4-ī.subjunctive.passive
+    - id: verb.4-ī.imperative.passive
+    - id: verb.4-ī.infinitive.passive
+- word: ubīque
+  class: adverb.spatial
+  root: {}
+  meanings: [überall]
+  unit: 12
+  override: []
+  exclude: ["*"]
+- word: nē ... quidem
+  class: phrase
+  root: {}
+  meanings: [nicht einmal]
+  unit: 12
+  override: []
+  exclude: ["*"]
+- word: memoria
+  class: substantive.3-konsonant.f
+  root: { r: memor }
+  meanings: [die Erinnerung/das Gedächtnis, das Andenken]
+  unit: 12
+  override: []
+  exclude: []
+- word: pius
+  class: adjective.ā-ō
+  root: { r_p: pi }
+  meanings: [respektvoll; fromm, pflichtbewusst, gerecht]
+  unit: 12
+  override: []
+  exclude:
+    - id: adjective.ā-ō.adverb.comparative
+    - id: adjective.ā-ō.adverb.superlative
+    - id: adjective.ā-ō.comparison.comparative
+    - id: adjective.ā-ō.comparison.superlative
+- word: lūmen
+  class: substantive.3-konsonant.n
+  root: { r: lūmin }
+  meanings: [das Licht, das Auge]
+  unit: 12
+  override: []
+  exclude: []
+- word: rēgīna
+  class: substantive.1-ā.f
+  root: { r: rēgīn }
+  meanings: [die Königin]
+  unit: 12
+  override: []
+  exclude: []
+- word: quantus
+  class: adjective.numeral
+  root: { r_p: quant }
+  meanings: [wie gross, wie viel]
+  unit: 12
+  override: []
+  exclude: []
+- word: patria
+  class: substantive.1-ā.f
+  root: { r: patri }
+  meanings: [das Vaterland, die Heimat]
+  unit: 12
+  override: []
+  exclude: []
+- word: dēsinere
+  class: verb.3-konsonant
+  root: { r_pres: dēsin, r_perf: dēsi }
+  meanings: [ablassen, aufhören]
+  unit: 12
+  override: []
+  exclude: []
+- word: et ... et ...
+  class: phrase
+  root: {}
+  meanings: [sowohl ... als auch ..., ... und ...]
+  unit: 12
+  override: []
+  exclude: ["*"]
+- word: fātum
+  class: substantive.2-ō.n
+  root: { r: fāt }
+  meanings: [der Götterspruch, das Schicksal]
+  unit: 12
+  override: []
+  exclude: []
+- word: pārentēs
+  class: substantive.4-ū.m
+  root: { r: pārent }
+  meanings: [die Eltern]
+  unit: 12
+  override:
+    - id: substantive.4-ū.m.declination
+      forms:
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "pārentēs"
+        - "pārentium"
+        - "pārenibus"
+        - "pārentēs"
+        - "pārentibus"
+  exclude: []
+- word: neglegere
+  class: verb.3-konsonant
+  root: { r_pres: negleg, r_perf: neglēx }
+  meanings: [nicht (be)achten, vernachlässigen]
+  unit: 12
+  override: []
+  exclude: []
+- word: errāre
+  class: verb.1-ā
+  root: { r_pres: err, r_perf: errāv }
+  meanings: [umherirren, irren/sich irren]
+  unit: 12
+  override: []
+  exclude: []
+- word: tūtus
+  class: adjective.ā-ō
+  root: { r_p: tūt, r_c: tūt, r_s: tūt }
+  meanings: [sicher]
+  unit: 12
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"

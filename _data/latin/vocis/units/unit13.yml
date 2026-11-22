@@ -1,0 +1,313 @@
+- word: orīgō
+  class: substantive.3-konsonant.f
+  root: { r: orīg }
+  meanings: [der Ursprung]
+  unit: 13
+  override: []
+  exclude: []
+- word: maximus
+  class: adjective.ā-ō
+  root: { r_s: maxim }
+  meanings:
+    [(Superlativ v. magnus), der grösste/am grössten, sehr gross/sehr bedeutend]
+  unit: 13
+  override: []
+  exclude: ["*"]
+- word: imperium
+  class: substantive.2-ō.n
+  root: { r: imperi }
+  meanings:
+    [der Befehl, der Oberbefehl/die Herrschaft, das Herrschaftsgebiet/das Reich]
+  unit: 13
+  override: []
+  exclude: []
+- word: prīncipium
+  class: substantive.2-ō.n
+  root: { r: prīncipi }
+  meanings: [der Anfang, die Grundlage]
+  unit: 13
+  override: []
+  exclude: []
+- word: ops
+  class: substantive.3-konsonant.f
+  root: { r: op }
+  meanings:
+    [Sg; die Hilfe, die Kraft, Pl; der Reichtum, die Macht, die Streitkräfte]
+  unit: 13
+  override: []
+  exclude: []
+- word: sīve
+  class: conjunction
+  root: {}
+  meanings: [oder]
+  unit: 13
+  override: []
+  exclude: ["*"]
+- word: sīve ... sīve ...
+  class: phrase
+  root: {}
+  meanings: [sei es dass ... oder dass ...]
+  unit: 13
+  override: []
+  exclude: ["*"]
+- word: auctor
+  class: substantive.3-konsonant.m
+  root: { r: auctō }
+  meanings:
+    [
+      der Urheben/der Anstiften,
+      der Anführer,
+      der Gründer/der Verfasser,
+      der Ratgeben,
+    ]
+  unit: 13
+  override: []
+  exclude: []
+- word: culpa
+  class: substantive.1-ā.f
+  root: { r: culp }
+  meanings: [die Schuld]
+  unit: 13
+  override: []
+  exclude: []
+- word: honestus
+  class: adjective.ā-ō
+  root: { r_p: honest, r_c: honest, r_s: honest }
+  meanings: [ehrenhaft, angesehen]
+  unit: 13
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: fluere
+  class: verb.3-konsonant
+  root: { r_pres: flu, r_perf: flūx }
+  meanings: [fliessen]
+  unit: 13
+  override: []
+  exclude: []
+- word: fāma
+  class: substantive.1-ā.f
+  root: { r: fām }
+  meanings:
+    [das Gerücht/die Sage/die Überlieferung, der (gute/schlechte) Ruf/der Ruhm]
+  unit: 13
+  override: []
+  exclude: []
+- word: locus
+  class: substantive.irregular.m
+  root: { r: loc }
+  meanings:
+    [Sg; der Ort/der Platz/die Stelle, Pl; die Orte/die Gegend/das Gelände]
+  unit: 13
+  override:
+    - id: substantive.irregular.m+f.declination
+      forms:
+        - locus
+        - locī
+        - locō
+        - locum
+        - locō
+        - loca
+        - locōrum
+        - locīs
+        - loca
+        - locīs
+  exclude: []
+- word: sitīre
+  class: verb.4-ī
+  root: { r_pres: sit, r_perf: sitīv }
+  meanings: [Durst haben]
+  unit: 13
+  override: []
+  exclude:
+    - id: verb.4-ī.indicative.passive
+    - id: verb.4-ī.imperative.passive
+    - id: verb.4-ī.subjonctive.passive
+- word: flēre
+  class: verb.2-ē
+  root: { r_pres: fl, r_perf: flēv }
+  meanings: [weinen, beweinen]
+  unit: 13
+  override: []
+  exclude:
+    - id: verb.2-ē.indicative.passive
+    - id: verb.2-ē.imperative.passive
+    - id: verb.2-ē.subjonctive.passive
+- word: alere
+  class: verb.3-konsonant
+  root: { r_pres: al, r_perf: alu }
+  meanings: [ernähren, grossziehen]
+  unit: 13
+  override: []
+  exclude: []
+- word: invenīre
+  class: verb.4-ī
+  root: { r_pres: inven, r_perf: invēn }
+  meanings: [finden, erfinden]
+  unit: 13
+  override: []
+  exclude: []
+- word: aliquandō
+  class: adverb.temporal
+  root: {}
+  meanings: [irgendwann, einst, einmal]
+  unit: 13
+  override: []
+  exclude: ["*"]
+- word: cupiditās
+  class: substantive.3-konsonant.f
+  root: { r: cupiditāt }
+  meanings: [die Begierge, der Trieb, die Leidenschaft]
+  unit: 13
+  override: []
+  exclude: []
+- word: autem
+  class: conjunction
+  root: {}
+  meanings: [(wird angehängt), jedoch, aber]
+  unit: 13
+  override: []
+  exclude: ["*"]
+- word: certāmen
+  class: substantive.3-konsonant.n
+  root: { r: certāmin }
+  meanings: [der Kampf, der Wettstreit]
+  unit: 13
+  override: []
+  exclude: []
+- word: quā dē causā
+  class: phrase
+  root: {}
+  meanings: [aus diesem Grund]
+  unit: 13
+  override: []
+  exclude: ["*"]
+- word: cōnsulere
+  class: verb.3-konsonant
+  root: { r_pres: cōnsul, r_perf: cōnsulu }
+  meanings:
+    [
+      (mit Akk) jdn um Rat fragen / befragen,
+      (intransiv oft mit dē + Abl) raten (über),
+      (mit Dat) für jdn sorgen,
+    ]
+  unit: 13
+  override: []
+  exclude: []
+- word: frāter
+  class: substantive.3-konsonant.m
+  root: { r: frātr }
+  meanings: [der Bruder]
+  unit: 13
+  override: []
+  exclude: []
+- word: sex
+  class: adjective.numeral
+  root: {}
+  meanings: [sechs, (undeklinierbar)]
+  unit: 13
+  override: []
+  exclude: ["*"]
+- word: numerus
+  class: substantive.2-ō.m
+  root: { r: numer }
+  meanings: [die Zahl, die Menge]
+  unit: 13
+  override: []
+  exclude: []
+- word: nōtus
+  class: adjective.ā-ō
+  root: { r_p: nōt, r_c: nōt, r_s: nōt }
+  meanings: [bekannt, berühmt]
+  unit: 13
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: rīdēre
+  class: verb.2-ē
+  root: { r_pres: rīd, r_perf: rīs }
+  meanings: [lachen, auslachen]
+  unit: 13
+  override: []
+  exclude: []
+- word: mūrus
+  class: substantive.2-ō.m
+  root: { r: mūr }
+  meanings: [die Mauer]
+  unit: 13
+  override: []
+  exclude: []
+- word: trāns
+  class: preposition
+  root: {}
+  meanings: [über ... hinaus, jenseits von]
+  unit: 13
+  override: []
+  exclude: ["*"]
+- word: igitur
+  class: conjunction
+  root: {}
+  meanings: [also, folglich]
+  unit: 13
+  override: []
+  exclude: ["*"]
+- word: appellāre
+  class: verb.1-ā
+  root: { r_pres: appell, r_perf: appellāv }
+  meanings: [anrufen, nennen]
+  unit: 13
+  override: []
+  exclude: []
+- word: sōlus
+  class: adjective.pronomial
+  root: { r_p: sōl }
+  meanings: [allein, als einziger /einzige /einziges]
+  unit: 13
+  override: []
+  exclude: []
+- word: metus
+  class: substantive.4-ū.m
+  root: { r: met }
+  meanings: [die Furcht]
+  unit: 13
+  override: []
+  exclude: []
+- word: dēlectāre
+  class: verb.1-ā
+  root: { r_pres: dēlect, r_perf: dēlectāv }
+  meanings: [erfreuen, Freude machen]
+  unit: 13
+  override: []
+  exclude: []
+- word: vīcīnus
+  class: adjective.ā-ō
+  root: { r_p: vīcīn, r_c: vīcīn, r_s: vīcīn }
+  meanings: [benachbart]
+  unit: 13
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: gaudium
+  class: substantive.2-ō.n
+  root: { r: gaudi }
+  meanings: [die Freude]
+  unit: 13
+  override: []
+  exclude: []
+- word: lūdus
+  class: substantive.2-ō.m
+  root: { r: lūd }
+  meanings: [das Spiel, das Pferderennen/der Gladiatorenkampf]
+  unit: 13
+  override: []
+  exclude: []
+- word: mēnsis
+  class: substantive.3-gemischt.m
+  root: { r: mēns }
+  meanings: [der Monat]
+  unit: 13
+  override: []
+  exclude: []
