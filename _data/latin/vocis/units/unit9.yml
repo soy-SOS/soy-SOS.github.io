@@ -230,3 +230,104 @@
   unit: 9
   override: []
   exclude: []
+- word: inquit
+  class: phrase
+  root: {}
+  meanings: [sagt er/sie/es, sagte er/sie/es, (direkte Rede)]
+  unit: 9
+  override: []
+  exclude: ["*"]
+- word: celer
+  class: adjective.3-3
+  root: { r_p: celer, r_c: celer, r_s: cel }
+  meanings: [schnell]
+  unit: 9
+  override: []
+  exclude: []
+  super_sign: "errim"
+  comp_sign: "iōr"
+- word: quī / quae / quod
+  class: pronoun.relative
+  root: {}
+  meanings: [der/die/das, welcher/welche/welches]
+  unit: 9
+  override: []
+  exclude: []
+- word: ibī
+  class: adverb.spatial
+  root: {}
+  meanings: [dort]
+  unit: 9
+  override: []
+  exclude: ["*"]
+- word: bene
+  class: adverb
+  root: {}
+  meanings: [gut (adverbisch)]
+  unit: 9
+  override: []
+  exclude: ["*"]
+- word: dexter
+  class: adjective.3-3
+  root: { r_p: dextr, r_c: dexter, r_s: dextum }
+  meanings: [rechts, glücklich]
+  unit: 9
+  override: []
+  exclude: []
+  super_sign: ""
+  comp_sign: "iōr"
+- word: inter
+  class: preposition.spatial
+  root: {}
+  meanings: [zwischen / unter, während]
+  unit: 9
+  override: []
+  exclude: ["*"]
+- word: fortis
+  class: adjective.3-2
+  root: { r_p: fort, r_c: fort, r_s: fort }
+  meanings: [tapfer, stark]
+  unit: 9
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: modo
+  class: adverb.quantity
+  root: {}
+  meanings: [nur]
+  unit: 9
+  override: []
+  exclude: ["*"]
+- word: modo
+  class: adverb.temporal
+  root: {}
+  meanings: [gerade eben (noch)]
+  unit: 9
+  override: []
+  exclude: ["*"]
+- word: modo... modo...
+  class: phrase
+  root: {}
+  meanings: [bald... bald..., mal... mal...]
+  unit: 9
+  override: []
+  exclude: ["*"]
+- word: nōn modo... sed etiam...
+  class: phrase
+  root: {}
+  meanings: [nicht nur... sondern auch...]
+  unit: 9
+  override: []
+  exclude: ["*"]
+- word: incrēdibilis
+  class: adjective.3-2
+  root: { r_p: incrēdibil }
+  meanings: [unglaublich]
+  unit: 9
+  override: []
+  exclude:
+    - id: adjective.3-2.comparison.comparative
+    - id: adjective.3-2.comparison.superlative
+    - id: adjective.3-2.adverb.comparative
+    - id: adjective.3-2.adverb.superlative

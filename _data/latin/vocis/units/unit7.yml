@@ -89,9 +89,9 @@
     - id: verb.irregular.subjunctive.active.imperfect
       forms: [abessem, abessēs, abesset, abessēmus, abessētis, abessent]
     - id: verb.irregular.subjunctive.active.perfect
-      forms: [āfuerim,āfueris,āfuerit,āfuerimus,āfueritis,āfuerint]
+      forms: [āfuerim, āfueris, āfuerit, āfuerimus, āfueritis, āfuerint]
     - id: verb.irregular.subjunctive.active.plusquamperfect
-      forms: [āfuissem,āfuissēs,āfuisset,āfuissēmus,āfuissētis,āfuissent]
+      forms: [āfuissem, āfuissēs, āfuisset, āfuissēmus, āfuissētis, āfuissent]
 
     - id: verb.irregular.infinitive.active.present
       forms: [abesse]
@@ -222,3 +222,103 @@
   unit: 7
   override: []
   exclude: []
+- word: mir
+  class: pronoun.personal
+  root: {}
+  meanings: [mir]
+  unit: 7
+  override: []
+  exclude: ["*"]
+- word: vīvus
+  class: adjective.ā-ō
+  root: { r_p: vīv }
+  meanings: [lebend, lebendig]
+  unit: 7
+  override: []
+  exclude:
+    - id: "adjective.ā-ō.adverb.comparative"
+    - id: "adjective.ā-ō.adverb.superlative"
+    - id: "adjective.ā-ō.comparison.comparative"
+    - id: "adjective.ā-ō.comparison.superlative"
+- word: praeceps
+  class: adjective.3-1
+  root: { r_p: praecipit }
+  meanings: [steil, kopfüber / schnell / überstürzt]
+  unit: 7
+  override: []
+  exclude:
+    - id: "adjective.3-1.adverb.comparative"
+    - id: "adjective.3-1.adverb.superlative"
+    - id: "adjective.3-1.comparison.comparative"
+    - id: "adjective.3-1.comparison.superlative"
+- word: nūdus
+  class: adjective.ā-ō
+  root: { r_p: nūd, r_c: nūd, r_s: nūd }
+  meanings: [nackt, unbedeckt]
+  unit: 7
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: vōbīs
+  class: pronoun.personal
+  root: {}
+  meanings: [euch]
+  unit: 7
+  override: []
+  exclude: ["*"]
+- word: necesse est
+  class: phrase
+  root: {}
+  meanings: [es ist nötig, man muss]
+  unit: 7
+  override: []
+  exclude: ["*"]
+- word: dōnec
+  class: conjunction
+  root: {}
+  meanings: [solange als, solange bis]
+  unit: 7
+  override: []
+  exclude: ["*"]
+- word: mortālis
+  class: adjective.3-2
+  root: { r_p: mortāl }
+  meanings: [sterblich]
+  unit: 7
+  override: []
+  exclude:
+    - id: "adjective.3-2.adverb"
+    - id: "adjective.3-2.comparison.comparative"
+    - id: "adjective.3-2.adverb.superlative"
+- word: immortālis
+  class: adjective.3-2
+  root: { r_p: immortāl }
+  meanings: [unsterblich]
+  unit: 7
+  override: []
+  exclude:
+    - id: "adjective.3-2.adverb"
+    - id: "adjective.3-2.comparison.comparative"
+    - id: "adjective.3-2.comparison.superlative"
+- word: oportet
+  class: phrase
+  root: {}
+  meanings: [es gehört sich, es ist nötig]
+  unit: 7
+  override: []
+  exclude: ["*"]
+- word: ita
+  class: adverb
+  root: {}
+  meanings: [so, ja / richtig (in einer Antwort)]
+  unit: 7
+  override: []
+  exclude: ["*"]
+- word: vix
+  class: adverb
+  root: {}
+  meanings: [kaum, mit Mphe]
+  unit: 7
+  override: []
+  exclude: ["*"]

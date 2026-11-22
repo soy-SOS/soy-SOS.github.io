@@ -4,7 +4,7 @@
       stem: "[r_p]"
       ends: [us, ī, ō, um, ō, ī, ōrum, īs, ōs, īs]
       forms: &f_stemend
-        - "[stem][end]"
+        - "[word]"
         - "[stem][end]"
         - "[stem][end]"
         - "[stem][end]"
@@ -268,3 +268,31 @@
       stem: "[r_s]"
       ends: [ē]
       forms: ["[stem][super_sign][end]"]
+- id: "adjective.pronomial"
+  inflections:
+    - id: "adjective.pronomial.comparison.positive.m"
+      stem: "[r_p]"
+      ends: [us, īus, ō, um, ō, ī, ōrum, īs, ōs, īs]
+      forms: *f_stemend
+    - id: "adjective.pronomial.comparison.positive.f"
+      stem: "[r_p]"
+      ends: [a, īus, ae, am, ā, ae, ārum, īs, ās, īs]
+      forms: *f_stemend
+    - id: "adjective.pronomial.comparison.positive.n"
+      stem: "[r_p]"
+      ends: [um, īus, ī, um, ō, a, ōrum, īs, a, īs]
+      forms: *f_stemend
+- id: "adjective.numeral"
+  inflections:
+    - id: "adjective.numeral.comparison.positive.m"
+      stem: "[r_p]"
+      ends: [us, ī, ī, um, ō, ī, ōrum, īs, ōs, īs]
+      forms: *f_stemend
+    - id: "adjective.numeral.comparison.positive.f"
+      stem: "[r_p]"
+      ends: [a, ae, ae, am, ā, ae, ārum, īs, ās, īs]
+      forms: *f_stemend
+    - id: "adjective.numeral.comparison.positive.n"
+      stem: "[r_p]"
+      ends: [um, īus, ī, um, ō, a, ōrum, īs, a, īs]
+      forms: *f_stemend

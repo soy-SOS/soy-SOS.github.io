@@ -17,27 +17,27 @@
   unit: 8
   override:
     - id: verb.irregular.indicative.active.present
-      forms: [eō,īs,it,īmus,ītis,eunt]
+      forms: [eō, īs, it, īmus, ītis, eunt]
     - id: verb.irregular.indicative.active.imperfect
-      forms: [ībam,ībās,ībat,ībāmus,ībātis,ībant]
+      forms: [ībam, ībās, ībat, ībāmus, ībātis, ībant]
     - id: verb.irregular.indicative.active.perfect
       forms: [iī, īstī, iit, iimus, īstis, iērunt]
     - id: verb.irregular.indicative.active.plusquamperfect
-      forms: [ieram,ierās,ierat,ierāmus,ierātis,ierant]
+      forms: [ieram, ierās, ierat, ierāmus, ierātis, ierant]
     - id: verb.irregular.indicative.active.futur1
-      forms: [ībō,ībis,ībit,ībimus,ībitis,ībunt]
+      forms: [ībō, ībis, ībit, ībimus, ībitis, ībunt]
     - id: verb.irregular.indicative.active.futur2
-      forms: [ierō,ieris,ierit,ierimus,ieritis,ierint]
+      forms: [ierō, ieris, ierit, ierimus, ieritis, ierint]
 
     - id: verb.irregular.subjunctive.active.present
-      forms: [eam,eās,eat,eāmus,eātis,eant]
+      forms: [eam, eās, eat, eāmus, eātis, eant]
     - id: verb.irregular.subjunctive.active.imperfect
-      forms: [īrem,īrēs,īret,īrēmus,īrētis,īrent]
+      forms: [īrem, īrēs, īret, īrēmus, īrētis, īrent]
     - id: verb.irregular.subjunctive.active.perfect
-      forms: [ierim,ieris,ierit,ierimus,ieritis,ierint]
+      forms: [ierim, ieris, ierit, ierimus, ieritis, ierint]
     - id: verb.irregular.subjunctive.active.plusquamperfect
-      forms: [īssem,īssēs,īsset,īssēmus,īssētis,īssent]
-    
+      forms: [īssem, īssēs, īsset, īssēmus, īssētis, īssent]
+
     - id: verb.irregular.infinitive.active.present
       forms: [īre]
     - id: verb.irregular.infinitive.active.perfect
@@ -57,34 +57,34 @@
   unit: 8
   override:
     - id: verb.irregular.indicative.active.present
-      forms: [ineō,inīs,init,inīmus,inītis,ineunt]
+      forms: [ineō, inīs, init, inīmus, inītis, ineunt]
     - id: verb.irregular.indicative.active.imperfect
-      forms: [inībam,inībās,inībat,inībāmus,inībātis,inībant]
+      forms: [inībam, inībās, inībat, inībāmus, inībātis, inībant]
     - id: verb.irregular.indicative.active.perfect
-      forms: [iniī,inīstī,iniit,iniimus,inīstis,iniērunt]
+      forms: [iniī, inīstī, iniit, iniimus, inīstis, iniērunt]
     - id: verb.irregular.indicative.active.plusquamperfect
-      forms: [inieram,inierās,inierat,inierāmus,inierātis,inierant]
+      forms: [inieram, inierās, inierat, inierāmus, inierātis, inierant]
     - id: verb.irregular.indicative.active.futur1
-      forms: [inībō,inībis,inībit,inībimus,inībitis,inībunt]
+      forms: [inībō, inībis, inībit, inībimus, inībitis, inībunt]
     - id: verb.irregular.indicative.active.futur2
-      forms: [inierō,inieris,inierit,inierimus,inieritis,inierint]
+      forms: [inierō, inieris, inierit, inierimus, inieritis, inierint]
 
     - id: verb.irregular.subjunctive.active.present
-      forms: [ineam,ineās,ineat,ineāmus,ineātis,ineant]
+      forms: [ineam, ineās, ineat, ineāmus, ineātis, ineant]
     - id: verb.irregular.subjunctive.active.imperfect
-      forms: [inīrem,inīrēs,inīret,inīrēmus,inīrētis,inīrent]
+      forms: [inīrem, inīrēs, inīret, inīrēmus, inīrētis, inīrent]
     - id: verb.irregular.subjunctive.active.perfect
-      forms: [inierim,inieris,inierit,inierimus,inieritis,inierint]
+      forms: [inierim, inieris, inierit, inierimus, inieritis, inierint]
     - id: verb.irregular.subjunctive.active.plusquamperfect
-      forms: [inīssem,inīssēs,inīsset,inīssēmus,inīssētis,inīssent]
-    
+      forms: [inīssem, inīssēs, inīsset, inīssēmus, inīssētis, inīssent]
+
     - id: verb.irregular.infinitive.active.present
       forms: [inīre]
     - id: verb.irregular.infinitive.active.perfect
       forms: [inisse]
 
     - id: verb.irregular.imperative.active.present
-      forms: [inī,inīte]
+      forms: [inī, inīte]
   exclude:
     - id: verb.irregular.infinitive.passive.*
     - id: verb.irregular.indicative.passive.*
@@ -98,34 +98,34 @@
   unit: 8
   override:
     - id: verb.irregular.indicative.active.present
-      forms: [abeō,abīs,abit,abīmus,abītis,abeunt]
+      forms: [abeō, abīs, abit, abīmus, abītis, abeunt]
     - id: verb.irregular.indicative.active.imperfect
-      forms: [abībam,abībās,abībat,abībāmus,abībātis,abībant]
+      forms: [abībam, abībās, abībat, abībāmus, abībātis, abībant]
     - id: verb.irregular.indicative.active.perfect
-      forms: [abiī,abīstī,abiit,abiimus,abīstis,abiērunt]
+      forms: [abiī, abīstī, abiit, abiimus, abīstis, abiērunt]
     - id: verb.irregular.indicative.active.plusquamperfect
-      forms: [abieram,abierās,abierat,abierāmus,abierātis,abierant]
+      forms: [abieram, abierās, abierat, abierāmus, abierātis, abierant]
     - id: verb.irregular.indicative.active.futur1
-      forms: [abībō,abībis,abībit,abībimus,abībitis,abībunt]
+      forms: [abībō, abībis, abībit, abībimus, abībitis, abībunt]
     - id: verb.irregular.indicative.active.futur2
-      forms: [abierō,abieris,abierit,abierimus,abieritis,abierint]
+      forms: [abierō, abieris, abierit, abierimus, abieritis, abierint]
 
     - id: verb.irregular.subjunctive.active.present
-      forms: [abeam,abeās,abeat,abeāmus,abeātis,abeant]
+      forms: [abeam, abeās, abeat, abeāmus, abeātis, abeant]
     - id: verb.irregular.subjunctive.active.imperfect
-      forms: [abīrem,abīrēs,abīret,abīrēmus,abīrētis,abīrent]
+      forms: [abīrem, abīrēs, abīret, abīrēmus, abīrētis, abīrent]
     - id: verb.irregular.subjunctive.active.perfect
-      forms: [abierim,abieris,abierit,abierimus,abieritis,abierint]
+      forms: [abierim, abieris, abierit, abierimus, abieritis, abierint]
     - id: verb.irregular.subjunctive.active.plusquamperfect
-      forms: [abīssem,abīssēs,abīsset,abīssēmus,abīssētis,abīssent]
-    
+      forms: [abīssem, abīssēs, abīsset, abīssēmus, abīssētis, abīssent]
+
     - id: verb.irregular.infinitive.active.present
       forms: [abīre]
     - id: verb.irregular.infinitive.active.perfect
       forms: [abisse]
 
     - id: verb.irregular.imperative.active.present
-      forms: [abī,abīte]
+      forms: [abī, abīte]
   exclude:
     - id: verb.irregular.infinitive.passive.*
     - id: verb.irregular.indicative.passive.*
@@ -256,3 +256,95 @@
   unit: 8
   override: []
   exclude: []
+- word: clam
+  class: adverb
+  root: {}
+  meanings: [heimlich]
+  unit: 8
+  override: []
+  exclude: ["*"]
+- word: prope
+  class: preposition.spatial
+  root: {}
+  meanings: [in der Nähe (von), nahe bei]
+  unit: 8
+  override: []
+  exclude: ["*"]
+- word: quasi
+  class: adverb.causal
+  root: {}
+  meanings: [sozusagen, gleichsam]
+  unit: 8
+  override: []
+  exclude: ["*"]
+- word: quasi
+  class: conjunction
+  root: {}
+  meanings: [wie wenn, als ob]
+  unit: 8
+  override: []
+  exclude: ["*"]
+- word: is / ea / id
+  class: pronoun.personal.person-3
+  root: { r_p, r_c, r_s }
+  meanings: [der / die / das]
+  unit: 8
+  override: []
+  exclude: []
+- word: is / ea / id
+  class: pronoun.demonstrative.person-3.is
+  root: {}
+  meanings: [dieser / diese / dieses]
+  unit: 8
+  override: []
+  exclude: []
+- word: īrātus
+  class: adjective.ā-ō
+  root: { r_p: īrāt, r_c: īrāt, r_s: īrāt }
+  meanings: [zornig]
+  unit: 8
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: medius
+  class: adjective.ā-ō
+  root: { r_p: medi }
+  meanings: [der mittlere / Mittel-, in der Mitte von]
+  unit: 8
+  override: []
+  exclude:
+    - id: adjective.ā-ō.comparison.comparative
+    - id: adjective.ā-ō.comparison.superlative
+    - id: adjective.ā-ō.adverb.comparative
+    - id: adjective.ā-ō.adverb.superlative
+- word: miser
+  class: adjective.ā-ō
+  root: { r_p: miser, r_c: miser, r_s: mis }
+  meanings: [bedauernswert, arm, unglücklich, (Subst.= der Arme)]
+  unit: 8
+  override: []
+  exclude: []
+  super_sign: "errim"
+  comp_sign: "iōr"
+- word: frūstrā
+  class: adverb
+  root: {}
+  meanings: [vergeblich]
+  unit: 8
+  override: []
+  exclude: ["*"]
+- word: nūllus
+  class: adjective.pronomial
+  root: { r_p: nūll }
+  meanings: [keiner / keine / kein]
+  unit: 8
+  override: []
+  exclude: []
+- word: cōnstat
+  class: phrase
+  root: {}
+  meanings: [es steht fest, es ist bekannt]
+  unit: 8
+  override: []
+  exclude: ["*"]

@@ -227,3 +227,90 @@
   unit: 5
   override: []
   exclude: []
+- word: prae
+  class: preposition.spatial
+  root: {}
+  meanings: [vor (beim Abl)]
+  unit: 5
+  override: []
+  exclude: ["*"]
+- word: reliquus
+  class: adjective.ā-ō
+  root: { r_p: reliqu }
+  meanings: [übrig, künftig]
+  unit: 5
+  override: []
+  exclude:
+    - id: adjective.ā-ō.comparison.comparative
+    - id: adjective.ā-ō.comparison.superlative
+    - id: adjective.ā-ō.adverb.comparative
+    - id: adjective.ā-ō.adverb.superlative
+- word: noster
+  class: pronoun.possessive
+  root: {}
+  meanings: [unser / unsere / unser]
+  unit: 5
+  override: []
+  exclude: []
+- word: ex / ē
+  class: preposition
+  root: {}
+  meanings: [aus ... heraus, von ... her (Abl. Sep)]
+  unit: 5
+  override: []
+  exclude: ["*"]
+- word: summus
+  class: adjective.ā-ō
+  root: { r_p: summ, r_c: summ }
+  meanings: [der oberste, der höchste, der letzte]
+  unit: 5
+  override: []
+  exclude:
+    - id: adjective.ā-ō.comparison.superlative
+    - id: adjective.ā-ō.adverb.superlative
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: gravis
+  class: adjective.3-2
+  root: { r_p: grav, r_c: grav, r_s: grav }
+  meanings: [schwer, gewichtig / ernst]
+  unit: 5
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: ubī
+  class: conjunction
+  root: {}
+  meanings: [sobald / als (Subj. mit Ind. Perf)]
+  unit: 5
+  override: []
+  exclude: ["*"]
+- word: atque / ac
+  class: conjunction
+  root: {}
+  meanings: [und]
+  unit: 5
+  override: []
+  exclude: ["*"]
+- word: nōbīs
+  class: pronoun.personal
+  root: {}
+  meanings: [uns]
+  unit: 5
+  override: []
+  exclude: ["*"]
+- word: tum
+  class: adverb.temporal
+  root: {}
+  meanings: [dann / darauf, damals]
+  unit: 5
+  override: []
+  exclude: ["*"]
+- word: nisī
+  class: conjunction
+  root: {}
+  meanings: [wenn nicht / falls nicht, ausser (nach Verneinung)]
+  unit: 5
+  override: []
+  exclude: ["*"]

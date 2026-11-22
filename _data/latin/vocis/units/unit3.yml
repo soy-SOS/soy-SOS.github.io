@@ -166,3 +166,137 @@
   unit: 3
   override: []
   exclude: []
+- word: Rōmānus
+  class: substantive.2-ō.m
+  root: { r: Rōmān }
+  meanings: [der Römer]
+  unit: 3
+  override: []
+  exclude: []
+- word: Rōmānus
+  class: adjective.ā-ō
+  root: { r_c: Rōmān, r_p: Rōmān, r_s: Rōmān }
+  meanings: [römisch]
+  unit: 3
+  override: []
+  exclude: []
+  super_sign: "iōr"
+  comp_sign: "issim"
+- word: undique
+  class: adverb.movement
+  root: {}
+  meanings: [von allen Setien, auf allen Seiten, ringsum]
+  unit: 3
+  override: []
+  exclude: ["*"]
+- word: varius
+  class: adjective.ā-ō
+  root: { r_p: vari, r_c: vari, r_s: vari }
+  meanings: [verschieden, bunt, vielfältig]
+  unit: 3
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: sē
+  class: pronoun.reflexive
+  root: {}
+  meanings: [sich]
+  unit: 3
+  override: []
+  exclude: ["*"]
+- word: numquam
+  class: adverb.temporal
+  root: {}
+  meanings: [nie, niemals]
+  unit: 3
+  override: []
+  exclude: ["*"]
+- word: magnus
+  class: adjective.ā-ō
+  root: { r_p: magn, r_c: magn, r_s: magn }
+  meanings: [gross, bedeutend]
+  unit: 3
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: tacitus
+  class: adjective.ā-ō
+  root: { r_p: tacit, r_c: tacit, r_s: tacit }
+  meanings: [lautlos, still, verschwiegen]
+  unit: 3
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: optimus
+  class: adjective.ā-ō
+  root: {}
+  meanings: [der beste, sehr gut]
+  unit: 3
+  override: []
+  exclude: ["*"]
+- word: tibī
+  class: pronoun.personal
+  root: {}
+  meanings: [dir]
+  unit: 3
+  override: []
+  exclude: ["*"]
+- word: duo
+  class: numeral
+  root: {}
+  meanings: [zwei]
+  unit: 3
+  override: []
+  exclude: []
+- word: pulcher
+  class: adjective.ā-ō
+  root: { r_p: pulchr, r_c: pulchr, r_s: puulchr }
+  meanings: [schön]
+  unit: 3
+  override: []
+  exclude: []
+  super_sign: "errim"
+  comp_sign: "iōr"
+- word: subitō
+  class: adverb.temporal
+  root: {}
+  meanings: [plötzlich]
+  unit: 3
+  override: []
+  exclude: ["*"]
+- word: necessārius
+  class: adjective.ā-ō
+  root: { r_p: necessāri, r_c: necessāri, r_s: necessāri }
+  meanings: [notwendig, nahestehend, verwandt]
+  unit: 3
+  override: []
+  exclude:
+    - id: adjective.ā-ō.comparison.comparative
+    - id: adjective.ā-ō.comparison.superlative
+    - id: adjective.ā-ō.adverb.comparative
+    - id: adjective.ā-ō.adverb.superlative
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: contentus
+  class: adjective.ā-ō
+  root: { r_p: conetnt, r_c: content, r_s: content }
+  meanings: [zufrieden]
+  unit: 3
+  override: []
+  exclude:
+    - id: "adjective.ā-ō.comparison.comparative"
+    - id: "adjective.ā-ō.comparison.superlative"
+    - id: "adjective.ā-ō.adverb.comparative"
+    - id: "adjective.ā-ō.adverb.superlative"
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: domus
+  class: substantive.ā-ō
+  root: { r: dom }
+  meanings: [das Haus, der Haushalt, das Heim]
+  unit: 3
+  override: []
+  exclude: []

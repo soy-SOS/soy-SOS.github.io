@@ -234,3 +234,161 @@
   unit: 4
   override: []
   exclude: []
+
+- word: hūmānus
+  class: adjective.ā-ō
+  root: { r_p: hūmān, r_c: hūmān, r_s: hūmān }
+  meanings: [menschlich, gebildet]
+  unit: 4
+  override:
+    - id: "adjective.ā-ō.adverb.positive"
+      forms: [hūmāniter]
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: iuevenis
+  class: adjective.3-1
+  root: { r_p: iuven, r_c: iuven, r_s: iuven }
+  meanings: [jung]
+  unit: 4
+  override:
+    - id: "adjective.3-1.adverb.comparative"
+      forms: [iunius]
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: dīves
+  class: adjective.3-1
+  root: { r_p: dīvit, r_c: dīvit, r_s: dīvit }
+  meanings: [reich, prächtig]
+  unit: 4
+  override: []
+  exclude:
+    - id: "adjective.3-1.comparison.positive.m"
+      forms:
+        &dives_positive_mf [
+          dīves,
+          dīvitis,
+          dīvitī,
+          dīvitem,
+          dīvitē,
+          dīvitēs,
+          dīvitum,
+          dīvitibus,
+          dīvitēs,
+          dīvitibus,
+        ]
+    - id: "adjective.3-1.comparison.positive.f"
+      forms: *dives_positive_mf
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: pauper
+  class: adjective.3-1
+  root: { r_p: pauper, r_c: pauper, r_s: pauper }
+  meanings: [arm]
+  unit: 4
+  override:
+    - id: adjective.3-1.comparison.positive.m
+      forms:
+        &pauper_positive_mf [
+          pauper,
+          pauperis,
+          pauperī,
+          pauperem,
+          pauperē,
+          pauperēs,
+          pauperum,
+          pauperibus,
+          pauperēs,
+          pauperibus,
+        ]
+    - id: adjective.3-1.comparison.positive.f
+      forms: *pauper_positive_mf
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: ingēns
+  class: adjective.3-1
+  root: { r_p: ingēnt, r_c: ingēnt, r_s: ingēnt }
+  meanings: [ungeheuer, riesig]
+  unit: 4
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: cūr?
+  class: adverb.causal
+  root: {}
+  meanings: [warum?]
+  unit: 4
+  override: []
+  exclude: ["*"]
+- word: tam
+  class: adverb
+  root: {}
+  meanings: [so]
+  unit: 4
+  override: []
+  exclude: ["*"]
+- word: mortuus
+  class: adjective.ā-ō
+  root: { r_p: mortu }
+  meanings: [tot]
+  unit: 4
+  override: []
+  exclude:
+    - id: "adjective.ā-ō.comparison.comparative"
+    - id: "adjective.ā-ō.comparison.superlative"
+    - id: "adjective.ā-ō.adverb.comparative"
+    - id: "adjective.ā-ō.adverb.superlative"
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: ācer
+  class: adjective.3-3
+  root: { r_p: ācr, r_c: ācr, r_s: āc }
+  meanings: [scharf, schmerzlich, heftig, energisch]
+  unit: 4
+  override: []
+  exclude: []
+  super_sign: "errim"
+  comp_sign: "iōr"
+- word: ūnus
+  class: adjective.pronomial
+  root: { r_p: ūn }
+  meanings: [einer / eine / ein]
+  unit: 4
+  override: []
+  exclude: []
+- word: nōn iam
+  class: phrase
+  root: {}
+  meanings: [nicht mehr]
+  unit: 4
+  override: []
+  exclude: ["*"]
+- word: tōtus
+  class: adjective.pronomial
+  root: { r_p: tōt }
+  meanings: [ganz]
+  unit: 4
+  override: []
+  exclude: []
+- word: omnis
+  class: adjective.3-2
+  root: { r_p: omn }
+  meanings: [ganz, jeder (im Pl. alle)]
+  unit: 4
+  override: []
+  exclude:
+    - id: adjective.3-2.adverb
+    - id: adjective.3-2.comparison.comparative
+    - id: adjective.3-2.comparison.superlative
+- word: laetus
+  class: adjective.ā-ō
+  root: { r_p: laet, r_c: laet, r_s: laet }
+  meanings: [froh, fröhlich, fruchtbar]
+  unit: 4
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"

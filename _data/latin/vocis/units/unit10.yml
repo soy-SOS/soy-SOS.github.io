@@ -141,3 +141,237 @@
   unit: 10
   override: []
   exclude: []
+- word: longus
+  class: adjective.ā-ō
+  root: { r_p: long, r_c: long, r_s: long }
+  meanings: [lang, weit]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: certus
+  class: adjective.ā-ō
+  root: { r_p: cert, r_c: cert, r_s: cert }
+  meanings: [sicher, gewiss]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: licet
+  class: phrase
+  root: {}
+  meanings: [es ist erlaubt, es ist möglich]
+  unit: 10
+  override: []
+  exclude: ["*"]
+- word: īgnōtus
+  class: adjective.ā-ō
+  root: { r_p: īgnōt, r_c: īgnōt, r_s: īgnōt }
+  meanings: [unbekannt]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: novus
+  class: adjective.ā-ō
+  root: { r_p: nov, r_c: nov, r_s: nov }
+  meanings: [neu]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: minimus
+  class: adjective.ā-ō
+  root: {}
+  meanings: [der kleinste, sehr klein]
+  unit: 10
+  override: []
+  exclude: ["*"]
+- word: post
+  class: adverb.spatial
+  root: {}
+  meanings: [nach (räumlich)]
+  unit: 10
+  override: []
+  exclude: ["*"]
+- word: post
+  class: adverb.temporal
+  root: {}
+  meanings: [danach, später]
+  unit: 10
+  override: []
+  exclude: ["*"]
+- word: post
+  class: preposition.spatial
+  root: {}
+  meanings: [nach, hinter]
+  unit: 10
+  override: []
+  exclude: ["*"]
+- word: brevis
+  class: adjective.3-2
+  root: { r_p: brev, r_c: brev, r_s: brev }
+  meanings: [kurz]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: ulter
+  class: adjective.ā-ō
+  root: { r_p: ultr, r_c: ulter, r_s: ultim }
+  meanings:
+    [
+      jenseits,
+      entfernt,
+      aussen,
+      (Superl. der äusserste,
+      der letzte,
+      der entfernteste),
+    ]
+  unit: 10
+  override:
+    - id: adjective.ā-ō.adverb.positive
+      forms: ["ultra"]
+    - id: adjective.ā-ō.adverb.superlative
+      forms: ["ultimum"]
+  exclude: []
+  super_sign: ""
+  comp_sign: "iōr"
+- word: quia
+  class: conjunction
+  root: {}
+  meanings: [da, weil]
+  unit: 10
+  override: []
+  exclude: ["*"]
+- word: futūrus
+  class: adjective.ā-ō
+  root: { r_p: futūr }
+  meanings: [zukünftig]
+  unit: 10
+  override: []
+  exclude:
+    - id: adjective.ā-ō.comparison.comparative
+    - id: adjective.ā-ō.comparison.superlative
+    - id: adjective.ā-ō.adverb.comparative
+    - id: adjective.ā-ō.adverb.superlative
+- word: levis
+  class: adjective.3-2
+  root: { r_p: lev, r_c: lev, r_s: lev }
+  meanings: [leicht, leichtsinnig]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: facilis
+  class: adjective.3-2
+  root: { r_p: facil, r_c: facil, r_s: fac }
+  meanings: [leicht (zu tun)]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "illim"
+  comp_sign: "iōr"
+- word: mollis
+  class: adjective.ā-ō
+  root: { r_p: moll, r_c: moll, r_s: moll }
+  meanings: [weich / sanft / angenehm, freundlich]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: postquam
+  class: conjunction
+  root: {}
+  meanings: [nachdem (meist mit Indik. Plusq.)]
+  unit: 10
+  override: []
+  exclude: ["*"]
+- word: cārus
+  class: adjective.ā-ō
+  root: { r_p: cār, r_c: cār, r_s: cār }
+  meanings: [lieb, teuer]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: altus
+  class: adjective.ā-ō
+  root: { r_p: alt, r_c: alt, r_s: alt }
+  meanings: [hoch, tief]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: quam
+  class: adverb.question
+  root: {}
+  meanings: [wie, als (nach Vergleich)]
+  unit: 10
+  override: []
+  exclude: ["*"]
+- word: fēlix
+  class: adjective.3-1
+  root: { r_p: fēlīc, r_c: fēlīc, r_s: fēlīc }
+  meanings: [glücklich / erfolgreich, Glück bringend]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: infēlix
+  class: adjective.3-1
+  root: { r_p: infēlīc, r_c: infēlīc, r_s: infēlīc }
+  meanings: [unglücklich, Unglück bringend / unheilvoll]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: beātus
+  class: adjective.ā-ō
+  root: { r_p: beāt, r_c: beāt, r_s: beāt }
+  meanings: [glücklich, reich]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: antīquus
+  class: adjective.ā-ō
+  root: { r_p: antīqu, r_c: antīqu, r_s: antīqu }
+  meanings: [alt/antik, altertümlich]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: sacer
+  class: adjective.3-3
+  root: { r_p: sacr, r_c: sacr, r_s: sac }
+  meanings: [heilig/geweiht, unantastbar]
+  unit: 10
+  override: []
+  exclude: []
+  super_sign: "errim"
+  comp_sign: "iōr"
+- word: memor
+  class: adjective.3-1
+  root: { r_p: memor }
+  meanings: [eingedenk, in Erinnerung (an)]
+  unit: 10
+  override: []
+  exclude:
+    - id: adjective.3-1.adverb.comparative
+    - id: adjective.3-1.adverb.superlative
+    - id: adjective.3-1.comparison.comparative
+    - id: adjective.3-1.comparison.superlative

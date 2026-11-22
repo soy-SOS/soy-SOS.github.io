@@ -43,19 +43,20 @@
     - id: verb.irregular.indicative.active.plusquamperfect
       forms: [dēfueram, dēfuerās, dēfuerat, dēfuerāmus, dēfuerātis, dēfuerant]
     - id: verb.irregular.indicative.active.futur1
-      forms: [dēerō,dēeris,dēerit,dēerimus,dēeritis,dēerunt]
+      forms: [dēerō, dēeris, dēerit, dēerimus, dēeritis, dēerunt]
     - id: verb.irregular.indicative.active.futur2
-      forms: [dēfuerō,dēfueris,dēfuerit,dēfuerimus,dēfueritis,dēfuerint]
+      forms: [dēfuerō, dēfueris, dēfuerit, dēfuerimus, dēfueritis, dēfuerint]
 
     - id: verb.irregular.subjunctive.active.present
-      forms: [dēsim,dēsīs,dēsit,dēsīmus,dēsītis,dēsint]
+      forms: [dēsim, dēsīs, dēsit, dēsīmus, dēsītis, dēsint]
     - id: verb.irregular.subjunctive.active.imperfect
-      forms: [dēessem,dēessēs,dēesset,dēessēmus,dēessētis,dēessent]
+      forms: [dēessem, dēessēs, dēesset, dēessēmus, dēessētis, dēessent]
     - id: verb.irregular.subjunctive.active.perfect
-      forms: [dēfuerim,dēfueris,dēfuerit,dēfuerimus,dēfueritis,dēfuerint]
+      forms: [dēfuerim, dēfueris, dēfuerit, dēfuerimus, dēfueritis, dēfuerint]
     - id: verb.irregular.subjunctive.active.plusquamperfect
-      forms: [dēfuissem,dēfuissēs,dēfuisset,dēfuissēmus,dēfuissētis,dēfuissent]
-    
+      forms:
+        [dēfuissem, dēfuissēs, dēfuisset, dēfuissēmus, dēfuissētis, dēfuissent]
+
     - id: verb.irregular.infinitive.active.present
       forms: [dēesse]
     - id: verb.irregular.infinitive.active.perfect
@@ -160,6 +161,88 @@
   class: substantive.3-konsonant.f
   root: { r: pāc }
   meanings: [der Frieden]
+  unit: 6
+  override: []
+  exclude: []
+- word: tamen
+  class: adverb.causal
+  root: {}
+  meanings: [dennoch, trotzdem]
+  unit: 6
+  override: []
+  exclude: ["*"]
+- word: quod
+  class: conjunction
+  root: {}
+  meanings: [da, weil]
+  unit: 6
+  override: []
+  exclude: ["*"]
+- word: suus
+  class: pronoun.reflexive
+  root: {}
+  meanings: [sein / ihr / sein]
+  unit: 6
+  override: []
+  exclude: ["*"]
+- word: vērō
+  class: conjunction
+  root: {}
+  meanings: [in der Tat / wirklich, aber]
+  unit: 6
+  override: []
+  exclude: ["*"]
+- word: singulus
+  class: adjective.ā-ō
+  root: { r_p: singul }
+  meanings: [je ein, jeder einzelne, einzeln]
+  unit: 6
+  override: []
+  exclude:
+    - id: adjective.ā-ō.adverb
+    - id: adjective.ā-ō.comparison.comparative
+    - id: adjective.ā-ō.comparison.superlative
+- word: paucus
+  class: adjective.ā-ō
+  root: { r_p: pauc, r_c: pauc, r_s: pauc }
+  meanings: [wenig, gering]
+  unit: 6
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: circum
+  class: preposition.spatial
+  root: {}
+  meanings: [um ... herum, rings um]
+  unit: 6
+  override: []
+  exclude: ["*"]
+- word: simulac / simulatque
+  class: conjunction
+  root: {}
+  meanings: [sobald]
+  unit: 6
+  override: []
+  exclude: ["*"]
+- word: -que
+  class: conjunction
+  root: {}
+  meanings: [und (angehängt)]
+  unit: 6
+  override: []
+  exclude: ["*"]
+- word: statim
+  class: adverb.temporal
+  root: {}
+  meanings: [sofort, auf der Stelle]
+  unit: 6
+  override: []
+  exclude: ["*"]
+- word: nōnus
+  class: adjective.numeral
+  root: { r_p: nōn }
+  meanings: [der neunte / die neunte / das neunte]
   unit: 6
   override: []
   exclude: []
