@@ -263,6 +263,9 @@ function randInt(max) {
   return Math.floor(Math.random() * max);
 }
 
+// 
+// Verbs
+// 
 const ui_modi = new Map(Object.entries({ subjunctive: "Konjunktiv", indicative: "Indikativ", imperative: "Imperativ" }));
 const ui_tempora = new Map(Object.entries({ present: "Präsens", imperfect: "Imperfekt", perfect: "Perfekt", plusquamperfect: "Plusquamp.", futur1: "Futur 1", futur2: "Futur 2" }));
 const ui_voices = new Map(Object.entries({ active: "Aktiv", passive: "Passiv" }));
