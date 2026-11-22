@@ -1,0 +1,425 @@
+- word: dīvīnus
+  class: adjective.ā-ō
+  root: { r_p: dīvīn, r_c: dīvīn, r_s: dīvīn }
+  meanings: [göttlich]
+  unit: 11
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: aedificāre
+  class: verb.1-ā
+  root: { r_pres: aedific, r_perf: aedificāv }
+  meanings: [bauen]
+  unit: 11
+  override: []
+  exclude: []
+- word: vōtum
+  class: substantive.2-ō.n
+  root: { r: vōt }
+  meanings: [der Wunsch, das Gebet/das Gelübde]
+  unit: 11
+  override: []
+  exclude: []
+- word: prō
+  class: preposition
+  root: {}
+  meanings: [vor, für, anstelle von, entsprechend/im Verhältnis zu]
+  unit: 11
+  override: []
+  exclude: []
+- word: redīre
+  class: verb.irregular
+  root: {}
+  meanings: [zurückkehren, zurückgehen]
+  unit: 11
+  override:
+    - id: verb.irregular.indicative.active.present
+      forms: [redeō, redīs, redit, redīmus, redītis, redeunt]
+    - id: verb.irregular.indicative.active.imperfect
+      forms: [redībam, redībās, redībat, redībāmus, redībātis, redībant]
+    - id: verb.irregular.indicative.active.perfect
+      forms: [rediī, redīstī, rediit, rediimus, redīstis, rediērunt]
+    - id: verb.irregular.indicative.active.plusquamperfect
+      forms: [redieram, redierās, redierat, redierāmus, redierātis, redierant]
+    - id: verb.irregular.indicative.active.futur1
+      forms: [redībō, redībis, redībit, redībimus, redībitis, redībunt]
+    - id: verb.irregular.indicative.active.futur2
+      forms: [redierō, redieris, redierit, redierimus, redieritis, redierint]
+
+    - id: verb.irregular.subjunctive.active.present
+      forms: [redeam, redeās, redeat, redeāmus, redeātis, redeant]
+    - id: verb.irregular.subjunctive.active.imperfect
+      forms: [redīrem, redīrēs, redīret, redīrēmus, redīrētis, redīrent]
+    - id: verb.irregular.subjunctive.active.perfect
+      forms: [redierim, redieris, redierit, redierimus, redieritis, redierint]
+    - id: verb.irregular.subjunctive.active.plusquamperfect
+      forms: [redīssem, redīssēs, redīsset, redīssēmus, redīssētis, redīssent]
+
+    - id: verb.irregular.infinitive.active.present
+      forms: [redīre]
+    - id: verb.irregular.infinitive.active.perfect
+      forms: [redisse]
+
+    - id: verb.irregular.imperative.active.present
+      forms: [redī, redīte]
+  exclude:
+    - id: verb.irregular.infinitive.passive.*
+    - id: verb.irregular.indicative.passive.*
+    - id: verb.irregular.imperative.passive.*
+    - id: verb.irregular.subjunctive.passive.*
+- word: crēdere
+  class: verb.3-konsonant
+  root: { r_pres: crēd, r_perf: crēdid }
+  meanings: [glauben, anvertrauen]
+  unit: 11
+  override: []
+  exclude: []
+- word: ventus
+  class: substantive.2-ō.m
+  root: { r: vent }
+  meanings: [der Wind]
+  unit: 11
+  override: []
+  exclude: []
+- word: ut
+  class: conjunction
+  root: {}
+  meanings: [(mit Konjunktiv), dass, damit / um zu, (so) dass]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: nē
+  class: conjunction
+  root: {}
+  meanings:
+    [
+      (mit Konjunktiv),
+      dass nicht,
+      damit nicht,
+      (nach Ausdruck des Fürchtens) dass,
+    ]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: trīstitia
+  class: substantive.1-ā.f
+  root: { r: trīstiti }
+  meanings: [die Trauer, die Traurigkeit]
+  unit: 11
+  override: []
+  exclude: []
+- word: solvere
+  class: verb.3-konsonant
+  root: { r_pres: solv, r_perf: solv }
+  meanings: [(auf)lösen, einlösen/bezahlen]
+  unit: 11
+  override: []
+  exclude: []
+- word: porta
+  class: substantive.1-ā.f
+  root: { r: port }
+  meanings: [das Tor, die Tür]
+  unit: 11
+  override: []
+  exclude: []
+- word: (ad)iuvāre
+  class: verb.1-ā
+  root: { r_pres: (ad)iuv, r_perf: (ad)iūv }
+  meanings: [jdn unterstützen, jdm helfen]
+  unit: 11
+  override: []
+  exclude: []
+- word: iuvat
+  class: phrase
+  root: {}
+  meanings: [es macht Freude]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: castra
+  class: substantive.2-ō.n
+  root: { r: castr }
+  meanings: [das Lager]
+  unit: 11
+  override:
+    - id: substantive.2-ō.n.declination
+      forms:
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "castra"
+        - "castrōrum"
+        - "castrīs"
+        - "castra"
+        - "castrīs"
+  exclude: []
+- word: dōnum
+  class: substantive.2-ō.n
+  root: { r: dōn }
+  meanings: [das Geschenk]
+  unit: 11
+  override: []
+  exclude: []
+- word: prīmus
+  class: adjective.3-2
+  root: { r_s: prim }
+  meanings: [(Superl. zu prior), der erste, der wichtigste]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: prior
+  class: adjective.3-2
+  root: { r_c: pri, r_s: prīm }
+  meanings: [vorderer, früher, eher]
+  unit: 11
+  override:
+    - id: adjective.3-2.adverb.superlative
+      form: [prīmō]
+  exclude:
+    - id: adjective.3-2.adverb.positive
+    - id: adjective.3-2.comparison.positive
+  super_sign: ""
+  comp_sign: "iōr"
+- word: pōscere
+  class: verb.3-konsonant
+  root: { r_pres: pōsc, popōsc }
+  meanings: [fordern, verlangen]
+  unit: 11
+  override: []
+  exclude:
+    - id: verb.3-konsonant.indicative.passive.perfect
+    - id: verb.3-konsonant.indicative.passive.plusquamperfect
+    - id: verb.3-konsonant.indicative.passive.futur2
+    - id: verb.3-konsonant.subjunctive.passive.perfect
+    - id: verb.3-konsonant.subjunctive.passive.plusquamperfect
+    - id: verb.3-konsonant.infinitive.passive.perfect
+    - id: verb.3-konsonant.infinitive.passive.plusquamperfect
+- word: urbs
+  class: substantive.3-gemischt.f
+  root: { r: urb }
+  meanings: [die Stadt (oft Rom)]
+  unit: 11
+  override: []
+  exclude: []
+- word: sapiēns
+  class: adjective.3-2
+  root: { r_p: sapiēnt, r_c: sapiēnt, r_s: sapiēnt }
+  meanings: [weise]
+  unit: 11
+  override: []
+  exclude: []
+  super_sign: "issim"
+  comp_sign: "iōr"
+- word: tantus
+  class: adjective.ā-ō
+  root: { r_p: tant }
+  meanings: [so gross, wie viel]
+  unit: 11
+  override: []
+  exclude:
+    - id: adjective.3-2.adverb.comparative
+    - id: adjective.3-2.adverb.superlative
+    - id: adjective.3-2.comparison.comparative
+    - id: adjective.3-2.comparison.superlative
+- word: num
+  class: adverb.causal
+  root: {}
+  meanings: [etwa? (erwartete Antwort:nein), (im abh. Fragesatz) ob]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: nōlī / nōlīte
+  class: phrase
+  root: {}
+  meanings: [(Umschreibung des verneinten Fragesatzes)]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: cum
+  class: conjunction.temporal
+  root: {}
+  meanings: [(mit Konjunktiv), als, nachdem]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: cum
+  class: conjunction.causal
+  root: {}
+  meanings: [(mit Konjunktiv), weil, da]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: cum
+  class: conjunction.concessive
+  root: {}
+  meanings: [(mit Konjunktiv), obwohl]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: cum
+  class: comjunction.adversative
+  root: {}
+  meanings: [(mit Konjunktiv), während dagegen]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: moenia
+  class: substantive.3-i.n
+  root: { r: moen }
+  meanings: [die (Stadt-)Mauern]
+  unit: 11
+  override:
+    - id: substantive.3-i.n.declination
+      forms:
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "moenia"
+        - "moenium"
+        - "moenibus"
+        - "moenia"
+        - "moenibus"
+  exclude: []
+- word: nox
+  class: substantive.3-gemischt.f
+  root: { r: noct }
+  meanings: [die Nacht]
+  unit: 11
+  override: []
+  exclude: []
+- word: socius
+  class: substantive.2-ō.m
+  root: { r: soci }
+  meanings: [der Kamerad, der Verbündete, der Bündnispartner]
+  unit: 11
+  override: []
+  exclude: []
+- word: somnus
+  class: substantive.2-ō.m
+  root: { r: somn }
+  meanings: [der Schlaf]
+  unit: 11
+  override: []
+  exclude: []
+- word: invādere
+  class: verb.3-konsonant
+  root: { r_pres: invād, r_perf: invās }
+  meanings: [eindringen, einfallen]
+  unit: 11
+  override: []
+  exclude: []
+- word: ante
+  class: preposition
+  root: {}
+  meanings: [vor]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: ante
+  class: adverb.temporal
+  root: {}
+  meanings: [vorher, früher]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: suādēre
+  class: verb.2-ē
+  root: { r_pres: suād, r_perf: suās }
+  meanings: [raten, zuraten, empfehlen]
+  unit: 11
+  override: []
+  exclude: []
+- word: per
+  class: preposition
+  root: {}
+  meanings: [durch... hindurch, über (... hinaus)]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: campus
+  class: substantive.2-ō.m
+  root: { r: camp }
+  meanings: [das Feld, der freie Platz]
+  unit: 11
+  override: []
+  exclude: []
+- word: respicere
+  class: verb.3-iō
+  root: { r_pres: respic, r_perf: respex }
+  meanings: [zurückschauen, zurückblicken]
+  unit: 11
+  override: []
+  exclude: []
+- word: uxor
+  class: substantive.3-konsonant.f
+  root: { r: uxōr }
+  meanings: [die Ehefrau]
+  unit: 11
+  override: []
+  exclude: []
+- word: ruere
+  class: verb.3-konsonant
+  root: { r_pres: ru, r_perf: ru }
+  meanings: [(stürzen), niederwerfen (transitiv), eilen/stürmen (intransitiv)]
+  unit: 11
+  override: []
+  exclude: []
+- word: aedificium
+  class: substantive.2-ō.n
+  root: { r: aedifici }
+  meanings: [das Gebäude]
+  unit: 11
+  override: []
+  exclude: []
+- word: īnsidiae
+  class: substantive.1-ā.f
+  root: { r: īnsidi }
+  meanings: [die Falle, die Hinterlist, der Hinterhalt, das Attentat]
+  unit: 11
+  override:
+    - id: substantive.1-ā.f.declination
+      forms:
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "N/A"
+        - "castra"
+        - "castrōrum"
+        - "castrīs"
+        - "castra"
+        - "castrīs"
+  exclude: []
+- word: nōnnūllī
+  class: adjective.pronomial
+  root: {}
+  meanings: [einige]
+  unit: 11
+  override: []
+  exclude: ["*"]
+- word: nōnnūllus
+  class: adjective.pronomial
+  root: { r_p: nōnnūll }
+  meanings: [beträchtlich, manche, einige]
+  unit: 11
+  override: []
+  exclude: []
+- word: spērāre
+  class: verb.1-ā
+  root: { r_pres: spēr, r_perf: spērāv }
+  meanings: [hoffen, erwarten]
+  unit: 11
+  override: []
+  exclude: []
+- word: dēspērāre
+  class: verb.1-ā
+  root: { r_pres: dēspēr, r_perf: dēspērāv }
+  meanings: [die Hoffnung aufgeben, verzweifeln]
+  unit: 11
+  override: []
+  exclude: []
