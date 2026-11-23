@@ -19,33 +19,23 @@ Die finiten Verbformen haben verschiedene Flexionsdimensionen: Zeit, Person, Num
 
 ```
 infinite Verbformen
-  |
-  +--- Gerundium
-  |
-  +--- Gerundivium
-  |
-  +--- Supin
-  |
+  |--- Gerundium
+  |--- Gerundivium
+  |--- Supin
   +---+ Partizip
-      +--- (PPA) Partizip Präsens Aktiv
-      |
-      +--- (PPP) Partizip Präsens Passiv
-      |
+      |--- (PPA) Partizip Präsens Aktiv
+      |--- (PPP) Partizip Präsens Passiv
       +---+ Infinitiv
-          |
-          +--- Infinitiv Präsens Aktiv
-          |
-          +--- Infinitiv Präsens Passiv
-          |
-          +--- Infinitiv Perfekt Aktiv
-          |
+          |--- Infinitiv Präsens Aktiv
+          |--- Infinitiv Präsens Passiv
+          |--- Infinitiv Perfekt Aktiv
           +--- Infinitiv Perfekt Passiv      
 ```
 ### Gerundium
 Das Gerundium ist eine infinite Verbform, das heisst, sie hat keine Personalform. Das Gerundium entsteht durch die Substantivierung eines Verbes.
 
 {: .important-title }
-> Beispiel: amare (V), dolor (S), frūstrā
+> Beispiel: amare (V), dolor (S), frūstrā (Adv)
 >
 > Der Schmerz des Liebens. Die Schmerzen des Liebens.
 > dolor amandī. dolōrēs amandōrum.
