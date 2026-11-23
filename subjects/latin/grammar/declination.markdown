@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Deklination
-permalink: /latin/decl
-parent: Latein
+permalink: /latin/grammar/decl
+parent: Grammatik
 # published: false
 ---
 
