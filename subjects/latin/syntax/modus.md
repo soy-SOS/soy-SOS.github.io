@@ -18,21 +18,39 @@ Die allgemeine Bildung des Indikativs verläuft über den der Zeit entsprechende
 
 Diese allgemeine Verbformbildung lautet im Indikativ Aktiv:
 
-| Tempus | [stamm] | 1. Sg | 2. Sg | 3. Sg | 1. Pl | 2. Pl | 3. Pl |
+| Tempus | Stamm | 1. Sg | 2. Sg | 3. Sg | 1. Pl | 2. Pl | 3. Pl |
 | :----: | ------: |----: | ----: | ----: | ----: | ----: | ----: |
-| Präsens | Präsensstamm | [stamm]-**ō** | [stamm]-**s** | [stamm]-**t** | [stamm]-**(i)mus** | [stamm]-**tis** | [stamm]-(u)**nt** |
-| Imperfekt | Präsensstamm | [stamm]-*(e)ba*-**m** | [stamm]-*(e)ba*-**s** | [stamm]-*(e)ba*-**t** | [stamm]-*(e)ba*-**mus** | [stamm]-*(e)ba*-**tis** | [stamm]-*(e)ba*-**nt** |
-| Perfekt | Perfektstamm | [stamm]-**ī** | [stamm]-**istī** | [stamm]-**it** | [stamm]-**imus** | [stamm]-**istis** | [stamm]-**ērunt** |
-| Plusquamperfekt | Perfektstamm | [stamm]-*era***m** | [stamm]-*era***s** | [stamm]-*era***t** | [stamm]-*era***mus** | [stamm]-*era***tis** | [stamm]-*era***nt** |
-| Futur 1 | Präsensstamm | [stamm]-*b/a*-**ō/m** | [stamm]-*bi/ē*-**s** | [stamm]-*bi/e*-**t** | [stamm]-*bi/ē*-**mus** | [stamm]-*bi/ē*-**tis** | [stamm]-*bu/e*-**nt** |
-| Futur 2 | Perfektstamm | [stamm]-*er*-**ō** | [stamm]-*eri*-**s** | [stamm]-*eri*-**t** | [stamm]-*eri*-**mus** | [stamm]-*eri*-**tis** | [stamm]-*eri*-**nt** |
+| Präsens | Präs. | -**ō** | -**s** | -**t** | -**(i)mus** | -**tis** | -(u)**nt** |
+| Imperfekt | Präs. | -*(e)ba*-**m** | -*(e)ba*-**s** | -*(e)ba*-**t** | -*(e)ba*-**mus** | -*(e)ba*-**tis** | -*(e)ba*-**nt** |
+| Perfekt | Perf. | -**ī** | -**istī** | -**it** | -**imus** | -**istis** | -**ērunt** |
+| Plusquamperfekt | Perf. | -*era***m** | -*era***s** | -*era***t** | -*era***mus** | -*era***tis** | -*era***nt** |
+| Futur 1 | Präs. | -*b/a*-**ō/m** | -*bi/ē*-**s** | -*bi/e*-**t** | -*bi/ē*-**mus** | -*bi/ē*-**tis** | -*bu/e*-**nt** |
+| Futur 2 | Perf. | -*er*-**ō** | -*eri*-**s** | -*eri*-**t** | -*eri*-**mus** | -*eri*-**tis** | -*eri*-**nt** |
+
+|| Präsens  | Imperfekt  | Perfekt  | Pqperf.  | Futur 1  | Futur 2  |
+|:--:| :---- | :---- | :---- | :---- | :---- | :---- |
+|| Präs. | Präs. | Perf. | Perf. | Präs. | Perf. | 
+| 1. Sg | -**ō** |  -*(e)ba*-**m** | -**ī** | -*era***m** | -*b/a*-**ō/m** | -*er*-**ō** | 
+| 2. Sg | -**s** | -*(e)ba*-**s** | -**istī** | -*era***s** | -*bi/ē*-**s** | -*eri*-**s** | 
+| 3. Sg | -**t** | -*(e)ba*-**t** | -**it** | -*era***t** | -*bi/e*-**t** | -*eri*-**t** | 
+| 1. Pl | -(i)**mus** | -*(e)ba*-**mus** | -**imus** | -*era***mus** | -*bi/ē*-**mus** | -*eri*-**mus** | 
+| 2. Pl | -**tis** | -*(e)ba*-**tis** | -**istis** | -*era***tis** | -*bi/ē*-**tis** | -*eri*-**tis** | 
+| 3. Pl | -(u)**nt** | -*(e)ba*-**nt** | -**ērunt** | -*era***nt** | -*bu/e*-**nt** | -*eri*-**nt** |
+
 
 ... und im Indikativ Passiv (Perfektstammformen vorerst weggelassen, wird ergänzt):
-| Tempus | [stamm] | 1. Sg | 2. Sg | 3. Sg | 1. Pl | 2. Pl | 3. Pl |
-| :----: | ------: |----: | ----: | ----: | ----: | ----: | ----: |
-| Präsens | Präsensstamm | [stamm]-**ōr** | [stamm]-(e)**ris** | [stamm]-(i)**tur** | [stamm]-(i)**mur** | [stamm]-(i)**mini** | [stamm]-(u)**ntur** |
-| Imperfekt | Präsensstamm | [stamm]-*(ē)ba*-**r** | [stamm]-*(ē)bā*-**ris** | [stamm]-*(ē)bā*-**tur** | [stamm]-*(ē)bā*-**mur** | [stamm]-*(ā)bā*-**mini** | [stamm]-*(ē)ba*-**ntur** |
-| Futur 1 | Präsensstamm | [stamm]-*b/a*-**(o)r** | [stamm]-*be/ē*-**ris** | [stamm]-*bi/ē*-**tur** | [stamm]-*bi/ē*-**mur** | [stamm]-*bi/ē*-**mini** | [stamm]-*bu/e*-**ntur** |
+| | Präsens | Imperfekt | Futur 1 |
+| :--: | :--- | :--- | :--- |
+| | Präsensstamm |  Präsensstamm | Präsensstamm |
+| 1. Sg | -**ōr**      | -*(ē)ba*-**r** |  -*b/a*-**(o)r** |
+| 2. Sg | -(e)**ris**  | -*(ē)bā*-**ris** |  -*be/ē*-**ris** |
+| 3. Sg | -(i)**tur**  | -*(ē)bā*-**tur** |  -*bi/ē*-**tur** |
+| 1. Pl | -(i)**mur**  | -*(ē)bā*-**mur** |  -*bi/ē*-**mur** |
+| 2. Pl | -(i)**mini** | -*(ā)bā*-**mini** | -*bi/ē*-**mini** | 
+| 3. Pl | -(u)**ntur** | -*(ē)ba*-**ntur** | -*bu/e*-**ntur** |
+
+
+
 
 Endungen Indikativ Aktiv:
 - Präsens
@@ -57,12 +75,23 @@ Auch hier werden die Formen mit dem Verbstamm, allfälligen Infixen und der Endu
 
 Die Grundbildung für den Konjunktiv Aktiv lautet:
 
-| Tempus | [stamm] | 1. Sg | 2. Sg | 3. Sg | 1. Pl | 2. Pl | 3. Pl |
-| :----: | ------: |----: | ----: | ----: | ----: | ----: | ----: |
-| Präsens | Präsensstamm<br>(ausser a-Konj,<br>dort a mit e ersetzen) | [stamm]-(a)**m** | [stamm]-(ā)**s** | [stamm]-(a)**t** | [stamm]-(ā)**mus** | [stamm]-(ā)**tis** | [stamm]-(a)**nt** |
-| Imperfekt | Infinitiv Aktiv Präsens | [stamm]-**m** | [stamm]-**s** | [stamm]-**t** | [stamm]-**mus** | [stamm]-**tis** | [stamm]-**nt** |
-| Perfekt | Perfektstamm | [stamm]-**ī** | [stamm]-**istī** | [stamm]-**it** | [stamm]-**imus** | [stamm]-**istis** | [stamm]-**ērunt** |
-| Plusquamperfekt | Infinitiv Aktiv Perfekt | [stamm]-**m** | [stamm]-**s** | [stamm]-**t** | [stamm]-**mus** | [stamm]-**tis** | [stamm]-**nt** |
+|| Präsens | Imperfekt | Perfekt | Pqperf. | 
+|:--: | :-- |:-- |:-- |:-- |
+|*Stamm*| Präs.<br>[!] a-Konj,<br>&emsp;&emsp; *a => e* | Inf.<br>Aktiv<br>Präs. | Perf. | Inf.<br>Aktiv<br>Perf. | 
+| 1. Sg | -(a)**m** | -**m** | -**ī** | -**m** | 
+| 2. Sg | -(ā)**s** | -**s** | -**istī** |-**s** |
+| 3. Sg | -(a)**t** | -**t** | -**it** | -**t** |
+| 1. Pl | -(ā)**mus** | -**mus** | -**imus** | -**mus** |
+| 2. Pl | -(ā)**tis** | -**tis** | -**istis** | -**tis** |
+| 3. Pl | -(a)**nt** | -**nt** | -**ērunt** | -**nt** |
+
+
+
+
+
+
+
+
 
 Endungen Konjunktiv Aktiv:
 - Präsens
@@ -93,13 +122,13 @@ Ist der Konjunktiv in einem **Fragesatz**, so drückt er eine Überlegung oder e
 
 |  | Präsens | Perfekt | Imperfekt | Plusquamperfekt |
 | :----: | :----: | :----: | :----: | :----: |
-| potentiale<br>Behauptung | Gegewart:<br>- etwas könnte/dürfte<br>- ist wohl/vielleicht | Gegewart:<br>- etwas könnte/dürfte<br>- ist wohl/vielleicht | Vergangenheit:<br>- etwas hätten gekonnt/gedurft<br>- war wohl/vielleicht | - |
-| irreale<br>Behauptung | - | - | Gegenwart:<br>- *unwahrscheinliches Ereignis* **würde/würdest/würden/würdet** *Konsequenz* | Gegenwart:<br>- *unwahrscheinliches Ereignis* **wäre/wärst/wär/wären/wärt** *Konsequenz* |
-| Frage | Gegenwart:<br>- Überlegung / Zweifel<br>=> Was **soll** ...? | - | Vergangenheit:<br>- Überlegung / Zweifel<br>=> Was hätte **sollen** ...? | - |
-| Befehl<br>an 2. Person<br>verneint | - | *Konj-Verb* nicht! | - |
-| Befehl<br>an 1./3. Person | *Artikel* wollen/sollen *Konj-Verb*! | - | - | - |
-| erfüllbarer<br>Wunsch | Gegenwart:<br>- hoffentlich *Konj-Verb*... | Vergangenheit:<br>- hoffentlich *Konj-Verb*... | - | - |
-| unerfüllbarer<br>Wunsch | - | - | Gegenwart:<br>- Wenn doch ... *Konj-Verb*! | Vergangenheit:<br>- Wenn doch ... *Konj-Verb* |
+| potentiale<br>Behauptung | Gegewart:<br>- etwas könnte/dürfte<br>- ist wohl/vielleicht | Gegewart:<br>- etwas könnte/dürfte<br>- ist wohl/vielleicht | Vergangenheit:<br>- etwas hätten gekonnt/gedurft<br>- war wohl/vielleicht | x |
+| irreale<br>Behauptung | x | x | Gegenwart:<br>- *unwahrscheinliches Ereignis* **würde/würdest/würden/würdet** *Konsequenz* | Gegenwart:<br>- *unwahrscheinliches Ereignis* **wäre/wärst/wär/wären/wärt** *Konsequenz* |
+| Frage | Gegenwart:<br>- Überlegung / Zweifel<br>=> Was **soll** ...? | x | Vergangenheit:<br>- Überlegung / Zweifel<br>=> Was hätte **sollen** ...? | x |
+| Befehl<br>an 2. Person<br>verneint | x | *Konj-Verb* nicht! | x | x |
+| Befehl<br>an 1./3. Person | *Artikel* wollen/sollen *Konj-Verb*! | x | x | x |
+| erfüllbarer<br>Wunsch | Gegenwart:<br>- hoffentlich *Konj-Verb*... | Vergangenheit:<br>- hoffentlich *Konj-Verb*... | x | x |
+| unerfüllbarer<br>Wunsch | x | x | Gegenwart:<br>- Wenn doch ... *Konj-Verb*! | Vergangenheit:<br>- Wenn doch ... *Konj-Verb* |
 
 ### Übersetzung des Konjunktivs im Nebensatz
 
