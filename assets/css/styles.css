@@ -28,6 +28,9 @@
   display: inline-grid;
 }
 
+td {
+  white-space: nowrap;
+}
 
 .half-fieldset-container {
   display: flex;

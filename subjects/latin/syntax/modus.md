@@ -30,6 +30,7 @@ Diese allgemeine Verbformbildung lautet im Indikativ Aktiv:
 
 
 ... und im Indikativ Passiv (Perfektstammformen vorerst weggelassen, wird ergänzt):
+
 | | Präsens | Imperfekt | Futur 1 |
 | :--: | :--- | :--- | :--- |
 | | Präsensstamm |  Präsensstamm | Präsensstamm |
