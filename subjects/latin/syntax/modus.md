@@ -3,6 +3,11 @@ published: true
 permalink: /latin/syntax/modus
 parent: Grammatik
 ---
+<style type="text/css">
+.table-wrapper,th,td{
+  min-width: 0 !important;
+}
+</style>
 
 # Modus
 1. TOC
@@ -32,7 +37,7 @@ Diese allgemeine Verbformbildung lautet im Indikativ Aktiv:
 ... und im Indikativ Passiv (Perfektstammformen vorerst weggelassen, wird ergänzt):
 
 | | Präsens | Imperfekt | Futur 1 |
-| :--: | :--- | :--- | :--- |
+|:--:|:---|:---|:---|
 | | Präsensstamm |  Präsensstamm | Präsensstamm |
 | 1. Sg | -**ōr**      | -*(ē)ba*-**r** |  -*b/a*-**(o)r** |
 | 2. Sg | -(e)**ris**  | -*(ē)bā*-**ris** |  -*be/ē*-**ris** |
@@ -40,8 +45,6 @@ Diese allgemeine Verbformbildung lautet im Indikativ Aktiv:
 | 1. Pl | -(i)**mur**  | -*(ē)bā*-**mur** |  -*bi/ē*-**mur** |
 | 2. Pl | -(i)**mini** | -*(ā)bā*-**mini** | -*bi/ē*-**mini** | 
 | 3. Pl | -(u)**ntur** | -*(ē)ba*-**ntur** | -*bu/e*-**ntur** |
-
-
 
 
 Endungen Indikativ Aktiv:
