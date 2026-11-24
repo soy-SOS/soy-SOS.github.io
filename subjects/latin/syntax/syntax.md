@@ -1,6 +1,6 @@
 ---
 published: true
-permalink: /latin/grammar
+permalink: /latin/syntax
 parent: Latein
 ---
 

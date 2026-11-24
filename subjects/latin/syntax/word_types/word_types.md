@@ -1,10 +1,12 @@
 ---
 published: true
-permalink: /latin/grammar/word-types
+permalink: /latin/syntax/word-types
 parent: Grammatik
 ---
 
 # Wortarten
+1. TOC
+{:toc}
 
 Die Wortarten im Lateinischen können grob unterteilt werden in:
 
@@ -14,7 +16,7 @@ Die Wortarten im Lateinischen können grob unterteilt werden in:
 
 ## Nomina
 
-Die Nomina sind alle Wörter, die [**dekliniert**]({{site.baseurl}}/latin/grammar/decl) werden können.
+Die Nomina sind alle Wörter, die [**dekliniert**]({{site.baseurl}}/latin/syntax/decl) werden können.
 Die Anpassungsdimensionen der Deklination sind:
 
 - Kasus (Fall)

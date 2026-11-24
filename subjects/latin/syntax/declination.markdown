@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Deklination
-permalink: /latin/grammar/decl
+permalink: /latin/syntax/decl
 parent: Grammatik
 # published: false
 ---

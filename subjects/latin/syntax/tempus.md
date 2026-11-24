@@ -1,5 +1,5 @@
 ---
 published: false
-permalink: /latin/tempora
+permalink: /latin/syntax/tempus
 parent: Grammatik
 ---
