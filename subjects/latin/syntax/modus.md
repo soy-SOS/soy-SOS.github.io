@@ -18,15 +18,6 @@ Die allgemeine Bildung des Indikativs verläuft über den der Zeit entsprechende
 
 Diese allgemeine Verbformbildung lautet im Indikativ Aktiv:
 
-| Tempus | Stamm | 1. Sg | 2. Sg | 3. Sg | 1. Pl | 2. Pl | 3. Pl |
-| :----: | ------: |----: | ----: | ----: | ----: | ----: | ----: |
-| Präsens | Präs. | -**ō** | -**s** | -**t** | -**(i)mus** | -**tis** | -(u)**nt** |
-| Imperfekt | Präs. | -*(e)ba*-**m** | -*(e)ba*-**s** | -*(e)ba*-**t** | -*(e)ba*-**mus** | -*(e)ba*-**tis** | -*(e)ba*-**nt** |
-| Perfekt | Perf. | -**ī** | -**istī** | -**it** | -**imus** | -**istis** | -**ērunt** |
-| Plusquamperfekt | Perf. | -*era***m** | -*era***s** | -*era***t** | -*era***mus** | -*era***tis** | -*era***nt** |
-| Futur 1 | Präs. | -*b/a*-**ō/m** | -*bi/ē*-**s** | -*bi/e*-**t** | -*bi/ē*-**mus** | -*bi/ē*-**tis** | -*bu/e*-**nt** |
-| Futur 2 | Perf. | -*er*-**ō** | -*eri*-**s** | -*eri*-**t** | -*eri*-**mus** | -*eri*-**tis** | -*eri*-**nt** |
-
 || Präsens  | Imperfekt  | Perfekt  | Pqperf.  | Futur 1  | Futur 2  |
 |:--:| :---- | :---- | :---- | :---- | :---- | :---- |
 || Präs. | Präs. | Perf. | Perf. | Präs. | Perf. | 
