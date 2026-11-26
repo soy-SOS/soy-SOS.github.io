@@ -73,18 +73,12 @@ Die Grundbildung für den Konjunktiv Aktiv lautet:
 || Präsens | Imperfekt | Perfekt | Pqperf. | 
 |:--: | :-- |:-- |:-- |:-- |
 |*Stamm*| Präs.<br>[!] a-Konj,<br>&emsp;&emsp; *a => e* | Inf.<br>Aktiv<br>Präs. | Perf. | Inf.<br>Aktiv<br>Perf. | 
-| 1. Sg | -(a)**m** | -**m** | -**ī** | -**m** | 
-| 2. Sg | -(ā)**s** | -**s** | -**istī** |-**s** |
-| 3. Sg | -(a)**t** | -**t** | -**it** | -**t** |
-| 1. Pl | -(ā)**mus** | -**mus** | -**imus** | -**mus** |
-| 2. Pl | -(ā)**tis** | -**tis** | -**istis** | -**tis** |
-| 3. Pl | -(a)**nt** | -**nt** | -**ērunt** | -**nt** |
-
-
-
-
-
-
+| 1. Sg | -(a)**m** | -**m** | -*eri***m** | -**m** | 
+| 2. Sg | -(ā)**s** | -**s** | -*eri***s** |-**s** |
+| 3. Sg | -(a)**t** | -**t** | -*eri***t** | -**t** |
+| 1. Pl | -(ā)**mus** | -**mus** | -*eri***mus** | -**mus** |
+| 2. Pl | -(ā)**tis** | -**tis** | -***eri*tis** | -**tis** |
+| 3. Pl | -(a)**nt** | -**nt** | -*eri***nt** | -**nt** |
 
 
 
