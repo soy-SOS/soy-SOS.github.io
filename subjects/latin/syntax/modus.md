@@ -3,11 +3,7 @@ published: true
 permalink: /latin/syntax/modus
 parent: Grammatik
 ---
-<style type="text/css">
-.table-wrapper,th,td{
-  min-width: 0 !important;
-}
-</style>
+
 
 # Modus
 1. TOC

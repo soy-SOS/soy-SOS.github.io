@@ -22,9 +22,9 @@ Die finiten Verbformen werden gebildet anhand:
 - Person
 - Numerus
 - [Modus]({{site.baseurl}}/latin/syntax/modus)
-	- [Indikativ]({{site.baseurl}}/latin/syntax/modus/indicative)
-	- [Konjunktiv]({{site.baseurl}}/latin/syntax/modus/subjunctive)
-	- [Imperativ]({{site.baseurl}}/latin/syntax/modus/indicative)
+	- [Indikativ]({{site.baseurl}}/latin/syntax/modus#indicative)
+	- [Konjunktiv]({{site.baseurl}}/latin/syntax/modus#subjunctive)
+	- [Imperativ]({{site.baseurl}}/latin/syntax/modus#imperative)
 - Tempus
 	- Präsens
 	- Imperfekt
